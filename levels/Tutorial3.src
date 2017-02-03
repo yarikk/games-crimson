@@ -1,0 +1,971 @@
+# $Revision: 1.5 $
+[mission]
+name = 0
+mapwidth = 20
+mapheight = 15
+info = 3
+skirmish = 0
+campaign = 1
+players = 1
+
+[map-raw]
+30,30,30,30,30,360,360,30,30,30,77,81,81,82,180,177,81,82,81,82
+30,30,30,30,30,360,360,30,30,30,79,30,82,81,81,178,198,177,81,81
+223,20,30,30,360,360,30,38,30,30,30,184,82,178,178,83,82,81,181,82
+30,30,177,177,360,360,30,30,30,178,178,30,183,30,84,86,85,79,176,81
+30,30,30,30,212,203,37,178,178,36,30,30,30,30,78,30,81,77,176,81
+30,30,30,360,360,33,183,32,31,30,30,30,38,77,30,78,30,30,176,82
+360,360,360,360,360,38,30,223,30,54,30,30,30,30,30,30,30,30,176,77
+360,360,360,30,30,30,35,30,223,223,30,144,30,30,30,30,30,145,176,30
+360,360,360,30,30,30,30,30,30,30,223,223,134,134,30,135,135,197,179,30
+30,365,360,360,30,360,360,360,30,30,30,30,228,30,140,178,178,1,177,181
+79,80,360,360,360,360,360,360,360,360,30,34,222,178,178,30,22,24,23,176
+81,80,78,80,360,30,30,30,360,360,360,210,193,30,30,30,30,30,38,180
+82,77,77,30,30,18,30,30,30,192,210,360,363,360,30,31,66,30,30,58
+81,78,30,224,224,176,223,229,224,180,75,360,360,360,30,30,30,71,57,59
+30,227,224,30,30,176,56,30,38,30,181,360,360,360,360,360,70,73,72,30
+
+[player]
+name = 1
+briefing = 23
+
+[player]
+name = 2
+briefing = 7
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 12
+pos = 3/1
+size = 2
+xp = 3
+face = 2
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 13
+pos = 3/3
+size = 2
+xp = 3
+face = 2
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 14
+pos = 1/4
+size = 2
+xp = 3
+face = 2
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 0
+pos = 5/12
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 1
+pos = 5/12
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 2
+pos = 5/12
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 5
+pos = 17/9
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 6
+pos = 17/9
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 7
+pos = 17/9
+
+[unit]
+type = Infantry
+player = 1
+id = 3
+pos = 5/12
+
+[building]
+name = 4
+player = 1
+id = 1
+pos = 5/12
+type = workshop
+crystals = 25
+
+[building]
+name = 5
+player = 2
+id = 2
+pos = 17/9
+type = workshop
+type = factory
+crystals = 10
+
+[building]
+name = 6
+player = 0
+id = 0
+pos = 1/2
+mining = 5
+crystals = 100
+
+[event]
+id = 0
+type = createunit
+player = 2
+trigger = timer
+ttime = 6
+unit = Heavy Tanks
+pos = 17/9
+face = 0
+
+[event]
+id = 1
+type = createunit
+player = 2
+trigger = timer
+ttime = 8
+unit = Heavy Tanks
+pos = 17/9
+face = 0
+
+[event]
+id = 2
+type = createunit
+player = 2
+trigger = timer
+ttime = 10
+unit = Infantry
+pos = 17/9
+face = 0
+
+[event]
+id = 3
+type = createunit
+player = 1
+message = 11
+trigger = unitposition
+tunit = Infantry
+towner = 1
+tpos = 17/9
+unit = Personnel Carriers
+pos = 17/9
+face = 0
+size = 1
+
+[event]
+id = 4
+type = research
+player = 1
+trigger = unitposition
+tunit = Infantry
+towner = 1
+tpos = 17/9
+building = 2
+unit = Hovercraft
+
+[event]
+id = 5
+type = mining
+player = 1
+trigger = unitposition
+tunit = Infantry
+towner = 1
+tpos = 17/9
+building = 1
+crystals = 30
+action = 0
+
+[event]
+id = 6
+type = createunit
+player = 1
+trigger = unitposition
+tunit = Infantry
+towner = 1
+tpos = 17/9
+unit = Artillery
+pos = 17/9
+face = 0
+xp = 3
+
+[event]
+id = 7
+type = research
+player = 1
+trigger = havebuilding
+tbuilding = 0
+towner = 1
+ttime = -1
+building = 2
+unit = Transport Planes
+
+[event]
+id = 8
+type = score
+player = 1
+message = 17
+trigger = unitposition
+tunit = Transport Planes
+towner = 1
+tpos = 17/9
+success = 100
+othermsg = -1
+othertitle = -1
+
+[event]
+id = 9
+type = settimer
+player = 1
+discard = 10
+message = 14
+trigger = unitdestroyed
+tunit = 12
+towner = 2
+event = 12
+time = 2
+offset = 1
+
+[event]
+id = 10
+type = settimer
+player = 1
+discard = 11
+message = 14
+trigger = unitdestroyed
+tunit = 13
+towner = 2
+event = 12
+time = 2
+offset = 1
+
+[event]
+id = 11
+type = settimer
+player = 1
+discard = 9
+message = 14
+trigger = unitdestroyed
+tunit = 14
+towner = 2
+event = 12
+time = 2
+offset = 1
+
+[event]
+id = 12
+type = createunit
+player = 2
+flags = 1
+trigger = timer
+ttime = 0
+unit = Infantry
+pos = 19/4
+face = 3
+
+[event]
+id = 13
+type = settimer
+player = 1
+depend = 12
+trigger = timer
+ttime = 0
+event = 14
+time = 4
+offset = 1
+
+[event]
+id = 14
+type = createunit
+player = 2
+flags = 1
+trigger = timer
+ttime = 0
+unit = Infantry
+pos = 19/14
+face = 0
+xp = 2
+
+[event]
+id = 15
+type = settimer
+player = 2
+depend = 14
+trigger = timer
+ttime = 0
+event = 16
+time = 6
+offset = 1
+
+[event]
+id = 16
+type = createunit
+player = 2
+flags = 1
+trigger = timer
+ttime = 0
+unit = Infantry
+pos = 14/0
+face = 2
+xp = 2
+
+[event]
+id = 17
+type = message
+player = 1
+message = 9
+trigger = timer
+ttime = 2
+
+[event]
+id = 18
+type = message
+player = 1
+depend = 2
+message = 10
+trigger = unitdestroyed
+tunit = Infantry
+towner = 2
+
+[event]
+id = 19
+type = message
+player = 1
+message = 12
+trigger = unitposition
+tunit = Personnel Carriers
+towner = 1
+tpos = 5/12
+
+[event]
+id = 20
+type = message
+player = 1
+message = 13
+trigger = unitposition
+tunit = Hovercraft
+towner = 1
+tpos = 17/9
+
+[event]
+id = 21
+type = message
+player = 1
+message = 15
+trigger = havebuilding
+tbuilding = 0
+towner = 1
+ttime = -1
+
+[event]
+id = 22
+type = message
+player = 1
+message = 8
+trigger = timer
+ttime = 0
+
+[event]
+id = 23
+type = message
+player = 1
+depend = 14
+message = 16
+trigger = timer
+ttime = 0
+
+[event]
+id = 24
+type = score
+player = 2
+depend = 3
+trigger = havebuilding
+tbuilding = 2
+towner = 2
+ttime = -1
+success = 100
+othermsg = 18
+
+[event]
+id = 25
+type = score
+player = 2
+trigger = havebuilding
+tbuilding = 1
+towner = 2
+ttime = -1
+success = 100
+othermsg = 18
+
+[event]
+id = 26
+type = score
+player = 2
+trigger = unitdestroyed
+tunit = 3
+towner = 1
+success = 100
+othermsg = 19
+
+[event]
+id = 27
+type = score
+player = 2
+depend = 3
+trigger = unitdestroyed
+tunit = Personnel Carriers
+towner = 1
+success = 100
+othermsg = 20
+
+[event]
+id = 28
+type = score
+player = 2
+depend = 20
+trigger = unitdestroyed
+tunit = Hovercraft
+towner = 1
+success = 100
+othermsg = 21
+
+[event]
+id = 29
+type = manipulateevent
+player = 1
+trigger = unitposition
+tunit = Hovercraft
+towner = 1
+tpos = 17/9
+event = 30
+eflags = 1
+action = 0
+
+[event]
+id = 30
+type = score
+player = 2
+depend = 3
+trigger = havecrystals
+tcrystals = -20
+towner = 1
+tbuilding = -2
+success = 100
+othermsg = 22
+
+[event]
+id = 31
+type = configure
+player = 1
+depend = 18
+trigger = timer
+ttime = 0
+setting = briefing1
+value = 24
+
+[event]
+id = 32
+type = configure
+player = 1
+depend = 3
+trigger = timer
+ttime = 0
+setting = briefing1
+value = 25
+
+[event]
+id = 33
+type = configure
+player = 1
+depend = 19
+trigger = timer
+ttime = 0
+setting = briefing1
+value = 26
+
+[event]
+id = 34
+type = configure
+player = 1
+depend = 20
+trigger = timer
+ttime = 0
+setting = briefing1
+value = 27
+
+[event]
+id = 35
+type = configure
+player = 1
+depend = 9
+trigger = timer
+ttime = 0
+setting = briefing1
+value = 27
+
+[event]
+id = 36
+type = configure
+player = 1
+depend = 21
+trigger = timer
+ttime = 0
+setting = briefing1
+value = 28
+
+[messages(de)]
+Von Hier nach Da
+%
+Rekrut
+%
+Simulator
+%
+Kriegskunst, Lektion 3: Von Hier nach Da
+
+von Andrej Krivulčík <krivulcik@gmail.com>
+%
+Depot
+%
+Fabrik
+%
+Kristallmine
+%
+Dies ist eine Übungsmission für einen Spieler.
+%
+Willkommen, Kommandant!
+
+Diese Trainingsmission wird Ihnen zeigen, wie Sie die Gegebenheiten des Geländes zu Ihrem Vorteil nutzen können und wie Sie sowohl Rohstoffe als auch Truppen transportieren. Sie werden außerdem Gelegenheit haben, Artillerieeinheiten für den Beschuss aus der Ferne einzusetzen.
+
+Sie kontrollieren einige Panzer und einen Trupp Infanterie. Ziehen Sie die Panzer aus dem Depot und positionieren Sie sie am diesseitigen Ende der Brücke. Dadurch bekommen Sie die Möglichkeit, jede sich nähernde feindliche Einheit mit mehreren eigenen gleichzeitig angreifen zu können.
+%
+Dadurch dass eigenen Einheiten so aufgestellt sind, ergeben sich mehrere Vorteile. Sie können nicht nur einen einzelnen Feind mehrfach unter Feuer nehmen, sondern die angreifenden Einheiten können sich zusätzlich gegenseitig unterstützen, was insgesamt zu größerer Kampfstärke führt.
+
+Verbündete Einheiten können die Kampfstärke einer angreifenden Einheit erhöhen. Dieser Vorgang wird auch als "Klemmen" bezeichnet. Jede eigene Einheit, die sich auf einem benachbarten Feld des Verteidigers befindet, steigert die Stärke des Angreifers. Dieser Bonus wird etwas reduziert, falls die benachbarte Einheit den Feind nicht selbst attackieren kann, und er wird verdoppelt, wenn sich die klemmende Einheit direkt im Rücken des Verteidigers befindet.
+
+Verteidigende Einheiten können Ihre Kampfposition in ähnlicher Weise verbessern. Alle verbündeten Einheiten auf Feldern, die sowohl an den Angreifer als auch an den Verteidiger grenzen, verstärken die Abwehr des Verteidigers. Hierbei handelt es sich um das sogenannte "Blocken".
+
+Die Vorzüge von Klemmen und Blocken gelten ausschließlich beim Nahkampf von Feld zu Feld, also nicht bei Distanzangriffen.
+%
+Sehr gut! Jetzt wissen Sie, wie hilfreich die Bedingungen des Schlachtfelds selbst beim Kampf gegen einen zahlenmäßig überlegenen Feind sein können. Wenn es gelingt, eine Engstelle mit wenigen erfahrenen Einheiten zu halten, können damit häufig wesentlich größere gegnerische Attacken zurückgeschlagen werden.
+
+Erobern Sie jetzt die gegnerische Fabrik mit Ihrer Infanterie.
+%
+Gute Arbeit! In dieser Fabrik können Luftkissenfahrzeuge gebaut werden, die Sie benötigen, um den Fluss im Nordwesten der Karte zu überqueren, da die Brücke bei den letzten Auseinandersetzungen zerstört wurde. Allerdings stehen der Fabrik zur Zeit keine Kristalle zur Verfügung, Sie müssen daher für Nachschub aus Ihrem Depot sorgen. Truppentransporter können, wie jede andere Transporteinheit im Spiel, nicht nur Einheiten, sondern auch Kristalle transportieren. Ziehen Sie Ihre Truppentransporter in das Depot, um dort Kristalle einzuladen.
+
+Sie werden außerdem bemerkt haben, dass die Mine im Nordwesten, von einer Abordnung schwerer Panzer des Feindes bewacht wird. Um die Mine zu erobern müssen Sie die Panzer zerstören, und Distanzwaffen wir Artillerie ermöglichen dies ohne eigenes Risiko.
+
+Ziehen Sie Ihre Artillerie so nahe an den Fluss, dass die feindlichen Panzer in Reichweite sind, und zerstören Sie sie. Artillerieeinheiten sind "langsame" Einheiten, und das nicht nur in Bezug auf Ihre Bewegungspunkte. Während andere Einheiten in einem einzigen Zug sowohl ziehen als auch angreifen können, ist mit Artillerie immer nur eines von beiden möglich. Deshalb ist es besonders wichtig, solche Einheiten sorgfältig zu platzieren, um keine unnötigen Züge zu verschwenden.
+%
+Jetzt können Sie die Kristalle zur Fabrik transportieren. Ziehen Sie den Transporter aus dem Depot. Daraufhin wird sich das Beladungsfenster öffnen, in dem Sie sowohl Kristalle als auch Einheiten zuweisen können (sofern welche vorhanden sind).
+%
+Gut. Jetzt können Sie den Fluss überqueren und die Kristallmine einnehmen. Sie können Truppen einladen, wenn ein Transporter ein Gebäude verlässt oder indem Sie auf der Karte Einheiten direkt in den Transporter ziehen. Um Einheiten aus einem Transporter zu entfernen, machen Sie einen Rechtsklick auf den Transporter und wählen Sie "Inhalt". Alles Weitere verläuft genauso wie das Herausziehen aus einem Gebäude.
+
+Überqueren Sie den Fluss und erobern Sie die Kristallmine, nachdem Sie die feindlichen Panzer zerstört haben!
+%
+Artillerie und andere Distanzwaffen sind im Gefecht sehr wertvoll, weil Sie den Gegner aus der Ferne angreifen könnne, ohne dass sie Gefahr laufen, selbst beschossen zu werden. Sie sollten sie gut beschützen und niemals in direkten Feuergefechten einsetzen. Artillerieeinheiten können das Feuer auch dann nicht erwidern, wenn sie aus kurzer Entfernung angegriffen werden, deshalb sollten sie immer von unterstützenden Einheiten begleitet werden.
+
+Achtung! Ihr Feind schickt Guerillakämpfer, um die Fabrik zurückzuerobern. Verhindern Sie dies und schlagen Sie den Angriff zurück!
+%
+Hervorragend! Sie haben eine Mine erobert. Solche Minen sind selten und sehr wertvoll, weil sie potenziell riesige Mengen von Kristallen liefern können. Sie sollten Minen immer schnellstmöglich erobern, um den eigenen Kristallvorrat zu erhöhen. Allerdings sind die meisten Minen keine Fabriken, so dass es oft erforderlich ist, die Kristalle zu Produktionsstätten zu bringen, bevor sie sinnvoll eingesetzt werden können.
+
+In diesem Fall müssen Sie einige Transportflugzeuge produzieren. Da die Fabrik wiederum keine ausreichenden Ressourcen besitzt, müssen Sie mit den Luftkissenfahrzeugen Kristalle aus der Mine dorthin transportieren.
+%
+Achtung! Aus südlicher Richtung wurden weitere Guerillakämpfer gesichtet. Lassen Sie nicht zu, dass sie Ihre Pläne in diesem Gebiet in Gefahr bringen!
+%
+Mission erfüllt!
+
+Jetzt wissen Sie, wie Sie Einheiten und Kristalle zwischen Stützpunkten und über Hindernisse wie Flüsse transportieren können. Sie können außerdem Vorteile des Terrains erkennen und nutzen sowie Feinde mit Distanzwaffen auf Entfernung ausschalten. Diese beiden Taktiken können in Kombination häufig über den Ausgang einer Schlacht entscheiden. Gut gemacht! Fahren Sie mit der nächsten Mission fort.
+%
+Sie haben einen tützpunkt verloren! Die Simulation muss abgebrochen werden.
+%
+Sie haben Ihre Infanterie verloren. Damit können Sie jetzt keine Gebäude mehr erobern! Wir müssen diese Mission leider abbrechen.
+%
+Sie haben Ihre Truppentransporter verloren. Es ist unerlässlich, dass Sie diese Einheiten beschützen. Mission abgebrochen.
+%
+Sie haben die Luftkissenfahrzeuge verloren. Damit gibt es keine Möglichkeit mehr, den Fluss zu überqueren. Mission abgebrochen.
+%
+Sie haben zu viele Kristalle verbraucht und können jetzt keine Luftkissenfahrzeuge mehr produzieren. Mission abgebrochen.
+%
+Positionieren Sie Ihre Einheiten nahe der Brücke, so dass sie näherkommende feindliche Einheiten zu mehreren attackieren können. Wehren Sie den Angriff ab.
+%
+Erobern Sie die feindliche Fabrik.
+%
+Ziehen Sie den Truppentransporter zurück zur Basis.
+Greifen Sie die feindlichen Panzer mit Ihrer Artillerie an.
+%
+Schicken Sie genügend Kristalle in die Fabrik, um dort Luftkissenfahrzeuge zu bauen.
+%
+Zerstören Sie die Panzer, die die Mine verteidigen, und erobern Sie diese.
+%
+Schicken Sie genügend Kristalle von der Mine in die Fabrik, um dort Transportflugzeuge zu bauen.
+[/messages]
+
+[messages(en)]
+Hither and Thither
+%
+Rookie
+%
+Simulator
+%
+The Art of War, Lesson 3: Hither and Thither
+
+by Andrej Krivulčík <krivulcik@gmail.com>
+%
+Depot
+%
+Factory
+%
+Crystal Mine
+%
+This is a tutorial mission designed for a single player.
+%
+Welcome, Commander!
+
+This training mission will show you how to exploit terrain features to your advantage and how to transfer both crystals and troops. You will also have the opportunity to employ some long-range artillery units.
+
+You control a few tanks and an infantry squad. Move your tanks out of your depot and position them at the near end of the bridge. This way you will be able to attack each approaching enemy unit with multiple units at once.
+%
+By positioning your units in such a manner you gain several advantages. Not only can you attack a single foe with multiple units, but your attacking units also support each other and generally perform better when grouped together.
+
+Friendly units can help increase the combat strength of an attacking unit. This is called "wedging". Each unit adjacent to the attacked unit slightly increases the attacker's strength. This bonus is reduced if the wedging unit cannot attack the defender itself, and it is doubled if the wedging unit is "backstabbing" i.e. it is positioned directly opposite the attacker.
+
+Defending units may improve their position in combat in a similar manner. For each friendly unit adjacent to both the attacker and the defender, the defending unit receives a performance bonus. This is also called "blocking".
+
+Both wedging and blocking bonuses only apply for close-quarter battles, not for long-range attacks.
+%
+Very well! Now you know that exploiting terrain can help you defeat enemies even if you are outnumbered. When you are controlling narrow passages with just a few experienced units you can often fend off much larger enemy waves.
+
+Now conquer the enemy factory with your infantrymen.
+%
+Good work! In this factory you are able to build hovercraft which you need to cross the river in the northwestern part of the map as the bridge collapsed after recent skirmishes. However, the factory is out of crystals. You will need to fetch some crystals from your Depot. Personnel carriers, just like any other transporter unit in the game, are able to transport not only personnel but also crystals. Move your unit to the southwestern depot in order to transfer some crystals.
+
+Notice that the mine to the northwest is guarded. Your enemy has dispatched some heavy tanks to prevent you from conquering it. You will need to destroy these tanks, and using long-range weapons like artillery you can do so without risk.
+
+Move your artillery close to the river so that the enemy tanks are in firing range and destroy them. Artillery units are "slow" units not just in terms of movement points. While other units can move and attack during a single turn, artillery can only do one or the other. Therefore it is especially important that these units are positioned carefully in order to not waste any additional turns.
+%
+Now you can carry crystals to your factory. Order your transporter to move out of the depot. This will bring up the loading window where you can assign both crystals and units (in case any are available).
+%
+Good. Now you can cross the river and seize the crystal mine. You can load troops when the transporter is leaving a shop or in the field by just moving into the transporter. To remove units from a transporter, right-click it and select "Content". Then proceed just as if you were moving out of a shop.
+
+Cross the river and conquer the crystal mine after destroying the enemy tanks!
+%
+Artillery and other long-range units are very valuable in combat because of their ability to attack enemy units from a distance, safe from retaliatory fire. You should protect them well and never engage them in close-range combat. Artillery units are unable to return fire if attacked from close range so you should always accompany your artillery with supporting units.
+
+Warning! Your enemy is sending in guerilla fighters to seize your factory. Don't let them take it and stop the offensive!
+%
+Great! You have seized a crystal mine. These mines are rare and very valuable because they can potentially provide vast amounts of crystals. You should always try to take control of mines as soon as possible in order to get more crystals. Most of the mines are not factories, however, so transporting crystals is often necessary.
+
+In this case you need to build some transport planes in your factory which is again short of crystals. Move some crystals from the mine to the factory using your hovercraft.
+%
+Warning! More guerilla fighters are coming up from the south. Don't allow them to threaten your plans in this area!
+%
+Mission accomplished!
+
+Now you know how to transport units and crystals between bases and across obstacles such as rivers. You can also take advantage of the terrain and use artillery to destroy enemies at long range. These two combat tactics combined can often win you a battle. Well done! Proceed to the next mission.
+%
+You have lost a base! This simulation must be aborted.
+%
+You have lost your infantry. You can no longer conquer any buildings now! We regret to inform you that this mission must be aborted.
+%
+You have lost the personnel carriers. It is essential that you protect this unit. Mission aborted.
+%
+You have lost the hovercraft. You cannot get across the river any more. Mission aborted.
+%
+You have spent too many crystals and you won't be able to produce any hovercraft. Mission aborted.
+%
+Position your units near the bridge so that they can outnumber the approaching enemy units when attacking. Fend off the enemy assault.
+%
+Conquer the enemy factory.
+%
+Move the APC back to your base.
+Attack the guarding enemy tanks with your artillery.
+%
+Move enough crystals to the factory to build some hovercraft.
+%
+Destroy the enemy tanks guarding the mine and conquer it afterwards.
+%
+Move enough crystals from the mine to your factory to build some transport planes.
+[/messages]
+
+[messages(fr)]
+La loi du terrain
+%
+Rookie
+%
+Simulateur
+%
+L'Art de la Guerre, Leçon 3: La loi du terrain
+
+par Andrej Krivulčík <krivulcik@gmail.com>
+traduction française: Benoit Peureux <benoit.peureux@wanadoo.fr>
+%
+Dépôt
+%
+Usine
+%
+Mine de cristaux
+%
+Ce tutorial est destiné à être joué par un seul joueur à la fois.
+%
+Bienvenue, Commandant!
+
+Cette mission d'entraînement vous montrera comment exploiter les caractérisitiques du terrain à votre avantage et comment transférer des cristaux et des troupes. Vous aurez également l'occasion d'utiliser quelques unités d'artillerie à longue portée.
+
+Vous commandez des unités de chars et un peloton d'infanterie. Déplacez vos chars en dehors de votre dépôt et placer les vers l'extrémité du pont la plus proche. De cette façon vous pourrez attaquer immédiatement avec vos diverses unités, chaque unité ennemie qui approche.
+%
+En plaçant vos unités de cette façon vous obtenez plusieurs avantages. Non seulement vous pouvez vous attaquer à un ennemi isolé avec vos diverses unités, mais lors de votre attaque, vos unités se soutiennent mutuellement en se regroupant et deviennent donc beaucoup plus performantes.
+
+Des unités alliées à l'attaquant peuvent vous aider à augmenter la capacité à combattre de vos unités attaquantes. Cette manoeuvre s'appelle la «tenaille». Chaque unité amie, placée à côté de l'unité qui attaque, en augmente légèrement la force. Cette bonification est réduite si l'unité qui participe à l'effet de tenaille, ne peut pas attaquer le défenseur elle-même, et elle est doublée si elle se trouve dans le dos du défenseur.
+
+De même, les unités qui se défendent peuvent améliorer leur position dans le combat de façon semblable. Toutes les unitées alliées au défenseur, situées à côté de l'attaquant et du défenseur renforcent la capacité de défense du défenseur. Dans ce cas, cette manoeuvre s'appelle le «blocage». Les effets de tenaille et de blocage ne s'appliquent qu'aux combats rapprochés et sont sans effets sur les attaques à distance.
+%
+Très bien! Maintenant vous savez comment exploiter le terrain pour vous aider à battre vos ennemis, même si vous êtes en infériorité numérique. Quand vous contrôlez des bandes de passage étroites avec juste quelques unités expérimentées vous pouvez très souvent tenir tête à des ennemis en nombre beaucoup plus grand.
+
+A présent, partez à le conquête de l'usine ennemie avec vos troupes d'infanterie.
+%
+Bon travail! Dans cette usine vous pouvez construire l'aéroglisseur dont vous avez besoin pour traverser le fleuve dans la partie du nord-ouest de la carte alors que le pont s'est effondré lors d'escarmouches récentes. Cependant, l'usine est en manque de cristaux. Vous devrez aller chercher quelques cristaux dans votre dépôt. Les transporteurs de personnel, comme n'importe quelle autre unité de transporteur dans le jeu, peuvent transporter non seulement du personnel mais également des cristaux. Déplacez votre unité de transport au dépôt du sud-ouest afin d'y transférer quelques cristaux.
+
+Remarquez que la mine au nord-ouest est gardée. Votre ennemi y a expédié quelques chars lourds pour vous empêcher de la conquérir. Vous devrez détruire ces chars en vous aidant de votre artillerie à longue portée afin de ne prendre aucun risque.
+
+Déplacez votre artillerie près du fleuve de sorte que les chars ennemis soient dans la zone de portée de vos armes et détruisez les. Les unités d'artillerie sont des unités assez lentes, pas simplement en termes de capacité de déplacement. Tandis que d'autres unités peuvent se déplacer et attaquer pendant un simple tour du jeu, l'artillerie ne peut seulement faire que l'un ou l'autre. Par conséquent il est particulièrement important que ces unités soient placées soigneusement afin de ne gaspiller votre tour durant le jeu...
+%
+Maintenant vous pouvez emmener des cristaux à votre usine. Commandez à votre transporteur de se déplacer hors du dépôt. Cette manoeuvre provoquera l'apparition de la fenétre vous permettant de manipuler les cristaux et les unités (dans l'hypothése où il y en aurait de disponible).
+%
+Bien. Maintenant vous pouvez traverser le fleuve et aller à la mine de cristaux. Vous pouvez charger des troupes dans le transporteur lorsqu'il quitte un magasin ou une zone de combat simlement en faisant entrer les troupes dans le transporteur. Pour sortie des unités d'un transporteur, faites un clic-droti et choisissez «contenu». Procédez alors comme si vous vous déplaciez hors d'un magasin.
+
+Traversez la riviére et prenez le contrôle de la mine de cristaux après avoir détruit les chars ennemis.
+%
+L'artillerie et les autres unités disposant d'armes à longue portée, sont de grande valeur pour les combats en raison de leur capacité à attaquer les unités ennemies à distance et donc sans risque de représailles. Vous devriez les protéger efficacement et ne jamais les engager dans un combat à l'issue incertaine ou perdu d'avance. Les unités d'artillerie ne peuvent pas répliquer si elles sont attaquée directement par des unités à courte portée. C'est pourquoi vous devriez toujours accompagner votre artillerie avec des unités de support.
+
+Attention! Votre ennemi envoit des combattants pour saisir votre usine. Ne les laisser pas la prendre et interrompre votre offensive!
+%
+Parfait! Vous avez pris une mine de cristaux. Ces mines sont rares et de grande valeur parce qu'elles peuvent potentiellement fournir de vastes quantités de cristaux. Vous devriez toujours essayer de prendre le contrôle des mines leplus tôt possible afin d'obtenir plus de cristaux. Cependant, la plupart des mines n'étant pas des usines, il est souvent nécessaire de prévoir aussi le transprt des cristaux.
+
+Dans ce but, vous devez construire quelques avions de transport dans votre usine qui dispoe encore de quelques cristaux. Déplacer quelques cristaux de la mine à l'usine à l'aide de votre aéroglisseur.
+%
+Attention! Des combattants ennemis arrivent par le sud. Ne les laissez pas contrecarrer vos projets dans cette région! 
+%
+Mission accomplie!
+
+A présent, vous savez transporter des unités et des cristaux entre vos bases et en franchissant des obstacles tels que des fleuves. Vous pouvez également tirer profit du terrain et employer l'artillerie pour détruire des ennemis à distance. Ces tactiques de combats combinées peuvent souvent vous permettre de gagner une bataille. 
+
+Bien joué! Passez à la prochaine mission.
+%
+Vous avez perdu une base! Cette simulation de mission doit être interrompue.
+%
+Vous avez perdu toute votre infanterie. Vous ne pouvez donc plus conquérir de construction ni de base à présent! Nous avons le regret de vous informer que nous devons interrompre cette mission.
+%
+Vous avez perdu les transports de personnel. Il est essentiel que vous protégiez cette unité. La mission est interrompue.
+%
+Vous avez perdu l'aéroglisseur. Vous ne pouvez plus traverser le fleuve. La mission est interrompue.
+%
+Vous avez dépensé trop de cristaux et vous ne pourrez pas produire d'aéroglisseur. La mission est interrompue.
+%
+Placer vos unités près du pont de sorte qu'elles puissent surclasser les unités ennemies qui s'approchent pour vous attaquer. Brisez l'assaut ennemi.
+%
+Prenez le contrôle de l'usine ennemie.
+%
+Ramenez les cristaux à votre base. 
+Attaquez les chars ennemis qi les gardent avec votre artillerie.
+%
+Déplacez suffisamment de cristaux vers l'usine afin de construire au moins un aéroglisseur.
+%
+Détruisez les chars ennemis qui gardent la mine puis prenez en le contrôle.
+%
+Transportez suffisamment de cristaux de la mine vers votre usine afin de construire quelques avions de transport.
+[/messages]
+
+# pl sync: 1.3
+[messages(pl)]
+Tam i z powrotem
+%
+Poborowy
+%
+Symulator
+%
+Sztuka wojny, lekcja 3: Tam i z powrotem
+
+autor Andrej Krivulčík <krivulcik@gmail.com>
+%
+Skład
+%
+Fabryka
+%
+Kopalnia Kryształów
+%
+To jest misja szkoleniowa, pomyślana dla jednego gracza.
+%
+Witaj Dowódco!
+
+Ta misja szkoleniowa pokaże Ci jak wykorzystać na swoją korzyść ukształtowanie terenu i jak przesyłać kryształy i jednostki. Będziesz też miał możliwość wykorzystania artylerii dalekiego zasięgu.
+
+Masz pod swoimi rozkazami kilka czołgów i oddział piechoty. Wyprowadź czołgi ze składu i ustaw je na lub w pobliżu mostu. W ten sposób będziesz mógł zaatakować nadchodzące jednostki przeciwnika kilkoma jednostkami na raz.
+%
+Umieszczając swoje jednostki w ten sposób zyskujesz sporą przewagę. Nie tylko atakujesz jednego wroga kilkoma jednostkami, ale też Twoje atakujące jednostki wspomagają się wzajemnie i ogólnie lepiej się sprawują w grupie.
+
+Przyjazne jednostki pomagają poprawić skuteczność w walce atakującej jednostki. Nazywa się to "przeważaniem". Każda jednostka sąsiadująca z atakowaną jednostką nieco zwiększa siłę atakującej jednostki. Premia ta jest mniejsza jeśli przeważająca jednostka nie może sama zaatakować broniącego się i jest podwajana jeśli jednostka zadaje "cios w plecy", t.j. jest dokładnie po przeciwnej stronie co atakujący.
+
+Jednostki broniące się też mogą w podobny sposób poprawiać swoje szanse w walce. Każda jednostka sąsiadująca jednocześnie z atakującym i broniącym się daje obrońcy premię w walce. Jest to nazywane "blokowaniem".
+
+Premie zarówno z przeważania jak i blokowania liczą się tylko w walce w zwarciu, nie w atakach z dużej odległości.
+%
+Bardzo dobrze! Wiesz teraz że wykorzystywanie terenu może Ci pomóc pokonać nawet przeważającego liczebnie przeciwnika. Kontrolując wąskie przejścia kilkoma doświadczonymi jednostkami możesz często odegnać o wiele liczniejsze fale ataków przeciwnika.
+
+Teraz podbij swoją piechotą fabrykę przeciwnika.
+%
+Dobrze! W tej fabryce możesz wyprodukować poduszkowce niezbędne do przeprawy przez rzekę w północno-zachodniej części mapy, jako że most zawalił się w skutek ostatnich potyczek. Jednakże w fabryce skończyły się kryształy. Będziesz musiał przenieść trochę ze składu. Transportery opancerzone, jak wszystkie inne jednostki transportowe w grze, mogą przenosić nie tylko żołnierzy ale też kryształy. By przetransportować kryształy przemieść jednostkę do składu na południowym zachodzie.
+
+Zauważ że kopalnia na północnym zachodzie jest strzeżona. Przeciwnik wysłał kilka ciężkich czołgów żeby powstrzymać Cię przed jej przejęciem. Musisz zniszczyć te czołgi a używając broni dalekiego zasięgu takiej jak artyleria możesz to zrobić bez ryzyka.
+
+Przesuń swoją artylerię blisko rzeki tak by czołgi przeciwnika były w zasięgu i zniszcz je. Jednostki artylerii są "wolne" nie tylko jeśli chodzi o punkty ruchu. Podczas gdy pozostałe jednostki mogą ruszać się i atakować w jednej turze artyleria może wykonywać tylko jedną z tych czynności. Dlatego ich precyzyjne i przemyślane ustawienie jest niezwykle ważne by nie marnować więcej tur niż niezbędne.
+%
+Możesz teraz przetransportować kryształy do fabryki. Każ transporterowi wyjechać ze składu. Wywoła to okno ładowania gdzie możesz załadować zarówno kryształy jak i jednostki (jeśli jakieś są).
+%
+Dobrze. Teraz przekrocz rzekę i przejmij kopalnię. Możesz załadować żołnierzy gdy transporter wyjeżdża ze składu albo w polu po prostu wchodząc jednostką na pole transportera. By wyładować jednostkę kliknij na transporterze prawym przyciskiem myszy i wybierz "Zawartość". Potem postępuj jak przy wychodzeniu ze sklepu.
+
+Przekrocz rzekę i przejmij kopalnię po zniszczeniu czołgów wroga!
+%
+Artyleria i inne jednostki dalekiego zasięgu są bardzo ważne w walce ze względu na swoje możliwości atakowania wroga z dystansu nie narażając się na ogień zwrotny. Powinieneś je chronić i nigdy nie narażać ich na walkę w zwarciu. Nie mogą one się bronić jeśli zostały zaatakowane bezpośrednio w zwarciu i dlatego zawsze powinieneś wspomagać je innymi jednostkami.
+
+Uwaga! Wróg podsyła partyzantów by odbili fabrykę. Nie pozwól im jej przejąć i zatrzymaj ofensywę!
+%
+Wspaniale! Przejąłeś kopalnię kryształów. Są one rzadkie i bardzo wartościowe ponieważ potencjalnie mogą dać olbrzymie ilości krształów. Zawsze powinieneś starać się przejąć kontrolę nad kopalniami najszybciej jak to możliwe. Większość z nich nie jest jednak fabrykami, więc będziesz musiał transportować kryształy.
+
+W tej chwili musisz wyprodukować w fabryce jednostę samolotów transportowych, ale znów masz za mało kryształów. Przemieść poduszkowcem trochę kryształów z kopalni do fabryki.
+%
+Uwaga! Więcej partyzantów nadchodzi z południa. Nie pozwól im zagrozić swoim planom w tym obszarze!
+%
+Misja ukończona!
+
+Wiesz teraz jak transportować jednostki i kryształy między bazami i poprzez przeszkody takie jak rzeki. Umiesz też wykozrystywać teren i używać jednostek artylerii do niszczenia wrogów z daleka. Te dwie taktyki walki razem często mogą wygrać bitwę. Dobra robota! Kontynuuj szkolenie w następnej misji.
+%
+Straciłeś bazę! Symulacja musi zostać przerwana.
+%
+Straciłeś swoją piechotę. Nie możesz już podbić żadnych budynków! Niestety misja musi zostać przerwana.
+%
+Stracieś transporter opancerzony. Jest niezbędne byś chronił tę jednostkę. Misja przerwana.
+%
+Straciłeś poduszkowiec. Nie możesz już przedostać się przez rzekę. Misja przerwana.
+%
+Wydałeś za dużo kryształów i nie będziesz mógł wyprodukować poduszkowców. Misja przerwana.
+%
+Rozstaw swoje jednostki blisko mostu by miały przewagę liczebną nad nadchodzącym przeciwnikiem. Powstrzymaj szturm wroga.
+%
+Podbij fabrykę przeciwnika.
+%
+Przesuń transporter do swojej bazy.
+Zaatakuj strzegące czołgi przeciwnika swoją artylerią.
+%
+Przenieś do fabryki dość kryształów by wybudować poduszkowiec.
+%
+Zniszcz czołgi wroga pilnujące kopalni a następnie ją przejmij.
+%
+Przenieś z kopalni do fabryki dość kryształów by wybudować samoloty transportowe.
+[/messages]
+
+[messages(sk)]
+Sem a tam
+%
+Nováčik
+%
+Simulátor
+%
+Umenie vojny, Lekcia 3: Sem a tam
+
+by Andrej Krivulčík <krivulcik@gmail.com>
+%
+Sklad
+%
+Továreň
+%
+Baňa na kryštály
+%
+Toto je výcviková misia určená pre jedného hráča.
+%
+Vitaj, veliteľ!
+
+V tejto výcvikovej misii sa naučíš, ako využívať výhodný terén a ako prevážať kryštály a jednotky. Budeš mať aj možnosť využiť delostrelectvo na útok z diaľky.
+
+Pod kontrolou máš niekoľko tankov a jednotku pešiakov. Tanky zo skladu presuň ku mostu tak, aby mohli pri boji prečísliť prichádzajúce nepriateľské jednotky.
+%
+Takýmto rozostavením jednotiek získaš niekoľko výhod. Okrem toho, že môžeš naraz zaútočiť viacerými jednotkami na jedného nepriateľa, jednotky sa navzájom podporujú, keď bojujú vedľa seba.
+
+Jednotky zvyšujú účinnosť priateľských útočiacich jednotiek. Táto pomoc sa volá "wedging". Každá jednotka stojaca pri útočníkovi mierne zvyšuje jeho bojovú silu. Ak podporná jednotka nemôže napadnutú jednotku ohroziť, je tento bonus znížený. V prípade, že je jednotka na opačnej strane protivníka ako útočník (útočí zozadu), je tento bonus dvojnásobný.
+
+Podobne sa môžu navzájom podporovať brániace sa jednotky. Každá priateľská jednotka susediaca s útočníkom aj brániacou sa jednotkou poskytuje napadnutej jednotke bojový bonus. Táto technika sa volá blokovanie.
+
+Oba tieto bonusy sa uplatňujú len pri boji zblízka, na diaľku nie.
+%
+Výborne! Teraz vieš, ako môžeš využiť terén na porazenie nepriateľa v presile. Ak budeš ovládať úzke priechody, aj málo skúsenejších jednotiek dokáže odraziť nepriateľskú presilu.
+
+Teraz pechotou obsaď nepriateľskú továreň.
+%
+Dobre! V tejto továrni sa dajú vybudovať vznášadlá, ktoré potrebuješ na prechod cez rieku na severozápade, pretože most sa po nedávnych potýčkach zrútil. Továreň však nemá zásoby kryštálov. Musíš ich priviezť zo skladu. Všetky transportné jednotky vrátane osobných transportérov môžu okrem bojových jednotiek prevážať aj kryštály. Presuň transportéry do skladu na juhozápade, aby si mohol priviezť kryštály do továrne.
+
+Všimni si, že baňa na severozápade je strážená. Nepriateľ tam umiestnil niekoľko ťažkých tankov, aby si ju nemohol dobyť. Budeš ich musieť zničiť. Použitím jednotiek s dlhým dostrelom (ako je delostrelectvo) to môžeš spraviť bez ohrozenia.
+
+Presuň delostrelectvo do blízkosti rieky, aby boli nepriateľské tanky na dostrel, a potom ich znič. Delostrelectvo je "pomalá" jednotka nielen tým, že má málo pohybových bodov. Jednotky sa môžu v priebehu jedného ťahu presunúť a zaútočiť na nepriateľa. Delostrelectvo však môže urobiť iba jednu z týchto akcií. Je preto veľmi dôležité tieto jednotky správne umiestňovať, aby zbytočne nepremeškali ťah.
+%
+Teraz môžeš previezť kryštály do továrne. Nariaď transportéru vyjsť zo skladu. Objaví sa okno, kde môžeš do transportéra naložiť kryštály a jednotky (ak v budove nejaké sú).
+%
+Dobre. Teraz môžeš prejsť cez rieku a obsadiť baňu na kryštály. Jednotky môžu nastúpiť do transportéra pri opúšťaní budovy, prípadne mimo budovy presunom "na" transportér. Jednotky sa dajú vyložiť z transportéra kliknutím pravým tlačidlom myši na transportér a zvolením položky "Obsah". Potom postupuj rovnako ako pri vychádzaní z budovy.
+
+Po zničení nepriateľských tankov prekroč rieku a obsaď baňu na kryštály.
+%
+Delostrelectvo a ostatné jednotky s ďalekým dosahom sú kvôli schopnosti útočiť z diaľky bez ohrozenia odvetnou paľbou v boji veľmi hodnotné. Dobre ich chráň a nenasadzuj ich v boji zblízka. Delostrelectvo sa nedokáže brániť, keď je napadnuté zblízka. Preto ho vždy podporuj sprievodnými jednotkami.
+
+Pozor! Nepriateľ posiela do oblasti partizánskych vojakov, ktorými chce obsadiť továreň. Nedovoľ im dobyť ju a odvráť tento útok!
+%
+Výborne! Obsadil si baňu na kryštály. Tieto bane sú vzácne a veľmi cenné, pretože sú zdrojom veľkého množstva kryštálov. Vždy sa snaž obsadiť bane čo najskôr, aby si získal čo najviac kryštálov. Väčšina baní však nie je vybavená na budovanie jednotiek, a preto je často potrebné kryštály prevážať.
+
+V tejto misii potrebuješ v továrni vyrobiť transportné lietadlá, no v továrni zase nie je dostatok kryštálov. Pomocou vznášadiel tam presuň potrebné kryštály z bane.
+%
+Pozor! Z juhu prichádzajú ďalší partizáni. Nenechaj ich ohroziť svoje plány v oblasti!
+%
+Misia splnená!
+
+Teraz dokážeš prevážať jednotky a kryštály medzi základňami a cez prekážky (ako napríklad rieky). Naučil si sa aj využívať výhodný terén a útočiť na diaľku delostrelectvom. Tieto taktiky spolu dokážu často zvrátiť boj v tvoj prospech. Výborne! Pokračuj ďalšou misiou.
+%
+Stratil si základňu! Túto simuláciu musíme zrušiť.
+%
+Stratil si pešiakov. Už nebudeš môcť obsadzovať budovy! Ľutujeme, ale túto misiu musíme zrušiť.
+%
+Stratil si obrnené transportéry. Túto jednotku musíš bezpodmienečne chrániť. Misia zrušená.
+%
+Prišiel si o vznášadlá. Už sa cez rieku nedostaneš. Misia zrušená.
+%
+Minul si príliš veľa kryštálov a nebudeš môcť vyrobiť vznášadlá. Misia zrušená.
+%
+Umiestni svoje jednotky pri moste tak, aby si nimi mohol pri útoku prečísliť blížiace sa nepriateľské jednotky. Odvráť útok.
+%
+Obsaď nepriateľskú továreň.
+%
+Presuň obrnené osobné transportéry späť do základne.
+
+Delostrelectvom zaútoč na nepriateľské tanky strážiace baňu.
+%
+Presuň do továrne dostatok kryštálov na vybudovanie vznášadiel.
+%
+Znič nepriateľské tanky strážiace baňu, a potom ju obsaď.
+%
+Presuň z bane do továrne dostatok kryštálov na výrobu transportných lietadiel.
+[/messages]
+

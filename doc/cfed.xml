@@ -1,0 +1,1059 @@
+<?xml version='1.0'?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+ "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+<refentry id="cfed.6">
+<refentryinfo>
+  <date>January 18 2007</date>
+  <author>
+    <firstname>Jens</firstname>
+    <surname>Granseuer</surname>
+    <address><email>jensgr@gmx.net</email></address>
+  </author>
+</refentryinfo>
+
+<refmeta>
+  <refentrytitle>cfed</refentrytitle>
+  <manvolnum>6</manvolnum>
+</refmeta>
+
+<refnamediv>
+  <refname>cfed</refname>
+  <refpurpose>a level compiler for Crimson Fields</refpurpose>
+</refnamediv>
+
+<refsynopsisdiv>
+  <cmdsynopsis>
+    <command>cfed</command>
+    <arg choice="plain"><replaceable>mapsource</replaceable></arg>
+    <arg choice="plain">--tiles <replaceable>tileset</replaceable></arg>
+    <arg choice="plain">--units <replaceable>unitset</replaceable></arg>
+    <arg choice="opt">-o <replaceable>outfile</replaceable></arg>
+  </cmdsynopsis>
+
+  <cmdsynopsis>
+    <command>cfed</command>
+    <group choice="req">
+      <arg choice="plain">--help</arg>
+      <arg choice="plain">--version</arg>
+    </group>
+  </cmdsynopsis>
+</refsynopsisdiv>
+
+<refsect1><title>Description</title>
+  <para><command>cfed</command> is the <application>Crimson
+  Fields</application> level compiler.</para>
+
+  <para>It creates a <filename>*.lev</filename> file out of a source file
+  <filename>*.src</filename>. You can use any standard text editor to
+  create the level source files (for the syntax of those files, see
+  <xref linkend="format"/> below).
+  <command>cfed</command> reads the input file and creates the level file.
+  If the name of the ouput file is not given on the command line, it is
+  created in the same location as the source file with the .src suffix
+  substituted by .lev.</para>
+</refsect1>
+
+<refsect1><title>Options</title>
+  <variablelist>
+    <varlistentry>
+      <term><option>--help</option></term>
+      <listitem>
+        <para>Print a usage message on standard output and exit.</para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term><option>--tiles</option> <replaceable>tileset</replaceable></term>
+      <listitem>
+        <para>Use the tile definitions from <replaceable>tileset</replaceable>
+         when compiling the map.</para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term><option>--units</option> <replaceable>unitset</replaceable></term>
+      <listitem>
+        <para>Use the unit definitions from <replaceable>unitset</replaceable>
+        when compiling the map.</para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term><option>--version</option></term>
+      <listitem>
+        <para>Print version information on standard output and
+        exit.</para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term><option>-o</option></term>
+      <listitem>
+        <para>Set the name and path of the converted level file.</para>
+      </listitem>
+    </varlistentry>
+  </variablelist>
+</refsect1>
+
+<refsect1 id="format"><title>File Format</title>
+  <para>A level source file consists of sections. A section is started
+  by the section name in square brackets, i.e. the line</para>
+  <para><computeroutput>[unit]</computeroutput></para>
+  <para>starts a unit section. Lines in a section are usually composed
+  like this:</para>
+  <para><computeroutput>qualifier = value</computeroutput></para>
+  <para>The only exceptions to this are the <emphasis>map</emphasis> and
+  <emphasis>messages</emphasis> sections. Lines starting with
+  <computeroutput>#</computeroutput> are considered comments. The
+  following sections exist:</para>
+
+  <refsect2><title>mission</title>
+    <para>This section defines some global mission parameters like map
+    size or the graphics set to use. The mission section is mandatory
+    and must appear before the map section in the file. Valid qualifiers
+    are</para>
+
+  <variablelist>
+    <varlistentry>
+      <term>name</term><listitem>
+        <para>index of a message containing the mission title. This name
+        will be used when presenting the list of available maps to the
+        player. (maximum length 30 characters, mandatory)</para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term>mapwidth</term>
+      <listitem><para>[10-200] (mandatory)</para></listitem>
+    </varlistentry>
+    <varlistentry>
+      <term>mapheight</term>
+      <listitem><para>[10-200] (mandatory)</para></listitem>
+    </varlistentry>
+    <varlistentry>
+      <term>nextmap</term><listitem>
+        <para>the name of another map (without path and file ending).
+        After the current map has been completed, this new map will be
+        loaded automatically. This tag is only valid for
+        <emphasis>campaign</emphasis> maps.</para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term>info</term><listitem>
+        <para>index of the information message that is to be shown when a
+        player requests level information. This message can contain the
+        level name, author, revision, etc.</para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term>campaign</term><listitem>
+        <para>indicates whether the map is part of a campaign [0|1].
+        Default is 0 (not part of a campaign). See also
+        <emphasis>campaignname</emphasis> and
+        <emphasis>campaigninfo</emphasis>.</para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term>campaignname</term><listitem>
+        <para>index of the campaign name. It should be set only when the
+        map actually is the first of a campaign. See also
+        <emphasis>campaign</emphasis> and <emphasis>campaigninfo</emphasis>.
+        (mandatory  and valid only for the introductory map of a campaign)
+        </para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term>campaigninfo</term><listitem>
+        <para>index of the information message for the campaign. This info
+        is displayed when starting a new campaign and should contain a short
+        outline of the background story. It is useful only when the map
+        actually is the first of a campaign. See also
+        <emphasis>campaign</emphasis> and <emphasis>campaignname</emphasis>.
+        </para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term>skirmish</term><listitem>
+        <para>indicates whether the map can be played in skirmish mode [0|1].
+        Default is 1 (true).</para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term>players</term><listitem>
+        <para>selects whether the map is intended for play against
+        another human being (2) or against the computer (1). This is for
+        informational purposes only and defaults to 2.</para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term>music</term><listitem>
+        <para>name of a soundtrack (either MIDI or Ogg Vorbis) excluding
+        the file type suffix to be played during this map. If the setting
+        is missing, the default track for Crimson Fields will be played.
+        </para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term>tileset</term><listitem>
+        <para>tileset file to be used. A tileset contains the map
+        graphics and terrain definitions. The filename must be given
+        without the <filename>.tiles</filename> suffix. If omitted, the
+        tile set defaults to 'default'.</para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term>unitset</term><listitem>
+        <para>unit set file to be used. A unit set contains the unit
+        graphics and definitions. The filename must be given without the
+        <filename>.units</filename> suffix. If omitted, the unit set
+        defaults to 'default'.</para>
+      </listitem>
+    </varlistentry>
+  </variablelist>
+  </refsect2>
+
+  <refsect2><title>map</title>
+  <para>The map section defines the actual map layout. It is a rectangle
+  of the size specified in the <emphasis>mission</emphasis> section,
+  consisting of various symbols which describe a certain map tile type.
+  The map section is mandatory and may not contain comments. The
+  following symbols exist.</para>
+
+  <variablelist>
+  <varlistentry><term>&#x200b;.</term><listitem><para>plains</para></listitem></varlistentry>
+  <varlistentry><term>*</term><listitem><para>forest</para></listitem></varlistentry>
+  <varlistentry><term>%</term><listitem><para>mountains</para></listitem></varlistentry>
+  <varlistentry><term>=</term><listitem><para>shallow water</para></listitem></varlistentry>
+  <varlistentry><term>~</term><listitem><para>water</para></listitem></varlistentry>
+  <varlistentry><term>-</term><listitem><para>deep water</para></listitem></varlistentry>
+  <varlistentry><term>#</term><listitem><para>swamp</para></listitem></varlistentry>
+  <varlistentry><term>&quot;</term><listitem><para>cliff</para></listitem></varlistentry>
+  <varlistentry><term>0</term><listitem><para>headquarters, neutral entrance, east</para></listitem></varlistentry>
+  <varlistentry><term>1</term><listitem><para>headquarters, yellow entrance, east</para></listitem></varlistentry>
+  <varlistentry><term>2</term><listitem><para>headquarters, blue entrance, east</para></listitem></varlistentry>
+  <varlistentry><term>3</term><listitem><para>depot, neutral entrance, north</para></listitem></varlistentry>
+  <varlistentry><term>4</term><listitem><para>depot, yellow entrance, north</para></listitem></varlistentry>
+  <varlistentry><term>5</term><listitem><para>depot, blue entrance, north</para></listitem></varlistentry>
+  <varlistentry><term>6</term><listitem><para>factory, neutral entrance, north</para></listitem></varlistentry>
+  <varlistentry><term>7</term><listitem><para>factory, yellow entrance, north</para></listitem></varlistentry>
+  <varlistentry><term>8</term><listitem><para>factory, blue entrance, north</para></listitem></varlistentry>
+  <varlistentry><term>9</term><listitem><para>factory, neutral entrance, east</para></listitem></varlistentry>
+  <varlistentry><term>J</term><listitem><para>factory, yellow entrance, east</para></listitem></varlistentry>
+  <varlistentry><term>L</term><listitem><para>factory, blue entrance, east</para></listitem></varlistentry>
+  <varlistentry><term>A</term><listitem><para>city, yellow</para></listitem></varlistentry>
+  <varlistentry><term>B</term><listitem><para>city, blue</para></listitem></varlistentry>
+  <varlistentry><term>C</term><listitem><para>city, neutral</para></listitem></varlistentry>
+  <varlistentry><term>D</term><listitem><para>headquarters, yellow entrance, west</para></listitem></varlistentry>
+  <varlistentry><term>E</term><listitem><para>headquarters, blue entrance, west</para></listitem></varlistentry>
+  <varlistentry><term>F</term><listitem><para>headquarters, neutral entrance, west</para></listitem></varlistentry>
+  <varlistentry><term>G</term><listitem><para>headquarters, yellow entrance, north</para></listitem></varlistentry>
+  <varlistentry><term>H</term><listitem><para>headquarters, blue entrance, north</para></listitem></varlistentry>
+  <varlistentry><term>I</term><listitem><para>headquarters, neutral entrance, north</para></listitem></varlistentry>
+  <varlistentry><term>&gt;</term><listitem><para>headquarters, east</para></listitem></varlistentry>
+  <varlistentry><term>&lt;</term><listitem><para>headquarters, west</para></listitem></varlistentry>
+  <varlistentry><term>^</term><listitem><para>headquarters, north</para></listitem></varlistentry>
+  <varlistentry><term>v</term><listitem><para>headquarters, south</para></listitem></varlistentry>
+  <varlistentry><term>\</term><listitem><para>road, se-nw</para></listitem></varlistentry>
+  <varlistentry><term>|</term><listitem><para>road, s-n</para></listitem></varlistentry>
+  <varlistentry><term>/</term><listitem><para>road, sw-ne</para></listitem></varlistentry>
+  <varlistentry><term>y</term><listitem><para>road, sw-n-ne</para></listitem></varlistentry>
+  <varlistentry><term>Y</term><listitem><para>road, se-n-nw</para></listitem></varlistentry>
+  <varlistentry><term>X</term><listitem><para>road, s-se-nw-n</para></listitem></varlistentry>
+  <varlistentry><term>x</term><listitem><para>road, s-sw-n-ne</para></listitem></varlistentry>
+  <varlistentry><term>o</term><listitem><para>road, sw-nw-ne-se</para></listitem></varlistentry>
+  <varlistentry><term>k</term><listitem><para>road, sw-s-ne</para></listitem></varlistentry>
+  <varlistentry><term>K</term><listitem><para>road, s-se-nw</para></listitem></varlistentry>
+  <varlistentry><term>(</term><listitem><para>road, n-se</para></listitem></varlistentry>
+  <varlistentry><term>)</term><listitem><para>road, n-sw</para></listitem></varlistentry>
+  <varlistentry><term>]</term><listitem><para>road, nw-s</para></listitem></varlistentry>
+  <varlistentry><term>[</term><listitem><para>road, ne-s</para></listitem></varlistentry>
+  <varlistentry><term>n</term><listitem><para>road, sw-se</para></listitem></varlistentry>
+  <varlistentry><term>u</term><listitem><para>road, nw-ne</para></listitem></varlistentry>
+  <varlistentry><term>T</term><listitem><para>road, n-s-se</para></listitem></varlistentry>
+  <varlistentry><term>U</term><listitem><para>road, n-s-sw</para></listitem></varlistentry>
+  <varlistentry><term>V</term><listitem><para>road, n-s-ne</para></listitem></varlistentry>
+  <varlistentry><term>W</term><listitem><para>road, n-s-nw</para></listitem></varlistentry>
+  <varlistentry><term>!</term><listitem><para>bridge, n-s</para></listitem></varlistentry>
+  <varlistentry><term>`</term><listitem><para>bridge, sw-ne</para></listitem></varlistentry>
+  <varlistentry><term>'</term><listitem><para>bridge, se-nw</para></listitem></varlistentry>
+  <varlistentry><term>a</term><listitem><para>fence, se-nw end</para></listitem></varlistentry>
+  <varlistentry><term>b</term><listitem><para>fence, nw-se end</para></listitem></varlistentry>
+  <varlistentry><term>c</term><listitem><para>fence, ne-sw end</para></listitem></varlistentry>
+  <varlistentry><term>d</term><listitem><para>fence, sw-ne end</para></listitem></varlistentry>
+  <varlistentry><term>e</term><listitem><para>fence, n-s</para></listitem></varlistentry>
+  <varlistentry><term>f</term><listitem><para>fence, sw-ne</para></listitem></varlistentry>
+  <varlistentry><term>g</term><listitem><para>fence, nw-se</para></listitem></varlistentry>
+  <varlistentry><term>h</term><listitem><para>fence, nw-s</para></listitem></varlistentry>
+  <varlistentry><term>i</term><listitem><para>fence, ne-s</para></listitem></varlistentry>
+  <varlistentry><term>j</term><listitem><para>fence, sw-n</para></listitem></varlistentry>
+  <varlistentry><term>l</term><listitem><para>fence, se-n</para></listitem></varlistentry>
+  <varlistentry><term>m</term><listitem><para>fence, nw-ne</para></listitem></varlistentry>
+  <varlistentry><term>p</term><listitem><para>fence, sw-se</para></listitem></varlistentry>
+  </variablelist>
+  <para>There is also an alternative format. If the section is called
+  <emphasis>map-raw</emphasis> instead, the map is defined by giving the
+  hexagon identifiers directly, using the comma as a tile separator. This
+  approach requires intimate knowledge of the tileset used and may break
+  the map if the tileset changes. The format has been created because
+  there are now more tiles than can be represented with single ASCII
+  characters.</para>
+  </refsect2>
+
+  <refsect2><title>player</title>
+  <para>This can be used to set some player definitions. There may be a
+  maximum of two player sections in a file. The first section encountered
+  corresponds to the first player, the next to the second. Valid
+  qualifiers are</para>
+
+  <variablelist>
+    <varlistentry><term>name</term><listitem>
+      <para>index of a message containing the player name (mandatory,
+      maximum length 20 characters)</para>
+    </listitem></varlistentry>
+    <varlistentry><term>briefing</term><listitem>
+      <para>index of the player's briefing message. The briefing can be
+      reviewed during the game by choosing the
+      <guimenuitem>Briefing</guimenuitem> item from the
+      <guimenu>Game</guimenu> Menu. It is also recommended to create a
+      <emphasis>message</emphasis> event to tell the players about their
+      objectives on the first turn (see <emphasis>event</emphasis> and
+      <emphasis>messages</emphasis> sections below). If omitted defaults to
+      -1, meaning that no briefing is available.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>fcolor</term><listitem>
+      <para>foreground color to use for this player in the format
+      <replaceable>r,g,b</replaceable>, e.g.
+      <computeroutput>255,0,0</computeroutput> for red. The default player
+      colors match the default unit set, but different sets may use
+      different color schemes (also see <emphasis>bcolor</emphasis>).</para>
+    </listitem></varlistentry>
+    <varlistentry><term>bcolor</term><listitem>
+      <para>background color to use for this player in the format
+      <replaceable>r,g,b</replaceable>, e.g.
+      <computeroutput>0,0,255</computeroutput> for blue. The default player
+      colors match the default unit set, but different sets may use
+      different color schemes (also see <emphasis>fcolor</emphasis>).</para>
+    </listitem></varlistentry>
+  </variablelist>
+  </refsect2>
+
+  <refsect2><title>unit</title>
+  <para>Each of these sections creates a unit on the map. Loaded
+  transporter units must be specified before any units they carry.
+  Valid qualifiers for units are</para>
+
+  <variablelist>
+    <varlistentry><term>pos</term><listitem>
+      <para>location of the unit on the map. If there is a building at
+      the given location, the unit will be put in. It is also possible
+      to let units begin inside a transport. In that case you have to
+      make sure, however, that in the level file the transport is
+      declared before the carried unit [x/y]. (mandatory)</para>
+    </listitem></varlistentry>
+    <varlistentry><term>id</term><listitem>
+      <para>unique unit identifier [0-10000]. (mandatory)</para>
+    </listitem></varlistentry>
+    <varlistentry><term>type</term><listitem>
+      <para>unit type definition to use for this unit. Known definitions
+      for the default unit set are <emphasis>Infantry</emphasis>,
+      <emphasis>Medium Tanks</emphasis>, <emphasis>Heavy Tanks</emphasis>,
+      <emphasis>Anti-Aircraft Tanks</emphasis>, <emphasis>Anti-Aircraft Guns</emphasis>,
+      <emphasis>Artillery</emphasis>, <emphasis>Mines</emphasis>,
+      <emphasis>Patrol Boats</emphasis>, <emphasis>Fighter Squadron</emphasis>,
+      <emphasis>Personnel Carriers</emphasis>, <emphasis>Troopships</emphasis>,
+      <emphasis>Transport Planes</emphasis>, <emphasis>Scouts</emphasis>,
+      <emphasis>Interceptors</emphasis>, <emphasis>Bunkers</emphasis>,
+      <emphasis>Torpedo Boats</emphasis>, <emphasis>Bomber Wing</emphasis>,
+      <emphasis>Hovercraft</emphasis>, <emphasis>Gunships</emphasis>,
+      <emphasis>Troop Train</emphasis>, <emphasis>Rail Guns</emphasis>,
+      <emphasis>Armoured Train</emphasis>, <emphasis>Submarines</emphasis>,
+      and <emphasis>Aircraft Carriers</emphasis>. (mandatory)</para>
+    </listitem></varlistentry>
+    <varlistentry><term>player</term><listitem>
+      <para>unit controller [1|2]. (mandatory)</para>
+    </listitem></varlistentry>
+    <varlistentry><term>size</term><listitem>
+      <para>number of vehicles for this unit [1-6]. Defaults to 6 (undamaged).</para>
+    </listitem></varlistentry>
+    <varlistentry><term>xp</term><listitem>
+      <para>experience level this unit starts at [0-6]. Defaults to 0 (Rookie,
+      no experience).</para>
+    </listitem></varlistentry>
+    <varlistentry><term>face</term><listitem>
+      <para>direction the unit is heading [0-5]. Directions are numbered
+      clockwise from North (0) to Northwest (5). Defaults are North (0)
+      for units controlled by player 1, and South (3) for the second
+      player.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>crystals</term><listitem>
+      <para>amount of crystals the unit carries. This may only be given
+      for transports and defaults to 0.</para>
+    </listitem></varlistentry>
+  </variablelist>
+  </refsect2>
+
+  <refsect2><title>building</title>
+  <para>A building section is required to actually create a building
+  (sometimes also called a shop) on the map that units can enter. This
+  is not automatically done by placing the symbol for a building entrance
+  in the map section.</para>
+
+  <variablelist>
+    <varlistentry><term>pos</term><listitem>
+      <para>location of the building entrance on the map [x/y]. (mandatory)</para>
+    </listitem></varlistentry>
+    <varlistentry><term>id</term><listitem>
+      <para>unique building identifier [0-10000]. (mandatory)</para>
+    </listitem></varlistentry>
+    <varlistentry><term>player</term><listitem>
+      <para>building controller [1|2|0]. Units starting in unaligned
+      buildings are automatically tagged unaligned as well. (mandatory)
+      </para>
+    </listitem></varlistentry>
+    <varlistentry><term>type</term><listitem>
+      <para>type of building. Units can be repaired in buildings of type
+      <emphasis>Workshop</emphasis>. New units can be produced in buildings
+      of type <emphasis>Factory</emphasis>. A building may have multiple types.
+      Defaults to <emphasis>Depot</emphasis>, meaning no special attributes.
+      In addition to these attributes, a shop which produces crystals is
+      (automatically) called a <emphasis>Mine</emphasis>.
+      </para>
+    </listitem></varlistentry>
+    <varlistentry><term>name</term><listitem>
+      <para>index of a message containing the shop name (mandatory, maximum
+      length 30 characters)</para>
+    </listitem></varlistentry>
+    <varlistentry><term>mining</term><listitem>
+      <para>amount of crystals produced each turn [0-1000]. Defaults to
+      0. If given, implies type <emphasis>Mine</emphasis>.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>capacity</term><listitem>
+      <para>maximum amount of crystals [0-10000]. Defaults to 1000.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>crystals</term><listitem>
+      <para>amount of crystals in stock [0-capacity]. Defaults to 0.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>factory</term><listitem>
+      <para>name of a unit type definition that can be built here. If
+      given, implies <computeroutput>type = factory</computeroutput>.
+      Multiple <emphasis>factory</emphasis> lines may be given for a shop.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>minweight</term><listitem>
+      <para>weight of the smallest unit allowed to enter the building
+      [0-99]. Defaults to 0.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>maxweight</term><listitem>
+      <para>weight of the heaviest unit allowed to enter the building
+      [0-99]. Defaults to 99.</para>
+    </listitem></varlistentry>
+  </variablelist>
+  </refsect2>
+
+  <refsect2><title>event</title>
+  <para>Events provide a way to interact with players during a game. They
+  can cause actions like points being awarded or messages being displayed
+  under certain conditions. The <firstterm>event type</firstterm> defines
+  what happens, the <firstterm>event trigger</firstterm> controls when
+  (or if) the event is executed.</para> 
+
+  <para><variablelist>
+    <title>Event Types</title>
+    <varlistentry><term>configure</term><listitem>
+      <para>dynamically change the setting for various internal strings
+      during the course of a game, e.g. the players' mission briefings.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>createunit</term><listitem>
+      <para>create a unit somewhere on the map.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>destroyunit</term><listitem>
+      <para>destroy a unit and remove it from the map.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>manipulateevent</term><listitem>
+      <para>modify event internals. Currently this can be used to
+      dynamically enable or disable an event.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>message</term><listitem>
+      <para>display a message.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>mining</term><listitem>
+      <para>set the amount of crystals for a building.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>research</term><listitem>
+      <para>make a new unit type available for production in a factory,
+      or remove it from the list of available units.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>score</term><listitem>
+      <para>award points to a player.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>sethex</term><listitem>
+      <para>change a tile on the map.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>settimer</term><listitem>
+      <para>dynamically adjust the <emphasis>timer</emphasis> trigger of
+      another event.</para>
+    </listitem></varlistentry>
+  </variablelist></para>
+
+  <para><variablelist>
+    <title>Event Triggers</title>
+    <varlistentry><term>handicap</term><listitem>
+      <para>the event is executed if the set handicap matches the current
+      game settings. Usually such an event is triggered immediately on the
+      first turn or not at all. You can, however, combine multiple events
+      (e.g. a <emphasis>handicap</emphasis> and a <emphasis>timer</emphasis>
+      trigger) to change the default behaviour.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>havebuilding</term><listitem>
+      <para>the event is executed when the player controls a certain
+      building at a specified time.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>havecrystals</term><listitem>
+      <para>the event is executed when the player owns a certain amount of
+      crystals.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>haveunit</term><listitem>
+      <para>the event is executed when the player controls a certain unit
+      at a specified time.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>timer</term><listitem>
+      <para>the event is unconditionally executed at the specified time.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>unitdestroyed</term><listitem>
+      <para>the event is executed when a specified unit is destroyed or
+      captured by the enemy.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>unitposition</term><listitem>
+      <para>the event is executed when a specified unit ends its move on
+      a certain target hex.</para>
+    </listitem></varlistentry>
+  </variablelist></para>
+
+  <para>The following list contains generic qualifiers which are valid
+  for all event types.</para>
+
+  <para><variablelist>
+    <title>Qualifiers</title>
+    <varlistentry><term>id</term><listitem>
+      <para>unique event identifier [0-200]. (mandatory)</para>
+    </listitem></varlistentry>
+    <varlistentry><term>type</term><listitem>
+      <para>event type (mandatory, see below).</para>
+    </listitem></varlistentry>
+    <varlistentry><term>trigger</term><listitem>
+      <para>event trigger (mandatory). This describes the circumstances
+      under which the event is executed (see below).</para>
+    </listitem></varlistentry>
+    <varlistentry><term>message</term><listitem>
+      <para>index of a message to be displayed when the event occurs.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>title</term><listitem>
+      <para>title of the message window. Only useful when a message is shown.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>depend</term><listitem>
+      <para>identifier of another event. This makes the current event depend
+      on the given event. Prior to event execution, the trigger conditions
+      for both events are checked, and the event is activated only if both
+      checks are successful. Mutual, circular, and transitive dependencies
+      are supported.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>discard</term><listitem>
+      <para>identifier of another event. When the current event is executed,
+      the given event is discarded from the event stack and removed from the
+      mission.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>flags</term><listitem>
+      <para>event flags. Currently, the only available flag is 1 (disable).
+      A disabled event will never execute, regardless of the trigger
+      conditions.</para>
+    </listitem></varlistentry>
+  </variablelist></para>
+
+  <para>In addition there are special qualifiers which can only be used
+  with certain event types or triggers. All of these are mandatory if
+  nothing else is stated.</para>
+
+  <variablelist>
+    <varlistentry><term>action (manipulateevent, mining, research)</term><listitem>
+      <para>For <emphasis>manipulateevent</emphasis> this defines how to
+      handle the specified flags. A value of 0 will set, 1 will clear,
+      and 2 will toggle the flags.</para>
+      <para>For <emphasis>mining</emphasis> 0 will set the crystal storage
+      to an absolute amount, 1 will modify the current amount by the given
+      number, 2 will set the mining rate, i.e. the amount mined each turn,
+      and 3 will change the current mining rate by the given value.
+      Minimum mining rate is 0, maximum is 200.</para>
+      <para>For <emphasis>research</emphasis> 0 allows and 1 disallows
+      producing the specified unit type. Default is 0.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>building (mining, research)</term><listitem>
+      <para>Identifier of the building referenced in the event.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>crystals (mining)</term><listitem>
+      <para>Amount of crystals. The <emphasis>action</emphasis> flag controls
+      how this number is actually interpreted.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>eflags (manipulateevent)</term><listitem>
+      <para>Event flags to be modified. Currently the only legal value
+      for this is 1, the disable flag, which can be used to deactivate
+      an event. Disabled events won't be triggered even if their trigger
+      conditions are met.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>event (manipulateevent, settimer)</term><listitem>
+      <para>Identifier of the event to be modified.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>face (createunit)</term><listitem>
+      <para>Direction the created unit faces [0-5]. Directions are numbered
+      clockwise from North (0) to Northwest (5). Optional, defaults to
+      0.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>offset (settimer)</term><listitem>
+      <para>Offset to use when adjusting the timer. 0 means absolute,
+      i.e.  set the trigger <emphasis>ttime</emphasis> to the value of
+      <emphasis>time</emphasis>. 1 means execution time, i.e. set it to
+      the value of <emphasis>time</emphasis> plus the current time index
+      when executing the event. 2 means current trigger configuration,
+      i.e. add the <emphasis>time</emphasis> to the trigger
+      <emphasis>ttime</emphasis>. Note that if the target event is
+      disabled, <emphasis>settimer</emphasis> will automatically enable
+      it.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>othermsg (score)</term><listitem>
+      <para>For score events, one often wants to show a message not only
+      to the player who benefits from the event but also to his opponent.
+      Instead of creating a separate <emphasis>message</emphasis> event
+      with inverted trigger conditions you can use this qualifier and
+      <emphasis>othertitle</emphasis> to do just that (optional).</para>
+    </listitem></varlistentry>
+    <varlistentry><term>othertitle (score)</term><listitem>
+      <para>Index of the message title for the other player (optional,
+      see <emphasis>othermsg</emphasis>)</para>
+    </listitem></varlistentry>
+    <varlistentry><term>owner (destroyunit)</term><listitem>
+      <para>Only destroy the unit if it is controlled by this player
+      [1,2,-1]. Optional, default is any player (-1).</para>
+    </listitem></varlistentry>
+    <varlistentry><term>pos (createunit)</term><listitem>
+      <para>hex to create the unit on. The unit will only be created if
+      the target hex is empty at creation time or there is a shop or a
+      valid transporter which is controlled by the player for whom the
+      event is set up [x/y].</para>
+    </listitem></varlistentry>
+    <varlistentry><term>pos (destroyunit)</term><listitem>
+      <para>hex to destroy the unit on [x/y]. The <emphasis>pos</emphasis>
+      parameter can only be used if <emphasis>unit</emphasis> is -1.
+      </para>
+    </listitem></varlistentry>
+    <varlistentry><term>pos (message)</term><listitem>
+      <para>hex to focus the display on when showing the message [x/y]
+      (optional). If this parameter is absent the game will try to
+      guess a suitable hex from the trigger data, e.g. a
+      <emphasis>havebuilding</emphasis> trigger will cause it to
+      use the shop location.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>pos (sethex)</term><listitem>
+      <para>hex to change. If the hex is occupied by a unit at the time
+      the event is executed it may end up on terrain it would not normally
+      be able to enter [x/y].</para>
+    </listitem></varlistentry>
+    <varlistentry><term>setting (configure)</term><listitem>
+      <para>Name of the setting you wish to change. Valid names are
+      <emphasis>briefing1</emphasis> for the briefing for the first
+      player, <emphasis>briefing2</emphasis> for the objectives for
+      the second player, and <emphasis>nextmap</emphasis> for the next
+      mission in a campaign.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>size (createunit)</term><listitem>
+      <para>Unit group size [1-6]. Optional, defaults to 6.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>success (score)</term><listitem>
+      <para>Amount of success points the player receives when the event
+      occurs. Any player with a success score of 100 or more wins the
+      game.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>unit (createunit, research)</term><listitem>
+      <para>Name of a unit type specification to build or make
+      available, respectively.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>unit (destroyunit)</term><listitem>
+      <para>Identifier of the unit to be destroyed. Set to -1 and configure
+      the <emphasis>pos</emphasis> parameter to destroy a unit in a specified
+      location instead.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>tbuilding (havebuilding, havecrystals)</term><listitem>
+      <para>Identifier of the building to be controlled. For
+      <emphasis>havecrystals</emphasis> this parameter may be set to -1
+      to check all shops a player controls, or to -2 to check all shops and
+      all transporters anywhere on the map.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>tcrystals (havecrystals)</term><listitem>
+      <para>Amount of crystals needed to trigger the event [-5000-5000]. If
+      the amount given is greater than 0 the player needs at least that many
+      crystals. If it is negative, the event occurs when the player's
+      resources drop below the absolute number.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>thandicap (handicap)</term><listitem>
+      <para>Handicap setting to trigger the event [1 (none)|2 (player
+      1 handicapped)|4 (player 2 handicapped)]. You can add up the
+      numbers to trigger on more than one setting.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>tile (sethex)</term><listitem>
+      <para>Identifier of the terrain the target hex will be changed to.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>time (settimer)</term><listitem>
+      <para>Time index. The <emphasis>offset</emphasis> flag controls in
+      what way this number is used to adjust the targetted trigger.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>towner (havebuilding, havecrystals, haveunit,
+                                unitdestroyed, unitposition)</term><listitem>
+      <para>The event will only occur if the owner of the building
+      or unit is the same as the player specified here [1|2]. For the
+      <emphasis>unitdestroyed</emphasis> trigger it is only required if
+      <emphasis>tunit</emphasis> is -1. In this case you can select the
+      player whose units have to be destroyed to activate the event. This
+      setting may be omitted and defaults to the player not owning the
+      event, while for <emphasis>havecrystals</emphasis> and
+      <emphasis>unitposition</emphasis> the default is the player owning
+      the event. You must supply this key for the other two trigger
+      types.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>ttime (havebuilding, haveunit, timer)</term><listitem>
+      <para>Time at which the event conditions should be checked. For
+      <emphasis>timer</emphasis> the event will always be executed at this
+      time. Time calculation starts with 0 at the start of a mission and
+      increases by 1 each time the players change. The movement phase of
+      player 2 on turn 10 is at time index 19 ((turn - 1) * 2 + (player - 1)),
+      for example. (mandatory only for <emphasis>timer</emphasis>. If omitted for the
+      other triggers, the condition will be checked each turn.)</para>
+    </listitem></varlistentry>
+    <varlistentry><term>tunit (haveunit, unitdestroyed, unitposition)</term><listitem>
+      <para>Identifier of the unit to be targeted. For
+      <emphasis>unitdestroyed</emphasis> and <emphasis>unitposition</emphasis>
+      this may take a value of -1 which will activate the event when all
+      enemy units have been destroyed or any unit controlled by this
+      player has reached the destination hex, respectively. For these two
+      triggers you can also use a unit type, e.g. <emphasis>Infantry</emphasis>
+      to target an entire unit class.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>tpos (unitposition)</term><listitem>
+      <para>Coordinates of the target hex [x/y]</para>
+    </listitem></varlistentry>
+    <varlistentry><term>value (configure)</term><listitem>
+      <para>Index of the message to use as the new briefing when changing
+      a briefing, file name of the next mission (excluding the suffix)
+      when setting the next map.</para>
+    </listitem></varlistentry>
+    <varlistentry><term>xp (createunit)</term><listitem>
+      <para>Initial experience level [0-6]. Optional, defaults to 0.</para>
+    </listitem></varlistentry>
+  </variablelist>
+  </refsect2>
+
+  <refsect2><title>messages</title>
+  <para>The <emphasis>messages</emphasis> section contains all text
+  messages that may possibly be displayed in the course of a mission. The
+  format of this section differs from that of the other sections. Here is
+  an excerpt from an imaginary level file.</para>
+
+  <programlisting>
+[messages(en)]
+This is a message.
+% this line separates messages
+This is the second message.
+% separator lines can be used for comments
+This is the third message,
+containing a line break.
+[/messages] this marks the end of the messages section
+  </programlisting>
+
+  <para>The two characters in brackets identify the language messages
+  in this section are written in. There is one messages section for each
+  language the mission supports. The <emphasis>(en)</emphasis> in the
+  section title shows that this section contains English messages. All
+  messages must be encoded in UTF-8.</para>
+  </refsect2>
+</refsect1>
+
+<refsect1><title>Example</title>
+<programlisting>
+### This is a simple example mission file
+
+[mission]
+# mission title is "The Great Example"
+name = 5
+mapwidth = 11
+mapheight = 10
+# the first message in the [messages] section
+# will be used as level information
+info = 0
+# we use the default tileset and unit set so we could
+# omit the next two lines
+tileset = default
+unitset = default
+
+[map]
+***...***..
+**...****.=
+*&lt;^1n]*..==
+**v..(..==~
+***...].=~~
+#=#.==!====
+======(]...
+%*.=...E^&gt;.
+%%..%...v..
+%%%%.%...**
+
+
+### first player - The Good
+[player]
+name = 6
+# second message is briefing for this player
+briefing = 1
+
+### second player - The Bad
+[player]
+name = 7
+# third message is briefing for this player
+briefing = 2
+
+
+### units for player 1
+
+[unit]
+# this unit will start in the building
+pos = 3/2
+player = 1
+id = 0
+type = Infantry
+
+[unit]
+pos = 5/4
+player = 1
+id = 1
+type = Medium Tanks
+
+[unit]
+pos = 6/3
+player = 1
+id = 2
+type = Medium Tanks
+
+[unit]
+pos = 3/2
+player = 1
+id = 3
+type = Scouts
+
+
+### units for player 2
+
+[unit]
+pos = 7/7
+player = 2
+id = 10
+type = Anti-Aircraft Tanks
+
+[unit]
+pos = 6/6
+player = 2
+id = 11
+type = Personnel Carriers
+
+[unit]
+pos = 7/6
+player = 2
+id = 12
+type = Infantry
+
+[unit]
+pos = 7/7
+player = 2
+id = 13
+type = Heavy Tanks
+
+
+### buildings
+
+# HQ of the Good
+[building]
+name = 8
+pos = 3/2
+id = 0
+player = 1
+# can repair units here
+type = workshop
+crystals = 25
+
+# HQ of the Bad
+[building]
+name = 9
+pos = 7/7
+id = 1
+player = 2
+# can repair and build units
+type = workshop
+type = factory
+# the following units can be built
+factory = personnel carriers
+factory = anti-aircraft guns
+factory = bomber wing
+crystals = 25
+
+### events
+
+# player 1 wins if he conquers
+# the enemy building at any time...
+[event]
+type = score
+id = 0
+player = 1
+trigger = havebuilding
+tbuilding = 1
+towner = 1
+# the next line could be left out
+ttime = -1
+success = 100
+message = 3
+title = 4
+
+# ...or destroys all enemy units
+[event]
+type = score
+id = 1
+player = 1
+trigger = unitdestroyed
+tunit = -1
+success = 100
+
+
+# player 2 wins if he conquers
+# the enemy building at any time...
+[event]
+type = score
+id = 2
+player = 2
+trigger = havebuilding
+tbuilding = 0
+towner = 2
+success = 100
+message = 3
+title = 4
+
+# ...or destroys all enemy units as well
+[event]
+type = score
+id = 3
+player = 2
+trigger = unitdestroyed
+tunit = -1
+success = 100
+
+# display briefings on first turn
+#
+[event]
+type = message
+id = 4
+player = 1
+trigger = timer
+ttime = 0
+title = 5
+message = 1
+
+# Even though time index 0 is during player 1's phase
+# we want to trigger the message for player 2 as well.
+# This way it gets queued for display during the turn
+# replay. Otherwise player 2 would only see the briefing
+# after his replay.
+[event]
+type = message
+id = 5
+player = 2
+trigger = timer
+ttime = 0
+title = 5
+message = 2
+
+# we want to support difficulty levels (handicaps)
+#
+# if player 1 is handicapped we allocate some more
+# crystals to players 2's factory
+[event]
+type = mining
+id = 6
+player = 2
+trigger = handicap
+# 1 is no handicap, 2 is player 1, 4 is player 2
+thandicap = 2
+building = 1
+action = 1
+crystals = 35
+
+# if player 2 is handicapped player 1 gets another tank
+[event]
+type = createunit
+id = 7
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Medium Tanks
+pos = 3/2
+
+### english messages
+
+[messages(en)]
+The Great Example
+Revision 6 (16-08-2004)
+by Jens Granseuer &lt;jensgr@gmx.net&gt;
+%
+This is a nice introductory message, so that player 1 knows what he is expected to do. Word wraps are done automatically, so don't include line breaks if you don't want them. So, Player 1, let's take them apart:
+
+Either conquer the enemy headquarters or destroy all their troops.
+%
+This should present the situation to player 2.
+
+You are being attacked. Defend yourself. The attack is considered repelled if you gain control of the enemy headquarters or the entire attacking army is no more.
+%
+This is the success message for conquering the enemy headquarters.
+Congratulations!
+%
+Hip! Hip! Hurrah!
+%
+The Great Example
+%
+The Good
+%
+The Bad
+%
+HQ of the Good
+%
+HQ of the Bad
+[/messages]
+</programlisting>
+</refsect1>
+
+<refsect1><title>Notes</title>
+  <para>The file format of level files (source and data) is
+  subject to change without notice. If you get an error <errortext>
+  &quot;File not of the required type&quot;</errortext>, it mostly should
+  be sufficient to feed the appropriate source file to
+  <command>cfed</command> again to create a valid level file. However, no
+  promises are being made. You have been warned!</para>
+
+  <para><command>cfed</command> will eventually be phased out in favour
+  of <command>CoMET</command>, the graphical map editor for
+  <command>crimson</command>.</para>
+</refsect1>
+
+<refsect1><title>See Also</title>
+  <para>
+    <citerefentry><refentrytitle>crimson</refentrytitle><manvolnum>6</manvolnum></citerefentry>,
+    <citerefentry><refentrytitle>bi2cf</refentrytitle><manvolnum>6</manvolnum></citerefentry>
+  </para>
+</refsect1>
+
+<refsect1><title>Copyright</title>
+  <para>Copyright &copy; 2000-2007 Jens Granseuer</para>
+  <para>This software is distributed under the terms of the
+  <ulink url="http://www.gnu.org/copyleft/gpl.html">GNU General Public
+  License</ulink> (GPL).</para>
+</refsect1>
+</refentry>
+

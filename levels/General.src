@@ -1,0 +1,983 @@
+[mission]
+name = 7
+mapwidth = 20
+mapheight = 20
+info = 10
+players = 1
+
+[map-raw]
+313,314,31,184,80,315,311,36,77,184,78,36,78,184,80,30,182,4,21,23
+31,299,192,20,181,309,77,178,204,81,177,183,178,80,203,203,176,30,24,36
+182,309,180,183,179,312,182,80,81,83,81,37,80,80,80,80,189,30,32,33
+176,322,38,343,311,30,202,81,84,86,85,81,81,79,80,207,185,177,36,33
+176,313,316,31,36,79,176,81,37,81,81,184,79,192,204,81,36,81,177,181
+176,30,342,310,79,78,205,80,81,81,182,117,183,180,81,84,83,85,37,202
+180,181,30,30,314,78,176,78,80,30,205,317,117,117,181,80,86,80,80,176
+53,176,30,30,313,314,176,78,80,315,296,30,314,207,179,79,37,79,79,202
+30,176,31,38,30,312,180,203,78,299,185,186,299,30,78,78,79,78,78,176
+30,176,30,30,315,31,30,317,183,312,77,176,309,77,77,36,78,37,77,205
+38,176,144,134,313,316,343,30,316,30,30,176,309,30,30,32,31,38,30,179
+30,188,30,30,134,134,30,31,30,38,30,176,313,342,37,317,30,30,182,30
+30,176,177,177,30,31,134,134,30,30,30,176,30,30,316,30,325,310,202,30
+30,176,30,56,177,177,30,30,134,147,30,179,30,38,30,343,312,30,295,316
+30,180,55,55,56,56,177,177,30,178,178,30,30,315,311,184,30,204,179,30
+30,30,177,177,55,55,30,178,201,177,30,30,30,309,204,20,203,181,30,38
+30,30,30,178,198,183,178,30,38,30,177,177,182,313,30,30,30,179,30,31
+30,178,178,30,30,30,31,30,30,30,30,30,194,177,310,310,204,30,30,30
+178,0,30,30,30,38,30,30,31,30,38,30,30,20,183,30,342,314,38,30
+22,24,23,30,30,30,30,54,30,54,30,30,30,30,31,30,30,312,30,30
+
+[player]
+name = 8
+briefing = 19
+
+[player]
+name = 9
+briefing = 19
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 8
+pos = 19/4
+size = 5
+xp = 3
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 9
+pos = 19/6
+size = 2
+xp = 6
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 10
+pos = 0/16
+face = 1
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 11
+pos = 1/16
+face = 1
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 12
+pos = 3/17
+face = 1
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 13
+pos = 0/17
+face = 1
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 14
+pos = 2/16
+face = 1
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 15
+pos = 2/18
+face = 1
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 16
+pos = 4/17
+face = 1
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 31
+pos = 19/8
+size = 4
+xp = 4
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 32
+pos = 13/5
+size = 3
+xp = 4
+face = 2
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 33
+pos = 12/5
+size = 2
+xp = 6
+face = 5
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 34
+pos = 6/4
+xp = 4
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 35
+pos = 7/1
+size = 5
+xp = 3
+face = 4
+
+[unit]
+type = Infantry
+player = 2
+id = 36
+pos = 8/3
+size = 3
+xp = 5
+
+[unit]
+type = Infantry
+player = 2
+id = 37
+pos = 15/8
+size = 3
+xp = 5
+
+[unit]
+type = Infantry
+player = 2
+id = 38
+pos = 8/8
+xp = 3
+
+[unit]
+type = Infantry
+player = 2
+id = 40
+pos = 14/3
+size = 1
+xp = 5
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 41
+pos = 14/4
+size = 2
+xp = 4
+face = 4
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 42
+pos = 18/6
+size = 4
+xp = 5
+
+[unit]
+type = Scouts
+player = 1
+id = 44
+pos = 6/15
+face = 1
+
+[unit]
+type = Personnel Carriers
+player = 1
+id = 45
+pos = 1/15
+face = 1
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 51
+pos = 5/17
+face = 1
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 52
+pos = 4/18
+face = 1
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 53
+pos = 3/18
+face = 1
+
+[unit]
+type = Scouts
+player = 2
+id = 54
+pos = 7/7
+size = 2
+xp = 6
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 1
+pos = 10/3
+size = 4
+xp = 5
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 2
+pos = 16/2
+size = 4
+xp = 6
+
+[unit]
+type = Bunkers
+player = 2
+id = 0
+pos = 15/0
+
+[unit]
+type = Bunkers
+player = 2
+id = 3
+pos = 17/1
+
+[unit]
+type = Bunkers
+player = 2
+id = 4
+pos = 17/2
+
+[unit]
+type = Bunkers
+player = 2
+id = 5
+pos = 9/6
+
+[unit]
+type = Bunkers
+player = 2
+id = 6
+pos = 11/7
+
+[unit]
+type = Bunkers
+player = 2
+id = 7
+pos = 13/8
+
+[unit]
+type = Artillery
+player = 1
+id = 17
+pos = 1/18
+
+[unit]
+type = Artillery
+player = 1
+id = 18
+pos = 1/18
+
+[unit]
+type = Scouts
+player = 1
+id = 20
+pos = 1/18
+
+[unit]
+type = Infantry
+player = 1
+id = 21
+pos = 1/18
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 22
+pos = 1/18
+
+[unit]
+type = Infantry
+player = 1
+id = 23
+pos = 1/18
+
+[unit]
+type = Medium Tanks
+player = 0
+id = 24
+pos = 13/18
+
+[unit]
+type = Scouts
+player = 0
+id = 25
+pos = 13/18
+
+[unit]
+type = Infantry
+player = 0
+id = 26
+pos = 3/1
+
+[unit]
+type = Infantry
+player = 0
+id = 27
+pos = 3/1
+
+[unit]
+type = Hovercraft
+player = 0
+id = 28
+pos = 3/1
+
+[unit]
+type = Infantry
+player = 2
+id = 29
+pos = 17/0
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 30
+pos = 17/0
+
+[unit]
+type = Artillery
+player = 0
+id = 46
+pos = 15/15
+
+[unit]
+type = Artillery
+player = 0
+id = 47
+pos = 15/15
+
+[unit]
+type = Hovercraft
+player = 0
+id = 48
+pos = 15/15
+
+[unit]
+type = Heavy Tanks
+player = 0
+id = 49
+pos = 15/15
+
+[unit]
+type = Medium Tanks
+player = 0
+id = 50
+pos = 15/15
+
+[building]
+name = 3
+player = 2
+id = 0
+pos = 17/0
+type = workshop
+crystals = 100
+
+[building]
+name = 4
+player = 1
+id = 1
+pos = 1/18
+type = workshop
+crystals = 50
+
+[building]
+name = 2
+player = 0
+id = 2
+pos = 3/1
+type = workshop
+crystals = 10
+
+[building]
+name = 1
+player = 0
+id = 3
+pos = 15/15
+type = workshop
+crystals = 10
+
+[building]
+name = 0
+player = 0
+id = 4
+pos = 13/18
+type = workshop
+crystals = 20
+
+[event]
+id = 0
+type = createunit
+player = 2
+trigger = timer
+ttime = 19
+unit = Medium Tanks
+pos = 17/0
+face = 0
+
+[event]
+id = 1
+type = createunit
+player = 2
+trigger = timer
+ttime = 19
+unit = Heavy Tanks
+pos = 17/0
+face = 0
+
+[event]
+id = 2
+type = createunit
+player = 2
+trigger = timer
+ttime = 19
+unit = Medium Tanks
+pos = 17/0
+face = 0
+
+[event]
+id = 3
+type = createunit
+player = 2
+trigger = timer
+ttime = 19
+unit = Medium Tanks
+pos = 17/0
+face = 0
+
+[event]
+id = 4
+type = createunit
+player = 2
+trigger = timer
+ttime = 19
+unit = Infantry
+pos = 17/0
+face = 0
+
+[event]
+id = 5
+type = createunit
+player = 2
+trigger = timer
+ttime = 19
+unit = Medium Tanks
+pos = 17/0
+face = 0
+
+[event]
+id = 6
+type = createunit
+player = 2
+trigger = timer
+ttime = 19
+unit = Scouts
+pos = 17/0
+face = 0
+
+[event]
+id = 7
+type = score
+player = 2
+title = 17
+message = 18
+trigger = havebuilding
+tbuilding = 1
+towner = 2
+ttime = -1
+success = 100
+othermsg = 15
+othertitle = 14
+
+[event]
+id = 8
+type = score
+player = 1
+title = 12
+message = 13
+trigger = havebuilding
+tbuilding = 0
+towner = 1
+ttime = -1
+success = 100
+othermsg = 16
+othertitle = 14
+
+[event]
+id = 9
+type = score
+player = 1
+title = 17
+message = 13
+trigger = unitdestroyed
+tunit = -1
+towner = 2
+success = 100
+othermsg = 16
+othertitle = 14
+
+[event]
+id = 10
+type = score
+player = 2
+title = 17
+message = 18
+trigger = unitdestroyed
+tunit = -1
+towner = 1
+success = 100
+othermsg = 15
+othertitle = 14
+
+[event]
+id = 11
+type = message
+player = 1
+title = 7
+message = 6
+pos = 1/18
+trigger = timer
+ttime = 0
+
+[event]
+id = 12
+type = message
+player = 1
+depend = 0
+message = 11
+pos = 17/0
+trigger = timer
+ttime = 19
+
+[event]
+id = 13
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 5
+unit = Scouts
+pos = 2/13
+face = 1
+
+[event]
+id = 14
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 5
+unit = Artillery
+pos = 1/18
+face = 0
+
+[event]
+id = 15
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 3
+unit = Infantry
+pos = 19/11
+face = 3
+
+[event]
+id = 16
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Infantry
+pos = 1/18
+face = 0
+
+[event]
+id = 17
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Hovercraft
+pos = 1/18
+face = 0
+
+[event]
+id = 18
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Heavy Tanks
+pos = 1/18
+face = 0
+
+[event]
+id = 20
+type = message
+player = 2
+title = 7
+message = 5
+pos = 17/0
+trigger = timer
+ttime = 0
+
+[event]
+id = 19
+type = message
+player = 2
+depend = 0
+message = 20
+pos = 17/0
+trigger = timer
+ttime = 19
+
+[messages(de)]
+Sarot
+%
+Wenyn
+%
+Frumm
+%
+Imperiales Hauptquartier
+%
+Rebellenhauptquartier
+%
+Imperiales Hauptquartier, Sektor Q-158
+
+General Wintok, wir haben beunruhigende Nachrichten von unseren Aufklärern erhalten. Die letzten Rebellenoperationen haben unsere Verbindungen nach Norden gekappt. Zusätzlich rücken Truppen der Rebellen vom Süden her an, um diesen Sektor zu erobern. Die imperiale Führung verlangt von uns, um jeden Preis die Stellung zu halten. Verstärkung ist bereits unterwegs, aber es ist ungewiss, ob sie rechtzeitig eintreffen wird.
+
+Sir, unsere Truppen haben durch die vorangegangenen Artillerieangriffe der Rebellen Schaden genommen, doch sie sind sehr erfahren und hochmotiviert - bereit, zum Schutz der imperialen Interessen in diesem Sektor ehrenvoll zu kämpfen und sich zu opfern. Wir sind alle sehr dankbar, dass Sie in dieser Stunde an unserer Seite sind.
+
+Lang lebe der Imperator!
+%
+Unsere letzten Operationen waren erfolgreich. Durch die Unterstützung unserer Artillerie haben wir die Straßenverbindungen des imperialen Hauptquartiers in der Sarotebene nach Norden hin gekappt. Gestern erreichten uns Geheimdienstberichte, dass der hochrangige General Wintok die imperialen Verteidigungsanstrengungen in diesem Sektor persönlich beaufsichtigt. Bisher konnte der General wegen der Schäden, die wir dem Imperium zugefügt haben, den Sektor noch nicht verlassen. Dies ist unsere große Chance, das imperiale Hauptquartier zu erobern und den General gefangenzunehmen.
+
+Trotz unserer vorangegangenen Artillerieoffensive sollten Sie mit heftigem Widerstand seitens der sehr erfahrenen imperialen Einheiten rechnen. Dem Imperium ist seine Schwäche in diesem Sektor bewusst und es hat seine Truppen angewiesen, bis zum letzten Mann zu kämpfen und General Wintok zu beschützen. Zusätzlich berichten unsere Aufklärer von einem feindlichen Trupp, der sich von Norden her auf die Sarotebene zubewegt. Wir kennen seine Befehle nicht, doch wir müssen davon ausgehen, dass er zu den Truppen des Generals hinzustoßen wird.
+
+Uns ist bewusst, dass dies eine harte Mission werden wird und eigentlich Ihr Fronturlaub bevorsteht, jedoch können wir uns einen Misserfolg bei dieser Schlüsseloperation nicht leisten. Wir haben Ihnen Nachricht von Ihrer Frau und Ihrem Sohn weitergeleitet. Sie sind beide sehr stolz auf Sie und bewundern Ihre Hingabe für unsere Sache.
+
+Für einen freien Nexus!
+%
+Der General
+%
+Armee Freier Nexus
+%
+Imperium von Kand
+%
+Der General
+
+von Marcus Schreiner <marcus.schreiner@gmx.net>
+%
+Die imperialen Verstärkungen sind eingetroffen. Commander, wir weisen noch einmal auf die große Bedeutung dieser Mission hin. Sie müssen General Wintok um jeden Preis gefangennehmen!
+%
+Imperiales Hauptquartier erobert.
+%
+Sir, unseren Spezialeinheiten ist es gelungen, General Wintok gefangenzunehmen, obwohl er sich das Leben nehmen wollte. Dies ist ein großer Erfolg und wird für unsere weiteren Operationen von großer Bedeutung sein. Unsere Verhörexperten werden alles daran setzen, nützliche Informationen aus General Wintok herauszupressen.
+%
+Mission fehlgeschlagen!
+%
+Es ist Ihnen nicht gelungen, General Wintok gefangenzunehmen.
+%
+Als sich die roten Punkte auf Ihrem taktischen Bildschirm dem Kommandoraum nähern, können Sie bereits Schüsse in den Korridoren hören. Plötzlich wird die Tür Ihres Kommandoraumes aus den Angeln gerissen und feindliche Soldaten stürmen herein. Sie sind nun Gefangener der Armee Freier Nexus.
+%
+Mission erfolgreich!
+%
+Wir haben unsere Position in Sektor Q-158 erfolgreich halten können und die Rebellen besiegt. Der Imperator wird zufrieden sein.
+%
+Missionsziele:
+
+(1) Zerstören Sie alle gegnerischen Einheiten.
+
+oder
+
+(2) Erobern Sie den Stützpunkt.
+%
+Sir, unsere Verstärkungen sind endlich eingetroffen. Nun sollte es uns ein Leichtes sein, die Rebellen aus diesem Sektor zu jagen.
+[/messages]
+
+[messages(en)]
+Sarot
+%
+Wenyn
+%
+Frumm
+%
+Imperial HQ
+%
+Rebel HQ
+%
+Imperial Headquarters, Sector Q-158
+
+General Wintok, we have received alarming reports from our scouts. The recent rebel operations have destroyed our road connections to the north. Additionaly, rebel forces are approaching from the south to conquer this sector. Imperial Command demands from us to hold the fort at all costs. They are sending reinforcements but it is unsure if they arrive in time.
+
+Sir, our troops have taken damage in previous rebel artillery attacks but we have highly experienced and motivated troops who are willing to fight and die in honour to protect Imperial interests in this sector. We all appreciate your presence by our side in these tough times.
+
+Long live the Emperor!
+%
+After the success in our recent operations and support of our artillery we have almost cut off the Imperial HQ on the Sarot plains from any road connections to the north. Yesterday we received intelligence information that the highly ranked General Wintok was overseeing the Imperial defense efforts in this sector. Due to the damage we have inflicted on the Empire the General was not able to leave.
+This is our chance to conquer the Imperial HQ and capture the General in the process.
+
+Despite our previous artillery offensive you are going to face heavy resistance by the remaining highly experienced Imperial units. The Empire has already recognised its weakness in this sector and ordered their troops to fight to a man to protect General Wintok. In addition to that our scouts have sighted an enemy platoon moving south towards the plains. We do not know their orders but for now we must assume that these may bolster up the General's forces.
+
+We know this will be a tough mission, Commander, and you were expecting furlough now but this is a key operation we cannot allow to be a failure. We have attached a message of your wife and son who are proud of you and admire your dedication to our mission.
+
+For a free Nexus!
+%
+The General
+%
+Free Nexus Army
+%
+Empire of Kand
+%
+The General
+
+by Marcus Schreiner <marcus.schreiner@gmx.net>
+%
+The Imperial reinforcements have arrived! Commander, we emphasise the importance of this mission. You have to capture General Wintok at all costs!
+%
+Imperial HQ captured!
+%
+Sir, our special forces units have captured General Wintok while he was trying to kill himself. This is a huge success for our future operations. Our interrogators will surely be able to retrieve valuable information from him.
+%
+Mission failed!
+%
+You failed to capture General Wintok.
+%
+When the red blips on your tactical display reach your command center you can already hear the gunfire in the corridor. Then  the door to your control room is blown off its hinges and enemy infantrymen rush in. You are now a prisoner of the Free Nexus Army.
+%
+Mission accomplished!
+%
+We have successfully defended our position in sector Q-158. The rebels have been defeated. The Emperor will be pleased.
+%
+Mission objectives:
+
+(1) Destroy all enemy forces.
+
+or
+
+(2) Conquer the base.
+%
+Sir, our reinforcements have finally arrived. It should now be easy for us to clean this sector from rebel scum.
+[/messages]
+
+[messages(fr)]
+Sarot
+%
+Wenyn
+%
+Frumm
+%
+QG impérial
+%
+QG des rebelles
+%
+Quartier Général impérial, Secteur Q-158
+
+Général Wintok, nous avons reçu des rapports inquiétants de nos éclaireurs. Les opérations récentes des rebelles ont détruits nos voies routières vers le Nord. De plus, les forces rebelles approchent depuis le Sud pour teneter de conquérir ce secteur. Le Haut Commandement Impérial nous ordonne de tenir nos positions à tout prix. Ils ont envoyés des renforts mais nous ne savons pas s'ils arriveront à temps.
+
+Général, nos troupes ont subis d'importants dégâts pendant les récents pilonnages de l'artillerie rebelle mais nous disposons encore de troupes très expérimentées et motivées, qui veulent se battre et mourir honorablement pour protéger les intérêts de l'Empire dans ce secteur. Nous apprécions tous votre présence à nos côtés pendant ces périodes difficiles.
+
+Vive l'Empereur!
+%
+Après le succès de nos opérations récentes et avec l'appui de notre artillerie, nous avons presque coupé le quartier général impérial dans les plaines de Sarot de toute liaison avec le Nord. Hier, nos services de renseignements nous ont fait part de la présence d'un haut gradé, le général Wintok, qui surveille les efforts défensifs des impériaux dans ce secteur. A cause des dégâts que nous avons provoqués aux forces de l'Empire, le général n'a pas pu se retirer. Nous ne devons pas laisser passer cette chance de conquérir le quartier général impérial et de capturer le Général en même temps.
+
+Malgré notre offensive précédente d'artillerie, vous allez rencontrer une résistance importante de la part des forces impériales restantes, des vétérans. L'Empire a déjà reconnu sa faiblesse dans ce secteur et à donné l'ordre à ses troupes de combattre jusqu'au dernier pour protéger le général Wintok. De plus, nos éclaireurs ont repéré un détachement ennemi en route vers les plaines au Sud. Nous ne connaissons pas leurs ordres mais nous devons considérer pour le moment qu'ils viennent renforcer les troupes du Général.
+
+Nous savons que cette mission sera difficile, Commandant, et que vous attendiez une relève mais c'est aussi une opération-clé pour laquelle nous ne pouvons pas accepter d'échec. Nous avons joint à notre courrier un message de votre femme et de votre fils qui sont fiers de vous et qui admirent votre dévouement à notre cause.
+
+Vive le Nexus Libre!
+%
+Le Général
+%
+Armée du Nexus Libre
+%
+Empire de Kand
+%
+Le Général
+
+par Marcus Schreiner <marcus.schreiner@gmx.net>
+traduction française: Benoit Peureux <benoit.peureux@wanadoo.fr>
+%
+Les renforts impériaux sont arrivés!
+Commandant, nous attirons votre attention sur l'importance de cette mission. Vous devez capturer le général Wintok à tout prix!
+%
+QG impérial capturé!
+%
+Commandant, nos forces spéciales ont capturé le général Wintok alors qu'il tentait de se tuer. C'est un grand succès pour nos opérations futures. Nos services de renseignement parviendront sûrement à lui soustirer des informations capitales.
+%
+Echec de la mission!
+%
+Vous n'avez pas capturé le général Wintok.
+%
+Lorsque les points rouges sur votre écran tactique arrivèrent au centre de commande, vous pouviez déjà entendre les fusillades dans les corridors. Puis la porte du centre de commande a sauté de ses gonds laissant l'infanterie ennemie y pénètrer rapidement. Vous êtes maintenant prisonnier de l'Armée du Nexus Libre.
+%
+Mission accomplie!
+%
+Nous avons réussi à maintenir nos positions dans le secteur Q-158 avec succès. Les rebelles ont été vaincu. L'Empereur en sera fort satisfait.
+%
+Objectifs de la mission:
+
+(1) Détruire toute force ennemie.
+
+ou
+
+(2) Conquérir la base.
+%
+Général, nos renforts sont enfin arrivés. Nous devrions pouvoir facilement purger ce secteur des vermines rebelles!
+[/messages]
+
+[messages(pl)]
+Sarot
+%
+Wenyn
+%
+Frumm
+%
+Sztab Imperium
+%
+Sztab rebelii
+%
+Sztab Imperium, Sektor Q-158
+
+Generale Wintok, otrzymaliśmy alarmujące raporty od zwiadowców. Ostatnie działania rebeliantów zniszczyły nasze drogi na północ. Co gorsza siły rebelii nadchodzą z południa żeby zdobyć ten sektor. Imperialne Dowództwo domaga się od nas utrzymania fortu za wszelką cenę. Przysyłają wsparcie, ale nie wiadomo czy dojdzie ono na czas.
+
+Sir, nasze wojsko odniosło uszkodzenia w dotychczasowym rebelianckim ostrzale artyleryjskim. Mamy jednak dobrze wyszkolone i zmotywowane jednostki, chętne walczyć i umierać w imię ochrony interesów Imperium w tym sektorze. Wszyscy doceniamy Pana obecność przy nas w tym ciężkim okresie.
+
+Niech żyje Imperator!
+%
+Po sukcesie naszych ostatnich operacji i wsparciu ze strony artylerii udało nam się prawie całkowicie odciąć sztab Imperium na równinach Sarot od jakichkolwiek dróg na północy. Wczoraj dotarły informacje wywiadowcze że wysokiej rangi Generał Wintok nadzoruje Imperialną obronę w tym sektorze. Ze względu na zadane przez nas Imperium uszkodzenia Generał nie mógł się wydostać. To nasza szansa na zdobycie Imperialnego sztabu i pojmanie przy tym Generała.
+
+Mimo naszej poprzedniej ofensywy artyleryjskiej musi się Pan zmierzyć z ciężkim oporem ze strony pozostałych przy życiu świetnie wyszkolonych jednostek Imperialnych. Imperium zdało już sobie sprawę ze swojej słabości w tym sektorze i wydało rozkaz walki do ostatniego człowieka żeby ochronić Generała Wintoka. W dodatku nasi zwiadowcy zobaczyli wrogi pluton przemieszczający się na południe przez równinę. Nie znamy ich rozkazów, ale musimy założyć że mają wzmocnić siły Generała.
+
+Wiemy Komandorze że będzie to ciężka misja a oczekiwał Pan przepustki ale jest to kluczowa operacja która musi się powieść. Dołączamy wiadomość od Pana żony i syna, którzy są z Pana dumni i doceniają Pańskie zaangażowanie w naszą misję.
+
+Za wolny Nexus!
+%
+Generał
+%
+Wolna Armia Nexusu
+%
+Imperium Kandyjskie
+%
+Generał
+
+autor: Marcus Schreiner <marcus.schreiner@gmx.net>
+%
+Przybyły Imperialne posiłki! Komandorze, podkreślamy znaczenie tej misji. Musisz pojmać Generała Wintoka za wszelką cenę!
+%
+Kwatera główna Imperium zdobyta!
+%
+Sir, nasze siły specjalne pojmały Generała Wintoka w trakcie próby samobójstwa. To olbrzymi sukces, który wspomoże nasze przyszłę działąnia. Nasz zespół przesłuchujący na pewno wydostanie z niego wartościowe informacje.
+%
+Misja nieudana!
+%
+Nie udało Ci się pojmać Generała Wintoka.
+%
+Gdy czerwone kropki na wyświetlaczu taktycznym docierają do centrum dowodzenia, już słychać strzały w korytarzu. Potem drzwi zostają wysadzone z zawiasów i wpada przez nie wrogi żołnierz. Jesteś teraz więźniem Wolnej Armii Nexusu.
+%
+Misja wykonana!
+%
+Udało nam się obronić nasze pozycje w sektorze Q-158. Rebelianci zostali pokonani. Imperator będzie zadowolony
+%
+Wytyczne misji:
+
+(1) Zniszczyć wszystkie siły wroga.
+
+lub
+
+(2) Zdobyć bazę.
+%
+Sir, nareszcie dotarły nasze posiłki. Teraz wyczyszczenie tego sektora z rebelianckich szumowin powinno być łatwe.
+[/messages]
+
+[messages(sk)]
+Sarot
+%
+Wenyn
+%
+Frumm
+%
+Centrála Impéria
+%
+Centrála povstalcov
+%
+Centrála Impéria, Sektor Q-158
+
+Generál Wintok, od našich prieskumníkov sme dostali znepokojujúce správy. Cestné spojenie na sever nám rebeli zničili počas nedávnych operácií. Ďalšie povstalecké vojská postupujú z juhu, aby tento sektor úplne dobyli. Vedenie Impéria od nás vyžaduje, aby sme toto opevnenie udržali za každú cenu. Posielajú nám posily, ale nevieme, či dokážu prísť včas.
+
+Naše jednotky pod doterajšou delostreleckou paľbou utŕžili ťažké straty, no v oblasti máme k dispozícii skúsené a vysoko motivované jedntoky, ktoré sú ochotné biť sa do posledného muža, aby ochraňovali imperiálne záujmy v zóne. Oceňujeme, že si v týchto ťažkých časoch na našej strane.
+
+Nech žije cisár!
+%
+Po úspechu našich posledných operácii s podporou nášho delostrelectva sme imperiálnej centrále na Sarotských planinách takmer odrezali cestné spojenie na sever. Včera sme dostali správu tajnej služby, že na imperiálnu obranu v oblasti dozeral vysokopostavený generál Wintok. Kvôli škodám, ktoré sme Impériu spôsobili, nemohol generál oblasť opustiť.
+Toto je naša príležitosť obsadiť centrálu Impéria a pritom zajať generála.
+
+Napriek našej úspešnej delostreleckej paľbe budú zvyšné skúsené imperiálne jednotky klásť tvrdý odpor. Impérium už zistilo, že v tejto oblasti má slabinu a vojská majú príkaz ochraňovať generála Wintoka za cenu vlastného života. Navyše naši vyzvedači zbadali nepriateľskú čatu, ako sa presúva na juh. Nevieme, aké majú rozkazy, ale nateraz musíme predpokladať, že sa ponáhľajú generálovým silám na pomoc.
+
+Vieme, že táto misia bude veľmi ťažká, veliteľ, no napriek plánovanej dovolenke zdôrazňuejme, že v tejto kľúčovej operácii si nemôžeme dovoliť zlyhať. Prikladáme rodinný odkaz, v ktorej tvoja žena a syn vyjadrujú svoju pýchu a oceňujú tvoju oddanosť našej misii.
+
+Za slobodný Nexus!
+%
+Generál
+%
+Armáda za slobodný Nexus
+%
+Kandské Impérium
+%
+Generál
+
+autor Marcus Schreiner <marcus.schreiner@gmx.net>
+%
+Imperiálne posily práve dorazili! Veliteľ, musíme zdôrazniť dôležitosť tejto misie. Musíš generála zajať za každú cenu!
+%
+Dobyli sme centrálu Impéria!
+%
+Pane, naše špeciálne jednotky zajali generála Wintoka pri pokuse spáchať samovraždu. Toto pre naše budúce plány predstavuje obrovský úspech. Naši vyšetrovatelia od neho určite získajú cenné informácie.
+%
+Misia neúspešná!
+%
+Nepodarilo sa ti zajať Generála Wintoka.
+%
+Keď červené bodky na taktickej obrazovke dosiahli veliteľské stanovište, na chodbe už bolo počuť streľbu. Potom nepriateľskí vojaci vyrazili dvere z pántov a vbehli do miestnosti. Teraz si zajatcom Armády za slobodný Nexus.
+%
+Misia splnená!
+%
+Úspešne si naše stanovisko v sektore Q-158 obránil. Porazil si povstalcov. Cisár bude spokojný.
+%
+Ciele misie:
+
+(1) Znič všetky nepriateľské jednotky.
+
+alebo
+
+(2) Obsaď nepriateľskú základňu.
+%
+Pane, konečne dorazili naše posily. Teraz by už malo byť jednoduché vyčistiť oblasť od povstaleckých psov.
+[/messages]
+

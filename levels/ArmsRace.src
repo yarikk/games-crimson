@@ -1,0 +1,801 @@
+[mission]
+name = 3
+mapwidth = 36
+mapheight = 29
+info = 0
+players = 2
+
+[map-raw]
+117,117,117,117,117,117,117,117,30,30,30,30,30,30,81,82,81,30,30,30,30,30,117,117,117,30,30,30,30,30,117,117,117,117,117,123
+30,30,30,30,30,30,117,117,117,118,117,81,30,79,30,30,30,30,30,38,30,30,30,30,78,30,30,30,30,81,30,30,117,117,120,125
+30,22,21,6,30,31,30,30,120,119,121,117,117,117,30,117,117,117,117,117,117,30,30,30,30,30,30,30,30,81,81,30,30,30,117,117
+82,30,24,30,177,177,30,30,117,120,118,121,117,117,117,117,117,120,118,121,117,117,117,30,117,117,117,30,30,30,81,30,30,117,117,117
+82,81,30,30,30,30,177,177,117,117,119,117,117,117,81,81,81,117,119,120,118,121,38,30,117,117,117,117,117,30,30,30,30,30,117,117
+81,30,30,30,30,30,117,117,177,177,117,117,38,117,117,117,81,30,117,117,119,117,117,117,30,117,117,118,117,117,30,30,30,30,81,117
+30,30,82,81,117,117,117,117,117,117,181,30,30,30,30,30,30,54,30,30,117,117,30,30,38,117,120,119,121,30,30,30,30,81,81,117
+117,117,117,117,117,118,117,30,30,30,176,30,30,79,81,83,30,30,30,30,30,30,30,30,30,30,117,117,117,117,117,30,30,79,81,117
+117,117,117,117,120,119,121,117,30,81,176,30,30,81,84,86,85,30,30,182,184,11,30,30,30,117,117,117,117,118,117,117,30,30,30,117
+117,30,117,117,117,117,117,81,30,30,176,30,30,30,82,81,38,38,38,176,22,24,23,30,30,30,117,117,120,119,121,117,30,30,30,30
+117,30,30,120,118,121,117,30,30,30,180,177,30,30,30,38,38,38,38,179,30,30,30,81,81,78,38,123,118,124,117,117,117,30,30,30
+117,117,30,30,119,117,30,81,81,81,30,30,177,177,31,81,81,178,178,31,117,117,117,117,117,117,120,125,122,126,121,79,30,30,30,117
+117,117,117,30,30,30,30,117,117,117,117,30,30,30,177,177,182,36,32,117,117,117,117,117,117,117,117,117,119,117,30,30,30,117,117,120
+118,121,38,38,38,117,117,117,117,30,30,78,81,30,31,32,194,177,33,31,117,30,30,117,117,117,117,30,30,30,30,30,30,30,117,117
+119,30,38,81,117,117,117,117,117,117,117,117,30,30,117,117,33,33,177,191,30,30,79,30,30,117,117,30,117,117,117,30,30,30,30,30
+117,30,38,81,81,117,117,123,118,124,117,117,117,120,118,121,117,32,31,179,177,177,30,30,30,30,30,30,117,118,117,117,117,30,30,82
+30,30,30,117,117,117,120,125,122,126,121,117,117,117,119,117,31,178,178,81,82,30,177,177,30,30,30,30,120,119,121,117,77,78,82,82
+117,30,30,30,117,117,117,118,119,117,81,30,81,117,117,30,182,30,30,30,30,30,30,30,177,181,30,117,117,117,117,30,30,30,30,30
+117,117,30,77,81,117,120,119,121,117,117,30,30,30,30,30,176,30,30,30,81,79,30,30,81,176,30,30,117,117,117,117,117,117,30,117
+30,30,30,81,82,117,117,117,117,117,82,81,30,30,30,11,179,30,30,84,83,85,53,31,30,176,30,30,117,117,117,118,117,117,117,117
+30,117,30,82,117,117,117,117,117,117,117,83,30,30,22,24,23,30,30,81,86,81,82,30,30,176,30,30,30,117,120,119,121,117,117,117
+30,30,30,117,117,117,117,30,78,30,84,86,85,30,38,30,30,30,82,81,78,30,30,30,30,180,117,117,117,117,117,117,81,30,30,30
+82,30,38,38,117,117,117,117,117,30,30,30,38,38,38,38,30,30,30,30,30,30,30,30,117,117,177,177,117,117,30,30,30,30,30,82
+38,117,117,30,117,120,118,121,117,117,117,38,38,38,38,117,117,78,30,30,30,30,117,117,117,118,117,117,177,177,30,30,30,30,81,82
+81,82,30,30,30,117,119,117,117,117,117,117,38,117,117,117,117,117,117,117,117,117,117,117,120,119,121,118,117,30,177,177,30,21,30,81
+82,30,30,30,30,30,117,117,117,117,117,30,38,120,118,121,117,30,31,117,117,117,78,30,117,117,120,119,121,30,30,30,4,24,23,30
+117,117,117,30,30,30,30,30,30,30,30,30,30,30,119,117,117,117,117,117,30,117,117,117,117,117,117,30,30,30,30,30,78,30,30,30
+117,117,117,117,117,30,81,30,30,30,30,117,30,30,30,30,30,30,30,30,30,30,30,30,117,117,117,117,117,117,117,81,82,30,30,117
+117,82,81,117,117,117,117,117,30,30,117,117,117,117,30,30,30,81,82,82,81,82,30,30,30,30,30,117,117,118,117,117,117,117,117,117
+
+[player]
+name = 4
+briefing = 1
+
+[player]
+name = 5
+briefing = 2
+
+##### UNITS #####
+
+[unit]
+type = Infantry
+player = 1
+id = 1
+pos = 4/2
+face = 2
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 3
+pos = 5/2
+face = 2
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 4
+pos = 5/3
+face = 2
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 5
+pos = 5/4
+face = 2
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 6
+pos = 6/3
+face = 2
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 7
+pos = 7/9
+face = 2
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 8
+pos = 7/10
+face = 2
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 9
+pos = 8/9
+face = 2
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 10
+pos = 8/10
+face = 2
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 11
+pos = 8/11
+face = 2
+
+[unit]
+type = Scouts
+player = 1
+id = 12
+pos = 9/10
+face = 2
+
+[unit]
+type = Scouts
+player = 1
+id = 13
+pos = 11/22
+face = 1
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 14
+pos = 12/22
+face = 1
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 15
+pos = 12/23
+face = 1
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 16
+pos = 13/21
+face = 1
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 21
+pos = 6/4
+face = 2
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 22
+pos = 13/22
+face = 1
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 23
+pos = 13/23
+face = 1
+
+[unit]
+type = Infantry
+player = 2
+id = 52
+pos = 31/25
+face = 5
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 57
+pos = 30/23
+face = 5
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 58
+pos = 30/24
+face = 5
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 59
+pos = 30/25
+face = 5
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 60
+pos = 29/24
+face = 5
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 61
+pos = 29/23
+face = 5
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 63
+pos = 24/7
+face = 4
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 64
+pos = 24/8
+face = 4
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 65
+pos = 23/6
+face = 4
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 66
+pos = 23/7
+face = 4
+
+[unit]
+type = Scouts
+player = 2
+id = 67
+pos = 23/8
+face = 4
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 68
+pos = 24/9
+face = 4
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 69
+pos = 27/15
+face = 5
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 70
+pos = 27/16
+face = 5
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 71
+pos = 26/15
+face = 5
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 72
+pos = 26/16
+face = 5
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 73
+pos = 26/17
+face = 5
+
+[unit]
+type = Scouts
+player = 2
+id = 74
+pos = 25/15
+face = 5
+
+[unit]
+type = Personnel Carriers
+player = 1
+id = 2
+pos = 4/3
+face = 2
+
+[unit]
+type = Personnel Carriers
+player = 2
+id = 56
+pos = 31/24
+face = 5
+
+[unit]
+type = Personnel Carriers
+player = 1
+id = 19
+pos = 3/2
+
+[unit]
+type = Personnel Carriers
+player = 2
+id = 55
+pos = 32/25
+
+[unit]
+type = Infantry
+player = 1
+id = 0
+pos = 3/2
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 17
+pos = 3/2
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 18
+pos = 3/2
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 20
+pos = 3/2
+
+[unit]
+type = Infantry
+player = 2
+id = 51
+pos = 32/25
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 53
+pos = 32/25
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 54
+pos = 32/25
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 62
+pos = 32/25
+
+[unit]
+type = Infantry
+player = 0
+id = 100
+pos = 21/8
+
+[unit]
+type = Scouts
+player = 0
+id = 101
+pos = 21/8
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 0
+id = 102
+pos = 21/8
+
+[unit]
+type = Medium Tanks
+player = 0
+id = 103
+pos = 21/8
+
+[unit]
+type = Medium Tanks
+player = 0
+id = 104
+pos = 21/8
+
+[unit]
+type = Medium Tanks
+player = 0
+id = 105
+pos = 21/8
+
+[unit]
+type = Heavy Tanks
+player = 0
+id = 106
+pos = 21/8
+
+[unit]
+type = Infantry
+player = 0
+id = 110
+pos = 15/19
+
+[unit]
+type = Scouts
+player = 0
+id = 111
+pos = 15/19
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 0
+id = 112
+pos = 15/19
+
+[unit]
+type = Medium Tanks
+player = 0
+id = 113
+pos = 15/19
+
+[unit]
+type = Medium Tanks
+player = 0
+id = 114
+pos = 15/19
+
+[unit]
+type = Medium Tanks
+player = 0
+id = 115
+pos = 15/19
+
+[unit]
+type = Heavy Tanks
+player = 0
+id = 116
+pos = 15/19
+
+#### BUILDINGS ####
+
+[building]
+name = 6
+player = 1
+id = 0
+pos = 3/2
+type = workshop
+
+[building]
+name = 7
+player = 2
+id = 1
+pos = 32/25
+type = workshop
+
+[building]
+name = 8
+player = 0
+id = 2
+pos = 21/8
+type = workshop
+crystals = 60
+
+[building]
+name = 8
+player = 0
+id = 3
+pos = 15/19
+type = workshop
+crystals = 60
+
+#### EVENTS AND OBJECTIVES ####
+
+[event]
+id = 0
+type = message
+player = 1
+title = 3
+message = 1
+pos = 3/2
+trigger = timer
+ttime = 0
+
+[event]
+id = 1
+type = message
+player = 2
+title = 3
+pos = 32/25
+message = 2
+trigger = timer
+ttime = 0
+
+[event]
+id = 2
+type = score
+player = 1
+trigger = unitdestroyed
+tunit = -1
+towner = 2
+success = 100
+
+[event]
+id = 3
+type = score
+player = 2
+trigger = unitdestroyed
+tunit = -1
+towner = 1
+success = 100
+
+[event]
+id = 4
+type = score
+player = 1
+trigger = havebuilding
+tbuilding = 1
+towner = 1
+ttime = -1
+success = 100
+
+[event]
+id = 5
+type = score
+player = 2
+trigger = havebuilding
+tbuilding = 0
+towner = 2
+ttime = -1
+success = 100
+
+# handicaps
+[event]
+id = 6
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Medium Tanks
+pos = 14/22
+face = 1
+
+[event]
+id = 7
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Medium Tanks
+pos = 14/23
+face = 1
+
+[event]
+id = 8
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Medium Tanks
+pos = 9/9
+face = 2
+
+[event]
+id = 9
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Medium Tanks
+pos = 4/4
+face = 2
+
+[event]
+id = 10
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Medium Tanks
+pos = 31/23
+face = 5
+
+[event]
+id = 11
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Medium Tanks
+pos = 25/16
+face = 5
+
+[event]
+id = 12
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Medium Tanks
+pos = 22/7
+face = 4
+
+[event]
+id = 13
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Medium Tanks
+pos = 22/8
+face = 4
+
+#### MESSAGES ####
+
+[messages(de)]
+Wettrüsten
+von Jens Granseuer <jensgr@gmx.net>
+%
+Nach ihrer Ankunft auf Nexus haben die Kandelianer die bestehenden Stützpunkte mit der veralteten Ausrüstung häufig ignoriert und stattdessen eigene gebaut. Als Folge dessen sind viele kleine Basen, die über den gesamten Planeten verstreut sind, in den letzten zwei Jahren nicht genutzt worden.
+
+Die Kandelianer mögen die überlegenen Waffensysteme besitzen, aber jedes einzelne Gewehr könnte den Kampf zu unseren Gunsten entscheiden. Deshalb haben wir beschlossen, diese Stützpunkte zu reaktivieren, wenn möglich, ohne dass das Imperium davon erfährt. Leider sind dem Imperator unsere Pläne offenbar doch zu Ohren gekommen, denn seine Truppen haben damit begonnen, in stillgelegte Lager einzurücken oder sie zu zerstören.
+
+Wir müssen schnell handeln, um möglichst viele der verbleibenden Stationen unter Kontrolle zu bekommen. Wir haben zwei Depots, die der Feind noch nicht entdeckt haben könnte, in den Bergen von Shalassia entdeckt. Finde heraus, ob dort noch brauchbare Ausrüstung zu finden ist und beende die Anwesenheit der Kandelianer in diesem Sektor.
+
+Viel Glück! Für einen freien Nexus!
+%
+Überall auf Nexus gibt es kleine Stützpunkte aus der Zeit vor unserer Landung. Wir haben die meisten davon bisher ignoriert, weil sie nur mit rückständigen nexianischen Waffen bestückt sind. Vor einigen Tagen haben wir jedoch erfahren, dass die AFN diese Depots nun wieder in Betrieb nehmen will. Obwohl die veralteten Panzer von Nexus sich nicht mit unserer Technologie messen können, können sie doch zu einem Ärgernis werden und das Ende der Rebellion vielleicht um einige Wochen hinauszögern.
+
+Aus diesem Grund haben wir bereits damit begonnen, die uns bekannten Lager zu besetzen oder zumindest unbrauchbar zu machen.
+
+Sie werden diese Aufgabe für zwei weitere Depots in den Bergen von Shalassia übernehmen. Sie sind ermächtigt, jegliche Maßnahmen zu ergreifen, die Ihnen zur Erfüllung Ihres Auftrags notwendig erscheinen, aber diese Einrichtungen dürfen auf keinen Fall in die Hände der Rebellen fallen.
+
+Lang lebe der Imperator!
+%
+Wettrüsten
+%
+Armee Freier Nexus
+%
+Imperium von Kand
+%
+Außenposten der Rebellen
+%
+Kandelianische Kaserne
+%
+Depot
+[/messages]
+
+[messages(en)]
+Arms Race
+by Jens Granseuer <jensgr@gmx.net>
+%
+After their arrival on Nexus, the Kandelians have often chosen not to take over the existing bases with the rather outdated Nexian equipment and instead built their own. As a result, many of the small supply bases scattered all over the planet have been unused for the last two years.
+
+The Kandelians may have superior weapon systems, but a single gun may decide the battle. Therefore we have decided to reactivate those bases, if possible without the Federation knowing about it. However, our plans have somehow leaked to the Emperor, and they have already begun to occupy or destroy installations they have no use for.
+
+We must act quickly to get as many of the remaining bases into our hands as possible. In the Shalassian Mountains we have located two of those depots which the enemy may not have detected, yet. Find out if there is any useful equipment left and end the Kandelian presence in this sector.
+
+Good luck! For a free Nexus!
+%
+All over Nexus there are small supply bases from the time before our landing. We have ignored most of them because they were equipped with inferior Nexian weapons. A few days ago we got word that the FNA are trying to reactivate those depots. Even though the outdated tanks they used cannot compete with our technology, they will be a real nuisance and probably make the rebellion last a few weeks longer.
+
+For that reason we have already begun to take over any installations we know of, or at least render them unusable.
+
+You will take care of two more of those depots in the Shalassian Mountains. You may take any steps you deem appropriate, but these buildings must not fall into rebel hands.
+
+Long live the Emperor!
+%
+Arms Race
+%
+Free Nexus Army
+%
+Empire of Kand
+%
+Rebel Outpost
+%
+Kandelian Barracks
+%
+Depot
+[/messages]
+
+[messages(fr)]
+Course aux armements 
+
+par Jens Granseuer <jensgr@gmx.net>
+traduction française: Benoit Peureux <benoit.peureux@wanandoo.fr>
+%
+Après leur arrivée à Nexus, les Kandeliens ont souvent choisi de ne pas occuper les bases existantes de Nexus car leur équipement était plutôt périmé. A la place, ils ont construit leurs propres bases, modernes. Par conséquent, plusieurs petites bases d'approvisionnement dispersées partout sur la planète Nexus, sont restées inutilisées durant les deux dernières années.
+
+Les Kandeliens disposent de systèmes d'armes supérieurs aux nôtres, mais remarquons qu'un simple pistolet peut décider de l'issue d'une bataille.
+Nous avons donc décidé de réactiver ces bases, si possible en secret. Malheureusement, l'empereur semble avoir eu connaissance de nos plans, et les Kandeliens ont déjà commencé à occuper ou à détruire les installations dont ils ne se servent pas.
+
+Nous devons agir rapidement afin de récupérer autant de bases restantes que possible. Dans les montagnes de Shalassian nous avons localisé deux de ces dépôts que l'ennemi ne semble pas avoir encore détectés. Vous devez découvrir si ces bases disposent d'un quelconque équipement encore utile et en finir avec la présence des Kandeliens dans ce secteur.
+
+Bonne chance! Vive le Nexus libre!
+%
+Partout sur Nexus, il existe de petites bases d'approvisionnement datant d'avant notre arrivée sur cette planéte. Nous avons ignoré la plupart d'entre elles parce qu'elles étaient équipées avec des armes obsolétes. Il y a quelques jours nous avons appris que les Forces Armées de Nexus (FNA) essayent de réactiver ces dépôts. Bien que ces armes soient périmées et qu'elles ne puissent pas concurrencer notre technologie, elles constituent malgrè tout une menace qui pourrait retarder notre victoire finale sur la rebellion de quelques semaines.
+
+Pour cette raison nous avons déjà commencé à reprendre le contrôle des installations que nous connaissons ou à les rendre inutilisables.
+
+Vous devez vous rendre maître de deux nouveaux dépôts découverts dans les montagnes de Shalassian. Vous pouvez prendre toutes les mesures que vous considérerez appropriées, mais ces bâtiments ne doivent en aucun cas tomber entre les mains des rebelles.
+
+Vive l'Empereur!
+%
+Course aux armements
+%
+Armée du Nexus Libre
+%
+Empire de Kand
+%
+Avant-poste rebelle
+%
+Casernes de Kandeliens
+%
+Dépôt
+[/messages]
+
+[messages(pl)]
+Wyścig armii
+autor: Jens Granseuer <jensgr@gmx.net>
+%
+Po przybyciu na Nexus Kandelianie często decydowali się nie na przejmowanie istniejących baz z przestarzałym Nexiańskim sprzętem, ale zamiast tego na budowę własnych. W wyniku tych działań wiele małych baz zaopatrzeniowych rozproszonych po całej planecie było nieużywanych przez ostatnie dwa lata.
+
+Kandelianie mogą posiadać o wiele lepsze systemy uzbrojenia, ale pojedyncze działo może przesądzić o bitwie. Dlatego zdecydowaliśmy się na reaktywację tych małych baz, najlepiej bez wiedzy Federacji. Jednak nasze plany jakoś przeciekły do Imperatora i Kandelianie zaczęli już przejmować lub niszczyć te nasze bazy z których nie mają żadnego pożytku.
+
+Musimy działać szybko, żeby przejąć tyle z tych baz ile tylko jest możliwe. W Górach Schalassiańskich zlokalizowaliśmy dwa z tych punktów zaopatrzeniowych, których wróg mógł jeszcze nie wykryć. Sprawdź czy znajduje się tam jakiś użyteczny sprzęt i zakończ Kandeliańską obecność w tym sektorze.
+
+Powodzenia! Za wolny Nexus!
+%
+Na całym Nexusie znajdują się małe bazy z czasów sprzed naszego przybycia. Ignorowaliśmy większość z nich ponieważ zawierały gorsze Nexiańskie uzbrojenie. Parę dni temu dotarły do nas słuchy, że WAN próbuje reaktywować te punkty zaopatrzeniowe. Mimo tego że przestarzałe czołgi, których używają nie mogą konkurować z naszą technologią, mogą być one naprawdę uciążliwe i prawdopodobnie mogą przedłużyć powstanie o kilka tygodni.
+
+Z tego powodu zaczęliśmy już przejmować wszystkie bazy o których mamy informacje lub przynajmniej sprawiamy aby były bezużyteczne.
+
+Zajmiesz się dwoma z tych baz w górach Shalassiańskich. Możesz powziąć wszystkie kroki, które uważasz za słuszne, ale budynki nie mogą wpaść w ręce rebeliantów.
+
+Niech żyje Imperator!
+%
+Wyścig armii
+%
+Wolna Armia Nexusu
+%
+Imperium Kandyjskie
+%
+Posterunek Rebelii.
+%
+Kandeliańskie baraki.
+%
+Baza zaopatrzeniowa
+[/messages]
+
+[messages(sk)]
+Závod o zbrane
+autor Jens Granseuer <jensgr@gmx.net>
+%
+Kandeliánci po svojom príchode na Nexus často neobsadzovali existujúce základne s pomerne zastaralým vybavením a stavali vlastné základne. V dôsledku toho sa mnoho zásobovacích základní po celej planéte počas posledných dvoch rokov nevyužívalo.
+
+Hoci majú Kandeliánci lepšie zbrane, jediný tank môže rozhodnúť o celej vojne. Preto sme sa rozhodli znovu aktivovať tieto základne, pokiaľ možno bez toho, aby sa o tom Federácia dozvedela. Naše plány sa však dostali k cisárovi a Kandeliánci už začali obsadzovať zariadenia alebo ničiť tie, pre ktoré nemajú využitie.
+
+Musíme konať rýchlo, aby sme dostali pod kontrolu čo najviac zostávajúcich základní. V Shalasskom pohorí sme lokalizovali dva sklady, ktoré nepriatelia možno ešte neobjavili. Zisti, či je v nich ešte použiteľné vybavenie a vyžeň Kandeliáncov z tejto oblasti.
+
+Veľa šťastia! Za slobodný Nexus!
+%
+Po celom Nexuse sú malé zásobovacie základne z čias pred naším príchodom. Väčšinu z nich sme ignorovali, pretože boli vybavené horšími Nexiánskymi zbraňami. Pred niekoľkými dňami k nám dorazili správy, že sa Armáda za slobodný Nexus snaží tieto sklady znovu aktivovať. Napriek tomu, že zastaralé tanky, ktoré používali, nedokážu konkurovať našim technológiám, môžu nám znepríjemniť život a vzburu o pár týždňov predĺžia.
+
+Kvôli tomu sme už začali obsadzovať všetky známe zariadenia alebo sme ich aspoň znefunkčňovali.
+
+Ty sa postaráš o ďalšie dva takéto sklady v Shalasskom pohorí. Podnikni všetky kroky, ktoré budeš pokladať za potrebné, aby tieto budovy nepadli do rúk povstalcov.
+
+Nech žije cisár!
+%
+Závod o zbrane
+%
+Armáda za slobodný Nexus
+%
+Kandské Impérium
+%
+Základňa rebelov
+%
+Kandeliánske kasárne
+%
+Sklad
+[/messages]
+

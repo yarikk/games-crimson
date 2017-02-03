@@ -1,0 +1,940 @@
+# Level "Lost Factories" for the Crimson Fields game.
+# (C) 2003 Laurent Le Guillou <leguillou.laurent@free.fr>
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+#
+
+[mission]
+name = 3
+mapwidth = 36
+mapheight = 35
+info = 0
+players = 2
+
+[map-raw]
+362,362,362,362,362,362,362,362,362,361,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,361,30,30,30,30,30,30,30,30
+362,362,362,362,362,362,362,361,361,360,361,361,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,361,367,184,30,30,76,74,30,30
+362,362,362,362,362,361,361,360,360,30,360,360,361,361,362,362,362,362,362,362,362,362,362,362,362,361,361,22,10,23,177,181,75,117,30,30
+362,362,362,362,362,361,360,307,307,30,30,30,360,361,362,362,362,362,362,362,362,362,362,362,362,361,360,30,24,30,30,176,117,117,75,30
+362,362,362,361,361,360,177,203,31,184,30,30,360,360,361,362,362,362,362,362,362,362,362,362,362,361,360,30,30,30,30,176,117,75,76,30
+362,362,362,361,360,307,31,31,186,30,177,181,30,360,361,362,362,362,362,362,362,362,362,362,362,361,360,30,77,77,30,176,117,117,76,30
+362,362,362,361,360,30,77,22,14,23,77,202,30,360,361,362,362,362,362,362,362,362,362,362,361,360,360,77,78,77,30,176,117,117,77,30
+362,362,362,361,360,77,80,82,24,80,79,179,30,360,361,362,362,362,362,362,362,362,362,362,361,360,30,77,80,77,30,176,117,117,80,30
+362,362,362,361,360,360,79,80,80,182,204,30,30,360,361,362,362,362,362,362,362,362,362,361,361,360,30,80,80,34,30,179,117,117,80,30
+362,362,362,362,361,360,78,77,78,176,30,360,360,361,361,362,362,362,362,362,362,362,362,361,360,77,77,80,77,178,178,76,117,75,77,30
+362,362,362,362,361,361,360,360,34,208,360,361,361,362,362,362,362,362,362,362,362,361,361,360,360,76,80,182,178,38,34,117,117,80,77,30
+362,362,362,362,362,362,361,361,360,208,360,361,362,362,362,362,362,362,362,361,361,360,360,117,117,117,75,185,38,38,35,117,117,76,30,30
+362,362,362,362,362,362,362,361,360,208,360,361,362,362,362,362,362,362,361,360,360,365,75,117,117,38,182,82,177,177,76,117,75,34,30,77
+362,362,362,362,362,362,361,31,31,179,360,360,361,361,362,362,362,362,361,360,364,363,76,79,38,22,10,23,81,81,177,177,35,55,30,78
+362,362,362,362,362,361,361,14,178,31,31,31,360,360,361,362,362,362,361,360,365,364,74,79,80,81,24,117,117,117,76,74,177,181,77,80
+362,362,362,361,361,77,22,24,23,31,132,30,30,360,361,362,362,362,361,361,360,365,76,117,117,117,117,120,118,121,117,75,76,176,80,82
+362,362,362,361,77,80,80,78,31,30,30,307,360,361,361,362,362,362,362,361,360,360,76,74,117,120,118,121,119,117,117,35,35,176,117,81
+362,362,362,361,78,81,80,76,35,307,307,361,361,362,362,362,362,362,362,362,361,361,360,360,117,117,119,32,67,32,32,38,55,179,117,81
+362,361,361,360,117,117,117,365,307,361,361,362,362,362,362,362,362,362,362,362,362,362,361,361,360,31,32,31,31,31,31,178,178,117,117,82
+362,361,360,364,360,360,360,361,361,362,362,362,362,362,362,362,362,362,362,362,362,362,362,361,31,31,31,31,60,178,192,78,77,117,117,81
+362,361,360,360,360,361,361,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,361,30,30,56,178,193,78,176,79,80,117,117,117
+362,362,361,361,361,362,362,362,362,362,362,361,362,362,362,362,362,362,362,362,362,361,361,31,31,31,182,79,79,22,10,23,80,120,118,121
+362,362,362,361,362,362,362,362,362,361,361,360,361,361,362,362,362,362,362,362,361,360,30,32,32,31,176,79,80,81,24,84,83,85,119,117
+362,361,361,360,361,361,362,362,362,361,360,364,360,360,361,361,362,362,362,361,361,30,31,33,33,192,179,80,82,84,83,85,86,81,117,117
+362,361,360,365,360,360,361,361,362,361,360,360,365,360,360,360,361,361,361,360,360,30,33,178,178,176,78,79,81,82,86,81,80,315,338,117
+362,361,360,360,364,365,360,361,362,361,360,360,365,74,365,364,360,360,360,360,360,300,178,38,38,176,55,80,81,80,80,78,79,312,117,118
+362,362,361,361,360,360,360,361,362,362,361,360,363,75,76,35,34,30,30,178,192,30,310,342,38,180,77,317,78,343,317,328,311,55,120,119
+362,362,362,361,360,360,361,361,362,362,361,360,364,35,35,38,30,178,178,22,10,23,30,38,310,316,298,177,316,30,30,38,342,316,338,117
+361,361,361,10,256,249,364,363,361,361,361,360,76,38,38,77,182,56,30,30,24,30,30,30,30,30,30,30,181,30,77,77,79,82,117,117
+74,75,22,24,23,31,249,249,365,360,360,75,35,38,77,78,176,30,30,30,30,30,30,30,30,30,30,178,187,30,30,77,80,81,117,117
+117,76,37,36,32,31,38,38,249,249,76,250,256,253,80,178,185,177,30,55,30,30,30,184,38,192,178,38,176,30,30,77,80,82,82,120
+81,80,80,80,33,77,38,31,31,31,255,78,80,13,178,77,77,30,177,177,30,178,178,38,183,61,38,56,180,186,184,181,80,81,117,117
+82,84,83,85,79,78,31,31,32,31,38,30,22,24,23,30,30,30,30,38,183,31,31,33,62,64,63,55,53,180,19,179,80,81,117,117
+81,83,86,81,80,80,77,78,31,38,30,30,30,30,30,30,55,31,31,31,31,36,36,37,33,32,31,77,55,77,183,55,80,81,81,117
+84,86,85,81,82,82,80,79,78,77,38,38,30,30,30,30,30,31,33,36,36,36,37,37,36,33,32,31,30,80,80,81,82,117,117,117
+
+[player]
+name = 4
+briefing = 1
+
+[player]
+name = 5
+briefing = 2
+
+# ********* units for player 1 -- ID's 0 to 49
+
+[unit]
+pos = 29/1
+player = 1
+id = 0
+type = Infantry
+
+[unit]
+pos = 28/6
+player = 1
+id = 2
+type = Medium Tanks
+
+[unit]
+pos = 29/6
+player = 1
+id = 3
+type = Medium Tanks
+
+[unit]
+pos = 29/5
+player = 1
+id = 4
+type = Heavy Tanks
+
+# ******* units for player 2 -- ID's 50 and up
+
+# in Zakandska depot
+
+[unit]
+pos = 26/13
+player = 2
+id = 50
+type = Anti-Aircraft Tanks
+
+[unit]
+pos = 26/13
+player = 2
+id = 51
+type = Anti-Aircraft Guns
+
+# in Kanduli Barracks
+
+[unit]
+pos = 30/21
+player = 2
+id = 52
+type = Medium Tanks
+
+[unit]
+pos = 30/21
+player = 2
+id = 53
+type = Medium Tanks
+
+[unit]
+pos = 30/21
+player = 2
+id = 54
+type = Medium Tanks
+
+[unit]
+pos = 30/21
+player = 2
+id = 57
+type = Anti-Aircraft Tanks
+
+[unit]
+pos = 30/21
+player = 2
+id = 58
+type = Anti-Aircraft Tanks
+
+[unit]
+pos = 30/21
+player = 2
+id = 59
+type = Anti-Aircraft Tanks
+
+[unit]
+pos = 30/21
+player = 2
+id = 60
+type = Anti-Aircraft Tanks
+
+[unit]
+pos = 30/21
+player = 2
+id = 61
+type = Anti-Aircraft Guns
+
+[unit]
+pos = 30/21
+player = 2
+id = 62
+type = Anti-Aircraft Guns
+
+[unit]
+pos = 30/21
+player = 2
+id = 75
+type = Infantry
+
+[unit]
+pos = 30/21
+player = 2
+id = 76
+type = Personnel Carriers
+
+# in Zermeno Barracks
+
+[unit]
+pos = 20/27
+player = 2
+id = 80
+type = Infantry
+
+[unit]
+pos = 20/27
+player = 2
+id = 85
+type = Medium Tanks
+
+[unit]
+pos = 20/27
+player = 2
+id = 86
+type = Medium Tanks
+
+[unit]
+pos = 20/27
+player = 2
+id = 87
+type = Medium Tanks
+
+[unit]
+pos = 20/27
+player = 2
+id = 90
+type = Heavy Tanks
+
+[unit]
+pos = 20/27
+player = 2
+id = 91
+type = Heavy Tanks
+
+[unit]
+pos = 20/27
+player = 2
+id = 197
+type = Gunships
+
+[unit]
+pos = 20/27
+player = 2
+id = 198
+type = Gunships
+
+# in Kandos (ex Illidia)
+
+[unit]
+pos = 30/32
+player = 2
+id = 100
+type = Infantry
+
+[unit]
+pos = 30/32
+player = 2
+id = 105
+type = Heavy Tanks
+
+[unit]
+pos = 30/32
+player = 2
+id = 106
+type = Heavy Tanks
+
+[unit]
+pos = 30/32
+player = 2
+id = 107
+type = Heavy Tanks
+
+[unit]
+pos = 30/32
+player = 2
+id = 108
+type = Heavy Tanks
+
+[unit]
+pos = 30/32
+player = 2
+id = 109
+type = Heavy Tanks
+
+[unit]
+pos = 30/32
+player = 2
+id = 110
+type = Heavy Tanks
+
+[unit]
+pos = 30/32
+player = 2
+id = 111
+type = Heavy Tanks
+
+[unit]
+pos = 30/32
+player = 2
+id = 120
+type = Anti-Aircraft Guns
+
+[unit]
+pos = 30/32
+player = 2
+id = 121
+type = Anti-Aircraft Guns
+
+[unit]
+pos = 30/32
+player = 2
+id = 122
+type = Anti-Aircraft Guns
+
+[unit]
+pos = 30/32
+player = 2
+id = 123
+type = Anti-Aircraft Guns
+
+[unit]
+pos = 30/32
+player = 2
+id = 124
+type = Anti-Aircraft Guns
+
+[unit]
+pos = 30/32
+player = 2
+id = 140
+type = Artillery
+
+[unit]
+pos = 30/32
+player = 2
+id = 141
+type = Artillery
+
+[unit]
+pos = 30/32
+player = 2
+id = 142
+type = Artillery
+
+[unit]
+pos = 30/32
+player = 2
+id = 150
+type = Anti-Aircraft Tanks
+
+[unit]
+pos = 30/32
+player = 2
+id = 151
+type = Anti-Aircraft Tanks
+
+# in Guluskand Port
+
+[unit]
+pos = 3/28
+player = 2
+id = 160
+type = Infantry
+
+[unit]
+pos = 3/28
+player = 2
+id = 161
+type = Medium Tanks
+
+[unit]
+pos = 3/28
+player = 2
+id = 162
+type = Medium Tanks
+
+[unit]
+pos = 3/28
+player = 2
+id = 163
+type = Medium Tanks
+
+[unit]
+pos = 3/28
+player = 2
+id = 180
+type = Torpedo Boats
+
+[unit]
+pos = 3/28
+player = 2
+id = 181
+type = Torpedo Boats
+
+[unit]
+pos = 3/28
+player = 2
+id = 182
+type = Patrol Boats
+
+[unit]
+pos = 3/28
+player = 2
+id = 183
+type = Patrol Boats
+
+[unit]
+pos = 3/28
+player = 2
+id = 190
+type = Troopships
+
+[unit]
+pos = 3/28
+player = 2
+id = 191
+type = Troopships
+
+[unit]
+pos = 3/28
+player = 2
+id = 192
+type = Troopships
+
+# near Zermeno
+
+[unit]
+pos = 19/24
+player = 2
+id = 195
+type = Patrol Boats
+
+[unit]
+pos = 20/24
+player = 2
+id = 196
+type = Torpedo Boats
+
+
+# Rhokaswi Airport
+
+[unit]
+pos = 28/2
+player = 2
+id = 300
+type = Infantry
+
+[unit]
+pos = 28/2
+player = 2
+id = 301
+type = Infantry
+
+[unit]
+pos = 28/2
+player = 2
+id = 302
+type = Infantry
+
+[unit]
+pos = 28/2
+player = 2
+id = 305
+type = Transport Planes
+
+[unit]
+pos = 28/2
+player = 2
+id = 306
+type = Transport Planes
+
+[unit]
+pos = 28/2
+player = 2
+id = 307
+type = Transport Planes
+
+[unit]
+pos = 28/2
+player = 2
+id = 308
+type = Transport Planes
+
+[unit]
+pos = 28/2
+player = 2
+id = 310
+type = Medium Tanks
+
+[unit]
+pos = 28/2
+player = 2
+id = 311
+type = Medium Tanks
+
+[unit]
+pos = 28/2
+player = 2
+id = 320
+type = Heavy Tanks
+
+[unit]
+pos = 28/2
+player = 2
+id = 331
+type = Gunships
+
+[unit]
+pos = 28/2
+player = 2
+id = 332
+type = Gunships
+
+[unit]
+pos = 28/2
+player = 2
+id = 333
+type = Gunships
+
+
+# ***** buildings ********
+
+[building]
+name = 6
+pos = 30/32
+id = 50
+player = 2
+crystals = 100
+
+[building]
+name = 7
+pos = 28/2
+id = 51
+player = 2
+type = workshop
+crystals = 200
+
+[building]
+name = 8
+pos = 26/13
+id = 52
+player = 2
+type = workshop
+crystals = 1000
+
+[building]
+name = 9
+pos = 30/21
+id = 53
+player = 2
+type = workshop
+crystals = 50
+
+[building]
+name = 10
+pos = 20/27
+id = 54
+player = 2
+type = workshop
+crystals = 50
+
+[building]
+name = 11
+pos = 13/31
+id = 55
+player = 2
+type = factory
+type = workshop
+crystals = 200
+factory = Infantry
+factory = Medium Tanks
+factory = Heavy Tanks
+factory = Artillery
+factory = Personnel Carriers
+factory = Scouts
+factory = Anti-Aircraft Guns
+
+[building]
+name = 12
+pos = 3/28
+id = 56
+player = 2
+type = workshop
+crystals = 50
+
+## Forgotten factories
+
+[building]
+name = 13
+pos = 8/6
+id = 100
+player = 0
+type = factory
+type = workshop
+crystals = 100
+factory = Infantry
+factory = Medium Tanks
+factory = Heavy Tanks
+factory = Artillery
+factory = Personnel Carriers
+factory = Scouts
+
+[building]
+name = 14
+pos = 7/14
+id = 101
+player = 0
+type = factory
+type = workshop
+crystals = 200
+factory = Infantry
+factory = Patrol Boats
+factory = Fighter Squadron
+factory = Personnel Carriers
+factory = Troopships
+factory = Transport Planes
+factory = Torpedo Boats
+factory = Bomber Wing
+factory = Hovercraft
+factory = Gunships
+
+# **** objectives *******
+
+[event]
+id = 0
+type = message
+player = 1
+trigger = timer
+ttime = 0
+title = 3
+message = 1
+pos = 29/1
+
+[event]
+id = 1
+type = message
+player = 2
+trigger = timer
+ttime = 0
+title = 3
+message = 2
+pos = 30/32
+
+[event]
+id = 2
+type = score
+player = 1
+trigger = unitdestroyed
+tunit = -1
+success = 100
+
+[event]
+id = 3
+type = score
+player = 2
+trigger = unitdestroyed
+tunit = -1
+success = 100
+
+[event]
+id = 4
+type = score
+player = 1
+trigger = havebuilding
+tbuilding = 50
+towner = 1
+success = 100
+
+# handicaps
+[event]
+id = 5
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Interceptors
+pos = 3/28
+
+[event]
+id = 6
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Fighter Squadron
+pos = 3/28
+
+[event]
+id = 7
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Scouts
+pos = 28/5
+
+[event]
+id = 8
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Medium Tanks
+pos = 30/6
+
+# **** messages *******
+
+[messages(de)]
+Die verlorenen Fabriken
+von Laurent Le Guillou <leguillou.laurent@free.fr>
+
+Kampf um zwei strategisch wichtige Fabriken.
+%
+Ein Informant der Armee Freier Nexus hat gerade berichtet, dass es auf den kleinen Palish-Inseln nördlich der ehemaligen Stadt Illidia (die von den Eindringlingen jetzt Kandos genannt wird) zwei alte Fertigungsanlagen gibt. Diese vor 80 Jahren in Vergessenheit geratenen Fabriken sind in gutem Zustand und stellen für die AFN ein wichtiges Potenzial dar. Sie könnten genutzt werden, um dort diverse Waffensysteme für Heer, Marine und Luftwaffe herzustellen, es fehlt jedoch an Rohstoffen. Wenn wir dem Feind eine ausreichende Menge Kristalle abnehmen können, werden die Palish-Inseln zu einem strategisch wichtigen Standort für Nexus und möglicherweise sogar der Schlüssel zum Sieg.
+
+Bevor unser Agent vom kandelianischen Geheimdienst festgenommen wurde, konnte er uns noch Informationen übermitteln, die darauf schließen lassen, dass im Zakandska Depot nördlich von Illidia eine große Menge Kristalle gelagert wird und dass dieses Depot nicht besonders gut bewacht wird.
+
+Wir werden deine Einheit in der Nähe des kleinen Flughafens Rhokaswi absetzen. Mit Hilfe der Flugzeuge in Rhokaswi musst du das Depot von Zakandska erobern, die dort gelagerten Kristalle zu den Produktionsstätten auf den Palish-Inseln transferieren und eine Streitmacht zusammenstellen, um die Armee des Imperiums zu besiegen und Illidia zu befreien.
+
+Da unser Spion gefangen genommen wurde, müssen wir davon ausgehen, dass die Imperialen über unsere Operationen Bescheid wissen... Viel Glück!
+%
+Das Gebiet um die Stadt Kandos (die von den Einheimischen früher Illidia genannt wurde) befindet sich eindeutig unter Kontrolle der Imperialen Armee von Kand. Wir haben Illidia im ersten Monat unserer Kampagne auf Nexus erobert und mehrere Stützpunkte in der Nähe errichtet.
+
+Unser Geheimdienst hat kürzlich einen Spion enttarnt (der Aufständische wurde mittlerweile verurteilt und hingerichtet), der bestätigt hat, dass die Armee Freier Nexus, wie die Rebellen sich selbst nennen, dabei ist, eine neue Basis auf den Palish-Inseln nordwestlich von Kandos einzurichten.
+
+Als Oberkommandierender der Imperialen Streitkräfte im Gebiet von Kandos musst du die Kontrolle über die Stadt behaupten und alle Rebellen in der Gegend vernichten.
+
+Während unserer letzten Kampagne auf Nexus haben wir ein großes Kristallvorkommen nahe dem Nordpol des Planeten entdeckt. 1000 Tonnen der Kristalle wurden seitdem in das kleine Depot von Zakandska transferiert. Du musst diese Rohstoffe gut beschützen, da sie für den Erfolg des Imperiums von entscheidender Bedeutung sind.
+
+Lang lebe der Imperator!
+%
+Die verlorenen Fabriken
+%
+Armee Freier Nexus
+%
+Imperium von Kand
+%
+Kandos
+%
+Rhokaswi Flughafen
+%
+Zakandska Depot
+%
+Kanduli-Kaserne
+%
+Zermeno-Kaserne
+%
+Pikandsu-Fabrik
+%
+Hafen von Guluskand
+%
+Palish-Fabrik
+%
+Palish-Werft
+[/messages]
+
+[messages(en)]
+The Lost Factories
+by Laurent Le Guillou <leguillou.laurent@free.fr>
+
+Battle for two strategic factories.
+%
+A spy of the Free Nexus Army has just reported the existence of two old factories, on the small Palish Islands in the north of the former city Illidia (now called Kandos by the invaders). These old factories, neglected for 80 years, are in good condition and represent an important potential for the Free Nexus Army. They may be used to produce a large variety of ground, naval, and airborne units, but have no resources available. If enough crystals can be stolen from the enemy, the Palish Islands will become a strategic site for Nexus, and perhaps the key to victory.
+
+The information transmitted by our spy, just before his capture by Kandelian secret service, seems to indicate that a great amount of crystals is stored in the Zakandska depot, north of Illidia, and that this depot is not well guarded.
+
+Your commando will be landed near the small airport of Rhokaswi. Taking advantage of the air forces at Rhokaswi, your mission is to take the crystals in the depot of Zakandska, to transfer them to the old factories on the Palish Islands, and to build a great army to defeat the invaders and free the city of Illidia.
+
+As our spy was captured, the Kandelian armies are most certainly aware of our projects... Good luck!
+%
+The area of the city of Kandos (which was formerly called Illidia by the natives) is well controlled by the Imperial Army of Kand. We took Illidia during the first month of our campaign on Nexus, and established a few bases around the city.
+
+Our intelligence agency has recently captured a spy (this infamous rebel has since been tried and executed) who has acknowledged that the Free Nexus Army, as the rebels call themselves, has started a project to establish a new base on the Palish Islands, north-west of Kandos.
+
+As the chief general of the Imperial Forces in the Kandos area, you should keep control of the city of Kandos, and destroy all rebel forces in the area.
+
+During the last campaign on Nexus a large amount of crystals was discovered near the north pole of the planet. 1000 tons of crystals have been secretly transferred to the small depot of Zakandska, and you must guard them well. Crystals are essential for the Empire...
+
+Long live the Emperor!
+%
+Lost Factories
+%
+Free Nexus Army
+%
+Empire of Kand
+%
+Kandos
+%
+Rhokaswi Airport
+%
+Zakandska Depot
+%
+Kanduli Barracks
+%
+Zermeno Barracks
+%
+Pikandsu Factory
+%
+Guluskand Port
+%
+Palish Factory
+%
+Palish Shipyard
+[/messages]
+
+[messages(fr)]
+Les usines oubliées
+
+par Laurent Le Guillou <leguillou.laurent@free.fr>
+traduction française: Benoit Peureux <benoit.peureux@wanadoo.fr>
+
+Bataille pour 2 usines stratégiques.
+%
+Un espion de l'armée du Nexus Libre vient de nous rapporter l'existence de deux vieilles usines, sur les petites îles de Palish dans le nord de l'ancienne ville d'Illidia (actuellement appelée Kandos par les envahisseurs). Ces vieilles usines, négligées pendant les 80 dernières années, sont en bon état et représentent un potentiel important pour l'armée du Nexus Libre. Elles peuvent être employées pour produire une grande variété d'unités au sol, navales, et aéroportées, mais elles n'ont aucune ressource disponible. Si on pouvait voler une grande quantité de cristaux à l'ennemi, les îles de Palish deviendraient un emplacement stratégique pour Nexus, et peut-être la clé de la victoire. 
+
+L'information transmise par notre espion, juste avant que sa capture par les services secrets de l'Empire de Kand, semble indiquer qu'une grande quantité de cristaux est stockée dans le dépôt de Zakandska, au nord d'Illidia, et que ce dépôt n'est pas bien gardé. 
+
+Votre commando sera débarqué près du petit aéroport de Rhokaswi. Tirant profit des Armées de l'Air de Rhokaswi, votre mission consiste à prendre les cristaux dans le dépôt de Zakandska, à les transférer aux vieilles usines sur les îles de Palish, à construire une grande armée pour battre les envahisseurs et à libérer la ville d'Illidia. 
+
+Comme notre espion a été capturé, l'armée des Kandéliens est certainement avertie de nos projets... 
+
+Bonne chance! Vive le Nexus Libre!
+%
+Le secteur de la ville de Kandos (autrefois appelé Illidia par les indigènes) est contrôlé par l'armée impériale de Kand. Nous avons pris Illidia pendant le premier mois de notre campagne contre Nexus, et nous avons établi quelques bases autour de la ville. 
+
+Nos services de renseignements ont récemment capturé un espion (cet infâme rebelle a été depuis jugé et exécuté) qui a reconnu que l'armée du Nexus Libre (c'est ainsi que les rebelles s'appellent) a démarrée un projet pour établir une nouvelle base sur les îles de Palish, au nord-ouest de Kandos. 
+
+En tant que général en chef des forces impériales dans la région de Kandos, vous devrez garder le contrôle de la ville de Kandos, et détruire toutes les forces rebelles situées dans le secteur. 
+
+Pendant la dernière campagne contre Nexus, de grandes quantités de cristaux ont été découvertes près du pôle du nord de la planète. Plus de 1000 tonnes de cristaux ont été secrètement transférées au petit dépôt de Zakandska, et vous devez impérativement les garder bien en sécurité. Les cristaux sont essentiels pour l'empire...
+
+Vive l'Empereur!
+%
+Les usines oubliées
+%
+Armée du Nexus Libre
+%
+Empire de Kand
+%
+Kandos
+%
+Aéroport Rhokaswi
+%
+Dépôt de Zakandska
+%
+Casernes de Kanduli
+%
+Casernes de Zermeno
+%
+Usine de Pikandsu
+%
+Port de Guluskand
+%
+Usine de Palish
+%
+Chantier naval de Palish
+[/messages]
+
+[messages(pl)]
+Zaginione fabryki
+autor: Laurent Le Guillou <leguillou.laurent@free.fr>
+
+Bitwa o dwie fabryki o znaczeniu strategicznym.
+%
+Szpieg Wolnej Armii Nexusu właśnie doniósł nam o istnieniu dwóch starych fabryk, na małych Wyspach Palish na północ od dawnego miasta Illidia (obecnie nazywanego Kandos przez najeźdźców). Te stare fabryki opuszczone przez 80 lat są w dobrym stanie i mogą wnieść duży potencjał dla Wolnej Armii Nexusu. Mogą być użyte do produkcji szerokiego asortymentu lądowych, wodnych i powietrznych jednostek ale niestety nie mają zasobów. Jeżeli udało by się nam ukraść odpowiednią ilość zasobów wroga Wyspy Palijskie staną się ważnym strategicznym punktem dla Nexusu i prawdopodobnie kluczem do zwycięstwa.
+
+Z wiadomości przekazanych przez naszego szpiega, zaraz przed złapaniem przez kandeliański wywiad, wygląda na to, że wielka ilość kryształów  znajduje się w składzie Zakandska, na północ od Illidii, i co ciekawe nie jest on silnie chroniony.
+
+Twój oddział wyląduje na małym lotnisku Rhokaswi. Przy wsparciu jednostek powietrznych z Rhokaswi masz za zadanie zabrać kryształy ze składu Zakandska, przenieść je do starych fabryk na wyspach Palish oraz zbudować wielką armię do pokonania najeźdźców i uwolnienia miasta Illidia.
+
+Jako że nasz szpieg został złapany, Kandeliańczycy są świadomi naszych zamierzeń... Powodzenia!
+%
+Tereny miasta Kandos (dawniej zwanego przez tubylców Illidia) są kontrolowane przez Imperialną Armię Kand. Zajęliśmy Illidię podczas pierwszego miesiąca kampanii na Nexusie i założyliśmy kilka baz wokół miasta.
+
+Nasz wywiad złapał ostatnio szpiega (wykonano na nikczemniku wyrok), który wyznał, że Wolna Armia Nexusu, jak sami zwą się rebelianci, rozpoczęła działania mające na celu założenie bazy na wyspach Palish, na północny wschód od Kandos.
+
+Jako głównodowodzący Imperialnym Wojskiem w rejonie Kandos, powinieneś utrzymać kontrolę nad miastem i zniszczyć wszystkie siły rebelii w okolicy.
+
+Podczas ostatniej kampanii na Nexusie duża liczba minerałów została odkryta w pobliżu bieguna północnego planety. 1000 ton kryształów w tajemnicy przetransportowano do małego składu Zakandska, a ty musisz ich pilnować. Kryształy są niezbędna dla Imperium...
+
+Niech żyje Imperator!
+%
+Zaginione fabryki
+%
+Wolna Armia Nexusu
+%
+Imperium Kandyjskie
+%
+Kandos
+%
+Lotnisko Rhokaswi
+%
+Skład Zakandska
+%
+Baraki Kanduli
+%
+Baraki Zermeno
+%
+Fabryka Pikandsu
+%
+Port Guluskand
+%
+Fabryka Palish
+%
+Stocznia Palish
+[/messages]
+
+[messages(sk)]
+Stratené továrne
+autor Laurent Le Guillou <leguillou.laurent@free.fr>
+
+Bitka o dve významné továrne.
+%
+Náš špión nás práve informoval o existencii dvoch starých tovární na malých Palishských ostrovoch na sever od bývalého mesta Illidia (okupantami teraz nazývaného Kandos). Tieto staré továrne boli 80 rokov zanedbávané, no sú v dobrom stave a predstavujú významný potenciál pre Armádu za slobodný Nexus. Dajú sa využiť na produkciu širokej škály pozemných, námorných a leteckých jednotiek, no nemajú k dispozícii žiadne prostriedky. Ak sa nám podarí ukradnúť od nepriateľov dosť kryštálov, Palishské ostrovy sa stanú pre Nexus strategickým stanovišťom a možno kľúčom k víťazstvu.
+
+Informácie zaslané špiónom tesne predtým, ako ho kandeliánska tajná služba zajala, obsahujú informáciu o veľkom množstve kryštálov uloženom v sklade Zakandska. Tento slabo strážený sklad sa nachádza severne od Illidie.
+
+Tvoje jednotky sa vylodia blízko malého letiska Rhokaswi. Tvojou misiou je získať kryštály zo skladu Zakandska, presunúť ich do starých tovární na Palishských ostrovoch a postaviť veľkú armádu, ktorou porazíš okupantov a oslobodíš mesto Illidia. Využi pritom letecké jednotky z letiska.
+
+Keďže náš špión bol zajatý, kandeliánske sily určite vedia o našich plánoch... Veľa šťastia!
+%
+Oblasť okolo mesta Kandos (domorodcami predtým nazývaného Illidia) je pod kontrolou armády Kandského Impéria. Illidiu sme obsadili počas prvého mesiaca nášej výpravy na Nexuse a v okolí sme založili niekoľko základní.
+
+Naša tajná služba nedávno zajala špióna (tohto povstalca sme odsúdili a popravili), ktorý nám prezradil, že Armáda za slobodný Nexus, ako sa povstalci nazývajú, plánujú založiť novú základňu na Palishských ostrovoch severozápadne od Kandosu.
+
+Ako vrchný veliteľ imperiálnych vojsk v oblasti Kandosu musíš udržať kontrolu nad mestom a zničiť všetky vzbúrenecké jednotky v oblasti.
+
+Počas poslednej výpravy na Nexuse sme blízko severného pólu planéty objavili veľké množstvá kryštálov. 1000 ton kryštálov sme tajne previezli do malého skladu Zakandska a musíš ich ustrážiť. Kryštály sú pre Impérium nevyhnutne dôležité...
+
+Nech žije cisár!
+%
+Stratené továrne
+%
+Armáda za slobodný Nexus
+%
+Kandské Impérium
+%
+Kandos
+%
+Letisko Rhokaswi
+%
+Sklad Zakandska
+%
+Kasárne Kanduli
+%
+Kasárne Zermeno
+%
+Továreň Pikandsu
+%
+Prístav Guluskand
+%
+Palishská továreň
+%
+Palishský prístav
+[/messages]
+

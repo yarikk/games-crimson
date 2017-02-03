@@ -1,0 +1,904 @@
+[mission]
+name = 3
+mapwidth = 24
+mapheight = 24
+info = 0
+campaign = 1
+nextmap = Baptism
+players = 1
+
+[map-raw]
+30,30,30,230,30,30,30,97,91,30,77,30,30,38,38,38,133,38,38,30,30,4,21,23
+30,22,14,23,223,223,30,94,30,104,30,30,30,38,30,30,143,30,30,224,224,176,24,56
+30,30,24,30,30,30,223,223,102,230,30,30,38,38,30,172,30,224,224,30,30,176,30,30
+30,30,30,30,30,30,30,115,229,113,223,223,38,38,30,224,224,30,30,30,30,200,60,30
+30,77,77,77,77,77,77,77,101,38,30,38,223,232,224,172,142,30,30,30,60,200,60,30
+77,81,79,81,79,83,79,76,38,98,104,109,38,222,156,132,137,134,30,30,60,200,60,30
+79,84,83,85,84,86,85,83,38,88,74,38,38,222,148,33,132,132,134,134,60,176,30,30
+78,80,86,317,81,82,84,86,85,93,75,38,38,226,154,149,32,172,132,132,147,176,30,30
+82,82,339,81,325,314,81,84,83,85,99,38,38,30,223,223,157,149,31,31,132,205,144,134
+81,84,83,85,313,327,82,317,86,81,93,101,103,89,30,30,228,32,149,155,31,176,132,132
+81,337,86,326,317,316,329,83,342,316,317,316,317,314,109,30,222,30,33,153,36,202,31,31
+82,83,316,336,81,82,84,86,85,104,308,92,114,309,30,30,222,30,172,174,33,202,33,31
+84,86,85,83,79,60,60,112,92,21,102,30,30,305,230,242,225,30,30,36,174,174,36,31
+81,81,84,86,85,81,194,177,22,24,6,241,224,305,224,117,30,117,117,37,37,36,174,172
+79,78,79,81,79,78,78,34,177,183,179,30,232,313,117,317,117,338,117,117,117,34,30,30
+77,34,78,35,77,34,35,34,77,30,30,30,222,30,316,117,319,120,118,121,35,35,35,34
+117,117,117,117,34,117,117,117,34,77,30,30,222,30,117,117,336,118,119,117,117,35,34,34
+118,124,117,117,117,117,117,118,117,117,30,30,226,228,117,117,120,119,121,117,35,34,77,34
+122,126,121,120,118,121,120,119,121,117,35,117,30,226,117,117,117,117,117,35,34,77,222,34
+119,117,117,308,119,120,118,121,117,230,117,117,117,117,223,229,230,228,117,35,34,34,222,224
+117,30,117,227,230,223,119,117,227,117,223,223,117,18,117,117,117,234,34,34,34,224,239,30
+30,21,30,233,117,117,228,117,222,117,117,227,244,223,117,230,117,239,244,229,224,27,26,28
+22,24,7,225,117,117,226,229,225,118,117,226,117,117,229,117,229,35,34,36,31,31,29,31
+117,227,224,117,117,32,117,117,120,119,121,117,228,117,117,117,117,35,37,36,33,32,31,31
+
+[player]
+name = 4
+briefing = 13
+
+[player]
+name = 5
+briefing = 14
+
+[unit]
+type = Bunkers
+player = 1
+id = 0
+pos = 12/12
+
+[unit]
+type = Bunkers
+player = 1
+id = 2
+pos = 13/15
+
+[unit]
+type = Infantry
+player = 1
+id = 4
+pos = 12/21
+face = 5
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 5
+pos = 13/21
+face = 5
+
+[unit]
+type = Anti-Aircraft Guns
+player = 2
+id = 7
+pos = 1/20
+face = 1
+
+[unit]
+type = Anti-Aircraft Guns
+player = 2
+id = 6
+pos = 0/21
+face = 1
+
+[unit]
+type = Fighter Squadron
+player = 2
+id = 12
+pos = 20/4
+
+[unit]
+type = Fighter Squadron
+player = 2
+id = 13
+pos = 20/5
+
+[unit]
+type = Fighter Squadron
+player = 2
+id = 14
+pos = 20/6
+
+[unit]
+type = Interceptors
+player = 2
+id = 15
+pos = 22/5
+
+[unit]
+type = Interceptors
+player = 2
+id = 16
+pos = 22/4
+
+[unit]
+type = Infantry
+player = 1
+id = 20
+pos = 11/12
+face = 1
+
+[unit]
+type = Infantry
+player = 1
+id = 21
+pos = 11/13
+face = 1
+
+[unit]
+type = Infantry
+player = 1
+id = 22
+pos = 12/14
+face = 1
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 23
+pos = 13/16
+
+[unit]
+type = Scouts
+player = 1
+id = 25
+pos = 12/16
+
+[unit]
+type = Anti-Aircraft Guns
+player = 1
+id = 30
+pos = 6/13
+
+[unit]
+type = Anti-Aircraft Guns
+player = 2
+id = 34
+pos = 21/7
+face = 4
+
+[unit]
+type = Artillery
+player = 2
+id = 35
+pos = 23/7
+face = 4
+
+[unit]
+type = Infantry
+player = 2
+id = 36
+pos = 23/13
+face = 4
+
+[unit]
+type = Infantry
+player = 2
+id = 37
+pos = 18/11
+face = 4
+
+[unit]
+type = Infantry
+player = 2
+id = 38
+pos = 17/7
+face = 4
+
+[unit]
+type = Infantry
+player = 2
+id = 39
+pos = 15/4
+face = 4
+
+[unit]
+type = Infantry
+player = 2
+id = 40
+pos = 15/2
+face = 4
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 42
+pos = 20/0
+face = 4
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 43
+pos = 19/0
+face = 4
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 44
+pos = 18/1
+face = 4
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 45
+pos = 17/1
+face = 4
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 46
+pos = 20/2
+face = 4
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 47
+pos = 19/2
+face = 4
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 48
+pos = 18/3
+face = 4
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 49
+pos = 17/3
+face = 4
+
+[unit]
+type = Infantry
+player = 2
+id = 58
+pos = 22/19
+
+[unit]
+type = Infantry
+player = 2
+id = 60
+pos = 20/22
+face = 0
+
+[unit]
+type = Scouts
+player = 2
+id = 57
+pos = 23/19
+face = 4
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 10
+pos = 3/21
+face = 0
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 64
+pos = 12/23
+face = 5
+
+[unit]
+type = Hovercraft
+player = 1
+id = 19
+pos = 12/13
+face = 1
+
+[unit]
+type = Personnel Carriers
+player = 2
+id = 59
+pos = 22/18
+
+[unit]
+type = Gunships
+player = 1
+id = 8
+pos = 5/12
+
+[unit]
+type = Gunships
+player = 1
+id = 9
+pos = 6/12
+
+[unit]
+type = Fighter Squadron
+player = 2
+id = 11
+pos = 22/3
+
+[unit]
+type = Hovercraft
+player = 1
+id = 29
+pos = 10/13
+
+[unit]
+type = Personnel Carriers
+player = 2
+id = 54
+pos = 21/0
+
+[unit]
+type = Infantry
+player = 1
+id = 26
+pos = 10/13
+
+[unit]
+type = Infantry
+player = 1
+id = 28
+pos = 10/13
+
+[unit]
+type = Infantry
+player = 2
+id = 31
+pos = 2/22
+
+[unit]
+type = Scouts
+player = 2
+id = 33
+pos = 2/22
+
+[unit]
+type = Scouts
+player = 2
+id = 50
+pos = 21/0
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 51
+pos = 21/0
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 52
+pos = 21/0
+
+[unit]
+type = Anti-Aircraft Guns
+player = 2
+id = 53
+pos = 21/0
+
+[unit]
+type = Infantry
+player = 2
+id = 55
+pos = 21/0
+
+[unit]
+type = Infantry
+player = 2
+id = 56
+pos = 21/0
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 0
+id = 61
+pos = 2/1
+
+[unit]
+type = Gunships
+player = 0
+id = 62
+pos = 2/1
+
+[unit]
+type = Gunships
+player = 0
+id = 63
+pos = 2/1
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 1
+pos = 2/22
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 17
+pos = 13/20
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 27
+pos = 10/13
+
+[unit]
+type = Medium Tanks
+player = 0
+id = 65
+pos = 2/1
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 32
+pos = 2/22
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 18
+pos = 10/13
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 66
+pos = 10/13
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 67
+pos = 10/13
+
+[building]
+name = 10
+player = 1
+id = 0
+pos = 10/13
+type = workshop
+crystals = 50
+
+[building]
+name = 6
+player = 2
+id = 1
+pos = 2/22
+type = workshop
+crystals = 20
+
+[building]
+name = 9
+player = 0
+id = 2
+pos = 2/1
+type = workshop
+type = factory
+factory = Infantry
+factory = Medium Tanks
+factory = Heavy Tanks
+factory = Interceptors
+crystals = 100
+
+[building]
+name = 8
+player = 2
+id = 3
+pos = 21/0
+type = workshop
+crystals = 80
+
+[building]
+name = 7
+player = 1
+id = 6
+pos = 13/20
+type = workshop
+crystals = 15
+
+[event]
+id = 1
+type = score
+player = 1
+title = 11
+message = 15
+trigger = unitdestroyed
+tunit = -1
+towner = 2
+success = 100
+othermsg = 18
+othertitle = 12
+
+[event]
+id = 2
+type = score
+player = 2
+title = 11
+message = 17
+trigger = havebuilding
+tbuilding = 0
+towner = 2
+ttime = -1
+success = 100
+othermsg = 16
+othertitle = 12
+
+[event]
+id = 3
+type = message
+player = 1
+title = 3
+message = 2
+trigger = timer
+ttime = 0
+
+[event]
+id = 0
+type = score
+player = 1
+title = 11
+message = 15
+trigger = havebuilding
+tbuilding = 3
+towner = 1
+ttime = -1
+success = 100
+othermsg = 18
+othertitle = 12
+
+[event]
+id = 4
+type = score
+player = 2
+title = 11
+message = 17
+trigger = unitdestroyed
+tunit = -1
+towner = 1
+success = 100
+othermsg = 16
+othertitle = 12
+
+[event]
+id = 5
+type = message
+player = 2
+title = 3
+message = 1
+trigger = timer
+ttime = 0
+
+[event]
+id = 6
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Infantry
+pos = 2/22
+face = 0
+
+[event]
+id = 7
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Anti-Aircraft Tanks
+pos = 2/22
+face = 0
+
+[event]
+id = 8
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 5
+unit = Artillery
+pos = 11/14
+face = 1
+
+[event]
+id = 9
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 3
+unit = Artillery
+pos = 17/4
+face = 4
+
+[event]
+id = 10
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Fighter Squadron
+pos = 21/4
+face = 3
+
+[event]
+id = 11
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 2
+unit = Scouts
+pos = 10/13
+face = 0
+
+[event]
+id = 12
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Interceptors
+pos = 10/13
+face = 0
+
+[messages(de)]
+Gestutzte Flügel
+
+von Jens Granseuer <jensgr@gmx.net>
+
+Dritter Teil des Yalwa-Feldzugs.
+%
+Wir haben kürzlich einige unbedeutende Scharmützel gegen die Rebellen von Freier Nexus verloren, aber wir haben die Lage immer noch unter Kontrolle. Das Gros ihrer "Armee" scheint sich nordwärts auf die Sarot-Ebene zu bewegen. Dieser äußerst unvorsichtige Zug wird es uns ermöglichen, sie mit wenigen konzentrierten Luftangriffen und nur marginalem Risiko für unsere eigenen Truppen auseinanderzunehmen.
+
+Es sieht allerdings so aus, als hätten sie das mittlerweile auch selbst begriffen. Einige feindliche Einheiten wurden in der Nähe des Flughafens von Mhran gesichtet, eines kleinen aber wichtigen Drehkreuzes für die südwestliche Region. Wir können nicht zulassen, dass die Rebellion fortdauert. Sie muss hier enden.
+
+Sie werden das Kommando über unsere beim Flughafen stationierten Truppen übernehmen, um den Angriff der Rebellen abzuwehren.
+
+Lang lebe der Imperator!
+%
+Unsere Hauptstreitmacht hat ihren Marsch nach Norden begonnen. Während sie die Sarot-Ebene überquert, wird sie allerdings extrem verwundbar sein. Deswegen müssen wir unser Möglichstes tun, um jede Bedrohung von ihr fernzuhalten. Als Teil dessen haben wir eine kleine Abordnung zum Flugfeld von Mhran geschickt, das derzeit von den Kandelianern genutzt wird. Spezialkräfte haben eine aufgegebene Einrichtung in der Nähe übernommen und sie zu einem temporären Kommandostand umfunktioniert.
+
+Von dieser Basis wirst du den Sturm auf den Flugplatz anführen. Kandelianische Luftangriffe können unsere Pläne leicht gefährden, deshalb dürfen wir es gar nicht dazu kommen lassen. Das Imperium verfügt über starke Kräfte in diesem Sektor, aber westlich des Flugfelds gibt es eine alte Fabrik, die dir möglicherweise zusätzliche Ressourcen liefern könnte.
+
+Viel Glück! Für einen freien Nexus!
+%
+Gestutzte Flügel
+%
+Armee Freier Nexus
+%
+Imperium von Kand
+%
+Kaserne
+%
+Kommandoposten
+%
+Mhran Flugfeld
+%
+Alte Fabrik
+%
+Rebellenhauptquartier
+%
+Mission erfolgreich
+%
+Mission fehlgeschlagen
+%
+Missionsziele:
+
+1a. Sichere das Flugfeld.
+1b. Zerstöre alle feindlichen Einheiten.
+
+2. Halte die Kandelianer von unserem Hauptquartier fern.
+%
+Missionsziele:
+
+1. Verteidigen Sie den Flugplatz.
+
+2a. Erobern Sie das Hauptquartier der Rebellen.
+2b. Zerstören Sie alle Truppen der AFN.
+%
+Wir haben das Flugfeld besetzt. Gute Arbeit! Damit werden wir die Ebene mit deutlich weniger Verlusten überqueren können.
+%
+Du hast versagt. Die Kandelianer haben das Flugfeld immer noch in der Hand. Zahllose Bomben werden auf unsere Armee und unseren Traum von der Freiheit niederregnen.
+%
+Der Angriff der Rebellen auf den Flugplatz ist fehlgeschlagen. Jetzt können wir mit unseren Angriffen auf die Hauptstreitmacht beginnen und dieser Farce ein Ende bereiten. Gute Arbeit!
+%
+Die Rebellen haben das Flugfeld übernommen. Damit wird es für uns ungleich schwieriger, unsere Luftangriffe gegen die Hauptstreitmacht der AFN effektiv zu koordinieren. Sie haben versagt!
+[/messages]
+
+[messages(en)]
+Clipped Wings
+
+by Jens Granseuer <jensgr@gmx.net>
+
+Third installment of the Yalwa campaign.
+%
+We have lost a few minor skimishes with the Free Nexus rebels recently, but the situation is still under control. The bulk of their "army" seems to be moving north, onto the Sarot Plains. This foolish move will allow us to easily pick them off with a few concentrated airstrikes, with only marginal risk to our own troops.
+
+However, they now seem to have realized this as well. Several hostile units have been sighted near the Mhran airport, a small but important hub for the south-western region. We cannot allow the rebellion to go any further. It must end here.
+
+You will command our forces around the airport to ward off the rebel attack.
+
+Long live the Emperor!
+%
+The main body of our army has started its march to the north. While crossing the Sarot Plains, however, it will remain extremely vulnerable, so we need to do our best to keep any threats away from it. To this end a small detachment has been sent to the Mhran airfield which is currently used by the Kandelians. Special forces have taken over an abandoned installation in the vicinity and turned it into temporary headquarters.
+
+From this base you will lead the assault on the airfield. Kandelian airstrikes can easily ruin our plans so it is essential that we not let this happen. The Empire has a strong presence in the sector, but there is an old factory west of the airfield which might provide you with additional resources.
+
+Good luck! For a free Nexus!
+%
+Clipped Wings
+%
+Free Nexus Army
+%
+Empire of Kand
+%
+Barracks
+%
+Command Post
+%
+Mhran Airfield
+%
+Old Factory
+%
+Rebel HQ
+%
+Mission accomplished
+%
+Mission failed
+%
+Mission Objectives:
+
+1a. Secure the airfield.
+1b. Destroy all enemy units.
+
+2. Keep the Kandelians away from our headquarters.
+%
+Mission Objectives:
+
+1. Defend the airfield.
+
+2a. Conquer the rebel headquarters.
+2b. Destroy all FNA units.
+%
+You have taken over the airfield. Well done! This will greatly reduce our casualties.
+%
+You have failed. The Kandelians still operate the airfield. Countless bombs will rain on our army and the dream of freedom.
+%
+The rebel attack on the airport has failed. Now we can begin with our attacks on the main body of the FNA and finally put an end to this farce. Well done!
+%
+The rebels have taken the airfield. It will now become much harder for us to coordinate our airstrikes against the main body of the FNA. You have failed!
+[/messages]
+
+[messages(fr)]
+Les ailes rognées
+
+par Jens Granseuer <jensgr@gmx.net>
+traduction française: Benoit Peureux <benoit.peureux@wanadoo.fr>
+
+Troisiéme partie de la compagne de Yalva
+%
+Nous avons perdu récemment quelques engagements mineurs contre les rebelles du Nexus Libre, mais la situation est toujours sous notre contrôle. La majeure partie de leur « armée » semble se diriger au nord, vers les plaines de Sarot. Ce mouvement imprudent nous permettra de les détruire facilement et de loin avec quelques raids aériens concentrés, sans véritable risque pour nos propres troupes.
+
+Cependant, les rebelles semblent maintenant avoir pris conscience de cette menace. Plusieurs unités hostiles ont été aperçues près de l'aéroport de Mhran, un petit mais important centre pour la région du sud-ouest. Nous ne pouvons pas permettre à la rébellion d'aller plus loin. Elle doit absolumet s'arréter ici.
+
+Vous commanderez nos forces autour de l'aéroport pour écarter l'attaque rebelle.
+
+Vive l'Empereur!
+%
+Le corps principal de notre armée a commencé sa marche vers le nord. Cependant, en traversant les plaines de Sarot elle sera extrêmement vulnérable et nous devons faire notre maximum pour la protéger contre les menaces de l'Empire. À cet effet un petit détachement a été envoyé au terrain d'aviation de Mhran qui est actuellement utilisé par les Kandéliens. Les forces spéciales ont pris le contrôle d'une installation abandonnée à proximité du terrain d'aviation et l'ont transformée en quartier général provisoire.
+
+À partir de cette base vous mènerez l'assaut contre le terrain d'aviation de Mhran. Les raids aériens des Kandéliens pouvant facilement ruiner nos plans, il est essentiel que nous réagissions afin que cela ne puisse pas se produire. L'empire a une forte présence dans ce secteur, mais il existe une vieille usine à l'ouest du terrain d'aviation qui pourrait nous fournir des ressources additionnelles.
+
+Bonne chance! Vive le Nexus Libre!
+%
+Les ailes rognées
+%
+Armée du Nexus Libre
+%
+Empire de Kand
+%
+Casernes
+%
+Poste de commandement
+%
+Terrain d'aviation de Mhran
+%
+Vieille usine
+%
+QG des rebelles
+%
+Mission accomplie
+%
+Echec de la mission
+%
+Objectifs de la mission:
+
+1a. Prendre et contrôler le terrain d'aviation
+1b. Détruire toutes les unités ennemies.
+
+2. Maintenir les Kandéliens à bonne distance de notre quartier général.
+%
+Objectifs de la mission:
+
+1. Défendre le terrin d'aviation.
+
+2a. Conquérir le quartier général des rebelles.
+2b. Détruire toutes les unités des Forces Armées de Nexus (FNA).
+%
+Vous avez pris le terrain d'aviation. Bravo! Cela réduira considérablement nos pertes.
+%
+Vous avez échoué. Les Kandéliens peuvent toujours utiliser le terrain d'aviation. Les bombes pleuvent en quantité innombrable sur notre armée et notre rêve de libération de Nexus s'évanoui.
+%
+L'attaque rebelle sur l'aéroport a échouée. A présent, nous pouvons commencer à attaquer le corps principal des Forces Armées du Nexus (FNA) avec notre aviation et mettre enfin un terme à cette farce. Bravo!
+%
+Les rebelles ont pris le terrain d'aviation de Mhran. Cela va devenir beaucoup plus difficile pour nous de coordonner nos attaques aériennes contre le corps principal des Forces Armées du Nexus. Vous avez échoué!
+[/messages]
+
+[messages(pl)]
+Podcięte skrzydła
+
+autor: Jens Granseuer <jensgr@gmx.net>
+
+Trzecia misja kampanii Yalwa.
+%
+Przegraliśmy ostatnio kilka mniejszych potyczek z rebeliantami z Wolnej Armii Nexusu, ale sytuacja wciąż jest pod kontrolą. Wydaje się że trzon ich "armii" porusza się na północ, na Równiny Sarot. Ten głupi ruch pozwoli nam łatwo ich załatwić z pomocą kilku skoncentrowanych nalotów, z niewielkim zagrożeniem dla naszych wojsk.
+
+Jednakże, oni też zdali sobie z tego sprawę. W pobliżu lotniska Mhran, węzła małego lecz istotnego dla regionu południowo-zachodniego, zaobserwowano kilka wrogich jednostek. Nie możemy pozwolić rebeliantom na dalsze kroki. To musi się zakończyć tutaj.
+
+Będziesz dowodził naszymi siłami dookoła lotniska i odpędzisz atak rebeliantów.
+
+Niech żyje Imperator!
+%
+Główna część naszej armii zaczeła przemarsz na północ. Jednakże w trakcie przekraczania Równin Sarot będzie mocno narażona na ataki, więc musimy zrobić co się da żeby trzymać zagrożenia z dala. W tym celu na lotnisko Mhran, które aktualnie jest używane przez Kandelian, został wysłany niewielki oddział. Siły specjalne przejeły pobliską opuszczoną instalację i przerobiły ją na tymczasowy sztab.
+
+Z tej bazy poprowadzisz atak na lotnisko. Kandeliańskie naloty mogą łatwo pokrzyżować nasze plany, więc istotne jest by do tego nie dopuścić. Imperium ma w tym rejonie znaczące siły, ale na zachód od lotniska jest stara fabryka, która może dostarczyć dodatkowych zasobów.
+
+Powodzenia! Za wolny Nexus!
+%
+Podcięte skrzydła
+%
+Wolna Armia Nexusu
+%
+Imperium Kandyjskie
+%
+Koszary
+%
+Placówka dowodzenia
+%
+Lotnisko Mhran
+%
+Stara fabryka
+%
+Sztab rebelii
+%
+Misja wykonana
+%
+Misja nieudana
+%
+Cele misji:
+
+1a. Zabezpieczyć lotnisko.
+1b. Zniszczyć wszystkie siły wroga.
+
+2. Trzymać Kandelian z dala od naszego sztabu.
+%
+Cele misji:
+
+1. Bronić lotniska.
+
+2a. Podbić sztab rebelii.
+2b. Zniszczyć wszystkie jednostki WAN.
+%
+Przejąłeś kontrolę nad lotniskiem. Dobra robota! To poważnie zmniejszy nasze straty.
+%
+Nie udało Ci się. Kandelianie wciąż używają lotniska. Niezliczone bomby spadną na naszą armię i nasze marzenia o wolności.
+%
+Rebeliancki atak na lotnisko został odparty. Możemy teraz rozpocząć nasze ataki na trzon armii WAN i wreszcie zakończyć tę farsę. Dobra robota!
+%
+Rebelianci przejęli lotnisko. Będzie nam teraz znacznie trudniej koordynować naloty na trzon armii WAN. Zawiodłeś!
+[/messages]
+

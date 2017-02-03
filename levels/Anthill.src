@@ -1,0 +1,1352 @@
+[mission]
+name = 1
+mapwidth = 27
+mapheight = 25
+info = 0
+players = 1
+
+[map-raw]
+79,79,78,80,80,71,80,80,78,309,79,79,79,79,79,79,79,309,79,79,79,88,78,78,87,79,79
+79,78,78,80,70,73,72,80,78,303,79,79,79,79,79,79,79,309,79,80,79,96,78,78,87,79,79
+79,80,80,71,80,80,80,79,78,312,79,79,79,80,80,80,80,313,80,80,98,78,78,97,95,79,80
+78,80,70,73,72,80,79,79,315,80,80,80,79,70,71,72,80,80,314,80,88,78,78,87,79,315,311
+78,80,80,71,80,80,79,79,309,80,80,79,79,71,73,79,79,79,309,80,88,78,78,87,79,309,79
+79,80,70,73,72,80,79,79,303,80,80,79,70,73,72,70,71,72,309,80,94,89,78,95,79,309,79
+80,84,83,85,80,79,79,79,309,80,80,79,79,80,80,80,73,80,313,314,80,83,101,80,80,309,79
+80,80,86,71,80,80,79,79,313,314,80,79,79,70,71,72,80,80,80,303,84,86,85,80,80,312,79
+80,83,70,73,72,80,79,79,79,305,78,79,79,80,73,80,80,80,80,309,80,80,80,80,315,79,79
+84,86,85,80,80,79,79,80,79,309,79,80,79,71,80,84,83,85,80,305,80,80,80,302,312,80,79
+80,70,71,72,80,79,79,80,80,309,79,80,70,73,72,80,86,71,80,313,80,302,311,79,79,83,80
+80,80,73,80,80,79,79,80,80,305,78,79,80,80,80,71,70,73,72,80,319,79,79,80,84,86,85
+79,71,80,80,79,79,79,80,79,312,79,80,80,80,70,73,73,80,80,79,309,79,79,79,80,80,80
+70,73,72,80,79,79,79,80,315,79,80,70,71,72,80,80,80,71,80,80,313,301,79,79,79,79,79
+65,71,80,80,79,79,79,80,309,79,80,79,73,80,80,71,70,73,72,80,79,30,314,79,79,79,79
+70,73,72,83,80,80,79,80,309,79,79,79,80,80,70,73,72,80,80,80,80,80,309,79,79,79,79
+66,71,84,86,85,80,79,80,309,77,79,80,80,71,80,80,80,79,80,84,83,85,309,79,79,80,80
+70,73,72,80,80,79,79,80,303,78,79,30,70,73,72,71,80,77,80,80,86,80,309,78,80,84,83
+80,80,80,80,80,80,80,311,312,79,31,132,33,30,70,73,72,32,30,32,78,79,305,79,80,80,86
+80,84,83,85,80,80,315,80,80,132,30,36,32,30,36,31,30,31,132,37,32,79,313,314,79,79,80
+80,80,86,71,80,80,309,84,83,85,31,31,32,77,30,77,33,33,31,30,31,30,79,313,79,79,79
+79,80,70,73,72,80,309,80,86,78,77,71,80,78,80,80,78,70,71,72,30,78,79,79,314,79,80
+79,80,80,71,80,80,303,79,80,80,70,73,72,30,30,30,30,30,73,70,71,72,80,78,309,78,84
+79,80,70,73,72,80,309,80,80,71,80,80,78,30,30,18,30,30,30,80,73,80,80,78,305,79,80
+79,79,80,80,80,315,312,80,70,73,72,80,80,79,30,30,30,79,78,80,80,80,79,79,309,79,79
+
+[player]
+name = 13
+briefing = 12
+
+[player]
+name = 14
+briefing = 11
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 0
+pos = 7/0
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 1
+pos = 7/1
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 2
+pos = 6/2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 3
+pos = 6/3
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 4
+pos = 6/4
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 5
+pos = 6/5
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 6
+pos = 11/0
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 7
+pos = 11/1
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 8
+pos = 11/2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 9
+pos = 11/3
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 10
+pos = 10/4
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 11
+pos = 10/5
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 12
+pos = 13/0
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 13
+pos = 13/1
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 14
+pos = 13/2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 15
+pos = 15/0
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 16
+pos = 15/1
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 17
+pos = 15/2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 18
+pos = 26/5
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 19
+pos = 26/6
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 20
+pos = 26/7
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 21
+pos = 26/8
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 22
+pos = 25/8
+
+[unit]
+type = Scouts
+player = 2
+id = 23
+pos = 11/4
+
+[unit]
+type = Scouts
+player = 2
+id = 24
+pos = 11/5
+
+[unit]
+type = Scouts
+player = 2
+id = 25
+pos = 7/4
+
+[unit]
+type = Scouts
+player = 2
+id = 26
+pos = 7/5
+
+[unit]
+type = Scouts
+player = 2
+id = 27
+pos = 26/9
+
+[unit]
+type = Scouts
+player = 2
+id = 28
+pos = 26/10
+
+[unit]
+type = Scouts
+player = 2
+id = 29
+pos = 25/9
+
+[unit]
+type = Scouts
+player = 2
+id = 30
+pos = 16/3
+
+[unit]
+type = Anti-Aircraft Guns
+player = 2
+id = 31
+pos = 14/2
+
+[unit]
+type = Anti-Aircraft Guns
+player = 2
+id = 32
+pos = 12/1
+
+[unit]
+type = Infantry
+player = 2
+id = 36
+pos = 23/8
+
+[unit]
+type = Infantry
+player = 2
+id = 37
+pos = 22/8
+
+[unit]
+type = Infantry
+player = 2
+id = 38
+pos = 21/8
+
+[unit]
+type = Infantry
+player = 2
+id = 39
+pos = 22/9
+
+[unit]
+type = Infantry
+player = 2
+id = 40
+pos = 23/7
+
+[unit]
+type = Infantry
+player = 2
+id = 41
+pos = 16/4
+
+[unit]
+type = Infantry
+player = 2
+id = 42
+pos = 14/1
+
+[unit]
+type = Infantry
+player = 2
+id = 43
+pos = 14/0
+
+[unit]
+type = Infantry
+player = 2
+id = 44
+pos = 12/0
+
+[unit]
+type = Infantry
+player = 2
+id = 45
+pos = 12/2
+
+[unit]
+type = Infantry
+player = 2
+id = 46
+pos = 12/3
+
+[unit]
+type = Infantry
+player = 2
+id = 47
+pos = 10/1
+
+[unit]
+type = Infantry
+player = 2
+id = 48
+pos = 10/0
+
+[unit]
+type = Infantry
+player = 2
+id = 49
+pos = 8/1
+
+[unit]
+type = Infantry
+player = 2
+id = 50
+pos = 8/0
+
+[unit]
+type = Infantry
+player = 2
+id = 51
+pos = 8/2
+
+[unit]
+type = Infantry
+player = 2
+id = 52
+pos = 7/2
+
+[unit]
+type = Infantry
+player = 2
+id = 53
+pos = 7/3
+
+[unit]
+type = Infantry
+player = 2
+id = 54
+pos = 10/3
+
+[unit]
+type = Infantry
+player = 2
+id = 55
+pos = 10/2
+
+[unit]
+type = Infantry
+player = 2
+id = 56
+pos = 16/1
+
+[unit]
+type = Infantry
+player = 2
+id = 57
+pos = 16/0
+
+[unit]
+type = Infantry
+player = 2
+id = 58
+pos = 16/2
+
+[unit]
+type = Infantry
+player = 2
+id = 59
+pos = 9/3
+
+[unit]
+type = Infantry
+player = 2
+id = 60
+pos = 9/4
+
+[unit]
+type = Infantry
+player = 2
+id = 61
+pos = 17/3
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 62
+pos = 7/12
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 63
+pos = 6/12
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 64
+pos = 6/13
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 65
+pos = 5/12
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 66
+pos = 4/13
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 67
+pos = 4/12
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 68
+pos = 3/12
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 69
+pos = 10/13
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 70
+pos = 11/12
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 71
+pos = 10/12
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 72
+pos = 7/9
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 73
+pos = 6/10
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 74
+pos = 7/10
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 75
+pos = 8/10
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 33
+pos = 18/7
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 34
+pos = 17/7
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 35
+pos = 18/8
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 76
+pos = 23/11
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 77
+pos = 22/12
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 78
+pos = 23/12
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 79
+pos = 25/13
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 80
+pos = 25/14
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 81
+pos = 24/14
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 82
+pos = 17/19
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 83
+pos = 17/20
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 84
+pos = 16/19
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 85
+pos = 13/19
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 86
+pos = 12/20
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 87
+pos = 12/21
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 88
+pos = 11/23
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 89
+pos = 15/21
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 90
+pos = 14/21
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 91
+pos = 17/21
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 92
+pos = 18/22
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 93
+pos = 12/22
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 94
+pos = 9/24
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 95
+pos = 12/4
+
+[unit]
+type = Artillery
+player = 1
+id = 97
+pos = 14/23
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 98
+pos = 5/2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 99
+pos = 5/3
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 100
+pos = 5/4
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 101
+pos = 18/0
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 102
+pos = 18/1
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 103
+pos = 18/2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 104
+pos = 19/0
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 105
+pos = 19/1
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 106
+pos = 20/1
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 107
+pos = 20/0
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 108
+pos = 19/2
+
+[unit]
+type = Gunships
+player = 1
+id = 109
+pos = 22/20
+
+[unit]
+type = Gunships
+player = 1
+id = 110
+pos = 21/20
+
+[unit]
+type = Scouts
+player = 1
+id = 111
+pos = 21/14
+
+[unit]
+type = Infantry
+player = 1
+id = 112
+pos = 13/23
+
+[unit]
+type = Infantry
+player = 1
+id = 113
+pos = 17/23
+
+[unit]
+type = Infantry
+player = 1
+id = 114
+pos = 15/24
+
+[unit]
+type = Infantry
+player = 1
+id = 115
+pos = 15/22
+
+[unit]
+type = Gunships
+player = 2
+id = 116
+pos = 9/0
+
+[unit]
+type = Gunships
+player = 2
+id = 117
+pos = 9/1
+
+[unit]
+type = Gunships
+player = 2
+id = 118
+pos = 9/2
+
+[unit]
+type = Anti-Aircraft Guns
+player = 1
+id = 120
+pos = 14/24
+
+[unit]
+type = Gunships
+player = 2
+id = 121
+pos = 22/2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 122
+pos = 24/4
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 123
+pos = 24/3
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 124
+pos = 25/2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 125
+pos = 25/1
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 126
+pos = 26/2
+
+[unit]
+type = Infantry
+player = 2
+id = 127
+pos = 25/0
+
+[unit]
+type = Infantry
+player = 2
+id = 128
+pos = 26/1
+
+[unit]
+type = Infantry
+player = 2
+id = 129
+pos = 26/0
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 130
+pos = 17/8
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 131
+pos = 18/9
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 132
+pos = 16/8
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 133
+pos = 22/13
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 134
+pos = 21/12
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 135
+pos = 26/14
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 136
+pos = 11/11
+
+[unit]
+type = Gunships
+player = 2
+id = 137
+pos = 20/4
+
+[unit]
+type = Gunships
+player = 2
+id = 138
+pos = 2/3
+
+[unit]
+type = Anti-Aircraft Guns
+player = 1
+id = 139
+pos = 9/13
+
+[unit]
+type = Anti-Aircraft Guns
+player = 1
+id = 140
+pos = 23/14
+
+[unit]
+type = Anti-Aircraft Guns
+player = 2
+id = 141
+pos = 15/4
+
+[unit]
+type = Anti-Aircraft Guns
+player = 2
+id = 142
+pos = 8/5
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 148
+pos = 0/1
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 149
+pos = 0/2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 150
+pos = 0/3
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 151
+pos = 0/0
+
+[unit]
+type = Anti-Aircraft Guns
+player = 2
+id = 152
+pos = 1/0
+
+[unit]
+type = Infantry
+player = 2
+id = 153
+pos = 1/1
+
+[unit]
+type = Infantry
+player = 2
+id = 154
+pos = 1/2
+
+[unit]
+type = Infantry
+player = 2
+id = 143
+pos = 17/4
+
+[building]
+name = 15
+player = 1
+id = 0
+pos = 15/23
+type = workshop
+crystals = 20
+
+[event]
+id = 0
+type = message
+player = 2
+title = 1
+message = 2
+pos = 11/5
+trigger = timer
+ttime = 0
+
+[event]
+id = 1
+type = message
+player = 1
+title = 1
+message = 3
+pos = 15/23
+trigger = timer
+ttime = 0
+
+[event]
+id = 2
+type = score
+player = 2
+title = 9
+message = 8
+othertitle = 10
+othermsg = 5
+trigger = unitdestroyed
+tunit = -1
+towner = 1
+success = 100
+
+[event]
+id = 3
+type = score
+player = 2
+title = 9
+message = 8
+othertitle = 10
+othermsg = 6
+trigger = havebuilding
+tbuilding = 0
+towner = 2
+ttime = -1
+success = 100
+
+[event]
+id = 4
+type = score
+player = 1
+title = 9
+message = 7
+othertitle = 10
+othermsg = 4
+trigger = unitdestroyed
+tunit = -1
+towner = 2
+success = 100
+
+# handicaps
+[event]
+id = 8
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 5
+unit = Artillery
+pos = 16/23
+face = 0
+
+# replace the artillery by 2 scouts if handicapped
+[event]
+id = 9
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 2
+unit = Scouts
+pos = 16/23
+face = 0
+
+[event]
+id = 10
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 2
+unit = Scouts
+pos = 16/24
+face = 0
+
+[event]
+id = 11
+type = mining
+player = 1
+trigger = handicap
+thandicap = 4
+building = 0
+action = 1
+crystals = 30
+
+[event]
+id = 12
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Anti-Aircraft Tanks
+pos = 3/13
+face = 0
+
+[event]
+id = 13
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Anti-Aircraft Tanks
+pos = 4/14
+face = 0
+
+[event]
+id = 14
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Scouts
+pos = 5/13
+face = 0
+
+[messages(de)]
+Operation Ameisenhaufen
+von Chang Tang Yen in Taipeh
+<brain13homepage@pchome.com.tw>
+%
+Operation Ameisenhaufen
+%
+Wir haben die Kommandozentrale der Armee Freier Nexus in diesem Sektor lokalisiert.
+
+Da eine unserer eigenen Basen nur etwa zwanzig Meilen davon entfernt ist, haben wir sofort Einheiten losgeschickt, um den Stützpunkt zu zerstören. Die AFN hat eigene Truppen vor Ort, sie sind jedoch deutlich in der Unterzahl. Sie müssen entweder alle gegnerischen Einheiten vernichten oder das Depot erobern.
+
+Viel Glück, Kommandant. Lang lebe der Imperator!
+%
+Imperiale Truppen befinden sich im Anmarsch auf eines unserer regionalen Versorgungszentren.
+
+Sie haben sich bereits so weit genähert, dass Verstärkung nicht mehr rechtzeitig eintreffen wird, um die Zerstörung der Basis zu verhindern. Daher musst du mit dem Material auskommen, das vor Ort verfügbar ist. Nach vorläufigen Berichten sind wir dem Feind zahlenmäßig unterlegen, der zusätzlich auch noch auf Luftunterstützung zurückgreifen kann. Trotzdem können wir es uns nicht leisten, diesen Stützpunkt zu verlieren, also muss der Angriff abgewehrt werden.
+
+Viel Glück. Für einen freien Nexus!
+%
+Wie groß muss die Übermacht sein, damit Sie eine Schlacht gewinnen?
+%
+"Kommandant, wo sind Sie?
+Was ist passiert?
+Melden Sie sich!"
+%
+Wir haben den Stützpunkt verloren.
+%
+Der Stützpunkt ist gesichert.
+%
+Die Basis gehört uns.
+%
+Operation erfolgreich!
+%
+Operation fehlgeschlagen!
+%
+Missionsziele:
+
+(1) Zerstören Sie alle gegnerischen Einheiten.
+
+oder
+
+(2) Erobern Sie den Stützpunkt.
+%
+Missionsziel:
+
+Zerstöre alle gegnerischen Einheiten.
+%
+Armee Freier Nexus
+%
+Imperium von Kand
+%
+Versorgungszentrum
+[/messages]
+
+[messages(en)]
+Operation: Anthill
+by Chang Tang Yen at Taipei
+<brain13homepage@pchome.com.tw>
+%
+Operation: Anthill
+%
+We have located one of the primary support bases of the FNA in this sector.
+
+As one of our own bases is only some twenty miles away, we have immediately dispatched forces to blow it up. FNA forces are present, but seriously outnumbered. You must either completely destroy the opposition or conquer the depot.
+
+Good luck, Commander. Long live the Emperor!
+%
+Imperial forces are advancing on one of our regional support bases.
+
+They are already close enough that any reinforcements we could send to the area would not arrive in time to prevent the destruction of our base. Therefore you will have to work with the material we have on site. According to preliminary reports, the enemy has us outnumbered and is even calling in air support. Still, we cannot afford to lose this supply site, so you must stop the enemy.
+
+Good luck. For a free Nexus!
+%
+What kind of advantage do you need to win a battle?
+%
+"Commander, where are you?
+What happened?
+Reply!"
+%
+We have lost the base.
+%
+The base is secure.
+%
+The base is ours.
+%
+Operation successful!
+%
+Mission failed!
+%
+Mission objectives:
+
+(1) Destroy all enemy forces.
+
+or
+
+(2) Conquer the base.
+%
+Mission objective:
+
+Destroy all enemy forces.
+%
+Free Nexus Army
+%
+Empire of Kand
+%
+Supply Center
+[/messages]
+
+[messages(fr)]
+Opération Fourmilière 
+par Chang Tang Yen at Taipei <brain13homepage@pchome.com.tw>
+traduction française: Benoit Peureux <benoit.peureux@wanadoo.fr>
+%
+Opération: Fourmilière 
+%
+Nous avons trouvé une des principales bases de soutien des Forces Armées du Nexus (FNA) dans ce secteur.
+
+Comme une de nos propres bases est seulement à environ 40 km, nous avons immédiatement expédié des forces pour l'attaquer.
+Des éléments de la FNA sont présents sur place, mais ils sont sérieusement dépassés en nombre.
+Vous devez complètement détruire l'opposition rebelles ou conquérir le dépôt.
+
+Bonne chance, Commandant. Vive l'Empereur! 
+%
+Les forces impériales avancent sur une de nos bases régionales de soutien 
+
+Elles sont déjà très avancées et aucun des renforts que nous pourrions envoyer dans ce secteur n'arriverait à temps pour empêcher la destruction de notre base. Par conséquent vous devrez travailler avec les ressources dont vous disposez sur place.
+
+Selon des rapports préliminaires, l'ennemi nous dépasse en nombre et même en appui aérien.
+Toutefois, nous ne pouvons pas nous permettre de perdre cette place pour notre approvisionnement, aussi vous devez impérativement tenir et arrêter l'ennemi.
+
+Bonne chance. Vive le Nexus Libre!
+%
+De quel genre d'avantage avez-vous besoin pour gagner une bataille?
+%
+"Commandant, où êtes vous?
+Que s'est il passé?
+Répondez!"
+%
+Nous avons perdu la base.
+%
+La base est sous contrôle.
+%
+La base est à nous.
+%
+L'opération est une réussite!
+%
+La mission a échouée!
+%
+Les objectifs de la mission:
+
+(1) Détruire toutes les forces ennemies.
+
+ou
+
+(2) Conquérir la base.
+%
+L'objectif de la mission:
+
+Détruire toutes les forces ennemies.
+%
+Armée du Nexus Libre
+%
+Empire de Kand
+%
+Centre d'approvisionnement
+[/messages]
+
+[messages(pl)]
+Operacja Mrówcze Wzgórze
+autor: Chang Tang Yen at Taipei
+<brain13homepage@pchome.com.tw>
+%
+Operacja Mrówcze Wzgórze
+%
+Zlokalizowaliśmy jedną z głównych baz wsparcia WAN w tym sektorze.
+
+Jako że nasza baza jest tylko jakieś 20 mil od niej, natychmiast wysłaliśmy z niej siły aby ją zniszczyć. Siły WAN są obecne, ale poważnie przeważamy ich liczebnie. Musisz zniszczyć całkowicie opozycję lub zająć skład wojskowy.
+
+Powodzenia komandorze! Niech żyje Imperator!
+%
+Siły imperialne posuwają się w kierunku naszej regionalnej bazy zaopatrzeniowej.
+
+Są już dostatecznie blisko, że wszelkie wsparcie, które wysłalibyśmy w ten rejon nie dotarłoby na czas aby ochronić ją przed zniszczeniem. Dlatego będziesz musiał użyć sił dostępnych na miejscu. Zgodnie ze wstępnymi raportami, wróg przewyższa nas liczebnie i wzywa nawet wsparcie powietrzne. 
+Nie możemy jednak pozwolić sobie na stratę tego punktu zaopatrzeniowego, więc musisz pokonać wroga.
+
+Powodzenia. Za wolny Nexus!
+%
+Jakiej przewagi potrzebujesz aby wygrać bitwę?
+%
+"Komandorze gdzie jesteś?
+Co się stało?
+Odpowiedz!"
+%
+Straciliśmy bazę.
+%
+Baza jest zabezpieczona.
+%
+Baza jest nasza.
+%
+Operacja zakończona sukcesem!
+%
+Zadanie niewykonane!
+%
+Wytyczne misji:
+
+(1) Zniszcz wszystkie wrogie siły.
+
+lub
+
+(2) Zajmij bazę zaopatrzeniową.
+%
+Wytyczne misji:
+
+Zniszcz wszystkie wrogie siły.
+%
+Wolna Armia Nexusu
+%
+Imperium Kandyjskie
+%
+Centrum Zaopatrzeniowe
+[/messages]
+
+[messages(sk)]
+Operácia: Mravenisko
+autor Chang Tang Yen at Taipei
+<brain13homepage@pchome.com.tw>
+%
+Operácia: Mravenisko
+%
+Objavili sme jednu z hlavných podporných základní Armády za slobodný Nexus v tejto oblasti.
+
+Keďže jedna z našich základní je vzdialená len zhruba dvadsať míľ, okamžite sme vyslali jednotky, aby ju zničili. Jednotky ASN sú prítomné, ale sú vo veľkom prečíslení. Musíš úplne zničiť odpor alebo obsadiť budovu.
+
+Veľa šťastia, veliteľ. Nech žije cisár!
+%
+Jednotky Impéria útočia na jednu z našich miestnych podporných základní.
+
+Už sú tak blízko, že posily, ktoré by sme poslali do tejto oblasti, by nestihli zabrániť zničeniu našej základne. Preto budeš musieť operovať len so silami, ktoré už máme na mieste. Podľa predbežných správ nás nepriateľ prečíslil a dokonca poslal po leteckú podporu. Tento oporný bod si napriek tomu nemôžeme dovoliť stratiť, musíš teda nepriateľov zastaviť.
+
+Veľa šťastia. Za slobodný Nexus!
+%
+Akú výhodu potrebuješ, aby si konflikt zvíťazil?
+%
+"Veliteľ, kde ste?
+Čo sa stalo?
+Odpovedajte!"
+%
+Stratili sme základňu.
+%
+Základňa je zabezpečená.
+%
+Základňa je naša.
+%
+Operácia úspešná!
+%
+Misia neúspešná!
+%
+Ciele misie:
+
+(1) Znič všetky nepriateľské jednotky.
+
+alebo
+
+(2) Obsaď základňu.
+%
+Cieľ misie:
+
+Znič všetky nepriateľské jednotky.
+%
+Armáda za slobodný Nexus
+%
+Kandské Impérium
+%
+Zásobovacie centrum
+[/messages]
+

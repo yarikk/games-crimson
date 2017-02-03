@@ -1,0 +1,22 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Crimson Fields
+Name[sr]=Црвена поља
+Name[tr]=Crimson Fields
+GenericName=Turn-Based Strategy Game
+GenericName[de]=Rundenbasiertes Strategiespiel
+GenericName[pl]=Strategiczna gra turowa
+GenericName[sr]=Потезна стратегија
+GenericName[tr]=Sıra Temelli Strateji Oyunu
+Comment=Lead your troops to victory
+Comment[de]=Führe deine Truppen zum Sieg
+Comment[pl]=Poprowadź swoje wojska do zwycięstwa
+Comment[sr]=Поведи своје трупе у победу!
+Comment[tr]=Askerlerinizi zafere ulaştırın
+TryExec=crimson
+Exec=crimson
+Icon=crimson
+Terminal=false
+Type=Application
+Categories=Application;Game;StrategyGame;

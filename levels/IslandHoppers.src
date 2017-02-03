@@ -1,0 +1,836 @@
+# created by Thorsten Jordan (thorsten_jordan@gmx.de)
+# and copyrighted via the GPL :-)
+
+[mission]
+name = 5
+mapwidth = 33
+mapheight = 24
+info = 0
+players = 2
+
+[map-raw]
+362,362,362,361,361,361,361,360,360,360,361,362,362,362,362,362,362,362,361,360,360,77,78,30,31,30,30,30,30,30,78,21,30
+362,361,361,365,360,360,360,30,30,360,361,362,362,362,362,362,362,362,361,360,30,30,30,360,30,30,30,360,30,182,4,24,23
+361,360,360,38,30,184,30,30,30,360,361,362,362,362,362,362,362,362,361,361,360,360,360,361,360,360,360,361,360,179,30,38,30
+361,360,30,22,11,23,177,361,360,361,361,361,362,362,362,361,362,361,361,361,361,361,361,361,361,361,361,361,361,360,360,30,30
+361,360,30,30,24,30,360,361,361,360,360,360,361,361,361,360,361,360,360,360,360,360,360,360,360,360,361,362,361,361,360,360,360
+361,361,360,30,30,360,360,361,361,360,30,30,360,360,360,30,176,30,30,30,30,363,30,30,30,360,361,361,362,362,361,361,361
+362,361,360,360,360,361,361,361,360,30,31,30,30,30,30,22,11,23,30,360,30,30,30,38,54,38,360,361,362,362,362,362,362
+362,362,361,361,361,362,362,361,360,360,30,360,360,360,77,78,24,30,360,361,360,360,360,38,38,360,360,361,362,362,362,362,362
+362,362,362,362,362,361,361,361,361,361,360,361,361,361,360,360,360,360,360,361,361,361,360,360,360,361,361,362,362,362,362,362,362
+362,362,362,361,361,360,360,360,361,361,361,362,362,362,361,361,361,361,361,362,362,362,361,361,361,362,362,362,362,362,362,362,362
+362,362,362,361,360,30,38,360,360,360,361,361,362,362,362,362,361,361,361,361,362,362,362,362,362,362,362,361,361,361,361,361,362
+362,362,362,361,360,360,30,30,30,360,360,360,361,362,362,361,361,360,360,360,361,361,362,362,362,362,362,361,360,176,360,360,361
+362,362,362,362,361,361,360,30,30,30,30,360,361,362,362,361,360,30,30,30,360,360,361,362,362,362,361,360,360,11,30,360,361
+362,362,362,362,361,360,177,183,184,11,30,360,361,362,362,361,360,360,30,31,30,360,361,362,362,362,361,360,22,24,23,30,360
+362,362,362,362,361,360,30,30,22,24,23,360,361,362,362,361,361,360,364,30,30,360,361,361,362,362,361,360,360,30,30,30,360
+362,362,362,362,361,361,360,30,38,38,30,360,361,362,361,360,361,177,360,34,78,30,360,361,362,362,361,360,30,30,35,30,360
+362,362,362,362,362,361,360,360,30,30,360,361,361,361,361,360,30,30,181,30,77,30,360,361,362,362,361,361,360,77,30,360,360
+362,362,362,361,361,361,361,361,360,360,360,361,362,361,360,31,30,22,11,23,30,360,360,361,362,362,362,361,360,30,30,360,361
+361,361,361,360,360,360,361,360,361,361,361,362,362,361,360,30,30,38,24,30,360,361,361,362,362,362,362,361,360,30,38,360,361
+360,360,360,360,30,182,179,30,360,361,362,362,362,361,360,360,30,30,30,360,360,361,362,362,362,361,361,360,177,181,30,360,361
+30,30,30,30,30,179,30,30,360,361,362,362,362,362,361,361,360,360,360,361,361,362,362,362,362,361,360,30,30,11,30,360,361
+30,78,30,38,182,30,30,360,360,361,362,362,362,362,362,362,361,361,361,362,362,362,362,362,362,361,360,30,22,24,23,360,361
+30,22,21,6,179,30,360,360,361,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,361,360,360,30,30,360,361,361
+30,30,24,30,30,30,30,360,361,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,362,361,361,360,360,360,361,362
+
+[player]
+name = 6
+briefing = 1
+
+[player]
+name = 7
+briefing = 4
+
+
+[messages(de)]
+Inselspringen und Kampf zur See vor Tyarin.
+Von Thorsten Jordan <thorsten_jordan@gmx.de>
+%
+Vor der Küste von Tyarin liegen viele kleine Inseln im Ozean. Die Armee Freier Nexus will ihren Weg nach der Schlacht von Tyarin fortsetzen. Der nächste Schritt ist die Eroberung dieses Archipels.
+%
+Gute Arbeit! Du hast die Inseln erfolgreich überquert.
+%
+Gute Arbeit! Du hast alle feindlichen Einheiten vernichtet!
+%
+Vor der Küste von Tyarin liegen viele kleine Inseln im Ozean. Die Armee Freier Nexus hat sich bis zur Küste durchgekämpft. Du musst sie jetzt aufhalten. Erobere dieses Archipel und treibe deine Feinde zurück.
+%
+Inselspringer
+%
+Armee Freier Nexus
+%
+Imperium von Kand
+%
+FNA Hauptquartier
+%
+Imperiales Hauptquartier
+%
+Nordwest-Depot
+%
+West-Depot
+%
+Nord-Depot
+%
+Südost-Depot
+%
+Süd-Depot
+%
+Ost-Depot
+[/messages]
+
+[messages(en)]
+Island hopping and marine warfare beyond Tyarin
+by Thorsten Jordan <thorsten_jordan@gmx.de>
+%
+Beyond the coast of Tyarin many small islands cover the ocean's surface. The Free Nexus Army wants to continue on its way after the battle on Tyarin. The next step is to conquer this island area and to run the Kandelians down.
+%
+Well done! You successfully hopped over all islands.
+%
+Well done! You wiped all enemy units away!
+%
+Beyond the coast of Tyarin many small islands cover the ocean's surface. The Free Nexus Army has fought its way to the coast. You must stop it now. Conquer this island area and push your enemies off-shore.
+%
+Island Hoppers
+%
+Free Nexus Army
+%
+Empire of Kand
+%
+Free Nexus Army HQ
+%
+Imperial HQ
+%
+Depot north-west
+%
+Depot west
+%
+Depot north
+%
+Depot south-east
+%
+Depot south
+%
+Depot east
+[/messages]
+
+[messages(fr)]
+Guerre naale et conquête des îles au large de Tyarin
+
+par Thorsten Jordan <thorsten_jordan@gmx.de>
+traduction française: Benoit Peureux <benoit.peureux@wanadoo.fr>
+%
+Au large de la côte de Tyarin, il y a beaucoup de petites îles sur l'océan. L'armée du Nexus Libre veut continuer sur son élan après la bataille de Tyarin. La prochaine étape consiste donc à conquérir ce secteur rempli d'îles et à repousser les Kandéliens.
+%
+Bien joué! Vous avez mis la main avec succès sur toutes les îles.
+%
+Bien joué! Vous avez écrasé toutes les unités ennemies
+%
+Au large de la côte de Tyarin il y a beaucoup de petites îles sur l'océan. L'armée du Nexus Libre a poursuivi son avance vers la côte. Vous devez l'arrêter maintenant et reconquérir ce secteur d'îles en repoussant les rebelles.
+%
+Iles
+%
+Armée du Nexus Libre
+%
+Empire de Kand
+%
+QG de l'Armée du Nexus Libre
+%
+QG impérial
+%
+Dépôt nord-ouest
+%
+Dépôt ouest
+%
+Dépôt nord
+%
+Dépôt sud-est
+%
+Dépôt sud
+%
+Dépôt est
+[/messages]
+
+[messages(pl)]
+Zajmowanie wysp i walka na morzu poza Tyarinem
+autor: Thorsten Jordan <thorsten_jordan@gmx.de>
+% 
+Za wybrzeżami Tyarinu wiele małych wysp pokrywa powierzchnię oceanu. Wolna Armia Nexusu chce ruszać dalej po zajęciu Tyarinu. Następnym krokiem jest zajęcie wysp i zepchnięcie Kandeliańczyków.
+%
+Świetnie! Udało ci się zająć wszystkie wyspy.
+%
+Świetnie! Zniszczyłeś wszystkie wrogie jednostki.
+%
+Za wybrzeżami Tyarinu wiele małych wysp pokrywa powierzchnię oceanu. Wolna Armia Nexusu wywalczyła drogę do wybrzeża. Musisz ją zatrzymać. Zajmij wyspy i zepchnij wrogów na wybrzeże.
+%
+Wyspiarskie skoki
+%
+Wolna Armia Nexusu
+%
+Imperim Kandyjskie
+%
+Centrum Dowodzenia WAN
+%
+Centrum Dowodzenia Imperium 
+%
+Skład Północny-Zachód
+%
+Skład Zachód
+%
+Skład Północ 
+%
+Skład Południowy-Wschód
+%
+Skład Południe
+%
+Skład Wschód
+[/messages]
+
+[messages(sk)]
+Obsadzovanie ostrovov a námorné boje pri Tyarine
+autor Thorsten Jordan <thorsten_jordan@gmx.de>
+%
+Pri pobreží Tyarinu pokrýva oceán mnoho malých ostrovov. Armáda za slobodný Nexus chce pokračovať v ťažení po zápase o Tyarin. Ďalším krokom je obsadenie tejto ostrovnej oblasti a porážka Kandeliáncov.
+%
+Výborne! Úspešne si prešiel všetkými ostrovmi.
+%
+Výborne! Porazil si všetky nepriateľské jednotky!
+%
+Pri pobreží Tyarinu pokrýva oceán mnoho malých ostrovov. Armáda za slobodný Nexus sa prebojovala až na pobrežie. Musíš ich teraz zastaviť. Obsaď túto ostrovnú oblasť a vytlač nepriateľov z pobrežia.
+%
+Obsadzovanie ostrovov
+%
+Armáda za slobodný Nexus
+%
+Kandské Impérium
+%
+Ústredie ASN
+%
+Ústredie Impéria
+%
+Severozápadný sklad
+%
+Západný sklad
+%
+Severný sklad
+%
+Juhovýchodný sklad
+%
+Južný sklad
+%
+Východný sklad
+[/messages]
+
+# player 1 units
+[unit]
+pos = 3/22
+id = 0
+player = 1
+type = Infantry
+
+[unit]
+pos = 3/22
+id = 1
+player = 1
+type = Infantry
+
+[unit]
+pos = 3/22
+id = 2
+player = 1
+type = Infantry
+
+[unit]
+pos = 6/18
+id = 3
+player = 1
+type = Troopships
+
+[unit]
+pos = 1/18
+id = 4
+player = 1
+type = Patrol Boats
+
+[unit]
+pos = 2/18
+id = 5
+player = 1
+type = Torpedo Boats
+
+[unit]
+pos = 3/17
+id = 6
+player = 1
+type = Patrol Boats
+
+[unit]
+pos = 4/17
+id = 7
+player = 1
+type = Torpedo Boats
+
+[unit]
+pos = 5/17
+id = 8
+player = 1
+type = Patrol Boats
+
+[unit]
+pos = 7/17
+id = 9
+player = 1
+type = Torpedo Boats
+
+[unit]
+pos = 8/18
+id = 10
+player = 1
+type = Patrol Boats
+
+[unit]
+pos = 9/18
+id = 11
+player = 1
+type = Torpedo Boats
+
+[unit]
+pos = 9/19
+id = 12
+player = 1
+type = Patrol Boats
+
+[unit]
+pos = 9/20
+id = 13
+player = 1
+type = Torpedo Boats
+
+[unit]
+pos = 9/21
+id = 14
+player = 1
+type = Patrol Boats
+
+[unit]
+pos = 8/22
+id = 15
+player = 1
+type = Torpedo Boats
+
+[unit]
+pos = 8/23
+id = 16
+player = 1
+type = Patrol Boats
+
+
+
+# player 2 units
+[unit]
+pos = 30/1
+id = 40
+player = 2
+type = Infantry
+
+[unit]
+pos = 30/1
+id = 41
+player = 2
+type = Infantry
+
+[unit]
+pos = 30/1
+id = 42
+player = 2
+type = Infantry
+
+[unit]
+pos = 28/3
+id = 43
+player = 2
+type = Troopships
+
+[unit]
+pos = 31/5
+id = 44
+player = 2
+type = Patrol Boats
+
+[unit]
+pos = 30/5
+id = 45
+player = 2
+type = Torpedo Boats
+
+[unit]
+pos = 29/4
+id = 46
+player = 2
+type = Patrol Boats
+
+[unit]
+pos = 26/3
+id = 47
+player = 2
+type = Torpedo Boats
+
+[unit]
+pos = 25/3
+id = 48
+player = 2
+type = Patrol Boats
+
+[unit]
+pos = 24/3
+id = 49
+player = 2
+type = Torpedo Boats
+
+[unit]
+pos = 18/1
+id = 50
+player = 2
+type = Patrol Boats
+
+[unit]
+pos = 18/2
+id = 51
+player = 2
+type = Torpedo Boats
+
+[unit]
+pos = 19/2
+id = 52
+player = 2
+type = Patrol Boats
+
+[unit]
+pos = 20/3
+id = 53
+player = 2
+type = Torpedo Boats
+
+[unit]
+pos = 21/3
+id = 54
+player = 2
+type = Patrol Boats
+
+[unit]
+pos = 22/3
+id = 55
+player = 2
+type = Torpedo Boats
+
+[unit]
+pos = 23/2
+id = 56
+player = 2
+type = Patrol Boats
+
+
+
+
+# neutral (depot) units
+[unit]
+pos = 4/3
+id = 80
+player = 0
+type = Bomber Wing
+
+[unit]
+pos = 4/3
+id = 81
+player = 0
+type = Bomber Wing
+
+[unit]
+pos = 4/3
+id = 82
+player = 0
+type = Fighter Squadron
+
+[unit]
+pos = 4/3
+id = 83
+player = 0
+type = Fighter Squadron
+
+[unit]
+pos = 4/3
+id = 84
+player = 0
+type = Interceptors
+
+[unit]
+pos = 4/3
+id = 85
+player = 0
+type = Interceptors
+
+[unit]
+pos = 9/13
+id = 86
+player = 0
+type = Transport Planes
+
+[unit]
+pos = 9/13
+id = 87
+player = 0
+type = Anti-Aircraft Guns
+
+[unit]
+pos = 9/13
+id = 88
+player = 0
+type = Infantry
+
+[unit]
+pos = 9/13
+id = 89
+player = 0
+type = Bomber Wing
+
+[unit]
+pos = 9/13
+id = 90
+player = 0
+type = Fighter Squadron
+
+[unit]
+pos = 9/13
+id = 91
+player = 0
+type = Interceptors
+
+[unit]
+pos = 16/6
+id = 92
+player = 0
+type = Bomber Wing
+
+[unit]
+pos = 16/6
+id = 93
+player = 0
+type = Bomber Wing
+
+[unit]
+pos = 16/6
+id = 94
+player = 0
+type = Fighter Squadron
+
+[unit]
+pos = 16/6
+id = 95
+player = 0
+type = Fighter Squadron
+
+[unit]
+pos = 16/6
+id = 96
+player = 0
+type = Interceptors
+
+[unit]
+pos = 16/6
+id = 97
+player = 0
+type = Interceptors
+
+[unit]
+pos = 29/12
+id = 98
+player = 0
+type = Transport Planes
+
+[unit]
+pos = 29/12
+id = 99
+player = 0
+type = Anti-Aircraft Guns
+
+[unit]
+pos = 29/12
+id = 100
+player = 0
+type = Infantry
+
+[unit]
+pos = 29/12
+id = 101
+player = 0
+type = Bomber Wing
+
+[unit]
+pos = 29/12
+id = 102
+player = 0
+type = Fighter Squadron
+
+[unit]
+pos = 29/12
+id = 103
+player = 0
+type = Interceptors
+
+[unit]
+pos = 18/17
+id = 104
+player = 0
+type = Fighter Squadron
+
+[unit]
+pos = 18/17
+id = 105
+player = 0
+type = Fighter Squadron
+
+[unit]
+pos = 18/17
+id = 106
+player = 0
+type = Fighter Squadron
+
+[unit]
+pos = 18/17
+id = 107
+player = 0
+type = Fighter Squadron
+
+[unit]
+pos = 18/17
+id = 108
+player = 0
+type = Fighter Squadron
+
+[unit]
+pos = 18/17
+id = 109
+player = 0
+type = Fighter Squadron
+
+[unit]
+pos = 29/20
+id = 110
+player = 0
+type = Fighter Squadron
+
+[unit]
+pos = 29/20
+id = 111
+player = 0
+type = Fighter Squadron
+
+[unit]
+pos = 29/20
+id = 112
+player = 0
+type = Fighter Squadron
+
+[unit]
+pos = 29/20
+id = 113
+player = 0
+type = Fighter Squadron
+
+[unit]
+pos = 29/20
+id = 114
+player = 0
+type = Fighter Squadron
+
+[unit]
+pos = 29/20
+id = 115
+player = 0
+type = Fighter Squadron
+
+
+
+
+# buildings
+[building]
+name = 8
+pos = 3/22
+id = 0
+player = 1
+type = workshop
+crystals = 100
+
+[building]
+name = 9
+pos = 30/1
+id = 1
+player = 2
+type = workshop
+crystals = 100
+
+[building]
+name = 10
+pos = 4/3
+id = 2
+player = 0
+type = workshop
+crystals = 100
+
+[building]
+name = 11
+pos = 9/13
+id = 3
+player = 0
+type = workshop
+crystals = 100
+
+[building]
+name = 12
+pos = 16/6
+id = 4
+player = 0
+type = workshop
+crystals = 100
+
+[building]
+name = 13
+pos = 29/20
+id = 5
+player = 0
+type = workshop
+crystals = 100
+
+[building]
+name = 14
+pos = 18/17
+id = 6
+player = 0
+type = workshop
+crystals = 100
+
+[building]
+name = 15
+pos = 29/12
+id = 7
+player = 0
+type = workshop
+crystals = 100
+
+
+# events
+# Briefings
+[event]
+id = 1
+type = message
+player = 1
+pos = 3/22
+trigger = timer
+ttime = 0
+message = 1
+
+[event]
+id = 2
+type = message
+player = 2
+pos = 30/1
+trigger = timer
+ttime = 0
+message = 4
+
+# player 1 win
+[event]
+id = 3
+type = score
+player = 1
+trigger = havebuilding
+tbuilding = 1
+towner = 1
+success = 100
+message = 2
+ttime = -1
+
+[event]
+id = 4
+type = score
+player = 1
+trigger = unitdestroyed
+tunit = -1
+success = 100
+message = 3
+
+# player 2 win
+[event]
+id = 5
+type = score
+player = 2
+trigger = havebuilding
+tbuilding = 0
+towner = 2
+success = 100
+message = 2
+ttime = -1
+
+[event]
+id = 6
+type = score
+player = 2
+trigger = unitdestroyed
+tunit = -1
+success = 100
+message = 3
+
+# handicaps
+[event]
+id = 7
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Anti-Aircraft Tanks
+pos = 3/22
+
+[event]
+id = 8
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Anti-Aircraft Tanks
+pos = 3/22
+
+[event]
+id = 9
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Anti-Aircraft Tanks
+pos = 3/22
+
+[event]
+id = 10
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Anti-Aircraft Tanks
+pos = 30/1
+
+[event]
+id = 11
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Anti-Aircraft Tanks
+pos = 30/1
+
+[event]
+id = 12
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Anti-Aircraft Tanks
+pos = 30/1
+

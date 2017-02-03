@@ -1,0 +1,2582 @@
+2009-03-01  Jens Granseuer  <jensgr@gmx.net>
+
+	*** release Crimson Fields 0.5.2 ***
+
+	* NEWS: update
+	* configure.ac
+	* src/common/globals.h: bump version
+
+2008-03-15  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/mission.cpp (SetLocale): set shop names to empty string
+	if they are invalid so that we don't crash with broken missions
+
+2008-01-24  Jens Granseuer  <jensgr@gmx.net>
+
+	* THANKS
+	* crimson.desktop
+	* locale/Makefile.am
+	* locale/tr.tmpl: add Turkish translation by Murat Senel
+	(muratasenel@gmail.com)
+
+2007-12-13  Jens Granseuer  <jensgr@gmx.net>
+
+	*** release Crimson Fields 0.5.2 ***
+
+	* NEWS: update
+	* configure.ac
+	* src/common/globals.h: bump version
+
+2007-08-04  Waclaw Schiller  <torinthiel@data.pl>
+
+	* levels/Baptism.src: add Polish translation
+	* levels/LakeYukarwa.src: add Polish translation and fix
+	victory message definitions
+
+2007-06-26  Benoit Pereux  <benoit.pereux@wanadoo.fr>
+
+	* levels/*.src
+	* locale/fr.tmpl: update French translation
+
+2007-06-24  Jens Granseuer  <jensgr@gmx.net>
+
+	Based on a patch by: haruspex <princeps.candidus@gmail.com>
+
+	* src/cf/mapwindow.{cpp,h} (FlashUnit): add
+
+	* src/cf/game.cpp (SelectCommand)
+	* src/cf/history.cpp (ReplayAttackEvent): make attack targets
+	flash twice on selection
+
+2007-05-29  Benoit Pereux  <benoit.pereux@wanadoo.fr>
+
+	* lev/Tutorial[1-3].src: add French translation
+	* lev/*.src: update French translation
+
+2007-05-19  Jens Granseuer  <jensgr@gmx.net>
+
+	By Benoit Pereux <benoit.pereux@wanadoo.fr>
+
+	* lev/{Anthill,ArmsRace,Baptism,BeachRaid,ClippedWings,Foxhole,
+	GreatBattle,HeavyMetal,IslandHoppers,LakeYukarwa,LankhValley,
+	LostFactories,MountainDefense,OmyarGorge,Plowshares,
+	RadioSilence,Revelation,Uprising}.src: add French translation
+	* lev/General.src: update French translation
+
+2007-05-18  haruspex  <princeps.candidus@gmail.com>
+
+	* src/cf/game.{cpp,h} (MoveUnit)
+	* src/cf/mapwindow.{cpp,h} (MoveHex): make cursor at destination
+	hex blink when moving
+
+2007-04-10  Jens Granseuer  <jensgr@gmx.net>
+
+	* levels/Uprising.src: fix typo in German translation (reported
+	by Andreas Schwarz)
+
+2007-02-02  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/fileio.h: move WIN32 define to the top; fixes
+	building with Cygwin (reported by Henk Jonas)
+
+	* src/cf/path.cpp (StepsToDest): add cast for systems with
+	unsigned enums (also courtesy of Henk)
+
+2007-01-31  Silvio Iaccarino <silvio@iaccarino.de>
+
+	* VisualC++.zip: update VC++ project files
+
+2007-01-24  Jens Granseuer  <jensgr@gmx.net>
+
+	* doc/Makefile.am (%.6, %.html, dist-hook): if xsltproc is not
+	available, simply skip building docs; only error out on make
+	dist
+
+2007-01-23  Jens Granseuer  <jensgr@gmx.net>
+
+	*** release Crimson Fields 0.5.1 ***
+
+	* NEWS: update
+	* configure.ac
+	* src/common/globals.h: bump version
+
+2007-01-18  Jens Granseuer  <jensgr@gmx.net>
+
+	* doc/cfed.xml: update documentation for destroyunit event
+
+2007-01-17  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/event.cpp (Execute)
+	* src/comet/eventwindow.{cpp,h} (EdEventDestroyUnitWindow)
+	* src/comet/mission.cpp (Event, Export, ValidateEvent)
+	* tools/cfed.cpp (check_events, parse_section): support
+	destroying units at a given location in EVENT_DESTROY_UNIT
+
+2007-01-14  Waclaw Schiller  <torinthiel@megapolis.pl>
+
+	* crimson.desktop: add Polish translation
+
+2007-01-14  Jens Granseuer  <jensgr@gmx.net>
+
+	By Americo Iacovizzi <darkamex@gmail.com>
+
+	* locale/it.tmpl: update Italian translation
+	* tools/default.usrc: add Italian translation
+
+2007-01-14  Jens Granseuer  <jensgr@gmx.net>
+
+	* crimson.desktop: drop file name suffix for the icon
+
+2006-01-14  Nikola Smolenski  <smolensk@eunet.yu>
+
+	* crimson.desktop: add Serbian translation
+
+2007-01-12  Jens Granseuer  <jensgr@gmx.net>
+
+	* levels/Makefile.am (levels_DATA)
+	* levels/Baptism.src
+	* levels/ClippedWings.src: add fourth mission of the Yalwa
+	campaign
+
+2007-01-12  Jens Granseuer  <jensgr@gmx.net>
+
+	* levels/LakeYukarwa.src: use map name as title in briefings
+
+2007-01-12  Jens Granseuer  <jensgr@gmx.net>
+
+	* levels/Plowshares.src (de): use formal language in the
+	Kandelian objectives, for consistence with briefings etc.
+
+2007-01-12  Jens Granseuer  <jensgr@gmx.net>
+
+	* levels/Makefile.am (levels_DATA)
+	* levels/LakeYukarwa.src: add fifth mission of the Yalwa
+	campaign by Nikola Smolenski
+
+2007-01-06  Jens Granseuer  <jensgr@gmx.net>
+
+	* gfx/CFTiles.bmp: remove some of the placeholder markers since
+	it doesn't look like we are going to get the replacements any
+	time soon and some of them are already in use
+
+2007-01-06  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/comet/uiaux.cpp (BuildEventList): include event trigger
+	in node label to make selection easier for the user
+
+	* src/comet/uiaux.cpp (BuildShopList): use larger buffer since
+	shop names can have up to 30 chars
+
+2007-01-05  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/slider.cpp (MouseDown): use smaller steps when
+	scrolling via mouse buttons
+
+2007-01-05  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/comet/gfxwidget.cpp (MouseDown): reroute scroll events to
+	the slider widget like the list widgets do
+	* (Select): don't reset to top of list on deselection
+
+2007-01-03  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/game.cpp (InitKeys): make non-ASCII shortcuts work as
+	locale-defined key commands as well
+
+	* src/cf/game.cpp (HandleEvent): make user-defined key commands
+	work even if the corresponding locale-defined command does not
+	exist
+
+2007-01-02  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/comet/extwindow2.cpp (NewMissionWindow::WidgetActivated):
+	when creating a new map, also generate the most important
+	messages in the default locale
+
+2007-01-02  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/listselect.cpp (SwitchList, Update): fix list
+	updates after deleting nodes
+
+2007-01-02  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/game.cpp (Load)
+	* src/cf/initwindow.cpp (StartGame): fix resuming campaign
+	games (reported by Uwe Koch)
+
+	* src/cf/game.cpp (SwitchMap): carry over the handicap setting
+	when switching maps in campaigns
+
+2006-12-20  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/comet/eventwindow.cpp (EdEventCreateUnitWindow,
+	EdEventGenericWindow, EdEventSetTimerWindow)
+	* src/comet/extwindow2.cpp (EdUnitWindow): use unique keyboard
+	shortcuts
+
+2006-12-19  Nikola Smolenski  <smolensk@eunet.yu>
+
+	* locale/sr.tmpl: update for networking changes and others
+
+2006-12-18  Waclaw Schiller  <torinthiel@megapolis.pl>
+
+	* locale/pl.tmpl: update for networking changes
+
+2006-12-18  Andrej Krivulcik  <krivulcik@gmail.com>
+
+	* locale/sk.tmpl: update for networking changes
+
+2006-12-18  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/comet/edwindow.cpp (HandleEvent): do not start painting
+	if we are currently scrolling the map view
+
+2006-12-18  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/game.{cpp,h} (NetworkProgressWindow), (EndTurn,
+	HandleNetworkError, StartTurn, WidgetActivated): improve
+	handling of network errors. Now, when connection is lost, ask
+	the user whether to save the game instead of just going back to
+	the main menu. Also, don't pop up an error dialog if user
+	explicitly disconnected
+	* locale/{de,en}.tmpl (MSG_ASK_ABORT_NETWORK): modify the
+	warning message accordingly
+
+	* src/cf/game.cpp (GameMenu): remove restriction that only the
+	server in a network game can save
+
+2006-12-16  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/initwindow.cpp (NetworkSetupWindow)
+	* src/cf/main.cpp (load_settings, save_settings)
+	* src/cf/options.{cpp,h} ({Get,Set}LocalPort,
+	{Get,Set}RemoteName, {Get,Set}RemotePort: remember network
+	settings across sessions
+
+2006-12-16  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/widget.cpp (SetTitle): clear keypos when setting
+	a new title
+	(PrintTitle): only try to render the shortcut if we have a
+	keypos; shortcuts do not have to be in the widget title, and we
+	were groping random memory before if they weren't
+	(Widget): clean up the constructor a bit
+
+	* src/common/button.cpp (Draw)
+	* src/common/widget.cpp (PrintTitle): fix some issues with
+	operator precedence
+
+2006-12-15  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/widget.{cpp,h} (PrintTitle): replace the new
+	WIDGET_ALIGN_WITHIN_{LEFT,RIGHT} flags by a single flag
+	WIDGET_ALIGN_WITHIN that can be combined with
+	WIDGET_ALIGN_{LEFT,RIGHT} to achieve the same result; this
+	way we don't need to extend the flags member to avoid clashes
+
+	* src/cf/unitwindow.cpp (ContainerWindow)
+	* src/common/button.cpp (Draw): adapt
+
+2006-12-15  Silvio Iaccarino  <silvio@iaccarino.de>
+
+	* src/common/listselect.cpp (KeyDown): on WinCE, use the
+	return key for selecting list items by default
+
+	* src/cf/initwindow.cpp (GenericOptionsWindow::SetLayout)
+	* src/cf/unitwindow.cpp (ContainerWindow): don't use
+	WIDGET_DEFAULT where it interferes with ListWidget handling on
+	those platforms
+
+	* src/cf/platform.cpp (crimsonWndProc, platform_dispose,
+	platform_setup): improve hiding of task bars on WinCE;
+	add keyboard mapping for special keys
+
+2006-12-15  Jens Granseuer  <jensgr@gmx.net>
+
+	Based on a patch by: Silvio Iaccarino <silvio@iaccarino.de>
+
+	* src/common/widget.{cpp,h} (PrintTitle): add
+	WIDGET_ALIGN_WITHIN_{LEFT,RIGHT} defines to align the label
+	within the widget boundaries
+
+	* src/common/button.cpp (Draw): support composite buttons with
+	WIDGET_STYLE_GFX and WIDGET_ALIGN_WITHIN_{LEFT,RIGHT}
+
+	* src/cf/unitwindow.cpp (ContainerWindow): add a label and
+	keyboard activator to the repair and production buttons
+
+2006-12-15  Nikola Smolenski  <smolensk@eunet.yu>
+
+	* tools/default.usrc: add Serbian unit names
+
+2006-12-15  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/widget.cpp (SetTitle): get rid of an unneccessary
+	strlen call
+
+	* autogen.sh: accept automake 1.10
+
+	* README, THANKS: update
+
+	* music/COPYING.MUSIC: reword to avoid getting deep into
+	politics
+
+2006-12-14  Nikola Smolenski  <smolensk@eunet.yu>
+
+	* src/common/strutil.{cpp,h} (utf8chartoascii): add function to
+	translate UTF-8 characters to ASCII keystrokes; for now only
+	knows about Cyrillic
+	* src/common/widget.{cpp,h} (PrintTitle, SetTitle): add support
+	for non-ASCII keyboard shortcuts to widgets
+
+	* locale/Makefile.am (locale_DATA)
+	* locale/sr.tmpl: add Serbian translation
+
+2006-12-13  Jens Granseuer  <jensgr@gmx.net>
+
+	* locale/Makefile.am (locale_DATA)
+	* locale/it.tmpl: add Italian translation by Americo
+	Iacovizzi
+
+2006-12-13  Silvio Iaccarino <silvio@iaccarino.de>
+
+	* src/common/fileio.cpp: fix Windows includes from last commit
+
+2006-12-12  Silvio Iaccarino <silvio@iaccarino.de>
+
+	* src/common/fileio.cpp (get_home_dir): on Windows, use the
+	"My Documents" folder as user's home dir
+
+	* VisualC++.zip: update VC++ project files
+
+2006-12-10  Jens Granseuer  <jensgr@gmx.net>
+
+	* doc/crimson.xml: mention networking in the main menu
+	description and fix a typo
+
+2006-12-08  Jens Granseuer  <jensgr@gmx.net>
+
+	*** release Crimson Fields 0.5.0 ***
+
+	* NEWS, TODO: update
+	* configure.ac
+	* src/common/globals.h: bump version
+
+	* VisualC++.zip: update VC++ project files
+
+2006-12-07  Jens Granseuer  <jensgr@gmx.net>
+
+	* levels/ClippedWings.src: remove some Bunkers and tweak the
+	map a little to make it harder for the FNA
+
+2006-12-07  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/unitwindow.cpp (ContainerWindow::SwitchMode): reset
+	the last_selected node pointer after switching modes, so we
+	don't accidently select units we don't want
+
+2006-12-04  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/comet/edwindow.cpp (HandleEvent): use current terrain as
+	a "paintbrush" when terraforming with the mouse button pressed;
+	should make changing larger areas much less cumbersome
+
+2006-11-30  Andrej Krivulcik  <krivulcik@gmail.com>
+
+	* locale/sk.tmpl: update Slovak translation
+
+2006-11-27  Waclaw Schiller  <torinthiel@megapolis.pl>
+
+	* locale/pl.tmpl: yet another Polish translation update
+
+2006-11-26  Jens Granseuer  <jensgr@gmx.net>
+
+	* gfx/CFTiles.bmp: new mountain tiles and various minor
+	improvements by Laurent Chea
+
+	* tools/default.tsrc: update definitions for new mountains
+	* tools/bi_data.c (bi_rawtiles), tools/hl_data.c (hl_rawtiles):
+	use new mountains when converting BI/HL maps
+
+	* levels/{ArmsRace,ClippedWings,Foxhole,HeavyMetal,
+	LostFactories,MountainDefense,OmyarGorge,RadioSilence,
+	Tutorial[12],Uprising}.src: update to use new mountains
+
+2006-11-26  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/extwindow.h (ProgressWindow::Cancelled): mark
+	virtual
+
+	* src/common/window.h (WIN_PROG_DEFAULT): add new flag to
+	control whether to set WIDGET_DEFAULT for the ProgressWindow
+	button
+	* src/common/extwindow.cpp (ProgressWindow): implement it
+	* src/cf/history.cpp (Replay): use it
+
+2006-11-25  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/initwindow.cpp (StartGame): ask the server which side
+	to take
+
+2006-11-24  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/initwindow.cpp (StartGame): send the player id the
+	client is supposed to take in the sync buffer; this way we can
+	lift the restriction that the client is always Player 2
+
+2006-11-24  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/game.cpp (Undo)
+	* src/cf/history.{cpp,h} (EraseMoveEvents): also erase all
+	transportation events for the unit, and rename to UndoMove to
+	better reflect this
+
+	* INSTALL: recommend SDL_net 1.2.6 since earlier versions do
+	not properly guard against SIGPIPEs
+
+2006-11-22  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/textbox.{cpp,h} (NumberWidget): extend number
+	value to long, since we'll otherwise overflow for port numbers
+	of up to 65536 (reported by Silvio Iaccarino)
+
+	* src/common/initwindow.cpp (NetworkSetupWindow): set max port
+	number to 65536
+
+2006-11-22  Silvio Iaccarino <silvio@iaccarino.de>
+
+	* src/cf/initwindow.cpp (TitleWindow)
+	* src/common/slider.{cpp,h} (ProgressWidget, SliderWidget): fix
+	warnings with VC++
+
+2006-11-21  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/initwindow.{cpp,h} (AskForSide, StartGame): factor out
+	asking for a side to play on
+
+	* src/cf/game.cpp (NetworkProgressWindow::Cancelled): ask user
+	for confirmation before disconnecting
+	* src/cf/msgs.h (MSG_ASK_ABORT_NETWORK)
+	* locale/*.tmpl: add new message
+
+	* configure.ac: fix check for SDL_net to not disable sound
+
+2006-11-21  Waclaw Schiller  <torinthiel@megapolis.pl>
+
+	* locale/pl.tmpl: update Polish translation again
+
+2006-11-20  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/initwindow.cpp (Rebuild): open window with map
+	selection disabled if mode is Network Client (reported by
+	Waclaw Schiller)
+
+	* locale/*.tmpl
+	* src/cf/initwindow.cpp (NetworkSetupWindow::Draw)
+	* src/cf/msgs.h (MSG_NET_CONNECTING, MSG_NET_WAITING_CLIENT):
+	add two more missing strings for translation (also reported by
+	Waclaw)
+
+	* src/comet/edwindow.{cpp,h} (WidgetActivated)
+	* src/comet/extwindow2.{cpp,h} (NewMissionWindow): fix crash
+	when creating a new map which was introduced by the recent
+	switch to enums
+
+2006-11-20  Waclaw Schiller  <torinthiel@megapolis.pl>
+
+	* levels/ClippedWings.src: add Polish translation
+
+	* levels/{ArmsRace,Foxhole,GreatBattle,HeavyMetal,
+	IslandHoppers,MountainDefense}.src
+	* locale/pl.tmpl: update Polish translation
+
+2006-11-19  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/textbox.cpp (TextListWidget::DrawNodes): make
+	nodes look insensitive when widget is disabled
+
+	* src/cf/game.cpp (Load): properly set flags for AI games; it's
+	possible to play vs. computer again (reported by Dave Fancella)
+
+2006-11-18  Jens Granseuer  <jensgr@gmx.net>
+
+	* levels/Makefile.am (levels_DATA)
+	* levels/ClippedWings.src
+	* levels/Plowshares.src: add third mission for the Yalwa
+	campaign
+
+2006-11-18  Jens Granseuer  <jensgr@gmx.net>
+
+	Add networking game mode.
+
+	* src/cf/history.{cpp,h} (Save): add a special parameter for
+	networking
+	* src/cf/history.{cpp,h} (RecordTransportEvent,
+	RecordUnitEvent, ReplayUnitEvent)
+	* src/cf/ai.cpp (CommandUnitRepair)
+	* src/cf/event.cpp (Execute)
+	* src/cf/mission.cpp (CreateUnit)
+	* src/cf/unitwindow.{cpp,h} (WidgetActivated): also record
+	repairs and transportation events
+
+	* src/cf/game.{cpp,h} (Load): add a way to load a game from an
+	in-memory buffer
+	(StartTurn): treat a remote player similar to the AI, as an
+	opaque, non-interactive opponent
+	(EndTurn): in network game, send history at end of turn
+	(EndMovement, Execute): allow replaying events from a History
+	for real
+	(GameMenu): only allow the server to save
+
+	* src/cf/initwindow.{cpp,h} (NetworkSetupWindow, StartGame,
+	WidgetActivated): ask for networking parameters and synchronize
+	mission with peer at the start of a match
+
+	* src/cf/msgs.h: add message identifiers for network mode
+
+	* locale/*.tmpl: add new messages for networking
+
+	* README, doc/crimson.xml: add networking mode
+
+2006-11-18  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/event.cpp (DisplayMessage)
+	* src/cf/game.cpp (ShowDebriefing, StartTurn): only display
+	messages and dialogs to interactive players
+
+2006-11-18  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/game.{cpp,h} (ResolveBattle): add an optional argument
+	to pass precalculated casualties
+
+	* src/cf/history.cpp (RecordCombatEvent, ReplayCombatEvent):
+	use (old and new) public API instead of private hacks
+
+	* src/cf/combat.h: History no longer needs to be a friend class
+
+2006-11-18  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/gamedefs.h (GI_NETWORK): add
+
+	* src/cf/options.{cpp,h} (GTYPE_*, IsNetwork): use symbolic
+	names for game types and add networking types
+	* src/cf/initwindow.cpp (WidgetActivated): adjust accordingly
+
+	* src/cf/player.{cpp,h} (IsInteractive, IsRemote, SetRemote):
+	add p_remote member variable and related methods
+
+	* src/cf/combat.{cpp,h} (CalcResults): add a second variant
+	that just takes a precalculated result and applies that
+
+2006-11-17  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/Makefile.am (crimson_SOURCES)
+	* src/cf/network.{cpp,h}: add TCP/IP networking infrastructure
+
+	* INSTALL
+	* configure.ac: check for SDL_net (optional dependency)
+
+	* src/cf/main.cpp (do_exit, init): hook up the networking
+	subsystem
+
+2006-11-17  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/fileio.{cpp,h}: un-constify Read/Write methods
+	since we cannot assume these for other implementations
+	(Write*): fix return value semantics (0 is success, -1 error)
+	* src/{cf,comet}/map.cpp (Save): fix error check
+
+	* src/cf/unit.h (XP): add
+
+	* src/comet/edwidget.{cpp,h}: remove files
+	* src/comet/Makefile.am (comet_SOURCES)
+	* src/comet/eventwindow.h
+	* src/comet/extwindow2.h: update accordingly
+	* src/common/textbox.{cpp,h} (NumberWidget): move to common
+
+	* src/common/widget.h (UserActionHook): add
+
+	* src/common/extwindow.{cpp,h} (ProgressWindow): add a message
+	property and implement UserActionHook
+	* src/common/slider.{cpp,h} (ProgressWidget): actually make use
+	of the title property
+	* src/cf/ai.cpp (Play), src/cf/history.cpp (Replay): update
+	accordingly
+
+2006-10-10  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/fileio.{cpp,h}: make MemBuffer a generic buffer
+	abstraction instead of basing it on SDL_RWops
+	* src/cf/game.cpp (Load), src/cf/mission.cpp (Load): adapt to
+	changes in MemBuffer
+
+2006-10-06  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/fileio.{cpp,h}: factor out a generic MemBuffer
+	abstraction from file which can e.g. be used to create a
+	NetBuffer abstraction
+
+	* src/cf/building.{cpp,h}, src/cf/combat.{cpp,h},
+	src/cf/container.{cpp,h}, src/cf/event.{cpp,h},
+	src/cf/history.{cpp,h}, src/cf/map.{cpp,h},
+	src/cf/mission.{cpp,h}, src/cf/player.{cpp,h},
+	src/cf/unit.{cpp,h}, src/comet/building.{cpp,h},
+	src/comet/map.{cpp,h}, src/comet/mission.{cpp,h},
+	src/comet/unit.{cpp,h}, src/common/lang.{cpp,h},
+	src/common/lset.{cpp,h}, src/common/surface.{cpp,h},
+	tools/mksurface.{cpp,h}: use MemBuffer instead of File where
+	appropriate
+
+2006-09-29  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/comet/extwindow2.cpp (EdBuildingWindow::WidgetActivated):
+	properly reflect changes to maximum amount of crystals
+
+	* src/common/mapview.cpp (DrawMap, DrawUnitHealth): actually
+	paint to the destination surface, not our private one
+
+2006-09-24  Jens Granseuer  <jensgr@gmx.net>
+
+	* Makefile.am (EXTRA_DIST): distribute VC++ project files
+
+	* src/comet/edwindow.{cpp,h} (WidgetActivated)
+	* src/comet/extwindow2.{cpp,h}
+	* src/common/sound.{cpp,h}
+	* src/common/surface.{cpp,h}: replace static const class
+	variables with enums
+
+2006-09-21  Silvio Iaccarino <silvio@iaccarino.de>
+
+	* src/cf/platform.cpp (platform_setup): fix WinCE build
+
+	* VisualC++.zip: add VC++ project files
+
+2006-09-18  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/main.cpp (do_exit, main)
+	* src/cf/platform.{cpp,h}: get rid of a few more platform-
+	specific #ifdefs
+
+2006-09-07  Waclaw Schiller  <torinthiel@megapolis.pl>
+
+	* locale/pl.tmpl: update Polish translation
+
+2006-08-25  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/game.cpp (HandleEvents)
+	* src/cf/options.cpp (Options): get rid of some fixed key
+	bindings in favour of the configurable ones
+
+2006-08-18  Jens Granseuer  <jensgr@gmx.net>
+
+	* locale/de.tmpl (MSG_PRESS_KEY): update German translation
+
+	* locale/{fr,hu,pl}.tmpl (MSG_PRESS_KEY): add default string
+
+	* src/cf/game.cpp (GameMenu): make options submenus appear in
+	the same order as in the start menu (thanks Andrej)
+
+	* src/cf/initwindow.cpp (TitleWindow): try to support some
+	sort of resolution-dependent title screen
+
+	* src/common/globals.h (CF_TITLE_SCREEN): remove
+
+2006-08-01  Andrej Krivulcik  <krivulcik@gmail.com>
+
+	* locale/sk.tmpl: update Slovak translation
+
+2006-08-01  Jens Granseuer  <jensgr@gmx.net>
+
+	* tools/parser.cpp (Parse): really fix BOM parsing...
+
+2006-07-30  Jens Granseuer  <jensgr@gmx.net>
+
+	* locale/en.tmpl (MSG_PRESS_KEY): mention that BS/Del clears an
+	assignment
+
+2006-07-27  Jens Granseuer  <jensgr@gmx.net>
+
+	* locale/en.tmpl (MSG_PRESS_KEY)
+	* src/cf/initwindow.{cpp,h} (KeyboardOptionsWindow)
+	* src/cf/msgs.h (MSG_PRESS_KEY): rework the key binding options
+	a little in an attempt to make its usage more obvious
+
+2006-07-26  Waclaw Schiller  <torinthiel@megapolis.pl>
+
+	* locale/pl.tmpl: update Polish translation
+
+2006-07-23  Jens Granseuer  <jensgr@gmx.net>
+
+	* tools/parser.cpp (Parse): fix bug I introduced in skipping the
+	UTF-8 BOM
+
+2006-07-22  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/main.cpp (main, parse_options)
+	* src/comet/main.cpp (main)
+	* tools/cf2bmp.cpp, tools/cfed.cpp, tools/mkdatafile.cpp
+	* tools/mklocale.cpp, tools/mktileset.cpp, tools/mkunitset.cpp:
+	target some of the recent Win32 changes at VC++ only, to still
+	allow building with Cygwin/MinGW
+
+2006-07-21  Silvio Iaccarino <silvio@iaccarino.de>
+
+	* src/cf/game.cpp (GameMenu, WidgetActivated): add a minimize
+	item to the game menu
+
+	* src/cf/main.cpp (init): don't use "large" as a variable name
+	since it's a reserved word in VC++
+
+	* src/cf/options.cpp: make "Play against AI" the default mode
+
+	* src/comet/eventwindow.cpp (EdTrigHandicapWindow): make boolean
+	expressions VC++ compatible
+
+	* src/comet/main.cpp (main): support VC++ for Windows build
+
+	* src/common/SDL_zlib.c: fix compilation without libz
+
+	* src/tools/parser.cpp (Parse): skip UTF-8 BOM if present
+
+2006-07-17  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/options.cpp: add default key bindings for V43
+
+	* src/cf/options.h: declare std namespace to fix build errors
+	with newer gcc (reported by Stephan Beal)
+
+2006-07-15  Jens Granseuer  <jensgr@gmx.net>
+
+	Based on a patch by Silvio Iaccarino (silvio@iaccarino.de):
+	improve WindowsCE/PocketPC support
+
+	* src/cf/Makefile.am (crimson_SOURCES)
+	* src/cf/main.cpp (init, main, do_exit, init_wince)
+	* src/cf/platform.{cpp,h}: move platform-specific functions
+	out to a separate file; add PocketPC support
+
+	* src/cf/initwindow.cpp (VideoOptionsWindow): add special
+	modes for WindowsCE
+
+	* src/common/globals.h (MIN_XRES, DEFAULT_RESOLUTION): set
+	minimum width to 240 pixels; add resolution for WindowsCE
+	(240x320)
+	* (CF_FONT_LOWRES_*): add font sizes for small displays
+
+	* tools/cf2bmp.cpp: only include unistd.h if available
+	* tools/cfed.cpp
+	* tools/mkdatafile.cpp
+	* tools/mklocale.cpp
+	* tools/mktileset.cpp
+	* tools/mkunitset.cpp: undef main for Win32
+	* tools/parser.cpp (RemWhitespace): fix crash on some STL
+	implementations
+
+2006-07-14  Jens Granseuer  <jensgr@gmx.net>
+
+	Based on a patch by Silvio Iaccarino (silvio@iaccarino.de)
+
+	* src/cf/Makefile.am (crimson_SOURCES)
+	* src/cf/game.cpp (GameMenu, HandleEvent, WidgetActivated)
+	* src/cf/initwindow.{cpp,h} (KeyboardOptionsWindow)
+	* src/cf/main.cpp (event_filter, {load,save}_settings)
+	* src/cf/msgs.h
+	* src/cf/options.{cpp,h}: add configurable key bindings
+	* locale/*.tmpl: add default messages for new keyboard options
+
+	* src/cf/map.cpp (MoveCost): modify boolean expression to make
+	VC++ happy
+
+	* src/common/strutil.{cpp,h} (strprintf): add support for %c
+
+2006-07-10  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/path.{cpp,h} (MoveShader::ETA, StopSearch): fix
+	inlining to make VC++ happy
+
+	* src/cf/initwindow.{cpp,h} ({Generic,Sound}OptionsWindow): use
+	enums instead of static const class variables
+
+	* src/common/textbox.{cpp,h} (TLWNode::user_flags): removed
+	unused member
+
+2006-05-31  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/history.cpp (RecordUnitEvent, ReplayUnitEvent): restore
+	binary compatibility with older saved games
+
+2006-04-26  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/globals.h: add some defines for ports
+	* src/cf/main.cpp (main): use DEFAULT_RESOLUTION instead of
+	hardcoded 800x600
+	* src/common/extwindow.cpp (MessageWindow): use MIN_XRES and
+	MIN_YRES instead of hardcoded 320x240
+
+	* src/cf/event.h (GetFocus): Point is really a struct; some
+	compilers apparently complain about this
+
+	* src/common/filewindow.cpp: include globals.h for platforms
+	which don't provide strcasecmp
+
+2006-04-23  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/comet/mission.cpp (Event::Export): add missing type for
+	EVENT_DESTROY_UNIT
+
+	* src/comet/eventwindow.{cpp,h}: use enums instead of static
+	const class variables
+
+	* src/cf/mapwindow.{cpp,h} (FadeOutUnit): remove
+	(FadeInHex): rename to FadeHex and also support fading out
+
+2006-04-22  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/SDL_zlib.c: only include unistd.h if available
+
+	* doc/cfed.xml
+	* src/cf/event.cpp (Execute)
+	* src/cf/history.{cpp,h} (RecordUnitEvent, ReplayUnitEvent)
+	* src/cf/mapwindow.{cpp,h} (FadeOutUnit)
+	* src/cf/mission.cpp (CreateUnit)
+	* src/comet/eventwindow.{cpp,h} (EdEventDestroyUnitWindow)
+	* src/comet/mission.cpp (Event, ValidateEvent)
+	* src/common/gamedefs.h (EVENT_DESTROY_UNIT)
+	* tools/cfed.cpp (EventHandler): add EVENT_DESTROY_UNIT to
+	remove units from the board
+
+	* src/comet/eventwindow.cpp (EdTrigHaveUnitWindow): fix unit
+	owner callback not being set
+
+2006-01-25  Jens Granseuer  <jensgr@gmx.net>
+
+	* crimson.spec.in: recent versions of RPM expect License
+	instead of Copyright (thanks to Matthew Gillen for the info)
+
+2006-01-13  Waclaw Schiller  <torinthiel@megapolis.pl>
+
+	* locale/pl.tmpl: update Polish translation
+
+2005-10-30  Jens Granseuer  <jensgr@gmx.net>
+
+	* levels/Tutorial1.src
+	* locale/Makefile.am (locale_DATA)
+	* locale/hu.tmpl: add Hungarian translation by Erno Szabados
+
+2005-10-19  Jens Granseuer  <jensgr@gmx.net>
+
+	* configure.ac: add check for xmllint
+	* doc/Makefile.am (check-local): add validity check for the
+	DocBook files
+
+2005-10-13  Jens Granseuer  <jensgr@gmx.net>
+
+	*** release Crimson Fields 0.4.9 ***
+
+	* NEWS: update
+	* configure.ac
+	* src/common/globals.h: bump version
+
+2005-10-13  Michael Pfeiffer  <michael.pfeiffer@utanet.at>
+
+	* src/common/fileio.cpp (get_home_dir): add support for BeOS
+	* src/common/font.cpp (FitText): STL on BeOS R5 does not
+	support push_back(); use += operator instead which should work
+	for everyone
+
+2005-10-13  Waclaw Schiller  <torinthiel@megapolis.pl>
+
+	* levels/Tutorial3.src: add Polish translation
+	* locale/pl.tmpl: update Polish translation
+
+2005-10-11  Andrej Krivulcik  <krivulcik@gmail.com>
+
+	* levels/Tutorial3.src: add Slovak translation
+
+2005-09-29  Jens Granseuer  <jensgr@gmx.net>
+
+	* levels/Makefile.am (levels_DATA)
+	* levels/Tutorial2.src
+	* levels/Tutorial3.src: add third tutorial mission by Andrej
+	Krivulcik
+
+2005-09-17  Jens Granseuer  <jensgr@gmx.net>
+
+	* tools/cfed.cpp (EventHandler:ParseSection): fix parsing of
+	HAVE_CRYSTALS events
+	* (MapRawHandler:ParseSection): properly increment line counter
+	(thanks to Andrej for the reports)
+
+2005-09-17  Waclaw Schiller  <torinthiel@megapolis.pl>
+
+	* levels/Tutorial1.src: update Polish translation
+
+2005-09-17  Andrej Krivulcik  <krivulcik@gmail.com>
+
+	* levels/Tutorial1.src: update Slovak translation
+
+2005-09-01  Jens Granseuer  <jensgr@gmx.net>
+
+	* levels/Tutorial1.src: update German and English to recent
+	changes in the unit information window
+
+2005-08-04  Jens Granseuer  <jensgr@gmx.net>
+
+	* configure.ac: support passing non-standard paths to
+	--with-zlib
+
+	* src/{cf,comet}/unit.h (MapObject)
+	* src/common/textbox.h (InputValidator)
+	* src/common/widget.h (WidgetHook): fix virtual destructor
+	warnings
+
+	* tools/bi2cf.[ch] (tmapfiles, tmapinfo): fix some signedness
+	warnings
+
+2005-07-22  Jens Granseuer  <jensgr@gmx.net>
+
+	* doc/{crimson,cfed}.xml: small updates to improve the output
+	with the latest Docbook XSL stylesheets (1.69.0). Also use
+	xrefs instead of links now that the stylesheets support them
+
+2005-07-12  Jens Granseuer  <jensgr@gmx.net>
+
+	* doc/{cfed,crimson}.xml
+	* locale/*.tmpl
+	* src/cf/container.{cpp,h} (Allow, InsertUnit, TotalCrystals)
+	* src/cf/event.cpp (CheckTrigger)
+	* src/cf/msgs.h (MSG_ERR_NO_TRANSPORTER, MSG_TRANSFER)
+	* src/cf/unitwindow.{cpp,h}
+	* src/comet/extwindow2.cpp (EdUnitWindow): remove transfer
+	button from shop window. Crystals are now handled much like
+	units as far as transports are concerned
+
+	* src/cf/ai.cpp (AssignObjectives): always put stationary
+ 	units in all-out attack mode since they aren't suited for
+	anything else anyway
+
+2005-07-08  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/initwindow.cpp (LocaleOptionsWindow): remove redundant
+	border
+
+	* src/common/gamewindow.cpp (UnitInfoWindow): mark forbidden
+	tiles with the "not ready" dot instead of shading them
+
+2005-06-29  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/initwindow.cpp (WidgetActivated): player selection
+	should be accessible via keyboard
+
+	* tools/cfed.cpp (check_events): fix HAVE_CRYSTALS validation
+
+2005-06-27  Jens Granseuer  <jensgr@gmx.net>
+
+	* doc/cfed.xml: update the documentation, too
+
+2005-06-26  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/event.cpp (CheckTrigger)
+	* src/comet/eventwindow.{cpp,h} (EdTrigHaveCrystalsWindow)
+	* src/comet/mission.cpp (ValidateEvent)
+	* tools/cfed.cpp (check_events): add option to include all
+	transports for ETRIGGER_HAVE_CRYSTALS
+
+2005-06-25  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/unitwindow.cpp: make crystals sliders more consistent
+
+	* src/common/slider.cpp (Adjust): cope with knob size 0
+	(MouseMove): smoother knob movement
+
+2005-06-23  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/unitwindow.cpp (UnitLoadWindow::WidgetActivated): When
+	moving units into transporter also set U_DONE flag so they
+	don't appear to be ready (reported by Andrej)
+
+2005-06-23  Andrej Krivulcik  <krivulcik@gmail.com>
+
+	* tools/default.usrc: fix and update Slovak translation
+
+2005-06-14  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/container.h (TotalCrystals)
+	* src/common/gamedefs.h (ETRIGGER_HAVE_CRYSTALS): Eek! Forgot
+	to commit these
+
+2005-06-13  Jens Granseuer  <jensgr@gmx.net>
+
+	* doc/cfed.xml
+	* src/cf/container.{cpp,h} (TotalCrystals)
+	* src/cf/event.cpp (CheckTrigger, GetFocus)
+	* src/comet/eventwindow.{cpp,h} (EdTrigHaveCrystalsWindow)
+	* src/comet/mission.cpp (etrigger_labels, Event)
+	* tools/cfed.cpp (EventHandler): add ETRIGGER_HAVE_CRYSTALS to
+	check for available resources
+
+	* src/cf/container.cpp (RemoveUnit): make sure we only subtract
+	each unit once when we move it out of a container
+
+2005-06-11  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/event.cpp (CheckTrigger): make ETRIGGER_UNIT_POSITION
+	checks less expensive with many units on the map
+
+2005-06-08  Jens Granseuer  <jensgr@gmx.net>
+
+	*** release Crimson Fields 0.4.8 ***
+
+	* NEWS: update
+	* configure.ac
+	* src/common/globals.h: bump version
+
+2005-06-06  Waclaw Schiller  <torinthiel@megapolis.pl>
+
+	* levels/Tutorial2.src: add Polish translation
+
+2005-06-05  Jens Granseuer  <jensgr@gmx.net>
+
+	* levels/Tutorial2.src: add German translation
+
+2005-06-05  Andrej Krivulcik  <krivulcik@gmail.com>
+
+	* levels/Tutorial2.src: add Slovak translation
+
+2005-06-03  Jens Granseuer  <jensgr@gmx.net>
+
+	* doc/crimson.xml
+	* src/cf/unit.cpp (Repair): make units being repaired lose one
+	instead of 0.5 experience points per rookie
+
+	* levels/Makefile.am
+	* levels/Tutorial1.src: update
+	* levels/Tutorial2.src: add Andrej's second tutorial mission
+
+2005-05-29  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/comet/mission.cpp (Event::Export): and export it, too
+
+	* src/cf/event.cpp (CheckTrigger): fix combination of
+	ETRIGGER_UNIT_POSITION and shops (reported by Andrej Krivulcik)
+
+	* src/cf/initwindow.cpp: add missing iostream include (thanks
+	Andrej)
+
+2005-05-28  Jens Granseuer  <jensgr@gmx.net>
+
+	* doc/cfed.xml
+	* src/cf/event.cpp (CheckTrigger)
+	* src/comet/eventwindow.{cpp,h} (EdTrigUnitDestroyedWindow)
+	* tools/cfed.cpp (EventHandler): add support for selecting
+	unit classes for ETRIGGER_UNIT_DESTROYED
+
+2005-05-23  Andrej Krivulcik  <thefox@pobox.sk>
+
+	* locale/sk.tmpl: update Slovak translation
+
+2005-04-17  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/unitwindow.{cpp,h} (UnitLoadWindow): implement
+	crystals transfers
+
+	* src/cf/container.h (MaxCrystals): add
+	* src/{cf,comet}/building.h (CrystalStore): rename
+
+	* src/common/textbox.cpp (StringWidget::Draw): support
+	WIDGET_STYLE_NOBORDER
+
+	* src/common/button.cpp (CycleWidget::KeyUp): fix order when
+	cycling by key
+
+	* src/common/listselect.cpp (KeyDown): support activation via
+	keyboard
+
+2005-04-07  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/game.cpp (MoveUnit)
+	* src/cf/unitwindow.cpp (UnitLoadWindow): add a cancel button
+	to the window
+	(UnitListWidget::DrawNodes): improve display of selected units
+
+2005-04-04  Jens Granseuer  <jensgr@gmx.net>
+
+	* locale/en.tmpl: add CVS revision keyword to make synching
+	easier for translation maintainers
+
+2005-04-03  Waclaw Schiller  <torinthiel@megapolis.pl>
+
+	* locale/pl.tmpl (MSG_TRANSFER_UNITS): add
+
+2005-04-02  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/comet/Makefile.am (comet_SOURCES)
+	* src/comet/edwindow.cpp (ShowContextMenu, WidgetActivated):
+	use the separated UnitInfoWindow
+
+	* tools/default.usrc: disallow forest for hovercraft
+
+	* locale/{de,en,fr}.tmpl (MSG_TRANSFER_UNITS)
+	* src/cf/game.cpp (MoveUnit, Undo)
+	* src/cf/msgs.h (MSG_TRANSFER_UNITS)
+	* src/cf/unitwindow.{cpp,h} (UnitLoadWindow): it is now
+	possible to take other units along when moving transports out
+	of containers (the UI still needs work)
+
+	* src/cf/initwindow.cpp (LocaleOptionsWindow): refuse to load
+	incomplete translations
+
+2005-03-27  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/lset.{cpp,h} (TileSet::NumTiles): add
+	(TerrainSet::NumTT, UnitSet::NumUT): remove
+
+	* src/cf/unitwindow.{cpp,h} (UnitInfoWindow): move from here...
+	* src/common/gamewindow.{cpp,h}: ... to here so we can use it
+	for comet, too
+	* src/cf/Makefile.am (crimson_SOURCES): add gamewindow.{cpp,h}
+
+	* src/cf/game.h: move ICON defs from here...
+	* src/common/gamedefs.h: ... to here
+
+2005-03-25  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/lset.{cpp,h} (DrawFog): move here...
+	* src/common/mapview.{cpp,h} (DrawFog): ...from here
+
+	* src/cf/mapwindow.{cpp,h} (DrawUnitInfo): statify, move to...
+	* src/cf/unitwindow.cpp (UnitInfoWindow)
+
+2005-03-20  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/mapwindow.{cpp,h} (DrawUnitInfo): make instance
+	variables local
+
+	* src/common/surface.{cpp,h} (SurfaceLock): add
+
+2005-03-10  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/mapview.cpp (DrawUnitHealth): scale health bar
+	according to tile size
+
+	* Makefile.am (EXTRA_DIST)
+	* crimson.desktop: add desktop file
+
+	* {doc,levels}/Makefile.am: replace suffix rules by pattern
+	rules and other house-keeping
+
+2005-03-06  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/comet/gfxwidget.{cpp,h}: purge stuff obsoleted by TileSet
+
+	* src/common/lset.{cpp,h} (TileSet::DrawTile): add
+	* src/common/mapview.{cpp,h} (DrawHex): remove
+
+2005-03-02  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/lset.{cpp,h}: add generic TileSet class in
+	preparation for variable tile sizes
+
+	* src/cf/game.cpp (ScrollCommand, SetCursor)
+	* src/cf/mapwindow.cpp (BoxAvoidHexes, DrawUnitInfo, FadeInHex,
+	MoveHex, CombatWindow, Panel::Update)
+	* src/cf/unitwindow.cpp (ContainerWindow, UnitInfoWindow,
+	UnitListWidget::DrawNodes)
+	* src/comet/edwindow.cpp (EdWindow, SetNewMission)
+	* src/comet/eventwindow.cpp (EdEventSetHexWindow)
+	* src/common/mapview.{cpp,h}
+	* tools/cf2bmp.cpp (main): replace global constants GFX_WIDTH,
+	GFX_HEIGHT, GFX_OVERLAP_X, and GFX_OVERLAP_Y by using tile set
+	data; add DEFAULT_TILE_WIDTH and DEFAULT_TILE_HEIGHT
+
+2005-03-01  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/surface.{cpp,h} (GetPixel): add
+	* src/common/mapview.cpp (Pixel2Hex): pixel-perfect hit testing
+
+2005-02-26  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/window.{cpp,h} (DrawBack): don't draw the entire
+	bounding rect if we are only painting part of the surface
+
+2005-02-20  Jens Granseuer  <jensgr@gmx.net>
+
+	*** release Crimson Fields 0.4.7 ***
+
+	* NEWS: update
+	* configure.ac
+	* src/common/globals.h: bump version
+
+2005-02-14  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/{cf,comet}/mission.cpp (Load, Save): move player info and
+	messages closer to the beginning of the file
+
+	* src/cf/initwindow.{cpp,h} (CompleteFilesList, LoadMission)
+	* src/cf/mission.{cpp,h} (QuickLoad): speed up application
+	startup times by only loading the data required for the map
+	selection screen
+
+	* INSTALL
+	* Makefile.am (DISTCHECK_CONFIGURE_FLAGS)
+	* configure.ac
+	* tools/Makefile.am
+	* tools/cf2bmp.cpp: add cf2bmp utility for turning maps into
+	images. Can be built and installed by passing --enable-cf2bmp
+	to configure
+
+	* src/common/surface.{cpp,h} (Colorize): unused, remove
+
+2005-02-07  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/{cf,comet}/unit.{cpp,h} (Moves, RefreshMoves, SetMoves):
+	get rid of u_moves member variable and respective calls
+	* src/cf/game.cpp (ClearMine, EndTurn, MoveUnit, Undo)
+	* src/cf/history.cpp (RecordUnitEvent, StartRecording)
+	* src/comet/mission.cpp (CreateUnit)
+	* tools/cfed.cpp (check_units): update callers
+
+	* src/comet/eventwindow.cpp (EdEventResearchWindow): add
+	missing break in switch
+
+2005-02-01  Jens Granseuer  <jensgr@gmx.net>
+
+	* doc/cfed.xml
+	* src/cf/building.h (UnsetUnitProduction)
+	* src/cf/event.cpp (Execute)
+	* src/comet/eventwindow.{cpp,h} (EdEventResearchWindow)
+	* src/comet/mission.cpp (Event)
+	* tools/cfed.cpp (EventHandler::ParseSection): add new
+	parameter to EVENT_RESEARCH to make it possible to disallow
+	production of a specified unit class
+
+2005-01-30  Andrej Krivulcik  <thefox@pobox.sk>
+
+	* locale/sk.tmpl: update Slovak translation
+
+2005-01-30  Jens Granseuer  <jensgr@gmx.net>
+
+	* locale/en.tmpl: use caps consistently
+
+	* src/comet/eventwindow.cpp (EdEventGenericWindow): clear
+	string buffer for unset discard property (reported by Andrej
+	Krivulcik)
+
+2005-01-29  Jens Granseuer  <jensgr@gmx.net>
+
+	* doc/cfed.xml
+	* src/cf/event.cpp (Execute)
+	* src/comet/eventwindow.{cpp,h} (EdEventConfigureWindow)
+	* src/comet/mission.{cpp,h} (Event, Load, Save)
+	* src/common/lang.{cpp,h} (Find)
+	* src/common/widget.h (SetFlags, UnsetFlags)
+	* tools/cfed.cpp (EventHandler::ParseSection): reenable
+	dynamically setting the next map in a campaign
+
+	* src/cf/game.cpp (Undo)
+	* src/cf/history.{cpp,h} (EraseMoveEvents): don't forget to
+	erase recorded movement on undo (reported by Waclaw Schiller)
+
+2005-01-26  Jens Granseuer  <jensgr@gmx.net>
+
+	* THANKS
+	* levels/Makefile.am
+	* levels/Tutorial1.src: add first tutorial mission by Andrej
+	Krivulcik
+
+	* src/common/gamedefs.h
+	* tools/default.tsrc
+	* tools/mktileset.cpp (TileHandler::ParseSection): remove
+	TT_KEEP_OFF as it's not needed anywhere
+
+2005-01-24  Jens Granseuer  <jensgr@gmx.net>
+
+	* locale/*.tmpl (MSG_B_UNIT_UNDO)
+	* src/cf/game.{cpp,h} ([Re]MoveUnit, Undo, UnitMenu)
+	* src/cf/msgs.h (MSG_B_UNIT_UNDO): add single-step undo
+	* src/cf/unit.h (Facing): add
+
+	* src/cf/options.h (IsAI, IsPBEM): campaign games can never be
+	PBeM, but they are always against the computer (reported by
+	Andrej Krivulcik)
+
+2005-01-24  Waclaw Schiller  <torinthiel@megapolis.pl>
+
+	* levels/Plowshares.src: add Polish translation
+
+2005-01-23  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/event.cpp (Discard): make sure we don't loop endlessly
+	on circular discard chains
+
+	* tools/default.usrc: add missing terrain definition for rails
+	(reported by Jonathan Koren)
+
+	* src/common/extwindow.{cpp,h} (PasswordWindow): add parameter
+	for whether dialog can be cancelled. Update callers
+
+	* doc/crimson.xml (First Steps): minor correction
+
+2005-01-22  Jens Granseuer  <jensgr@gmx.net>
+
+	* doc/cfed.xml
+	* src/cf/game.cpp (Load)
+	* src/cf/initwindow.cpp (CompleteFilesList)
+	* src/comet/extwindow2.{cpp,h} (EdMissionSetupWindow)
+	* src/comet/mission.{cpp,h} (Mission, Export, {Is,Set}Skirmish)
+	* src/common/gamedefs.h (GI_SKIRMISH)
+	* tools/cfed.cpp (MissionHandler): add a way to exclude
+	campaign maps from the skirmish list
+
+	* src/comet/eventwindow.cpp (EdEventCreateUnitWindow): fix
+	off-by-one in unit size
+
+	* tools/mkunitset.cpp (UnitHandler::ParseSection): handle
+	missing translations more gracefully by using the English name
+
+	* doc/cfed.xml
+	* src/cf/event.{cpp,h} (Discard, Execute, Load, Save)
+	* src/cf/game.cpp (CheckEvents)
+	* src/comet/eventwindow.{cpp,h} (EdEventGenericWindow)
+	* src/comet/mission.{cpp,h} (Event, ValidateEvent)
+	* src/common/gamedefs.h (EFLAG_DISCARDED)
+	* tools/cfed.cpp (EventHandler): it is now possible to group
+	events so that all events in a group are discarded when one
+	event in the group is triggered
+
+	* src/common/globals.h (FILE_VERSION): bump
+
+	* doc/cfed.xml
+	* src/cf/event.cpp (Execute)
+	* src/cf/player.h (SetBriefing)
+	* src/comet/eventwindow.{cpp,h} (EdEventConfigureWindow)
+	* src/comet/mission.cpp (Event)
+	* src/common/gamedefs.h (EVENT_CONFIGURE)
+	* tools/cfed.cpp (EventHandler): replace EVENT_NEXT_MAP with
+	more generic EVENT_CONFIGURE (NEXT_MAP was broken anyway)
+
+2005-01-21  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/game.cpp (SelectCommand): ignore shops without
+	entrance tiles
+	* src/cf/map.h (IsShop): add
+
+	* doc/cfed.xml
+	* src/cf/event.cpp (Execute)
+	* src/cf/mission.{cpp,h} (CreateUnit)
+	* src/cf/unit.h (SetGroupSize)
+	* src/comet/eventwindow.{cpp,h} (EdEventCreateUnitWindow)
+	* src/comet/extwindow2.cpp (size_labels, xp_labels)
+	* src/comet/mission.cpp (Event)
+	* tools/cfed.cpp (EventHandler): add support for setting group
+	size and xp to EVENT_CREATE_UNIT
+
+2005-01-19  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/button.{cpp,h} (CycleWidget): only change the
+	value when the widget is activated (Andrej Krivulcik again)
+
+	* doc/cfed.xml
+	* src/cf/event.cpp (CheckTrigger)
+	* src/comet/eventwindow.{cpp,h} (EdTrigUnitPositionWindow)
+	* src/comet/mission.cpp (Event)
+	* tools/cfed.cpp: add controller info to ETRIGGER_UNIT_POSITION
+	so it can be used if the controlling player is not the event
+	owner
+
+	* src/cf/map.cpp (MoveCost): don't let units enter shops when
+	they cannot cross the entrance tile
+
+2005-01-17  Jens Granseuer  <jensgr@gmx.net>
+
+	*** release Crimson Fields 0.4.6 ***
+
+	* NEWS: update
+	* configure.ac
+	* src/common/globals.h: bump version
+
+	* levels/Makefile.am
+	* levels/Plowshares.src
+	* levels/Uprising.src: add second campaign map
+
+	* src/cf/game.cpp (Load, Save): set GI_SAVEFILE when saving
+	instead of after loading so we can properly start new missions
+	from the command line
+
+	* src/cf/event.cpp (Execute)
+	* src/cf/mapwindow.cpp (FadeInHex): make sure we don't obscure
+	other units or the cursor when fading
+        (both issues reported by Andrej Krivulcik)
+
+2005-01-08  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/history.cpp (Load)
+	* src/{cf,comet}/mission.cpp (Load, Save): fix turn replay
+	sometimes being skipped when loading saved games and make sure
+	we stay compatible with 0.4.5 saved games (reported by Andrej
+	Krivulcik)
+
+2005-01-07  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/game.cpp (ClearMine): deselect a sweeper when no
+	more mines are within reach after a sweep and end its turn
+	(also fixes a crash reported by Andrej Krivulcik)
+
+2005-01-03  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/event.cpp (Execute): only execute score events when
+	score is below 100. This way we only get one message when
+	multiple victory conditions are met on a single turn
+
+	* src/cf/path.{cpp,h} (GetStep): avoid linking issues due to
+	inlining (original patch by Sascha Flohr)
+
+	* src/comet/eventwindow.cpp (ScoreEventWindow): fix duplicate
+	mnemonic
+
+	* src/comet/edwindow.cpp (WidgetActivated): repaint panel
+	after deletion of units or shops
+
+	* src/common/fileio.{cpp,h}
+	* src/{cf,comet}/mission.cpp (Load): try to load units and
+	tiles from user directory first
+
+	* tools/: overhaul the mk* tools to make them work with
+	separate data files instead of hardcoded data. Creating new
+	tile sets and unit sets is now possible without messing with
+	the code
+
+	* THANKS
+	* levels/*.src
+	* locale/sk.tmpl
+	* tools/default.usrc: add Slovak translation by Andrej
+	Krivulcik
+
+2004-11-25  Waclaw Schiller  <torinthiel@megapolis.pl>
+
+	* levels/*.src
+	* locale/pl.tmpl: update Polish translation
+
+2004-11-23  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/view.cpp (FetchEvent): try to aggregate multiple
+	mouse motion events before dispatching. This e.g. helps avoid
+	excessive repainting when scrolling in CoMET
+
+	* doc/crimson.xml (Getting Started): apply some improvements
+	from the wiki
+
+	* doc/crimson.css: add stylesheet for HTML documentation
+	* doc/Makefile.am: add crimson.css to EXTRA_DIST and use it when
+	creating the HTML documentation
+
+2004-11-14  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/comet/Makefile.am (comet_SOURCES)
+	* src/comet/mapgen.{cpp,h}: add random map generator
+	* src/comet/edwindow.{cpp,h}
+	* src/comet/extwindow2.{cpp,h} (NewMissionWindow): use it
+	* src/comet/main.cpp (main): init random number generator
+
+	* src/common/slider.cpp (MouseDown): properly scroll when knob
+	size is 1
+
+	* src/common/filewindow.{cpp,h} (WidgetActivated): the last
+	selected file should be per window
+
+	* src/common/listselect.cpp (ListWidget::MouseDown)
+	* src/common/textbox.{cpp,h} (TextScrollWidget::MouseDown):
+	make mouse wheel operations work even if the cursor is not
+	hovering over the slider
+
+	* src/comet/edwindow.cpp (LeftMouseButton): fix the check for
+	whether a shop tile is being replaced by a non-shop tile
+
+2004-10-30  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/path.{cpp,h}: rework to use a binary heap instead of a
+	linked list for storage. Improves path finder speed by a factor
+	of 5. Gain for MoveShader is still about 60% and could be made
+	even faster by dropping the heap stuff from Find()
+
+	* src/cf/map.cpp (MoveCost): small optimization which squeezes
+	another 10% or so out of the path finder in most situations
+
+2004-10-28  Jens Granseuer  <jensgr@gmx.net>
+
+	* levels/Makefile.am (levels_DATA)
+	* levels/RadioSilence.src: new map by Chang Tang Yen and myself
+
+	* src/common/widget.h (Hide, Unhide): add
+	* src/common/window.cpp (RemoveAllWidgets): add
+	* src/cf/initwindow.{cpp,h} (Rebuild, VideoModeChange): move
+	out of constructor and call when changing resolution so that
+	the window/widget sizes are recalculated
+
+	* src/common/font.{cpp,h} (WriteEllipsis): add
+	* src/cf/unitwindow.cpp (Draw)
+	* src/comet/edwindow.cpp (PrintCursorPos): use it
+
+	* src/comet/edwidget.cpp (NumberWidget::Release): simplify
+	* src/comet/eventwindow.cpp (EdEventMiningWindow): fix setting
+	the crystal limits
+
+2004-10-14  Jens Granseuer  <jensgr@gmx.net>
+
+	*** release Crimson Fields 0.4.5 ***
+
+	* NEWS: update
+	* configure.ac
+	* src/common/globals.h: bump version
+
+	* src/comet/edwindow.cpp (PrintCursorPos): also display the
+	names of units/shops
+
+2004-10-11  Benjamin Power  <BenjiPower@aol.com>
+
+	* levels/General.src
+	* locale/fr.tmpl
+	* tools/default_units.c: update French translation
+
+2004-10-11  Waclaw Schiller  <torinthiel@megapolis.pl>
+
+	* levels/General.src
+	* levels/Uprising.src: update Polish translation
+
+2004-10-09  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/button.cpp (CycleWidget): use RMB to cycle
+	backwards
+
+	* src/cf/msgs.h
+	* locale/*.tmpl: remove unused messages
+
+2004-10-07  Jens Granseuer  <jensgr@gmx.net>
+
+	* levels/Uprising.src: update campaign name
+
+2004-09-18  Jens Granseuer  <jensgr@gmx.net>
+
+	* levels/Uprising.src: replace by new map to kick off the Yalwa
+	campaign
+
+	* Makefile.am (DISTCHECK_CONFIGURE_FLAGS): build everything
+
+	* src/comet/eventwindow.{cpp,h} (EdEventGenericWindow)
+	* tools/cfed.cpp (parse)
+	* doc/cfed.xml: add a way to disable events
+
+2004-09-18  Marcus Schreiner  <marcus.schreiner@gmx.net>
+
+	* levels/General.src: add missing message event for Kand
+	reinforcements. Translations need update
+
+2004-09-12  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/ai.cpp (FindBestHex): don't consider TT_ENTRANCE hexes
+	as attack positions and also check other hexes when the
+	projected turn distance is 0. This makes sure the AI moves
+	units out of shops to attack adjacent enemies
+
+	* src/common/lang.{cpp,h} (AddLanguage, RemoveLanguage): adjust
+	the default language when adding/removing languages if required
+
+	* src/comet/edwindow.cpp (HandleEvent): fix crash when clicking
+	on the tiles or units widget with prior to initialization
+
+	* src/cf/event.cpp (Execute)
+	* src/comet/eventwindow.{cpp,h} (EdEventSetTimerWindow)
+	* src/comet/mission.cpp (ValidateEvent, Event, Event::Export)
+	* src/common/gamedefs.h (EVENT_SET_TIMER)
+	* tools/cfed.cpp (parse, check_events)
+	* doc/cfed.xml: add new event type SET_TIMER
+
+2004-09-07  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/comet/eventwindow.{cpp,h} (EdEventMessageWindow): handle
+	negative coordinates correctly
+
+	* src/comet/extwindow2.cpp (EdMissionSetupWindow): fix crash
+	when trying to set a player name with no messages available
+
+2004-09-05  Jens Granseuer  <jensgr@gmx.net>
+
+	* tools/cfed.cpp (check_events): fix SET_HEX validation
+
+	* src/cf/event.cpp (GetFocus)
+	* src/comet/eventwindow.{cpp,h} (EdEventMessageWindow)
+	* src/comet/mission.cpp (Event::Event, Event::Export)
+	* tools/cfed.cpp (check_events, parse)
+	* doc/cfed.xml: support setting a hex to focus on for MESSAGE
+
+	* levels/*.src: update all maps to use it for the briefings
+
+2004-09-02  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/mapview.h (MV_DIRTY)
+	* src/cf/event.{cpp,h} (DisplayMessage, GetFocus)
+	* src/cf/game.cpp (StartTurn)
+	* src/cf/history.{cpp.h} (RecordMsgEvent, ReplayMessageEvent)
+	* src/cf/mapwindow.cpp (DisplayHex): Make start of turn events
+	visible by initializing the display before CheckEvents(). When
+	displaying a message for an event try to set the focus on some
+	sensible spot on the map. Also lengthen the delay when showing
+	the effects of SET_HEX and CREATE_UNIT events in replays
+
+2004-08-30  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/event.cpp (Execute)
+	* src/cf/mission.{cpp,h} (CreateUnit): add direction parameter
+	so that it gets recorded correctly for replays
+
+	* src/cf/game.{cpp,h} (ExecPreStartEvents, InitWindows): add
+	new method to prevent handicap events on the first turn from
+	showing up in replays
+
+2004-08-27  Jens Granseuer  <jensgr@gmx.net>
+
+	*** release Crimson Fields 0.4.4 ***
+
+	* NEWS: update
+	* configure.ac
+	* src/common/globals.h: bump version
+
+2004-08-26  Jens Granseuer  <jensgr@gmx.net>
+
+	* tools/cfed.cpp (check_player): accept player names up to 30
+	characters like CoMET does
+
+	* src/comet/extwindow2.cpp (EdBuildingWindow): fix crash when
+	closing the window using the return key (reported by Chang Tang
+	Yen)
+
+	* src/comet/mission.cpp (ValidateEvent): don't warn about
+	ETRIGGER_HANDICAP
+
+	* levels/Makefile.am
+	* levels/General.src: add new map by Marcus Schreiner
+
+2004-08-24  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/SDL_zlib.[ch]: new transparent SDL_RWops
+	implementation for gzip-compressed files. All users have been
+	updated and obsoleted code removed
+
+	* gfx/crimson.ico: reduced file size by using png2ico instead
+	of icotool
+
+	* locale/Makefile.am
+	* locale/fr.tmpl
+	* tools/default_units.c
+	* tools/mkunitset.cpp: add French translation by Benji
+
+2004-08-20  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/event.cpp (CheckTrigger): fix timer checks and also
+	search transporters for UNIT_POSITION
+
+	* src/cf/initwindow.cpp (GenericOptionsWindow::SetLayout):
+	limit maximum window height to screen size
+
+	* src/common/textbox.cpp (StringWidget::CharInput): accept
+	all printable characters as valid input
+
+2004-08-17  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/event.cpp (Execute)
+	* src/comet/eventwindow.{cpp,h} (EdEventCreateUnitWindow)
+	* src/comet/extwindow2.cpp (dir_labels)
+	* src/comet/mission.cpp (Event::Event, Event::Export)
+	* tools/cfed.cpp (check_events, parse)
+	* levels/*.src
+	* doc/cfed.xml: add "face" parameter for EVENT_CREATE_UNIT
+
+2004-08-17  Jens Granseuer  <jensgr@gmx.net>
+
+	* doc/cfed.xml
+	* levels/*.src
+	* src/cf/event.cpp (CheckTrigger, Execute)
+	* src/comet/eventwindow.cpp
+	* src/comet/extwindow2.cpp (NewMissionWindow)
+	* tools/bi2cf.c
+	* tools/cfed.cpp: use more compact hex representation. Also
+	decrease maximum map size to 180x180
+	* src/common/globals.h (FILE_VERSION): bump due to incompatible
+	changes
+
+2004-08-15  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/event.cpp (CheckTrigger)
+	* src/cf/mission.h (GetTime)
+	* src/comet/mission.cpp
+	* src/comet/eventwindow.{cpp,h}
+	* src/common/gamedefs.h
+	* tools/cfed.cpp
+	* levels/*.src
+	* doc/cfed.xml: rename ETRIGGER_TURN to ETRIGGER_TIMER and
+	make it use time index counters instead of turn numbers. Also
+	change "turn" to "timer" and "tturn" to "ttime" for cfed
+
+	* tools/bi2cf.c: try to fix a compiler warning
+
+	* autogen.sh: recognize automake 1.9
+
+2004-08-13  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/game.cpp (CheckEvents)
+	* src/cf/event.{cpp,h} (Check, CheckTrigger): clean up some
+	leftover stuff from the change from 2004-08-07
+
+2004-08-12  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/misc.cpp (unpack): return -1 when trying to
+	uncompress without zlib support to cause an error
+
+	* src/common/lang.h (SetMsg, RemoveLanguage): add
+	* src/comet/extwindow2.{cpp,h} (EdMsgWindow): add basic support
+	for creating and modifying messages (no multiline and plain
+	ASCII only for now)
+	* src/comet/edwindow.{cpp,h}: use it
+
+	* INSTALL, configure.ac: use --without-zlib instead of
+	--disable-zlib. It doesn't make any difference technically but
+	follows convention
+
+2004-08-07  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/event.{cpp,h} (Execute, DisplayMessage)
+	* src/cf/game.cpp (CheckEvents): open a new window each time we
+	show a message. Keeping one window open can get in the way of
+	events with graphical feedback
+
+	* src/comet/extwindow2.cpp (NewMissionWindow::WidgetActivated):
+	close the file requester on load
+
+2004-08-04  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/comet/mission.cpp (Event::Export): fix stupid typo
+
+	* src/cf/main.cpp (load_settings)
+	* src/common/strutil.cpp (strprintf)
+	* tools/mklocale.cpp (Parse, RemWS): use size_t instead of
+	unsigned int for string operations. This should fix a few
+	compiler warnings on some systems
+
+2004-07-31  Jens Granseuer  <jensgr@gmx.net>
+
+	* doc/cfed.xml
+	* src/cf/event.cpp (Execute)
+	* src/comet/eventwindow.{cpp,h} (EdTrigUnitPositionWindow)
+	* tools/cfed.cpp (check_events, parse): add support to
+	ETRIGGER_UNIT_POSITION for specifying a unit type instead of a
+	single unit
+
+2004-07-29  Jens Granseuer  <jensgr@gmx.net>
+
+	* doc/cfed.xml
+	* src/cf/event.cpp (Execute)
+	* src/comet/eventwindow.{cpp,h} (EdEventSetHexWindow)
+	* src/comet/mission.cpp (Event, ValidateEvent)
+	* src/common/gamedefs.h
+	* tools/cfed.cpp (check_events, parse): add EVENT_SET_HEX
+	* src/cf/history.cpp (ReplayTileEvent): make tile changes more
+	obvious
+
+	* src/cf/mapwindow.{cpp,h} (FadeInHex, FadeInTerrain,
+	FadeInUnit): make FadeInHex work with both units and terrain
+	and add specialized wrappers
+
+2004-07-24  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/event.cpp (Execute): update display for CREATE_UNIT if
+	necessary
+	* src/cf/history.{cpp,h} (BeginReplay, RecordUnitEvent, Replay,
+	ReplayUnitEvent, StartRecording)
+	* src/cf/mission.cpp (CreateUnit): record and replay new units
+	* src/cf/mapwin.{cpp,h} (FadeInHex): add
+	* src/cf/unit.cpp: initialize movement points of newly created
+	units with speed rather than 0
+
+2004-07-22  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/comet/extwindow2.cpp (EdBuildingWindow): don't crash if
+	shop name selection returns no result. Reported by Chang Tang
+	Yen
+
+2004-07-21  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/button.cpp (CycleWidget): make sure the default
+	label placement from ButtonWidget is undone. This fixes
+	artifacts when using antialiased fonts
+
+2004-07-11  Jens Granseuer  <jensgr@gmx.net>
+
+	*** release Crimson Fields 0.4.3 ***
+
+	* NEWS: update
+	* configure.ac
+	* src/common/globals.h: bump version
+
+2004-07-10  Jens Granseuer  <jensgr@gmx.net>
+
+	* THANKS
+	* levels/*.src
+	* locale/Makefile.am
+	* locale/pl.tmpl
+	* tools/default_units.c
+	* tools/mkunitset.cpp: add Polish translation by Sebastian
+	Gabor and Waclaw Schiller
+
+	* gfx/Makefile.am
+	* gfx/crimson.ico: add Windows icon
+
+	* configure.ac: also check for a few required header files to
+	catch setups with the devel packages not installed
+
+2004-07-03  Jens Granseuer  <jensgr@gmx.net>
+
+	* levels/Makefile.am
+	* levels/OmyarGorge.src: add new map
+
+2004-06-19  Jens Granseuer  <jensgr@gmx.net>
+
+	* gfx/Vera.ttf, gfx/Bepa-Roman.ttf, gfx/Makefile.am
+	* src/common/globals.h (CF_FONT): replace the Bitstream Vera
+	font by Bepa-Roman which is an extended version with support
+	for some eastern european glyphs (needed for e.g. Polish and
+	Slovak)
+
+	* autogen.sh: allow passing options to aclocal using the
+	ACLOCAL_FLAGS environment variable
+
+2004-05-17  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/surface.cpp (DisplayFormat): don't call
+	SDL_DisplayFormat() if the video subsystem has not been
+	initialized
+
+	* tools/cfed.cpp (main): we don't need the video subsystem
+
+2004-05-06  Jens Granseuer  <jensgr@gmx.net>
+	* src/cf/game.cpp (HandleEvent, ScrollCommand): with NumLock
+	enabled, use the number pad to move the cursor "faster" (3/4
+	of the view width instead of a single hex)
+
+2004-04-25  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/extwindow.{cpp,h} (PasswordWindow): add button to
+	abort password checking
+	* src/cf/game.{cpp,h} (CheckPassword, SetPlayerPassword):
+	make it possible to abort the password dialog
+
+2004-04-20  Jens Granseuer  <jensgr@gmx.net>
+
+	*** release Crimson Fields 0.4.2 ***
+
+	* NEWS: update
+	* configure.ac
+	* src/common/globals.h: bump version
+
+2004-04-20  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/game.{cpp,h} (MinesweeperTargets, UnitMenu): only
+	offer the 'sweep' menu item if there actually is a mine to be
+	cleared
+
+	* doc/cfed.xml: add handicap support to the example map
+
+	* Makefile.am
+	* configure.ac
+	* music/*: add default symphony by David Fancella
+
+2004-04-15  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/game.cpp (SelectCommand): deselecting a unit inside a
+	transporter should work just as with shops, by clicking on the
+	transporter
+
+	* src/cf/game.cpp (HandleEvent, UnitMenu, WidgetActivated):
+	improve handling of minesweepers
+
+	* src/cf/unit.cpp (RefreshMoves)
+	* src/comet/mission.cpp (CreateUnit)
+	* tools/cfed.cpp (check_units): fix speed for mines
+
+	* src/comet/extwindow2.cpp (EdMissionSetupWindow): the mission
+	title could not be changed. Also refresh the message widget
+	after changing the text
+
+2004-04-12  Jens Granseuer  <jensgr@gmx.net>
+
+	* tools/default_units.c: make aircraft more expensive
+
+	* src/comet/edwindow.cpp (LeftMouseButton): warn when removing
+	a shop entrance without having deleted the shop itself
+	* src/comet/mission.cpp (ValidateMap): complain about shops
+	without an entrance
+
+	* src/cf/initwindow.cpp (WidgetActivated): reinit map widget
+	when changing game mode
+
+	* src/cf/container.{cpp,h} (Allow)
+	* src/cf/event.cpp (Execute): make 'createunit' events also
+	work when trying to put units into transporters
+
+	* levels/*.src: add support for difficulty levels
+	* levels/GreatBattle.src: fix bogus victory messages for player
+        2 (reported by David Fancella)
+
+	* doc/crimson.xml: update
+
+2004-04-02  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/gamedefs.h
+	* src/cf/event.cpp
+	* src/comet/mission.cpp
+	* src/comet/eventwindow.{cpp,h}
+	* tools/cfed.cpp
+	* doc/cfed.xml: add new 'handicap' event trigger. Also modify
+	'createunit' event so that it is possible to place the units
+	anywhere on the map
+	* levels/Foxhole.src
+	* levels/GreatBattle.src: adapt to 'createunit' changes
+
+2004-03-25  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/sound.cpp: include <iostream>
+
+	* src/comet/edwindow.cpp (ValidateMission)
+	* src/comet/mission.{cpp,h} (Validate*): switch use of string
+	to stringstream
+
+	* src/comet/extwindow2.cpp (MissionSetupWindow): redraw textbox
+	after changing text
+
+	* src/cf/initwindow.cpp (WidgetActivated): don't change
+	handicap for saved games
+
+2004-03-22  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/widget.cpp (PrintTitle): redraw window background
+	before printing label
+	* src/common/button.cpp (ButtonWidget): as a default use
+	WIDGET_ALIGN_CENTER flag to not redraw the label background
+
+	* src/common/widget.h (SetSize): make public
+	* src/common/textbox.cpp (TextScrollWidget): only create slider
+	if we need it
+
+	* gfx/CFUnits.bmp: remove artifacts from blue fighter image
+
+	* src/cf/initwindow.{cpp,h}
+	* src/cf/mission.{cpp,h}
+	* src/cf/msgs.h
+	* src/common/gamedefs.h
+	* locale/*.tmpl: add generic support for player handicaps (it
+	doesn't have any effect yet)
+
+2004-03-20  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/{cf,comet}/*
+	* tools/cfed.cpp
+	* levels/*.src
+	* doc/cfed.xml: switch to a new campaign system, add support
+	for campaign names, remove support for map passwords
+
+2004-03-18  Stephen Branley  <yottskry@gmx.net>
+
+	* src/common/textbox.cpp: add <ctype.h> include. This fixes
+	compilation with Slackware 9.1
+
+2004-03-15  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/game.{cpp,h}: get rid of flags member variable
+
+	* src/cf/main.cpp
+	* src/cf/mission.cpp
+	* src/common/sound.cpp: improve error diagnostics
+
+	* src/common/gamedefs.h (GI_CAMPAIGN): add
+	* src/cf/initwindow.{cpp,h}
+	* src/cf/msgs.h
+	* locale/*.tmpl: prepare for new campaign system
+
+	* src/common/button.cpp (CycleWidget::Draw): also ghost the
+	value when disabled
+
+2004-03-13  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/sound.{cpp,h} (StopMusic): add
+	* src/common/globals.h: add CF_MUSIC_DEFAULT and
+	CF_MUSIC_FADE_TIME definitions
+	* src/cf/game.{cpp,h}
+	* src/cf/initwindow.cpp: add support for scenario soundtracks
+
+	* src/common/widget.{cpp,h} (CompositeWidget): add
+	* src/common/listselect.{cpp,h} (ListWidget)
+	* src/common/textbox.{cpp,h} (TextListWidget)
+	* src/cf/unitwindow.cpp (UnitListWidget)
+	* src/comet/gfxwidget.{cpp,h} (GfxWidget): use it
+	* src/common/window.cpp (AddWidget): don't add component
+	widgets to the internal widget list
+
+	* src/common/button.{cpp,h} (DropWidget): add
+
+	* src/cf/initwindow.{cpp,h}: rework options
+	* src/cf/msgs.h
+	* locale/*.tmpl: remove MSG_OPTIONS
+
+	* src/common/extwindow.{cpp,h} (MenuWindow::SetMinWidth): add
+
+2004-03-10  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/comet/mission.cpp (Event): properly initialize 'score'
+	events
+
+	* src/{cf,comet}/mission.{cpp,h} (Load, Save, Export, Validate)
+	* src/comet/extwindow2.{cpp,h} (EdMissionSetupWindow)
+	* tools/cfed.cpp (parse, check_game)
+	* doc/cfed.xml: add support for a campaign info message and
+	mission soundtracks. Still need to write code actually using
+	them, though.
+
+2004-03-09  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/comet/extwindow2.{cpp,h} (EdUnitWindow)
+	* src/comet/unit.cpp (Export)
+	* tools/cfed.cpp (parse, check_units)
+	* doc/cfed.xml: add support for changing initial squad size and
+	experience level for units
+
+2004-03-07  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/globals.h: bump FILE_VERSION
+	* src/{cf,comet}/mission.cpp: add new internal_messages member
+	which holds non-translatable strings such as passwords, next
+	map names, and music track names
+
+	* levels/ArmsRace.src
+	* levels/BeachRaid.src
+	* levels/Foxhole.src
+	* levels/Uprising.src
+	* doc/xml/cfed.xml
+	* tools/cfed.cpp: "nextmap" and "password" are now in the
+	internal catalog
+
+	* src/common/lang.h: add Language::Size()
+	* src/common/gamedefs.h: remove GI_PASSWORD
+
+2004-03-07  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/initwindow.cpp (CompleteFilesList): don't crash if we
+	read an (invalid) mission without a name
+
+	* src/common/fileio.cpp (get_music_dir): add
+	* src/common/sound.cpp: rework and enable music code
+	* src/common/globals.h: add CF_MUSIC_THEME definition
+	* src/cf/initwindow.cpp (InitWindow, SoundOptionsWindow): play
+	music and enable music settings
+
+	* src/comet/mission.cpp (Validate): check for mission name
+	* src/comet/extwindow2.cpp (EdMissionSetupWindow): add mission
+	name widget
+
+	* tools/cfed.cpp (parse)
+	* doc/cfed.xml: add support for changing player colors
+
+2004-03-02  Jens Granseuer  <jensgr@gmx.net>
+
+	*** release Crimson Fields 0.4.1 ***
+
+	* NEWS: update
+	* configure.ac
+	* src/common/globals.h: bump version
+
+	* src/cf/game.cpp (CheckPassword): send the user back to the
+	main menu when he doesn't know the password in PBeM games
+
+	* src/cf/main.cpp (do_exit): plug a memory leak when leaving
+	the program via the event_filter mechanism
+
+	* src/cf/unitwindow.cpp (Draw): correct shop name box offset
+
+2004-02-27  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/game.cpp (SwitchMap): fix a silly mistake which caused
+	a segfault when changing maps
+
+	* src/cf/game.cpp (ShowDebriefing): add missing window init
+	which would have caused a crash if the bug above hadn't stopped
+	the user before this point
+
+2004-02-26  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/history.cpp (Replay): fix not being able to abort
+	replay and progress bar not updating
+
+	* src/cf/path.cpp (MoveShader::GetBestNode): iterate through
+	the list of open nodes to find the best one. Don't always
+	return the list head. In some cases this could abort the path
+	finder too early because we don't update the open list if the
+	node for current hex has already been closed, even if the
+	active path is cheaper.
+
+	* tools/cfed.cpp (load_tile_set, load_unit_set): check for both
+	Unix and Windows path separator characters when extracting the
+	set name. This otherwise breaks when building with MinGW.
+
+2004-02-22  Jens Granseuer  <jensgr@gmx.net>
+
+	*** release Crimson Fields 0.4.0 ***
+
+	* NEWS: update
+	* configure.ac
+	* src/common/globals.h: bump version
+
+	* levels/HeavyMetal.src
+	* levels/Makefile.am: add new map
+	* levels/BeachRaid.src: make HeavyMetal next map
+
+	* doc/Makefile.am: rename html target to html-local as
+	recommended for automake 1.8
+
+	* autogen.sh: require automake 1.7.0 or later. Also check for
+	automake-1.8 and automake-1.7 binaries (reported by Uwe Koch
+	and Waclaw Schiller)
+
+	* tools/cfed.cpp (main): add -o parameter to fix VPATH builds
+	* levels/Makefile.am: use it
+	* doc/cfed.xml: document it
+
+	* crimson.spec.in: require SDL_ttf
+
+2004-02-16  Jens Granseuer  <jensgr@gmx.net>
+
+	* doc/crimson.xml: update for changes in InitWindow
+
+	* levels/Foxhole.src: convert to use the new othermsg and
+	othertitle properties for score events
+
+	* src/cf/container.h (Transport::Transport): init crystals
+
+	* src/comet/eventwindow.{cpp,h} (EdEventScoreWindow): add
+	support for othermsg and othertitle properties
+
+	* src/comet/mission.cpp (Export): export messages in new format
+	and for all available languages
+
+	* tools/bi2cf.c (uncompress): fix possibly undefined increment
+	operation
+
+	* tools/default_units.c: rebalance aircraft and long-range
+	weapons
+
+2004-02-10  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/game.cpp (ResolveBattle): don't mix up casualties
+	for attacker and defender in replays. Also don't try to
+	access invalid members for destroyed units
+
+	* src/cf/initwindow.cpp (InitWindow, TitleWindow)
+	* src/cf/main.cpp (main): preload main window after showing
+	the title image. This makes the main window seem to appear
+	faster
+
+	* src/cf/history.cpp (Replay, ReplayMoveEvent): speed up
+	battle results-only replays
+
+	* src/common/font.cpp (Load): SDL_ttf segfaults if the font
+	file is not present so check before trying to open it
+
+	* gfx/CFTiles.bmp: make the highlight cursor a bit thicker
+
+2004-02-03  Jens Granseuer  <jensgr@gmx.net>
+
+	* INSTALL: include links to all external library locations
+
+	* levels/Anthill.src
+	* levels/ArmsRace.src
+	* levels/GreatBattle.src
+	* levels/IslandHoppers.src
+	* levels/LankhValley.src
+	* levels/LostFactories.src
+	* levels/MoutainDefense.src
+	* levels/Revelation.src: add german translation
+
+	* src/cf/game.cpp
+	* src/cf/main.cpp
+	* src/cf/mission.cpp
+	* src/comet/main.cpp
+	* src/comet/mission.cpp
+	* tools/cfed.cpp: add missing <iostream> include
+	* tools/mklocale.cpp: fix compile errors with gcc 3.x
+
+	* src/common/mapwidget.cpp (MouseDown): ignore events if no
+	map has been assigned
+
+2004-01-25  Jens Granseuer  <jensgr@gmx.net>
+
+	* levels/ArmsRace.src: fix player and shop names
+
+	* levels/BeachRaid.src
+	* levels/Foxhole.src: add german translation
+
+	* src/common/font.{cpp,h}: use SDL_ttf
+	* gfx/Vera.ttf: add default font
+	* gfx/CF*Font.bmp: remove obsolete font images
+	* configure.ac: require SDL_ttf
+
+	* src/cf/event.cpp
+	* src/comet/mission.cpp
+	* tools/cfed.cpp
+	* doc/cfed.xml: add 'othermsg' and 'othertitle' parameters for
+	'score' event to show a message for the "loser"
+
+	* src/cf/game.cpp (HandleLMB): use single-click selection only
+	if no active unit
+
+2004-01-23  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/game.cpp (Load): separate out window setup
+
+	* src/cf/initwindow.cpp: use mission title in display, not
+	file name. Display small map when selecting a mission
+
+	* src/common/mapwidget.cpp: we need the map object itself only
+	for initializing
+
+	* src/common/textbox.cpp (TLWList::Sort): add
+
+2004-01-22  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/game.cpp (ResolveBattle): don't free the Combat here;
+	it may not have been dynamically allocated
+	* src/cf/game.cpp (EndTurn): do it here instead
+
+	* src/comet/edwidget.{cpp,h}: remove CycleWidget...
+	* src/common/button.{cpp,h}: ...and add it here
+
+	* src/cf/initwindow.{cpp,h}: revamp InitWindow
+	* src/cf/options.h: make game type a single setting
+	* src/cf/msgs.h
+	* locale/*.tmpl: update
+	* gfx/CFIcons.bmp: remove quit icon
+
+
+2004-01-20  Jens Granseuer  <jensgr@gmx.net>
+
+	* doc/cfed.xml: note that messages need to be UTF-8
+
+	* levels/GreatBattle.src
+	* levels/IslandHoppers.src: update maps with some new tiles
+
+	* levels/Uprising.src: add german messages
+
+	* src/cf/initwindow.{cpp,h} (LocaleOptionsWindow): add
+	* src/cf/game.cpp (GameMenu, HandleEvent): use it
+
+2004-01-18  Jens Granseuer  <jensgr@gmx.net>
+
+	* configure.ac
+	* Makefile.am: add locale subdirectory
+	* locale/*: add English and German language files
+
+	* src/cf/player.{cpp,h}
+	* src/comet/mission.{cpp,h}
+	* tools/cfed.cpp: include mission name, player names, and
+	shop names in the messages section to allow for translations
+
+	* src/cf/mission.cpp (Load, Save)
+	* src/comet/mission.cpp (Load, Save)
+	* tools/cfed.cpp: support multiple messages sections (for
+	different languages)
+	* src/common/lang.h (Locale::GetLanguage): publicize
+
+	* doc/cfed.xml
+	* levels/*.src
+	* tools/bi2cf.c: update accordingly
+
+2004-01-16  Jens Granseuer  <jensgr@gmx.net>
+
+	* README: add a section about translations
+
+	* src/cf/player.{cpp,h}
+	* src/comet/mission.{cpp,h}
+	* src/common/gamedefs.h: remove player difficulty setting.
+	Add player colours instead. Make password variable length
+	* src/common/globals.h (FILE_VERSION): bump
+
+	* tools/cfed.cpp (satoi): complain if trying to convert
+	non-numeric characters (may indicate mapping errors)
+
+2004-01-15  Jens Granseuer  <jensgr@gmx.net>
+
+	* editor/*: move cfed over to tools/. Also convert it to C++
+	in order to more easily reuse code from crimson and comet
+
+	* src/cf/*: major restructuring in preparation for i18n
+
+	* src/comet/extwindow2.cpp (NewMissionWindow): selecting a
+	different unit set always changed the tile set name instead
+
+	* levels/GreatBattle.src: remove bogus newlines
+
+2004-01-10  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/game.cpp (HandleLMB): allow pointing the cursor to
+	enemy units even if there is an active unit. This was a bug
+	in the single-click selection implemenation
+
+2004-01-10  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/widget.cpp (PrintTitle): when calculating the
+	shortcut position, don't count individual character widths
+	but use the entire substring
+
+	* src/common/lset.{cpp,h}: support unit names in different
+	languages
+	* tools/mkunitset.cpp: renamed mkunitset.c. Now supports
+	multiple languages as well
+	* tools/default_units.c: added german unit names
+
+	* src/cf/game.{cpp,h}: don't use hardcoded keys for actions
+        accessible from the game menu. Extract them from the button
+	labels instead. Use F1 for the game menu itself and F2 for
+	Next Unit (should be customizable, too, really)
+	* doc/crimson.xml: update the manual accordingly
+
+2004-01-09  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/lang.{cpp,h}: add localisation infrastructure
+	* tools/mklocale.cpp: add tool to create language catalogs
+	* src/cf/msgs.h
+	* src/comet/msgs.h: add headers with string ids
+
+	* src/cf/options.h: add a language option
+	* src/cf/main.cpp (init, init_locale, load_settings,
+	save_settings): add support for loading strings from an
+	external file
+
+	* src/common/fileio.cpp (get_locale_dir): new function
+
+	* src/{cf,common}/*.{cpp,h}: use MSG() macro to obtain GUI
+	strings
+
+2004-01-08  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/fileio.{cpp,h}: add a new file abstraction, and
+	use it everywhere
+	* src/common/strutil.{cpp,h}: create string utilities
+
+	* src/common/fileio.{cpp,h} (create_files_list)
+	* src/common/filewindow.{cpp,h}: move function over to
+	static FileWindow::CreateFilesList()
+	* src/cf/initwindow.cpp (constructor): update user
+
+2004-01-07  Jens Granseuer  <jensgr@gmx.net>
+
+	*** release Crimson Fields 0.3.8 ***
+
+	* NEWS: update
+	* configure.ac
+	* src/common/globals.h: bump version
+
+	* editor/editor.c (check_events): for 'haveunit' and
+	'havebuilding' triggers only complain that trigger
+	conditions are already met if there is no dependency on
+	another event
+
+	* src/cf/game.cpp (SelectCommand): add hex parameter
+	* src/cf/game.cpp (HandleLMB): new method. Unit selection
+	(with a few exceptions) now requires only a single click
+	* doc/crimson.xml: update manual accordingly
+
+2004-01-05  Jens Granseuer  <jensgr@gmx.net>
+
+	* editor/editor.c (parse)
+	* src/cf/player.cpp (Player, Save)
+	* src/comet/mission.cpp (Player::Load, Player::Save): fix an
+	ancient (and obviously reproductive) bug in player persistency
+
+	* levels/BeachRaid.src: don't use obsolete shop type 'mine'
+
+	* src/common/widget.cpp: include an activation key designator
+        in the widget title. This should make translations a bit
+        easier.
+
+2004-01-04  Jonathan Phénix  <greaterd@step.polymtl.ca>
+
+	* src/cf/initwindow.cpp
+	* src/common/sound.cpp (PlayMusic): properly #ifdef sound bits
+	so that building without SDL_mixer is again possible
+
+2004-01-04  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/comet/mission.cpp (Save, SetPassword): don't forget to
+	save the password and set the proper flag
+
+2003-12-09  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/history.cpp (Replay)
+	* src/cf/initwindow.{cpp,h} (GeneralOptionsWindow)
+	* src/cf/main.cpp ({load,save}_settings)
+	* src/cf/options.h: add quick replay option, showing combat
+	results only
+
+2003-12-01  Jens Granseuer  <jensgr@gmx.net>
+
+	* levels/Anthill.src
+	* levels/Makefile.am (EXTRA_DIST, levels_DATA): add new map
+	"Operation: Anthill" by Chang Tang Yen, use variable
+	substitution to generate the EXTRA_DIST listing
+
+	* src/cf/history.{cpp,h}: clean up
+
+	* src/comet/eventwindow.cpp (EdTrigHaveShopWindow): don't
+	ignore events from the player widget
+
+	* src/comet/mission.h (Player::SetName): fix length and
+	terminate with NUL character
+
+	* THANKS: update
+
+2003-11-22  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/comet/extwindow2.{cpp,h}: add widget for setting crystal
+	output in shops
+
+	* src/common/gamedefs.h (BLD_MINE): remove
+	* doc/cfed.xml
+	* editor/editor.c
+	* src/cf/building.{cpp,h}
+	* src/comet/building.{cpp,h}
+	* tools/bi2cf.c: stop using it
+
+2003-10-07  Jens Granseuer  <jensgr@gmx.net>
+
+	*** release Crimson Fields 0.3.7 ***
+
+	* NEWS: update
+	* configure.ac
+	* src/common/globals.h: bump version
+
+	* src/comet/mission.cpp (Validate*): eliminate use of
+	deprecated ostrstream class
+
+2003-10-03  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/comet/edwindow.{cpp,h}
+	* src/comet/eventwindow.{cpp,h}
+	* src/comet/extwindow2.{cpp,h}: do not initialize static class
+	variables in header files for improved portability
+
+2003-10-02  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/comet/extwindow2.{cpp,h} (EdMissionSetupWindow): add new
+	window for general mission settings
+	* src/comet/edwindow.cpp (ShowContextMenu): use it
+
+2003-09-30  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/comet/eventwindow.{cpp,h}
+	* src/comet/extwindow2.cpp (SelectEventWindow): support event
+	creation and editing for all event types
+
+	* src/comet/mission.{cpp,h} (Validate, ValidateEvent,
+	ValidateMap): add new methods to verify mission integrity
+	* src/comet/edwindow.{cpp,h} (ShowContextMenu,
+	ValidateMission, WidgetActivated): use them
+
+2003-09-27  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/button.{cpp,h} (MenuButtonWidget)
+	* src/common/extwindow.{cpp,h} (MenuWindow): add keyboard
+	navigation support
+
+	* src/common/textbox.cpp (TextScrollWidget::SetText): fix for
+	NULL string
+
+	* src/common/textbox.cpp (StringWidget): if the widget gets
+	deselected, always show the beginning. If the widget is
+	selected via key, jump to the end
+
+	* src/common/window.cpp (DrawBack): remove clip rect handling
+	as it's already done in Surface::FillPattern
+
+	* src/comet/edwidget.{cpp,h} (CycleWidget::SetValue): add
+
+	* src/comet/Makefile.am (comet_SOURCES)
+	* src/comet/eventwindow.{cpp,h}
+	* src/comet/extwindow2.{cpp,h}
+	* src/comet/mission.{cpp,h}
+	* src/comet/uiaux.{cpp,h}: add initial (partial) support for
+	event editing
+
+2003-09-25  Jens Granseuer  <jensgr@gmx.net>
+
+	* doc/comet.xml
+	* doc/Makefile.am: added basic CoMET manpage
+
+	* src/cf/initwindow.cpp (InitWindow): correctly disable the
+	AI and PBEM widgets if the other mode is set
+
+2003-09-21  Jens Granseuer  <jensgr@gmx.net>
+
+	* crimson.spec.in
+	* gfx/Makefile.am: install application icon
+
+	* gfx/CFIcons.bmp: update unit info icons
+
+	* src/cf/game.h
+	* src/cf/main.cpp: remove some global icons
+	* src/cf/mapwindow.{cpp,h} (Draw, DrawUnitInfo, MapWindow,
+        Panel)
+	* src/cf/unitwindow.{cpp,h} (ContainerWindow, Draw,
+        SwitchMode, UnitListWidget): make them local here
+
+	* editor/editor.h (MAX_MAP_{WIDTH,HEIGHT})
+	* src/comet/extwindow2.cpp (NewMissionWindow): increase
+	maximum map size to 250 x 250
+
+2003-09-13  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/common/listselect.cpp (Select): fix item offset when
+	scrolling
+
+2003-09-12  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/ai.{cpp,h} (SameDirection): add
+	* src/cf/ai.cpp (CommandUnitDefend): be a bit more
+	aggressive and always try to get between the enemy and the
+	objective to defend
+
+	* src/cf/main.cpp (init): set icon caption to "Crimson
+	Fields"
+
+	* tools/default_tiles.c: make warehouse block movement
+
+2003-09-08  Jens Granseuer  <jensgr@gmx.net>
+
+	* gfx/CFIcons.bmp
+	* gfx/crimson.png
+	* gfx/Makefile.am (EXTRA_DIST): add application icon
+
+	* src/cf/main.cpp (main, init, set_icon): use
+	application icon
+
+	* src/common/surface.cpp (GetColorKey): return a Color
+	instead of an Uint32 to make it work across different
+	surface formats
+
+2003-09-04  Jens Granseuer  <jensgr@gmx.net>
+
+	* src/cf/main.cpp (main): fix potential mem leak when the
+	--level parameter was used and loading the map failed
+
+	* src/cf/main.cpp (init_data): set default pen colors
+	for pre-menu dialogs
+
+	* src/common/view.cpp (Refresh): use white color for
+	partial background fills. Fixes black border on title
+	screen (reported by Tero Pelander)
+

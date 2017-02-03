@@ -1,0 +1,928 @@
+# created by Thorsten Jordan (thorsten_jordan@gmx.de)
+# and copyrighted via the GPL :-)
+
+[mission]
+name = 11
+mapwidth = 33
+mapheight = 16
+info = 0
+players = 1
+
+[map-raw]
+30,30,30,21,30,30,30,30,81,30,30,30,30,30,30,30,30,30,30,30,81,81,30,30,30,30,30,30,30,30,360,30,82
+30,30,22,24,6,181,30,30,81,30,30,30,30,30,81,81,30,30,30,30,30,30,81,81,30,30,81,81,30,360,360,30,30
+30,30,30,30,30,176,30,30,81,81,30,34,30,30,30,81,82,30,30,38,30,30,30,184,30,184,30,184,360,30,30,30,30
+30,30,30,30,30,176,30,30,30,82,81,81,30,30,30,14,30,30,30,30,30,178,178,82,183,30,183,360,209,181,30,30,30
+30,30,38,30,30,180,30,30,30,30,30,81,81,81,22,24,23,30,30,192,178,82,81,30,30,360,360,30,30,176,30,30,30
+30,81,30,30,30,31,191,183,184,183,184,183,184,183,184,183,184,183,178,176,30,30,30,360,360,30,30,81,82,176,30,81,30
+30,82,81,30,81,30,176,30,30,30,30,81,81,30,30,30,30,30,30,208,360,360,360,30,30,30,30,30,30,176,30,30,82
+81,81,82,81,81,81,176,81,30,30,30,30,30,30,30,360,360,360,360,208,360,30,30,30,81,81,81,30,30,176,30,81,81
+30,82,81,30,82,30,176,81,30,30,30,78,30,360,360,30,30,30,30,180,30,22,14,23,30,82,79,30,30,176,30,81,30
+30,30,30,30,30,30,176,30,81,30,30,360,360,30,30,30,81,81,81,82,177,177,24,30,30,81,81,30,30,176,30,30,81
+30,30,82,81,30,30,180,177,30,360,360,30,77,30,30,30,30,82,81,80,30,30,181,30,30,30,81,81,30,176,30,82,82
+30,22,11,23,30,30,81,360,209,177,30,30,30,30,30,30,30,30,81,81,81,30,176,30,30,30,30,30,31,176,30,30,30
+30,77,24,30,30,360,360,30,30,30,177,177,30,30,81,81,30,14,30,30,81,81,180,183,184,183,184,183,184,194,30,30,30
+30,30,30,360,360,30,30,30,81,30,30,30,177,177,30,30,22,24,23,30,30,30,81,81,81,30,30,30,30,30,181,21,30
+30,30,30,360,30,38,30,30,30,78,81,81,30,30,177,183,184,183,184,183,184,183,184,183,184,183,184,183,184,183,4,24,23
+82,81,30,360,30,79,38,77,81,82,81,30,30,30,30,30,81,81,30,30,30,30,30,80,81,81,30,30,30,30,30,30,30
+
+[player]
+name = 12
+briefing = 1
+
+[player]
+name = 13
+briefing = 6
+
+
+[messages(de)]
+Kampf um die letzte Festung des Imperiums von Kand auf der Insel Tyarin.
+Von Thorsten Jordan <thorsten_jordan@gmx.de>
+%
+Auf der anderen Seite des Flusses Baluga haben deine Truppen die letzte Festung des Imperiums von Kand auf der Insel Tyarin lokalisiert. Diese Festung ist das einzige, was noch zwischen deiner Streitmacht und der Küste liegt. Die Zeit ist gekommen, das Kampfglück zugunsten der Armee Freier Nexus zu wenden. Die feindliche Festung wird schwer bewacht. Das schlechte Wetter sorgt dafür, dass die Luftwaffe nicht in die Schlacht eingreifen kann. Jetzt liegt alles in deiner Hand. Viel Glück! Wenn wir diese Festung einnehmen, könnte das der Armee Freier Nexus einen entscheidenden Vorteil gegen das Imperium bringen...
+%
+Du hast gesiegt. Gut gemacht! Du hast alle feindlichen Einheiten zerstört und damit gehört die Festung dir! Der Sieg ist unser!
+%
+Du hast die Festung erobert und die letzte Schlacht auf Tyarin gewonnen! Gut gemacht! Der Sieg ist unser!
+%
+Du hast dein Hauptquartier verloren und deinen Auftrag nicht erfüllt.
+%
+Du hast alle Einheiten und damit auch die Schlacht verloren.
+%
+Die Armee Freier Nexus hat sich den Weg bis zum Fluss Baluga, dem letzten natürlichen Hindernis vor der letzten Festung des Imperiums auf der Insel Tyarin, freigekämpft. Schlage den Angriff zurück, oder der Krieg wird bald für unsere Truppen noch viel schwieriger werden.
+%
+Verstärkung
+%
+Ein Panzerverband ist zur Verstärkung in deinem Hauptquartier eingetroffen.
+%
+Feindlicher Nachschub
+%
+Unser militärischer Geheimdienst berichtete, dass der Feind Verstärkung erhalten hat. Zahl und Art der nachrückenden Truppen sind unbekannt.
+%
+Die große Schlacht
+%
+Armee Freier Nexus
+%
+Imperium von Kand
+%
+AFN Hauptquartier
+%
+Imperiale Festung
+%
+Fabrik 57
+%
+Fabrik 36
+%
+Depot Alpha
+%
+Depot Beta
+%
+Du hast die Festung erfolgreich verteidigt.
+[/messages]
+
+[messages(en)]
+Battle for the final stronghold of the Empire of Kand on the island of Tyarin
+by Thorsten Jordan <thorsten_jordan@gmx.de>
+%
+Across the river Baluga your forces have located the final stronghold of the Empire of Kand on the island of Tyarin. This fortress is the only thing that lies between your forces and the coast. The time for the Free Nexus Army has come to turn the odds. The enemy fortress is heavily guarded. Weather conditions are very bad so no aircraft may take part in this battle. Now everything lies in your hands. Good luck. By taking this fortress the Free Nexus Army may get an essential advantage against the Empire...
+%
+You have won! Well done! You destroyed all enemy units and this means the fortress is yours! Victory at last!
+%
+You have taken the enemy fortress and won the final battle on this island! Well done! Victory at last!
+%
+You lost your HQ and failed to accomplish your mission.
+%
+You lost all units and also this battle.
+%
+The Free Nexus Army had fought its way just to the river Baluga, the last natural border in front of your final stronghold on the island of Tyarin. Defend it well, or this war will soon get worse for your forces.
+%
+Reinforcements
+%
+A group of reinforcement medium tanks has arrived at your HQ.
+%
+Enemy reinforcements
+%
+Our military intelligence reports that the enemy has received some reinforcements. Number and type of these reinforcement troops are unknown.
+%
+The Great Battle
+%
+Free Nexus Army
+%
+Empire of Kand
+%
+Free Nexus Army HQ
+%
+Imperial Fortress
+%
+Factory 57
+%
+Factory 36
+%
+Depot Alpha
+%
+Depot Beta
+%
+You successfully defended the fortress.
+[/messages]
+
+[messages(fr)]
+Assaut contre l'ultime bastion de l'empire de Kand sur l'île de Tyarin 
+
+par Thorsten Jordan <thorsten_jordan@gmx.de>
+traduction française: Benoit Peureux <benoit.peureux@wanadoo.fr>
+%
+Au delà du fleuve Baluga nos forces ont localisées le dernier bastion de l'empire de Kand sur l'île de Tyarin. 
+Cette forteresse est la seule défense qui se trouve encore entre nos forces et la côte. Le moment est venu pour l'armée du Nexus Libre de saisir sa chance. 
+
+La forteresse ennemie est fortement gardée. Les conditions atmosphériques sont très mauvaises et aucun avion ne peut participer à cette bataille. Toutes les cartes sont à présent entre vos mains. 
+
+Bonne chance. Avec la prise cette forteresse l'armée du Nexus Libre peut obtenir un avantage décisif contre l'empire...
+%
+Vous avez gagné! Bien joué! Vous avez détruit toutes les unités ennemies et cela signifie que la forteresse est à vous! Victoire enfin!
+%
+Vous avez pris la forteresse ennemie et vous avez gagné la bataille finale sur cette île! Bien joué! Victoire enfin!
+%
+Vous avez perdu votre quartier général et vous n'avez pas accompli votre mission.
+%
+Vous avez perdu toutes vos unités et également cette bataille.
+%
+L'armée du Nexus Libre a combattu en poursuivant sa route jusqu'au fleuve Baluga, la dernière frontière naturelle avant votre dernier bastion sur l'île de Tyarin. Vous devez le défendre du mieux possible ou cette guerre deviendra catastrophique pour vos forces.
+%
+Renforts
+%
+Un renfort de tanks est arrivé à votre quartier général. 
+%
+Renforts ennemis
+%
+Notre service de renseignements militaires signale que l'ennemi a reçu des renforts. Le nombre et le type des troupes de renfort sont inconnus. 
+%
+La grande bataille
+%
+Armée du Nexus libre
+%
+Empire de Kand
+%
+QG de l'Armée du Nexus libre
+%
+Forteresse impériale
+%
+Usine 57
+%
+Usine 36
+%
+Dépôt Alpha
+%
+Dépôt Béta
+%
+Vous avez défendu avec succès la forteresse.
+[/messages]
+
+[messages(pl)]
+Bitwa o ostatnią fortecę Imperium Kandyjskiego na wyspie Tyarin.
+Autor: Thorsten Jordan <thorsten_jordan@gmx.de>
+%
+Nasze siły zlokalizowały ostatnią twierdzę Imperium Kandyjskiego za rzeką Baluga na wyspie Tyarin. Ta forteca jest jedyną rzeczą dzielącą twe siły od wybrzeża. Czas na to aby Wolna Armia Nexusu odwróciła los na planecie. Wroga forteca jest silnie broniona. Warunki pogodowe są bardzo złe, więc lotnictwo nie może wziąć udziału w tej bitwie. Wszystko leży w twoich rękach. Powodzenia! Dzięki zdobyciu fortecy Wolna Armia Nexusu może zdobyć istotną przewagę nad imperium...
+%
+Zwyciężyłeś! Świetnie! Zniszczyłeś wszystkie wrogie jednostki, co oznacza, że forteca jest twoja. Zwycięstwo!
+%
+Przejąłeś wrogą fortecę i wygrałeś końcową bitwę na wyspie! Świetnie! 
+Zwycięstwo!
+%
+Straciłeś swoje dowództwo, przez co nie udało Ci się zakończyć misji.
+%
+Straciłeś wszystkie jednostki i przegrałeś bitwę.
+%
+Wolna Armia Nexusu wywalczyła sobie drogę do rzeki Baluga, ostatniej naturalnej przeszkody przed ostatnią fortecą na wyspie Tyarin. Broń jej dobrze, albo wojna potoczy się źle dla naszych sił.
+%
+Posiłki
+%
+Grupa lekkich czołgów wsparcia przybyła do siedziby sztabu.
+%
+Wrogie posiłki.
+%
+Nasz wywiad donosi, że wróg otrzymał wsparcie. Liczba i typ jednostek pozostaje nieznany.
+%
+Wielka bitwa
+%
+Wolna Armia Nexusu
+%
+Imperium Kandyjskie
+%
+Sztab Wolnej Armii Nexusu
+%
+Forteca Imperium
+%
+Fabryka 57
+%
+Fabryka 36
+%
+Punkt zaopatrzeniowy Alfa
+%
+Punkt zaopatrzeniowy Beta
+%
+Udało Ci się obronić fortecę.
+[/messages]
+
+[messages(sk)]
+Bitka o poslednú pevnosť Kandského Impéria na ostrove Tyarin
+autor Thorsten Jordan <thorsten_jordan@gmx.de>
+%
+Na druhom brehu rieky Baluga objavili naše jednotky poslednú pevnosť Kandského Impéria na ostrove Tyarin. Táto pevnosť je posledná vec, ktorá leží medzi našimi jednotkami a pobrežím. Pre Armádu za slobodný Nexus nadišiel čas otočiť kartu. Nepriateľská pevnosť je pevne bránená. Počasie je veľmi zlé, a preto sa tejto bitky nemôžu zúčastniť žiadne lietadlá. Teraz leží všetko v tvojich rukách. Veľa šťastia. Obsadením tejto pevnosti môže ASN získať potrebnú prevahu nad Impériom...
+%
+Zvíťazil si! Výborne! Zničil si všetky nepriateľské jednotky, teda pevnosť je naša! Konečne víťazstvo!
+%
+Obsadil si nepriateľskú pevnosť a vyhral poslednú bitku na tomto ostrove! Výborne! Konečne víťazstvo!
+%
+Prišiel si o hlavný stan a nepodarilo sa ti splniť misiu.
+%
+Stratil si všetky jednotky a prehral bitku.
+%
+Armáda za slobodný Nexus sa prebojovala až k rieke Baluga, ktorá je poslednou prírodnou hranicou pred našou poslednou pevnosťou na ostrove Tyarin. Dobre ju ochraňuj, ináč sa vojna čoskoro zhorší.
+%
+Posily
+%
+Skupina ľahkých tankov dorazila do hlavného stanu ako posily.
+%
+Nepriateľské posily
+%
+Naša tajná služba nám poslala správu, že nepriateľovi dorazili posily. Počet a druh týchto posíl nie je známy.
+%
+Veľká bitka
+%
+Armáda za slobodný Nexus
+%
+Kandské Impérium
+%
+Hlavný stan ASN
+%
+Pevnosť Impéria
+%
+Továreň 57
+%
+Továreň 36
+%
+Sklad Alpha
+%
+Sklad Beta
+%
+Úspešne si ubránil našu pevnosť.
+[/messages]
+
+# player 1 units
+[unit]
+pos = 4/4
+id = 0
+player = 1
+type = Infantry
+
+[unit]
+pos = 5/4
+id = 1
+player = 1
+type = Infantry
+
+[unit]
+pos = 6/4
+id = 2
+player = 1
+type = Infantry
+
+[unit]
+pos = 7/4
+id = 3
+player = 1
+type = Infantry
+
+[unit]
+pos = 4/5
+id = 4
+player = 1
+type = Heavy Tanks
+
+[unit]
+pos = 5/5
+id = 5
+player = 1
+type = Artillery
+
+[unit]
+pos = 6/5
+id = 6
+player = 1
+type = Artillery
+
+[unit]
+pos = 7/5
+id = 7
+player = 1
+type = Artillery
+
+[unit]
+pos = 4/6
+id = 8
+player = 1
+type = Heavy Tanks
+
+[unit]
+pos = 5/6
+id = 9
+player = 1
+type = Heavy Tanks
+
+[unit]
+pos = 6/6
+id = 10
+player = 1
+type = Heavy Tanks
+
+[unit]
+pos = 7/6
+id = 11
+player = 1
+type = Heavy Tanks
+
+[unit]
+pos = 8/4
+id = 12
+player = 1
+type = Infantry
+
+[unit]
+pos = 8/5
+id = 13
+player = 1
+type = Heavy Tanks
+
+[unit]
+pos = 8/6
+id = 14
+player = 1
+type = Heavy Tanks
+
+[unit]
+pos = 4/7
+id = 15
+player = 1
+type = Medium Tanks
+
+[unit]
+pos = 5/7
+id = 16
+player = 1
+type = Medium Tanks
+
+[unit]
+pos = 6/7
+id = 17
+player = 1
+type = Medium Tanks
+
+[unit]
+pos = 7/7
+id = 18
+player = 1
+type = Medium Tanks
+
+[unit]
+pos = 8/7
+id = 19
+player = 1
+type = Medium Tanks
+
+
+
+# player 2 units
+[unit]
+pos = 30/12
+id = 20
+player = 2
+type = Infantry
+
+[unit]
+pos = 29/12
+id = 21
+player = 2
+type = Infantry
+
+[unit]
+pos = 28/12
+id = 22
+player = 2
+type = Infantry
+
+[unit]
+pos = 27/12
+id = 23
+player = 2
+type = Infantry
+
+[unit]
+pos = 30/11
+id = 24
+player = 2
+type = Heavy Tanks
+
+[unit]
+pos = 29/11
+id = 25
+player = 2
+type = Artillery
+
+[unit]
+pos = 28/11
+id = 26
+player = 2
+type = Artillery
+
+[unit]
+pos = 27/11
+id = 27
+player = 2
+type = Artillery
+
+[unit]
+pos = 30/10
+id = 28
+player = 2
+type = Heavy Tanks
+
+[unit]
+pos = 29/10
+id = 29
+player = 2
+type = Heavy Tanks
+
+[unit]
+pos = 28/10
+id = 30
+player = 2
+type = Heavy Tanks
+
+[unit]
+pos = 27/10
+id = 31
+player = 2
+type = Heavy Tanks
+
+[unit]
+pos = 26/12
+id = 32
+player = 2
+type = Infantry
+
+[unit]
+pos = 26/11
+id = 33
+player = 2
+type = Heavy Tanks
+
+[unit]
+pos = 26/10
+id = 34
+player = 2
+type = Heavy Tanks
+
+[unit]
+pos = 30/9
+id = 35
+player = 2
+type = Medium Tanks
+
+[unit]
+pos = 29/9
+id = 36
+player = 2
+type = Medium Tanks
+
+[unit]
+pos = 28/9
+id = 37
+player = 2
+type = Medium Tanks
+
+[unit]
+pos = 27/9
+id = 38
+player = 2
+type = Medium Tanks
+
+[unit]
+pos = 26/9
+id = 39
+player = 2
+type = Medium Tanks
+
+# bunkers
+[unit]
+pos = 18/8
+id = 40
+player = 2
+type = Bunkers
+
+[unit]
+pos = 20/8
+id = 41
+player = 2
+type = Bunkers
+
+[unit]
+pos = 23/11
+id = 42
+player = 2
+type = Bunkers
+
+[unit]
+pos = 19/11
+id = 43
+player = 2
+type = Bunkers
+
+#additional units
+[unit]
+pos = 11/14
+id = 44
+player = 2
+type = Medium Tanks
+
+[unit]
+pos = 12/14
+id = 45
+player = 2
+type = Medium Tanks
+
+[unit]
+pos = 13/14
+id = 46
+player = 2
+type = Medium Tanks
+
+[unit]
+pos = 11/15
+id = 47
+player = 2
+type = Medium Tanks
+
+[unit]
+pos = 12/15
+id = 48
+player = 2
+type = Heavy Tanks
+
+[unit]
+pos = 13/15
+id = 49
+player = 2
+type = Medium Tanks
+
+[unit]
+pos = 23/1
+id = 50
+player = 2
+type = Medium Tanks
+
+[unit]
+pos = 24/1
+id = 51
+player = 2
+type = Medium Tanks
+
+[unit]
+pos = 25/1
+id = 52
+player = 2
+type = Heavy Tanks
+
+[unit]
+pos = 23/2
+id = 53
+player = 2
+type = Medium Tanks
+
+[unit]
+pos = 24/2
+id = 54
+player = 2
+type = Medium Tanks
+
+[unit]
+pos = 25/2
+id = 55
+player = 2
+type = Heavy Tanks
+
+[unit]
+pos = 29/4
+id = 56
+player = 2
+type = Artillery
+
+[unit]
+pos = 30/4
+id = 57
+player = 2
+type = Artillery
+
+#neutral units
+[unit]
+pos = 2/11
+id = 60
+player = 0
+type = Medium Tanks
+
+[unit]
+pos = 2/11
+id = 61
+player = 0
+type = Medium Tanks
+
+[unit]
+pos = 2/11
+id = 62
+player = 0
+type = Medium Tanks
+
+[unit]
+pos = 2/11
+id = 63
+player = 0
+type = Medium Tanks
+
+[unit]
+pos = 2/11
+id = 64
+player = 0
+type = Medium Tanks
+
+[unit]
+pos = 2/11
+id = 65
+player = 0
+type = Medium Tanks
+
+[unit]
+pos = 17/12
+id = 70
+player = 0
+type = Heavy Tanks
+
+[unit]
+pos = 17/12
+id = 71
+player = 0
+type = Heavy Tanks
+
+[unit]
+pos = 17/12
+id = 72
+player = 0
+type = Heavy Tanks
+
+[unit]
+pos = 17/12
+id = 73
+player = 0
+type = Heavy Tanks
+
+[unit]
+pos = 17/12
+id = 74
+player = 0
+type = Medium Tanks
+
+[unit]
+pos = 17/12
+id = 75
+player = 0
+type = Artillery
+
+
+
+# buildings
+[building]
+name = 14
+pos = 4/1
+id = 0
+player = 1
+type = workshop
+crystals = 100
+
+[building]
+name = 15
+pos = 30/14
+id = 1
+player = 2
+type = workshop
+crystals = 100
+
+[building]
+name = 16
+pos = 15/3
+id = 2
+player = 0
+type = factory
+type = workshop
+crystals = 150
+factory = Infantry
+factory = Medium Tanks
+factory = Heavy Tanks
+factory = Artillery
+factory = Personnel Carriers
+
+[building]
+name = 17
+pos = 22/8
+id = 3
+player = 0
+type = factory
+type = workshop
+crystals = 150
+factory = Infantry
+factory = Medium Tanks
+factory = Heavy Tanks
+factory = Artillery
+factory = Personnel Carriers
+
+[building]
+name = 18
+pos = 2/11
+id = 4
+player = 0
+type = workshop
+crystals = 100
+
+[building]
+name = 19
+pos = 17/12
+id = 5
+player = 0
+type = workshop
+crystals = 100
+
+
+# events
+[event]
+id = 0
+type = message
+player = 1
+pos = 4/1
+trigger = timer
+ttime = 0
+message = 1
+
+[event]
+id = 1
+type = message
+player = 2
+pos = 30/14
+trigger = timer
+ttime = 0
+message = 6
+
+[event]
+id = 2
+type = score
+player = 1
+trigger = havebuilding
+tbuilding = 1
+towner = 1
+success = 100
+message = 3
+ttime = -1
+
+[event]
+id = 3
+type = score
+player = 1
+trigger = unitdestroyed
+tunit = -1
+success = 100
+message = 2
+othermsg = 5
+
+[event]
+id = 4
+type = score
+player = 2
+trigger = havebuilding
+tbuilding = 0
+towner = 2
+success = 100
+ttime = -1
+message = 20
+othermsg = 4
+
+[event]
+id = 5
+type = score
+player = 2
+trigger = unitdestroyed
+tunit = -1
+success = 100
+message = 2
+othermsg = 5
+
+# reinforcements (6 medium tanks for player 2)
+# 4 of these only if not handicapped
+[event]
+id = 6
+type = message
+player = 1
+trigger = havebuilding
+ttime = 19
+tbuilding = 1
+towner = 2
+title = 9
+message = 10
+
+[event]
+id = 7
+type = createunit
+player = 2
+trigger = havebuilding
+ttime = 19
+tbuilding = 1
+towner = 2
+pos = 30/14
+unit = Medium Tanks
+title = 7
+message = 8
+
+[event]
+id = 8
+type = createunit
+player = 2
+trigger = havebuilding
+ttime = 19
+tbuilding = 1
+towner = 2
+pos = 30/14
+unit = Medium Tanks
+
+[event]
+id = 9
+type = createunit
+player = 2
+trigger = havebuilding
+ttime = 19
+tbuilding = 1
+towner = 2
+pos = 30/14
+unit = Medium Tanks
+depend = 14
+
+[event]
+id = 10
+type = createunit
+player = 2
+trigger = havebuilding
+ttime = 19
+tbuilding = 1
+towner = 2
+pos = 30/14
+unit = Medium Tanks
+depend = 14
+
+[event]
+id = 11
+type = createunit
+player = 2
+trigger = havebuilding
+ttime = 19
+tbuilding = 1
+towner = 2
+pos = 30/14
+unit = Medium Tanks
+depend = 14
+
+[event]
+id = 12
+type = createunit
+player = 2
+trigger = havebuilding
+ttime = 19
+tbuilding = 1
+towner = 2
+pos = 30/14
+unit = Medium Tanks
+depend = 14
+
+# handicaps
+[event]
+id = 13
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Infantry
+pos = 22/2
+face = 3
+
+# this is only a dummy event to create a dependency
+[event]
+id = 14
+type = score
+player = 2
+trigger = handicap
+thandicap = 3
+success = 0
+

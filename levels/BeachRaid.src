@@ -1,0 +1,798 @@
+[mission]
+name = 3
+mapwidth = 34
+mapheight = 17
+info = 0
+players = 2
+
+[map-raw]
+360,360,360,360,360,361,361,361,360,361,361,361,361,361,361,361,361,361,361,361,361,361,361,361,362,362,362,362,362,362,362,362,362,362
+360,361,360,361,361,361,361,361,361,361,361,361,361,361,361,360,360,361,361,361,361,361,361,361,361,362,362,362,362,362,362,362,362,362
+360,360,361,361,361,361,361,361,361,360,360,30,361,30,30,360,360,360,361,361,361,361,362,362,362,362,362,362,362,362,362,362,362,362
+360,360,361,361,360,361,361,361,361,360,360,12,30,31,30,360,360,360,361,361,361,361,362,362,362,362,362,361,362,362,362,362,362,362
+117,117,371,361,361,361,361,361,360,360,22,24,23,30,30,365,360,360,360,360,361,361,362,362,362,362,362,361,361,361,361,361,362,362
+117,30,368,361,361,361,361,361,361,360,364,34,30,55,30,30,360,360,361,361,361,361,362,361,361,361,361,361,361,362,361,362,362,362
+79,21,366,361,361,361,361,361,361,360,360,360,30,30,30,360,360,361,361,361,361,361,361,361,360,361,361,361,362,362,362,362,362,362
+22,24,15,181,360,361,361,361,361,361,360,360,363,30,30,360,361,361,361,360,360,30,360,360,360,360,360,361,361,362,362,362,362,362
+30,254,251,176,360,360,361,360,361,361,361,360,360,361,361,361,361,360,360,360,30,77,78,30,363,360,360,361,361,361,362,362,362,362
+30,248,30,176,30,360,360,360,361,361,361,361,361,361,361,361,360,30,30,30,78,79,360,360,360,361,361,361,361,361,361,361,362,362
+31,248,30,176,30,364,360,360,360,361,361,361,361,361,360,360,360,360,30,11,80,80,79,360,360,360,360,360,361,361,361,362,362,362
+30,248,30,180,30,30,30,360,360,360,361,361,361,30,76,360,360,360,22,24,23,79,78,77,360,360,360,360,360,361,361,361,362,362
+80,248,78,30,177,181,30,30,360,371,361,361,360,360,30,256,360,360,360,360,360,360,78,30,30,360,360,361,360,361,361,361,361,362
+79,260,30,30,30,185,79,79,56,368,361,361,360,250,250,184,263,249,360,360,360,360,360,360,360,361,361,361,361,361,362,362,362,362
+30,248,249,280,178,56,181,250,256,249,361,250,250,30,182,22,9,23,249,253,30,360,360,360,360,360,361,360,361,361,362,362,362,362
+30,0,178,30,249,255,281,30,31,30,255,30,30,178,179,30,24,30,30,248,30,30,30,360,360,365,360,360,360,361,361,361,362,361
+22,24,23,30,38,30,180,183,184,183,184,183,178,30,30,30,30,30,30,248,30,77,78,80,30,30,30,30,360,360,360,360,361,361
+
+[player]
+name = 4
+briefing = 1
+
+[player]
+name = 5
+briefing = 2
+
+# units player 1 (ID's from 0 to 49)
+
+[unit]
+type = Patrol Boats
+player = 1
+id = 0
+pos = 17/10
+
+[unit]
+type = Patrol Boats
+player = 1
+id = 1
+pos = 3/6
+
+[unit]
+type = Patrol Boats
+player = 1
+id = 2
+pos = 4/7
+
+[unit]
+type = Torpedo Boats
+player = 1
+id = 3
+pos = 16/10
+
+[unit]
+type = Torpedo Boats
+player = 1
+id = 4
+pos = 5/1
+face = 2
+
+[unit]
+type = Torpedo Boats
+player = 1
+id = 5
+pos = 6/2
+face = 2
+
+[unit]
+type = Patrol Boats
+player = 1
+id = 6
+pos = 6/1
+face = 2
+
+[unit]
+type = Troopships
+player = 1
+id = 7
+pos = 3/4
+
+[unit]
+type = Troop Train
+player = 1
+id = 8
+pos = 1/10
+
+[unit]
+type = Anti-Aircraft Guns
+player = 1
+id = 9
+pos = 12/5
+
+[unit]
+type = Infantry
+player = 1
+id = 10
+pos = 13/3
+
+[unit]
+type = Infantry
+player = 1
+id = 11
+pos = 3/9
+
+[unit]
+type = Infantry
+player = 1
+id = 12
+pos = 14/15
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 13
+pos = 14/4
+
+[unit]
+type = Interceptors
+player = 1
+id = 14
+pos = 1/1
+face = 2
+
+[unit]
+type = Interceptors
+player = 1
+id = 15
+pos = 2/2
+face = 2
+
+[unit]
+type = Mines
+player = 1
+id = 26
+pos = 6/1
+
+[unit]
+type = Mines
+player = 1
+id = 27
+pos = 17/10
+
+# factory at 2/7
+
+[unit]
+type = Interceptors
+player = 1
+id = 16
+pos = 2/7
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 17
+pos = 2/7
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 18
+pos = 2/7
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 19
+pos = 2/7
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 20
+pos = 2/7
+
+# headquarters p1
+
+[unit]
+type = Personnel Carriers
+player = 1
+id = 21
+pos = 1/15
+
+[unit]
+type = Hovercraft
+player = 1
+id = 22
+pos = 1/15
+
+[unit]
+type = Anti-Aircraft Guns
+player = 1
+id = 23
+pos = 1/15
+
+# depot at 16/14
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 24
+pos = 16/14
+
+# factory at 11/3
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 25
+pos = 11/3
+
+
+# units player 2 (ID's 50 and up)
+
+[unit]
+type = Bomber Wing
+player = 2
+id = 50
+pos = 30/6
+face = 4
+
+[unit]
+type = Bomber Wing
+player = 2
+id = 51
+pos = 31/6
+face = 4
+
+[unit]
+type = Torpedo Boats
+player = 2
+id = 52
+pos = 25/3
+face = 4
+
+[unit]
+type = Torpedo Boats
+player = 2
+id = 53
+pos = 26/4
+face = 4
+
+[unit]
+type = Torpedo Boats
+player = 2
+id = 54
+pos = 27/4
+face = 4
+
+[unit]
+type = Torpedo Boats
+player = 2
+id = 55
+pos = 30/12
+face = 4
+
+[unit]
+type = Troopships
+player = 2
+id = 56
+pos = 27/1
+face = 4
+
+[unit]
+type = Troopships
+player = 2
+id = 57
+pos = 28/2
+face = 4
+
+[unit]
+type = Troopships
+player = 2
+id = 58
+pos = 29/2
+face = 4
+
+[unit]
+type = Patrol Boats
+player = 2
+id = 59
+pos = 29/11
+face = 4
+
+[unit]
+type = Patrol Boats
+player = 2
+id = 60
+pos = 29/12
+face = 4
+
+[unit]
+type = Patrol Boats
+player = 2
+id = 61
+pos = 25/2
+face = 4
+
+[unit]
+type = Patrol Boats
+player = 2
+id = 62
+pos = 24/2
+face = 4
+
+[unit]
+type = Patrol Boats
+player = 2
+id = 63
+pos = 24/3
+face = 4
+
+[unit]
+type = Aircraft Carriers
+player = 2
+id = 64
+pos = 32/1
+crystals = 30
+face = 4
+
+[unit]
+type = Transport Planes
+player = 2
+id = 65
+pos = 31/5
+face = 4
+
+# carrier
+
+[unit]
+type = Interceptors
+player = 2
+id = 66
+pos = 32/1
+
+[unit]
+type = Interceptors
+player = 2
+id = 67
+pos = 32/1
+
+[unit]
+type = Interceptors
+player = 2
+id = 68
+pos = 32/1
+
+[unit]
+type = Interceptors
+player = 2
+id = 69
+pos = 32/1
+
+# transport 1
+
+[unit]
+type = Infantry
+player = 2
+id = 70
+pos = 27/1
+
+[unit]
+type = Scouts
+player = 2
+id = 71
+pos = 27/1
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 72
+pos = 27/1
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 73
+pos = 27/1
+
+# transport 2
+
+[unit]
+type = Infantry
+player = 2
+id = 74
+pos = 28/2
+
+[unit]
+type = Scouts
+player = 2
+id = 75
+pos = 28/2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 76
+pos = 28/2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 77
+pos = 28/2
+
+# transport 3
+
+[unit]
+type = Infantry
+player = 2
+id = 78
+pos = 29/2
+
+[unit]
+type = Scouts
+player = 2
+id = 79
+pos = 29/2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 80
+pos = 29/2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 81
+pos = 29/2
+
+# planes
+
+[unit]
+type = Infantry
+player = 2
+id = 82
+pos = 31/5
+
+[unit]
+type = Scouts
+player = 2
+id = 83
+pos = 31/5
+
+[unit]
+type = Personnel Carriers
+player = 2
+id = 84
+pos = 31/5
+
+
+# neutral depot at 19/10 (ID's 120 and up)
+
+[unit]
+type = Infantry
+player = 0
+id = 120
+pos = 19/10
+
+[unit]
+type = Hovercraft
+player = 0
+id = 121
+pos = 19/10
+
+[unit]
+type = Medium Tanks
+player = 0
+id = 122
+pos = 19/10
+
+[unit]
+type = Bomber Wing
+player = 0
+id = 123
+pos = 19/10
+
+
+# buildings
+
+[building]
+name = 6
+id = 0
+player = 1
+pos = 1/15
+type = workshop
+crystals = 10
+
+[building]
+name = 7
+id = 1
+player = 1
+pos = 2/7
+type = workshop
+type = factory
+factory = Patrol Boats
+factory = Torpedo Boats
+factory = Troopships
+factory = Transport Planes
+factory = Scouts
+factory = Infantry
+crystals = 45
+mining = 3
+
+[building]
+name = 8
+id = 2
+player = 1
+pos = 11/3
+type = workshop
+type = factory
+factory = Patrol Boats
+factory = Anti-Aircraft Tanks
+factory = Infantry
+crystals = 35
+mining = 3
+
+[building]
+name = 9
+id = 3
+player = 1
+pos = 16/14
+type = workshop
+crystals = 20
+
+[building]
+name = 10
+id = 4
+player = 0
+pos = 19/10
+type = workshop
+crystals = 15
+mining = 1
+
+
+# events
+
+[event]
+id = 0
+type = message
+player = 1
+title = 3
+message = 1
+pos = 1/15
+trigger = timer
+ttime = 0
+
+[event]
+id = 1
+type = message
+player = 2
+title = 3
+message = 2
+pos = 32/1
+trigger = timer
+ttime = 0
+
+[event]
+id = 2
+type = score
+player = 1
+trigger = unitdestroyed
+tunit = -1
+towner = 2
+success = 100
+
+[event]
+id = 3
+type = score
+player = 2
+trigger = unitdestroyed
+tunit = -1
+towner = 1
+success = 100
+
+[event]
+id = 4
+type = score
+player = 2
+trigger = havebuilding
+tbuilding = 0
+towner = 2
+success = 100
+
+# handicaps
+[event]
+id = 5
+type = research
+player = 1
+trigger = handicap
+thandicap = 4
+building = 1
+unit = Interceptors
+
+[event]
+id = 6
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Medium Tanks
+pos = 1/15
+
+[event]
+id = 7
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Medium Tanks
+pos = 1/15
+
+[event]
+id = 8
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Bomber Wing
+pos = 30/5
+face = 4
+
+[event]
+id = 9
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Medium Tanks
+pos = 31/5
+
+[event]
+id = 10
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Medium Tanks
+pos = 28/2
+
+[messages(de)]
+Landung auf Tyarin
+von Jens Granseuer <jensgr@gmx.net>
+%
+Die Kandelianer greifen einen unserer Außenposten an der Küste von Tyarin an. Wir haben sie erst vor wenigen Wochen aus diesem Sektor vertreiben können. Seitdem haben sie sich verdächtig ruhig verhalten, aber es hat den Anschein, dass sie sich in dieser Zeit auf einen Gegenschlag vorbereitet haben. Wir haben beträchtliche Kontingente einige Meilen vor der Küste gesichtet. Du musst diesen Angriff zurückschlagen und dafür sorgen, dass das Imperium unser Hauptquartier nicht erobern kann!
+
+Viel Glück! Für einen freien Nexus!
+%
+Vor fünf Wochen hat die AFN unsere letzte Festung auf der Insel Tyarin erobert. Seitdem haben unsere Strategen einen Plan für einen Gegenangriff ausgearbeitet, um die Kontrolle über unsere Stellungen zurück zu bekommen. Der Plan sieht vor, dass wir den ersten Angriff auf der Ostseite der Insel starten. Die Schwerindustrie dort wird uns nachher dabei helfen, auch den Rest der Insel zu säubern. Die Angriffstruppen werden Ihrem Kommando unterstellt. Vernichten Sie die Rebellen an der Küste oder erobern Sie ihr Hauptquartier.
+
+Lang lebe der Imperator!
+%
+Landung auf Tyarin
+%
+Armee Freier Nexus
+%
+Imperium von Kand
+%
+Kommandostand
+%
+Industriekomplex
+%
+Ringfabrik
+%
+AFN Depot
+%
+Ringdepot
+[/messages]
+
+[messages(en)]
+Tyarin Beach Raid
+by Jens Granseuer <jensgr@gmx.net>
+%
+The Kandelians are attacking one of our outposts at the coast of Tyarin. We have only driven them out of this sector a few weeks ago. So far they have been suspiciously quiet but it looks like they have been preparing to strike back all the time. We have sighted considerable forces several miles off the coast. You must repel this attack and prevent the headquarters from being conquered!
+
+Good luck. For a free Nexus!
+%
+Five weeks ago the Free Nexus Army has taken our last stronghold on the island of Tyarin. Since then we have been working on a plan for a counterattack to regain control over our bases. Our strategists have decided to land the first blow at the eastern shore of the island. The heavy industries there will help us to sweep the rest of the island afterwards. You have been assigned to lead the raid and crush the rebel forces at the coast or conquer their headquarters.
+
+Long live the Emperor!
+%
+Tyarin Beach Raid
+%
+Free Nexus Army
+%
+Empire of Kand
+%
+Command Post
+%
+Mainland Factory
+%
+Beltway Factory
+%
+Mainland Depot
+%
+Beltway Depot
+[/messages]
+
+[messages(fr)]
+Raid sur la plage de Tyarin
+
+par Jens Granseuer <jensgr@gmx.net>
+traduction française: Benoit Peureux <benoit.peureux@wanadoo.fr>
+%
+Les Kandéliens attaquent un de nos avant-postes sur la côte de Tyarin. Nous les avions évincés de ce secteur il y a seulement quelques semaines et jusqu'ici tout paraissait tranquille. Mais il semblerait qu'ils aient préparés en secret leur retour en force depuis longtemps. Nous avons aperçu des forces considérables à plusieurs kilométres au large de la côte.
+
+Vous devez repousser cette attaque et empêcher la reconquête de notre quartier général par les Kandéliens!
+
+Bonne chance. Vive le Nexus Libre!
+%
+Il y a cinq semaines l'armée libre de Nexus a conquis notre dernier bastion sur l'île de Tyarin. Depuis lors nous avons travaillé sur un plan pour qu'une contre-attaque nous permette de regagner définitivement le contrôle de nos bases. Nos stratèges ont décidé de porter la premiére attaque en débarquant sur le rivage oriental de l'île. L'industrie lourde présente à cet endroit, nous aidera ensuite à nettoyer le reste de l'île.
+
+Vous avez été choisi pour mener l'incursion décisive et écraser les forces des rebelles sur la côte ou pour conquérir leur quartier général.
+
+Vive l'Empereur!
+%
+Raid sur la plage de Tyarin
+%
+Armée du Nexus Libre
+%
+Empire de Kand
+%
+Poste de commandement
+%
+Usine de Mainland
+%
+Usine de Beltway
+%
+Dépôt de Mainland
+%
+Dépôt de Beltway
+[/messages]
+
+[messages(pl)]
+Najazd na plażę Tyarinu
+autor: Jens Granseuer <jensgr@gmx.net>
+%
+Kandeliańczycy atakują jeden z naszych posterunków na wybrzeżu Tyarinu. Wyparliśmy ich z sektora parę tygodni temu. Jak na razie byli podejrzanie cicho, ale wygląda na to, że cały czas przygotowywują się do jego odbicia. Namierzyliśmy znaczne siły kilka mil od wybrzeża. Musisz odeprzeć ten atak i zapobiec zajęciu kwatery głównej!
+
+Powodzenia! Za wolny Nexus!
+%
+Pięć tygodni temu Wolna Armia Nexusu przejęła naszą ostatnią twierdzę na wyspie Tyarin. Od tego czasu pracowaliśmy nad planem kontruderzenia i odzyskania kontroli nad naszymi bazami. Nasi stratedzy zdecydowali zdobyć w pierwszym uderzeniu wschodni brzeg rzeki. Zlokalizowane tam ciężkie fabryki pomogą nam potem zająć resztę wyspy. Zostałeś przydzielony do prowadzenia ataku i zmiażdżenia sił buntowników na wybrzeżu lub zajęcia ich kwatery głównej.
+
+Niech żyje Imperator
+%
+Najazd na plażę Tyarinu
+%
+Wolna Armia Nexusu
+%
+Imperium Kandyjskie
+%
+Stanowisko dowodzenia
+%
+Główna lądowa fabryka
+%
+Cieśninowa fabryka
+%
+Główny lądowy magazyn
+%
+Cieśninowy magazyn
+[/messages]
+
+[messages(sk)]
+Nájazd na pláž Tyarin
+autor Jens Granseuer <jensgr@gmx.net>
+%
+Kandeliánci útočia na jednu našu základňu na brehu Tyarinu. Z tejto oblasti sme ich vyhnali len pred niekoľkými týždňami. Doteraz boli podozrivo ticho, ale zdá sa, že celý čas pripravovali odvetný úder. Zbadali sme značnú nepriateľskú silu len niekoľko míľ od brehu. Musíš odvrátiť tento útok a obrániť náš hlavný stan pred obsadením nepriateľmi.
+
+Veľa šťastia. Za slobodný Nexus!
+%
+Pred piatimi týždňami Armáda za slobodný Nexus obsadila našu poslednú pevnosť na ostrove Tyarin. Odvtedy sme pracovali na pláne pre spätný útok, aby sme opäť získali moc nad našimi základňami. Naši stratégovia rozhodli, aby sme zasadili prvý úder na východnom brehu ostrova. Miestny ťažký priemysel nám potom pomôže vyčistiť zvyšok ostrova. Ty budeš útok viesť a musíš rozdrviť povstalecké sily na pobreží alebo obsadiť ich hlavný stan.
+
+Nech žije cisár!
+%
+Nájazd na pláž Tyarin
+%
+Armáda za slobodný Nexus
+%
+Kandské Impérium
+%
+Veliteľstvo
+%
+Pevninská továreň
+%
+Súostrovná továreň
+%
+Pevninský sklad
+%
+Súostrovný sklad
+[/messages]
+

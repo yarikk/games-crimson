@@ -1,0 +1,61 @@
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: smaller;
+    background: #515151;
+}
+
+a:link { color: blue; }
+
+a:visited { color: green; }
+
+a:hover { color: red; }
+
+a:active { color: green; }
+
+div.refentry {
+    background: #d0dad0;
+    border: 1px inset;
+}
+
+div.refentry p {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+div.refentry h1 {
+    margin-left: 2.5%;
+    font-size: 120%;
+}
+
+div.refentry h2 {
+    margin-left: 4%;
+    font-size: 110%;
+}
+
+div.refentry h3 {
+    margin-left: 6%;
+    font-size: 100%;
+}
+
+div.refentry dl {
+    margin-left: 10%;
+    margin-right: 10%;
+    border: dotted 1px black;
+    background: #eeeeef;
+}
+
+div.refentry table {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+div.refentry code {
+    color: #000055
+}
+
+div.refentry pre.programlisting {
+    margin-left: 10%;
+    color: #000055
+}
+

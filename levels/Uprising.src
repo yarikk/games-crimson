@@ -1,0 +1,621 @@
+[mission]
+name = 8
+mapwidth = 20
+mapheight = 20
+info = 0
+campaign = 1
+campaignname = 9
+campaigninfo = 1
+nextmap = Plowshares
+players = 1
+
+[map-raw]
+30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,83,30,30
+30,21,30,30,30,30,38,78,30,30,30,30,30,80,81,82,84,86,85,30
+22,24,7,177,30,30,30,31,30,30,30,184,30,30,81,84,83,85,81,79
+30,30,30,30,177,177,30,30,30,178,178,30,177,177,30,81,86,82,79,30
+30,30,30,30,30,30,177,186,178,30,30,31,30,30,177,177,30,30,30,30
+30,30,30,38,30,30,30,176,30,30,30,30,30,30,30,30,181,30,30,30
+34,30,30,79,30,30,30,179,30,30,360,30,360,360,30,30,176,30,30,30
+30,80,30,30,30,31,182,360,30,360,360,360,360,30,30,30,176,30,30,30
+30,83,81,82,30,30,176,30,360,361,361,360,360,30,32,30,176,30,54,30
+84,86,85,82,81,30,176,30,360,360,361,365,360,360,30,30,176,30,30,30
+81,84,83,85,81,30,176,360,360,360,360,79,30,30,360,30,176,30,30,30
+80,82,86,30,78,30,176,30,30,30,80,83,81,30,30,178,179,30,30,30
+30,30,81,30,81,30,180,177,30,30,84,86,85,182,178,30,30,30,38,30
+30,30,30,30,30,30,30,30,177,206,30,30,30,176,30,30,31,30,30,30
+117,80,30,30,30,30,30,360,360,30,177,177,30,176,30,34,30,78,30,30
+117,117,30,38,77,30,360,360,360,360,30,30,177,194,30,30,30,30,30,30
+117,30,30,30,38,38,30,360,360,30,30,31,30,30,177,177,30,30,30,30
+117,117,30,117,38,38,38,30,360,30,30,30,30,30,30,30,177,3,21,23
+117,118,117,117,38,38,30,30,30,30,30,30,30,79,80,30,30,30,24,30
+120,119,121,117,117,30,38,30,30,30,30,30,30,30,30,30,30,30,30,30
+
+[player]
+name = 2
+briefing = 16
+
+[player]
+name = 3
+briefing = 17
+
+[unit]
+type = Infantry
+player = 1
+id = 3
+pos = 18/15
+face = 5
+
+[unit]
+type = Infantry
+player = 1
+id = 4
+pos = 2/16
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 5
+pos = 14/16
+face = 5
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 6
+pos = 15/16
+face = 5
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 7
+pos = 3/15
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 10
+pos = 16/10
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 11
+pos = 17/10
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 12
+pos = 16/11
+
+[unit]
+type = Infantry
+player = 2
+id = 14
+pos = 5/9
+
+[unit]
+type = Infantry
+player = 2
+id = 15
+pos = 5/8
+
+[unit]
+type = Infantry
+player = 2
+id = 16
+pos = 2/4
+face = 2
+
+[unit]
+type = Personnel Carriers
+player = 2
+id = 17
+pos = 3/4
+face = 2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 18
+pos = 6/9
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 19
+pos = 13/3
+face = 2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 20
+pos = 12/4
+face = 2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 21
+pos = 12/3
+face = 2
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 22
+pos = 5/3
+face = 2
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 0
+pos = 17/17
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 1
+pos = 2/2
+
+[unit]
+type = Infantry
+player = 1
+id = 9
+pos = 17/17
+
+[unit]
+type = Infantry
+player = 2
+id = 13
+pos = 2/2
+
+[building]
+name = 6
+player = 1
+id = 0
+pos = 17/17
+type = workshop
+crystals = 25
+
+[building]
+name = 7
+player = 2
+id = 1
+pos = 2/2
+type = workshop
+crystals = 30
+
+[event]
+id = 0
+type = message
+player = 1
+title = 2
+message = 4
+trigger = timer
+ttime = 0
+pos = 17/17
+
+[event]
+id = 1
+type = message
+player = 2
+title = 3
+message = 5
+trigger = timer
+ttime = 0
+pos = 2/2
+
+[event]
+id = 2
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 1
+unit = Medium Tanks
+pos = 6/4
+face = 2
+
+[event]
+id = 3
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Heavy Tanks
+pos = 6/4
+face = 2
+
+[event]
+id = 4
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 5
+unit = Personnel Carriers
+pos = 17/15
+face = 5
+
+[event]
+id = 5
+type = score
+player = 1
+title = 10
+message = 12
+trigger = unitdestroyed
+tunit = -1
+towner = 2
+success = 100
+othermsg = 15
+othertitle = 11
+
+[event]
+id = 6
+type = score
+player = 1
+title = 10
+message = 12
+trigger = havebuilding
+tbuilding = 1
+towner = 1
+ttime = -1
+success = 100
+othermsg = 15
+othertitle = 11
+
+[event]
+id = 7
+type = score
+player = 2
+title = 10
+message = 14
+trigger = unitdestroyed
+tunit = -1
+towner = 1
+success = 100
+othermsg = 13
+othertitle = 11
+
+[event]
+id = 8
+type = score
+player = 2
+title = 10
+message = 14
+trigger = havebuilding
+tbuilding = 0
+towner = 2
+ttime = -1
+success = 100
+othermsg = 13
+othertitle = 11
+
+[messages(de)]
+Der Aufstand
+
+von Jens Granseuer <jensgr@gmx.net>
+
+Erster Teil des Yalwa-Feldzugs.
+%
+Im Jahre 2483 nach der Gründung der Residenzstadt Allantha (G.A.) landeten Schiffe mit Eindringlingen aus dem westlichen Teil der Galaxie auf Nexus. Die Fremden verkündeten, der Planet sei nun Teil des Imperiums von Kand, und begannen damit, die reichhaltigen Mineralienvorkommen auszubeuten.
+
+Die Yalwa-Kampagne beginnt zwei Jahre nach der Ankunft der Kandelianer auf Nexus. Die Armee Freier Nexus, eine der nexianischen Vereinigungen, die sich gegen die Besatzung wehren, nimmt ihren Kampf für die Befreiung ihrer Heimat, der früheren Republik Kerlo, auf. Ihr Ziel ist Ultha, die Hauptstadt der Provinz Yalwa, die den ersten Brückenkopf gegen das Imperium bilden soll.
+%
+Armee Freier Nexus
+%
+Imperium von Kand
+%
+Es ist jetzt zwei Jahre her, dass das Imperium von Kand auf unserem Planeten landete und uns zu einem Volk von Minensklaven machte. Die Kandelianer konnten zwar letztlich ihre Herrschaft nicht lange über ganz Nexus behaupten, aber sie kontrollieren nach wie vor das Gebiet von Kerlo, da unsere Heimat besonders reich an Bodenschätzen ist.
+
+Wir haben den Widerstand aus dem Untergrund organisiert und kleinere Schläge gegen kandelianische Einrichtungen in der Provinz Yalwa geführt, bei denen wir unsere Lager gefüllt haben. Nach zwei Jahren der Vorbereitung halten wir jetzt die Zeit für gekommen, den Eindringlingen offen entgegenzutreten. Sie haben möglicherweise bereits die Gerüchte über Unruhen in anderen Regionen von Kerlo gehört. Sollten diese sich als wahr herausstellen, so könnte sich das als die erhoffte Ablenkung erweisen. Rhintura, die kleine Stadt, die während der letzten zwei Jahre unser Hauptquartier gewesen ist, wird die erste freie Stadt in Kerlo sein, und sie wird nicht die einzige bleiben.
+
+Wir haben die zwei kleine Garnisonen in Rhintura unter unsere Kontrolle gebracht, aber das Imperium schickt nun Truppen aus dem nahegelegenen Stützpunkt. Wir müssen jetzt beweisen, dass wir die Stadt auch dann halten können, wenn das Imperium sie zurückholen will. Sie werden unsere Einheiten bei Rhintura befehligen und die Kandelianischen Truppen zurückschlagen. Sie müssen diese Einheiten zerstören oder ihre Kaserne erobern und dabei unser Hauptquartier verteidigen.
+
+Viel Glück! Für einen freien Nexus!
+%
+Vor zwei Jahren, im Jahre 519 des Dritten Imperators (D.I.), oder 2483 G.A. nach lokaler Zeitrechnung, wurde Nexus zu einem Teil des Impeiums von Kand. Scans hatten reiche Mineralienvorkommen angezeigt, und wir benötigten Material zum Ausbau und zur Verteidigung unserer Kolonien im nördlichen Teil der Galaxie.
+
+Heute bauen wir zwar immer noch die Bodenschätze auf Nexus ab, aber die Situation wird von Tag zu Tag schwieriger. Das Oberkommando zieht nahezu pausenlos Einheiten aus dem System ab. Die vormalige Republik Kerlo ist eines der wenigen Gebiete, in denen wir noch beträchtliche Truppen unterhalten.
+
+Jedoch gibt es auch hier Unruhe. Kleine Gruppen von nexianischen Kriminellen und Unruhestiftern haben uns schon immer belästigt, indem sie feige kleine Konvois und Siedlungen in unserem Einflussgebiet und ganz besonders in ländlichen Gegenden überfallen haben, aber in den letzten Wochen hat es in mehreren Distrikten eine wahre Flut von Anschlägen gegeben.
+
+Es scheint so, als wären die Rebellen mittlerweile verzweifelt genug, sich einer direkten Konfrontation zu stellen. Da sich die Aufrührer jetzt endlich aus ihrem Versteck herausgewagt haben, bietet sich uns die Möglichkeit, die Angelegenheit ein für allemal zu regeln. Sie werden unsere Streitkräfte bei Rhintura in der Provinz Yalwa befehligen, wo eine Gruppe, die sich selbst die Armee Freier Nexus nennt, zwei unserer Stützpunkte überrannt hat. Ihre Aufgabe ist es, die Aufständischen zu vernichten und unsere Garnisonen zurückzuerobern.
+
+Lang lebe der Imperator!
+%
+Rebellenhauptquartier
+%
+Rhintura-Kaserne
+%
+Der Aufstand
+%
+Saat des Widerstands
+%
+Mission erfolgreich
+%
+Mission fehlgeschlagen
+%
+Gut gemacht! Rhintura ist jetzt vollständig unter unserer Kontrolle.
+%
+Der Aufstand wurde von den Imperialen Streitkräften erstickt, bevor er richtig begonnen hatte.
+%
+Sie haben den Aufstand in Rhintura erfolgreich niedergeschlagen.
+%
+Sie haben die Imperiale Kaserne bei Rhintura an die Armee Freier Nexus verloren.
+%
+1a. Zerstören Sie die kandelianischen Streitkräfte.
+1b. Erobern Sie die Rhintura-Kaserne.
+
+2. Halten Sie feindliche Truppen von unserem Hauptquartier fern.
+%
+1a. Zerstören Sie alle feindlichen Truppen.
+1b. Erobern Sie das Hauptquartier der Rebellen.
+
+2. Verteidigen Sie die Rhintura-Kaserne gegen die Armee Freier Nexus.
+[/messages]
+
+[messages(en)]
+The Uprising
+
+by Jens Granseuer <jensgr@gmx.net>
+
+First installment of the Yalwa campaign.
+%
+In 2483 after the Foundation of the Capital of Allantha (F.A.) ships landed on Nexus, carrying invaders from the western part of the galaxy. The strangers claimed the planet now to be part of the Empire of Kand and began to exploit the rich mineral resources.
+
+The Yalwa campaign takes place two years after the arrival of the Kandelians on Nexus. The Free Nexus Army, one of the Nexian groups opposing the occupation, begins its quest for the liberation of its homeland, the former Republic of Kerlo, with the goal of capturing Ultha, the capital of the Yalwa province, thereby gaining a first foothold against the Empire.
+%
+Free Nexus Army
+%
+Empire of Kand
+%
+It has been two years since the Empire of Kand invaded our planet and turned our people into mining slaves. While the Kandelians could not maintain control over all of Nexus they continue to keep a firm grip on our home, the Republic of Kerlo, due to its wealth in mineral resources.
+
+We have been organizing the resistance secretly and dealing minor blows to Kandelian installations in the Yalwa province, trying to increase our supplies. After two years of preparation we now think it is time to openly confront the invaders. You may have heard rumours of unrest in other regions of Kerlo, and if there is some truth to them, this could provide the distraction we were hoping for. Rhintura, the small town that served as our headquarters for the last two years, will become the first free town in Kerlo, and it won't be the last.
+
+We have brought the two small garrisons in Rhintura under our control, but the Empire now sends in forces from the nearby barracks. What we have to prove now is that we can keep the town even when the Empire tries to take it back. You will command our forces near Rhintura and repel the Kandelian forces. You must destroy those troops or conquer the barracks while defending our headquarters.
+
+Good Luck! For a free Nexus!
+%
+Two years ago, in 519 of the Third Emperor (T.E.), or 2483 F.A. counting in local terms, Nexus became part of the Empire of Kand. Scans had indicated rich mineral resources, and we needed material to support and defend our colonies in the northern parts of the galaxy.
+
+Today, we still exploit the resources on Nexus, but the situation is getting more difficult each day. High Command is constantly pulling forces out of the system. The former Republic of Kerlo is one of the few places where we still maintain a considerable presence.
+
+However, even here unrest is growing. Small groups of Nexian outlaws and troublemakers have pestered us all the time, cowardly ambushing small parties and settlements all over our sphere of influence and especially in rural areas, but in recent weeks there has been a flare of unrest in various districts.
+
+It seems the rebels have finally become desperate enough for a direct confrontation. Now that they have come out into the open, we believe it is our chance to settle the matter once and for all. You will be commanding our forces near the town of Rhintura in the Yalwa province where a group calling themselves the Free Nexus Army have overrun two of our installations. Your task is to crush the rebel forces and to take back the garrisons.
+
+Long live the Emperor!
+%
+Rebel HQ
+%
+Rhintura Barracks
+%
+The Uprising
+%
+Seed of Resistance
+%
+Mission complete
+%
+Mission failed
+%
+Well done! Rhintura is now completely under our control.
+%
+The rebellion has been crushed by Imperial forces even before it had really begun.
+%
+You have successfully put down the uprising in Rhintura.
+%
+You have lost the Imperial barracks at Rhintura to the Free Nexus Army.
+%
+1a. Destroy all Kandelian forces.
+1b. Conquer the Rhintura Barracks.
+
+2. Keep the enemy forces away from our headquarters.
+%
+1a. Destroy all enemy troops.
+1b. Conquer the rebel headquarters.
+
+2. Keep the Free Nexus Army out of the Rhintura Barracks.
+[/messages]
+
+[messages(fr)]
+Le soulévement
+
+par Jens Granseuer <jensgr@gmx.net>
+traduction française: Benoit Peureux <benoit.peureux@wanadoo.fr>
+
+Premiére partie de la campagne de Yalva.
+%
+En 2483 après la fondation de la capitale d'Allantha (F.A.) des navires spaciaux atterissent sur Nexus et débarquent des envahisseurs en provenance de la partie occidentale de la galaxie. Les envahisseurs Kandéliens ont proclamé que la planète fait maintenant partie de l'empire de Kand et ils ont commencé à en exploiter les riches ressources minérales.
+
+La campagne de Yalwa a lieu deux ans après l'arrivée des Kandéliens sur Nexus. L'armée libre de Nexus, un des groupes de Nexiens qui s'opposent aux envahisseurs, commence sa marche pour la libération de sa patrie, l'ancienne République de Kerlo. Leur but est de libérer Ultha, la capitale de la province de Yalwa, gagnant de ce fait un point contre l'empire.
+%
+Armée du Nexus Libre
+%
+Empire de Kand
+%
+Cela fait deux ans que l'empire de Kand a envahi notre planète et a transformé notre peuple en esclaves pour travailler dans les mines. Alors que les Kandéliens ne peuvent pas maintenir leur contrôle global sur Nexus, ils continuent à maintenir sous le joug notre patrie, la République de Kerlo, en raison de ses richesses en ressources minérales.
+
+Nous avons organisé la résistance en secret et provoqué des incidents dans les installations Kandéliennes de la province de Yalwa, essayant en paralléle d'augmenter nos ressources. Après deux ans de préparation nous pensons maintenant qu'il est temps de nous opposer ouvertement aux envahisseurs. Vous avez peut être entendu des rumeurs du malaise dans d'autres régions de Kerlo, et si elles correspondent à une certaine vérité, elles pourraient fournir la distraction que nous espérions pour Rhintura, la petite ville qui nous a servi de quartier général ces deux dernières années et qui deviendra la première ville libre de Kerlo. Ce ne sera pas la dernière...
+
+Les 2 petites garnisons de Rhintura sont sous notre contrôle mais l'Empire masse maintenant des forces dans les casernes voisines. Ce que nous devons prouver maintenant c'est que nous pouvons conserver le contrôle de la ville même lorsque l'Empire essaye de la reprendre. Vous commanderez nos forces près de Rhintura et repousserez les forces des Kandéliens. Vous devez détruire leurs troupes ou conquérir leurs casernes tout en défendant notre quartier général.
+
+Bonne chance! Vive le Nexus Libre!
+%
+Il y a 2 années, en 510 selon le 3éme Empire (TE.), ou 2483 F.A. selon les pratiques locales, Nexus est devenu une partie de l'Empire de Kand. Nos analyses ont indiqués la présence de riches ressources minérales dont nous avons absolument besoin pour ravitailler et défendre nos colonies dans la partie nord de la galaxie.
+
+Actuellement, nous exploitons toujours les ressources sur Nexus, mais la situation devient plus difficile chaque jour. Le Haut Commandement retire constamment des forces hors du système. L'ancienne République de Kerlo est l'un des quelques endroits de Nexus où nous maintenons toujours une présence significative.
+
+Cependant, même ici le malaise se développe. Des petits groupes de Nexiens proscrits et des fauteurs de troubles nous ont constamment agressés et attirés dans des piéges et des guet-apens lâches, partout dans notre sphère d'influence et plus particulièrement dans les secteurs ruraux. Depuis quelques semaines, il y a un accroisement du malaise dans diverses zones.
+
+Il semble que les rebelles soient finalement devenus assez désespérés pour tenter une confrontation directe. Maintenant qu'ils sont au grand jour, nous croyons que nous devons saisir notre chance de régler le problème une fois pour toutes. Vous commanderez nos forces près de la ville de Rhintura dans la province de Yalwa où un groupe qui s'appelle l'armée du Nexus Libre, a pris deux de nos installations. Votre tâche consiste à écraser les forces rebelles et à renforcer les garnisons.
+
+Vive l'Empereur!
+%
+QG des rebelles
+%
+Casernes de Rhintura
+%
+Le soulévement
+%
+Graine de résistance
+%
+Mission remplie
+%
+La mission a échoué
+%
+Bravo! Rhintura est à présent complétment sous notre contrôle.
+%
+La rébellion est complétement écrasée par les forces Impériales sans avoir réellement pu commencer.
+%
+Le soulévement de Rhintura est un succès. 
+%
+Vous avez perdu les casernes Impériales de Rhintura au profit de l'Armée du Nexus libre.
+%
+Vos objectifs:
+
+1a. Détruire toutes les forces Kandéliennes.
+1b. Conquérir les casernes de Rhintura.
+
+2. Eloigner les forces ennemies de votre quartier général.
+%
+Vos objectifs:
+
+1a. Détruire toutes les troupes ennemies.
+1b. Conquérir le quartier général rebelle.
+
+2. Maintenir l'Armée du Nexus Libre en dehors des casernes de Rhintura.
+[/messages]
+
+[messages(pl)]
+Powstanie
+
+autor: Jens Granseuer <jensgr@gmx.net>
+
+Pierwsza misja kampanii Yalwa.
+%
+W roku 2483 po Założeniu Stolicy Allanthy (Z.A.) na Nexusie wylądowały statki, niosące najeźdzców z zachodniej części galaktyki. Obcy uznali że planeta jest od teraz częścią Imperium Kandyjskiego i rozpoczęli wykorzystywanie bogatych źródeł minerałów.
+
+Kampania Yalwa dzieje się dwa lata po przybyciu Kandelian na Nexus.  Wolna Armia Nexusu, jedna z Nexiańskich grup sprzeciwiających się okupacji, zaczyna swoją walkę o wyzwolenie ojczyzny, byłej Republiki Kerlo, mając na celu zdobycie Ulthy, stolicy prowincji Yalwa, zdobywając w ten sposób przyczułek w walce z Imperium.
+%
+Wolna Armia Nexusu
+%
+Imperium Kandyjskie
+%
+Dwa lata upłynęły odkąd Imperium Kandyjskie najechało na naszą planetę i zmieniło ludzi w niewolniczych wyrobników. I chociaż Kandelianie nie mogą utrzymać kontroli nad całym Nexusem to mocno trzymają w garści nasz dom, Republikę Kerlo, ze względu na jej bogate złoża surowców.
+
+W sekrecie organizowaliśmy opór i zadawaliśmy drobne ciosy Kandeliańskim instalacjom w prowincji Yalwa, starając się pozyskać zasoby. Po dwóch latach przygotowań myślimy że nadszedł czas na otwartą konfrontację z najeźdźcami. Mogły do Ciebie dotrzeć plotki o niepokojach w innych rejonach Kerlo, i jeśli jest w nich odrobina prawdy, mogą, na co liczymy, odwrócić od nas uwagę. Rhintura, małe miasto które służyło nam za centrum dowodzenia przez ostatnie dwa lata, stanie się pierwszym wolnym miastem w Kerlo. I nie będzie ostatnim.
+
+Oddaliśmy Ci dowodzenie nad dwoma niewielkimi garnizonami w Rhinturze, ale Imperium właśnie wysyła siły z okolicznych koszar. Musimy teraz dowieść że potrafimy utrzymać miasto nawet gdy Imperim stara się je odzyskać. Staniesz na czele naszych sił pod Rhinturą i odeprzesz atak Kandelian. Musisz zniszczyć ich siły albo zdobyć koszary jednocześnie broniąc naszego centrum dowodzenia.
+
+Powodzenia! Za wolny Nexus!
+%
+Dwa lata temu, w 519 roku Trzeciego Imperatora (T.I.), albo 2843 Z.A. używając lokalnej rachuby, Nexus stał się częścią Imperium Kandyjskiego. Wskaźniki wykazywały bogate złoża minerałów, a potrzebowaliśmy materiałów by utrzymać i obronić nasze kolonie w północnych częściach galatyki.
+
+W dniu dzisiejszym wciąż wydobywamy surowce na Nexusie, ale sytuacja z każdą chwilą staje się trudniejsza. Najwyższe Dowództwo wciąż wyprowadza wojska z systemu. Była Republika Kerlo jest jednym z niewielu miejsc w których nadal mamy solidną pozycję.
+
+Mimo to nawet tutaj rosną niepokoje. Małe grupy Nexiańskich bandytów nękają nas cały czas, tchóżliwie napadając na małe grupy i osiedla w całej naszej sferze wpływów, a zwłaszcza w obszarach wiejskich. Jednak w ostatnich tygodniach rozbłskują niepokoje w wielu dzienicach.
+
+Wygląda na to, że rebelianci stali się wystarczająco zdesperowani by zaryzykować bezpośrednią konfrontację. Teraz, gdy wyszli na światło dzienne, wierzymy że mamy szanse rozwiązać tę sprawę raz na zawsze. Będziesz dowodził naszymi siłami koło miasta Rhitura w prowincji Yalwa gdzie grupa nazywająca siebie Wolną Armią Nexusu przejęła dwie nasze instalacje. Twoim zadaniem jest zgnieść siły rebeliantów i odzyskać garnizony.
+
+Niech żyje Imperator!
+%
+Centrum Dowodzenia Rebelii
+%
+Koszary w Rhinturze
+%
+Powstanie
+%
+Zalążek oporu
+%
+Misja wykonana
+%
+Misja nieudana
+%
+Dobra robota! Rhintura jest teraz pod naszą całkowitą kontrolą.
+%
+Rebelia została zduszona przez siły Imperim zanim się na dobre rozpoczęła.
+%
+Udało Ci się zdusić powstanie w Rhinturze.
+%
+Straciłeś Imperialne koszary w Rhinturze na rzecz Wolnej Armii Nexusu.
+%
+1a. Zniszcz wszystkie siły Kandelian.
+1b. Przejmij kontrolę nad Koszarami w Rhinturze.
+
+2. Trzymaj siły wroga z dala od naszego centrum dowodzenia.
+%
+1a. Zniszcz wszystkie siły wroga.
+1b. Przejmij kontrolę nad centrum dowodzenia rebelii.
+
+2. Trzymaj Wolną Armię Nexusu z daleka od Koszarów w Rhinturze.
+[/messages]
+
+[messages(sk)]
+Povstanie
+
+autor Jens Granseuer <jensgr@gmx.net>
+
+Prvá časť kampane Yalwa.
+%
+V roku 2483 po Založení Allanthy (Z.A.) pristáli na Nexuse lode privážajúce okupantov zo západnej časti galaxie. Cudzinci vyhlásili, že planéta je teraz časťou Kandského Impéria a začali využívať bohaté minerálne zdroje.
+
+Kampaň Yalwa sa odohráva dva roky po príchode Kandeliáncov na Nexus. Armáda za slobodný Nexus, jedna z Nexiánskych skupín proti okupantom, začína svoje ťaženie za oslobodenie svojej vlasti, bývalej Kerlskej Republiky, s cieľom dobyť Ulthu (hlavné mesto provincie Yalwa), čím získajú prvý oporný bod proti Impériu.
+%
+Armáda za slobodný Nexus
+%
+Kandské Impérium
+%
+Už sú to dva roky, odkedy Kandské Impérium napadlo našu planétu a z našich ľudí sa stali otrockí baníci. Aj keď Kandeliánci nedokázali udržať kontrolu nad celým Nexusom, pevne držia v rukách náš domov, Kerlskú Republiku, kvôli minerálnemu bohatstvu.
+
+Odboj sme organizovali v tajnosti a v snahe zdvihnúť naše zásoby sme Kandeliánskym zariadeniam zasadzovali menšie údery v provincii Yalwa. Po dvoch rokoch príprav myslíme, že nadišiel čas otvorene sa postaviť okupantom. Možno si počul chýry o nepokojoch v iných oblastiach Kerlu a ak sú pravdivé, mohlo by nám to poskytnúť odpútanie pozornosti, na ktoré sme čakali. Rhintura, malé mesto, ktoré nám posledné dva roky slúžilo ako hlavný stan, sa stane prvým slobodným mestom v Kerle a nebude posledné.
+
+V Rhinture sme ovládli dve malé posádky, ale Impérium vysiela jednotky z blízkych kasární. Teraz musíme dokázať, že dokážeme mesto udržať, aj keď sa Impérium snaží dobyť ho. Budeš veliť našim jednotkám v okolí Rhintury a musíš odraziť Kandeliánske jednotky. Musíš zničiť toto vojsko alebo dobyť kasárne, pričom musíš brániť náš hlavný stan.
+
+Veľa šťastia! Za slobodný Nexus!
+%
+Pred dvoma rokmi, v roku 519 Tretieho Cisára (T.C.), alebo 2483 Z.A. v miestnom letopočte sa Nexus stal časťou Kandského Impéria. Prieskumy naznačovali bohaté minerálne zásoby a potrebovali sme materiál pre podporu a obranu našich kolónií v severných častiach galaxie.
+
+V súčasnosti ešte stále využívame zdroje na Nexuse, ale situácia sa každým dňom komplikuje. Najvyššie velenie stále odvoláva jednotky zo sústavy. Bývalá Kerlská republika patrí medzi niekoľko miest, kde máme stále pomerne veľa síl.
+
+Napriek tomu aj tu sa stupňuje nepokoj. Malé skupinky Nexiánskych zločincov a buričov nás po celý čas otravovali, zbabelo prepadávali malé skupiny a usadlosti v celej našej sfére vplyvu a hlavne vo vidieckych oblastiach. V posledných týždňoch vo viacerých krajoch vypukli nepokoje.
+
+Vyzerá to tak, že rebeli sú konečne dosť zúfalí na to, aby sa nám priamo postavili. Keď teraz vyliezli na svetlo, máme šancu dať túto nepríjemnosť raz a navždy do poriadku. Budeš veliť našim jednotkám blízko mesta Rhintura v provincii Yalwa, kde skupina hlásiaca sa ako Armáda za slobodný Nexus ovládla dve naše zariadenia. Tvojou úlohou bude rozdrviť rebelské sily a opevnenia dobyť späť.
+
+Nech žije cisár!
+%
+Hlavný stan rebelov
+%
+Rhinturské kasárne
+%
+Povstanie
+%
+Zárodok odboja
+%
+Misia úspešná
+%
+Misia neúspešná
+%
+Výborne! Rhintura je teraz úplne pod našou kontrolou.
+%
+Vzbura bola imperiálnymi silami potlačená ešte predtým, ako začala.
+%
+Úspešne si potlačil povstanie v Rhinture.
+%
+Stratil si imperiálne kasárne pri Rhinture v prospech Armády za slobodný Nexus.
+%
+1a. Znič kandeliánske jednotky.
+1b. Doby kasárne pri Rhinture.
+
+2. Nenechaj nepriateľov obsadiť našu centrálu.
+%
+1a. Znič všetky nepriateľské jednotky.
+1b. Obsaď rebelský hlavný stan.
+
+2. Nedovoľ Armáde za slobodný Nexus obsadiť Rhinturské kasárne.
+[/messages]
+

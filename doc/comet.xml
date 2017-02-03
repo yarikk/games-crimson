@@ -1,0 +1,120 @@
+<?xml version='1.0'?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+ "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+<refentry id="comet.6">
+<refentryinfo>
+  <date>January 20 2007</date>
+  <author>
+    <firstname>Jens</firstname>
+    <surname>Granseuer</surname>
+    <address><email>jensgr@gmx.net</email></address>
+  </author>
+</refentryinfo>
+
+<refmeta>
+  <refentrytitle>comet</refentrytitle>
+  <manvolnum>6</manvolnum>
+</refmeta>
+
+<refnamediv>
+  <refname>comet</refname>
+  <refpurpose>a mission editor for Crimson Fields</refpurpose>
+</refnamediv>
+
+<refsynopsisdiv>
+  <cmdsynopsis>
+    <command>comet</command>
+    <arg choice="opt">--level <replaceable>level</replaceable></arg>
+    <arg choice="opt">--width <replaceable>width</replaceable></arg>
+    <arg choice="opt">--height <replaceable>width</replaceable></arg>
+    <arg choice="opt">--fullscreen 1|0</arg>
+    <arg choice="opt">--sound 1|0</arg>
+  </cmdsynopsis>
+
+  <cmdsynopsis>
+    <command>comet</command>
+    <group choice="req">
+      <arg choice="plain">--help</arg>
+      <arg choice="plain">--version</arg>
+    </group>
+  </cmdsynopsis>
+</refsynopsisdiv>
+
+<refsect1><title>Description</title>
+  <para><command>comet</command> (the Crimson Fields Map Editing Tool)
+  is a mission editor for Crimson Fields.</para>
+</refsect1>
+
+<refsect1><title>Options</title>
+  <variablelist>
+    <varlistentry>
+      <term><option>--level</option> <replaceable>level</replaceable></term>
+      <listitem>
+        <para>Start the editor with the <replaceable>level</replaceable>
+        loaded.</para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term><option>--width</option> <replaceable>w</replaceable></term>
+      <listitem>
+        <para>Set screen width to <replaceable>w</replaceable>.
+        Minimum screen width is 320. Default is 800.</para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term><option>--height</option> <replaceable>h</replaceable></term>
+      <listitem>
+        <para>Set screen height to <replaceable>h</replaceable>.
+        Minimum screen height is 240. Default is 600.</para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term><option>--fullscreen</option> 1|0</term>
+      <listitem>
+        <para>Turn fullscreen mode on/off. The default is to start
+        in windowed mode.</para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term><option>--sound</option> 1|0</term>
+      <listitem>
+        <para>Turn sound on/off. The default is on.</para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term><option>--help</option></term>
+      <listitem>
+        <para>Print a usage message on standard output and exit.</para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term><option>--version</option></term>
+      <listitem>
+        <para>Print version information on standard output and
+        exit.</para>
+      </listitem>
+    </varlistentry>
+  </variablelist>
+</refsect1>
+
+<refsect1><title>See Also</title>
+  <para>
+    <citerefentry><refentrytitle>cfed</refentrytitle><manvolnum>6</manvolnum></citerefentry>,
+    <citerefentry><refentrytitle>crimson</refentrytitle><manvolnum>6</manvolnum></citerefentry>
+  </para>
+</refsect1>
+
+<refsect1><title>Copyright</title>
+  <para>Copyright &copy; 2002-2007 Jens Granseuer</para>
+  <para>This software is distributed under the terms of the
+  <ulink url="http://www.gnu.org/copyleft/gpl.html">GNU General Public
+  License</ulink> (GPL).</para>
+</refsect1>
+</refentry>
+

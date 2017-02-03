@@ -1,0 +1,1569 @@
+.\"     Title: cfed
+.\"    Author: Jens Granseuer <jensgr@gmx.net>
+.\" Generator: DocBook XSL Stylesheets v1.74.0 <http://docbook.sf.net/>
+.\"      Date: January 18 2007
+.\"    Manual: [FIXME: manual]
+.\"    Source: [FIXME: source]
+.\"  Language: English
+.\"
+.TH "CFED" "6" "January 18 2007" "[FIXME: source]" "[FIXME: manual]"
+.\" -----------------------------------------------------------------
+.\" * (re)Define some macros
+.\" -----------------------------------------------------------------
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.\" toupper - uppercase a string (locale-aware)
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.de toupper
+.tr aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ
+\\$*
+.tr aabbccddeeffgghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzz
+..
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.\" SH-xref - format a cross-reference to an SH section
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.de SH-xref
+.ie n \{\
+.\}
+.toupper \\$*
+.el \{\
+\\$*
+.\}
+..
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.\" SH - level-one heading that works better for non-TTY output
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.de1 SH
+.\" put an extra blank line of space above the head in non-TTY output
+.if t \{\
+.sp 1
+.\}
+.sp \\n[PD]u
+.nr an-level 1
+.set-an-margin
+.nr an-prevailing-indent \\n[IN]
+.fi
+.in \\n[an-margin]u
+.ti 0
+.HTML-TAG ".NH \\n[an-level]"
+.it 1 an-trap
+.nr an-no-space-flag 1
+.nr an-break-flag 1
+\." make the size of the head bigger
+.ps +3
+.ft B
+.ne (2v + 1u)
+.ie n \{\
+.\" if n (TTY output), use uppercase
+.toupper \\$*
+.\}
+.el \{\
+.nr an-break-flag 0
+.\" if not n (not TTY), use normal case (not uppercase)
+\\$1
+.in \\n[an-margin]u
+.ti 0
+.\" if not n (not TTY), put a border/line under subheading
+.sp -.6
+\l'\n(.lu'
+.\}
+..
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.\" SS - level-two heading that works better for non-TTY output
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.de1 SS
+.sp \\n[PD]u
+.nr an-level 1
+.set-an-margin
+.nr an-prevailing-indent \\n[IN]
+.fi
+.in \\n[IN]u
+.ti \\n[SN]u
+.it 1 an-trap
+.nr an-no-space-flag 1
+.nr an-break-flag 1
+.ps \\n[PS-SS]u
+\." make the size of the head bigger
+.ps +2
+.ft B
+.ne (2v + 1u)
+.if \\n[.$] \&\\$*
+..
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.\" BB/BE - put background/screen (filled box) around block of text
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.de BB
+.if t \{\
+.sp -.5
+.br
+.in +2n
+.ll -2n
+.gcolor red
+.di BX
+.\}
+..
+.de EB
+.if t \{\
+.if "\\$2"adjust-for-leading-newline" \{\
+.sp -1
+.\}
+.br
+.di
+.in
+.ll
+.gcolor
+.nr BW \\n(.lu-\\n(.i
+.nr BH \\n(dn+.5v
+.ne \\n(BHu+.5v
+.ie "\\$2"adjust-for-leading-newline" \{\
+\M[\\$1]\h'1n'\v'+.5v'\D'P \\n(BWu 0 0 \\n(BHu -\\n(BWu 0 0 -\\n(BHu'\M[]
+.\}
+.el \{\
+\M[\\$1]\h'1n'\v'-.5v'\D'P \\n(BWu 0 0 \\n(BHu -\\n(BWu 0 0 -\\n(BHu'\M[]
+.\}
+.in 0
+.sp -.5v
+.nf
+.BX
+.in
+.sp .5v
+.fi
+.\}
+..
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.\" BM/EM - put colored marker in margin next to block of text
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.de BM
+.if t \{\
+.br
+.ll -2n
+.gcolor red
+.di BX
+.\}
+..
+.de EM
+.if t \{\
+.br
+.di
+.ll
+.gcolor
+.nr BH \\n(dn
+.ne \\n(BHu
+\M[\\$1]\D'P -.75n 0 0 \\n(BHu -(\\n[.i]u - \\n(INu - .75n) 0 0 -\\n(BHu'\M[]
+.in 0
+.nf
+.BX
+.in
+.fi
+.\}
+..
+.\" -----------------------------------------------------------------
+.\" * set default formatting
+.\" -----------------------------------------------------------------
+.\" disable hyphenation
+.nh
+.\" disable justification (adjust text to left margin only)
+.ad l
+.\" -----------------------------------------------------------------
+.\" * MAIN CONTENT STARTS HERE *
+.\" -----------------------------------------------------------------
+.SH "Name"
+cfed \- a level compiler for Crimson Fields
+.SH "Synopsis"
+.fam C
+.HP \w'\fBcfed\fR\ 'u
+\fBcfed\fR \fImapsource\fR \-\-tiles\ \fItileset\fR \-\-units\ \fIunitset\fR [\-o\ \fIoutfile\fR]
+.fam
+.fam C
+.HP \w'\fBcfed\fR\ 'u
+\fBcfed\fR {\-\-help | \-\-version}
+.fam
+.SH "Description"
+.PP
+\fBcfed\fR
+is the
+Crimson Fields
+level compiler\&.
+.PP
+It creates a
+\FC*\&.lev\F[]
+file out of a source file
+\FC*\&.src\F[]\&. You can use any standard text editor to create the level source files (for the syntax of those files, see
+the section called \(lq\c
+.SH-xref "File Format\c"
+\&\(rq
+below)\&.
+\fBcfed\fR
+reads the input file and creates the level file\&. If the name of the ouput file is not given on the command line, it is created in the same location as the source file with the \&.src suffix substituted by \&.lev\&.
+.SH "Options"
+.PP
+\fB\-\-help\fR
+.RS 4
+Print a usage message on standard output and exit\&.
+.RE
+.PP
+\fB\-\-tiles\fR \fItileset\fR
+.RS 4
+Use the tile definitions from
+\fItileset\fR
+when compiling the map\&.
+.RE
+.PP
+\fB\-\-units\fR \fIunitset\fR
+.RS 4
+Use the unit definitions from
+\fIunitset\fR
+when compiling the map\&.
+.RE
+.PP
+\fB\-\-version\fR
+.RS 4
+Print version information on standard output and exit\&.
+.RE
+.PP
+\fB\-o\fR
+.RS 4
+Set the name and path of the converted level file\&.
+.RE
+.SH "File Format"
+.PP
+A level source file consists of sections\&. A section is started by the section name in square brackets, i\&.e\&. the line
+.PP
+\FC[unit]\F[]
+.PP
+starts a unit section\&. Lines in a section are usually composed like this:
+.PP
+\FCqualifier = value\F[]
+.PP
+The only exceptions to this are the
+\fImap\fR
+and
+\fImessages\fR
+sections\&. Lines starting with
+\FC#\F[]
+are considered comments\&. The following sections exist:
+.SS "mission"
+.PP
+This section defines some global mission parameters like map size or the graphics set to use\&. The mission section is mandatory and must appear before the map section in the file\&. Valid qualifiers are
+.PP
+name
+.RS 4
+index of a message containing the mission title\&. This name will be used when presenting the list of available maps to the player\&. (maximum length 30 characters, mandatory)
+.RE
+.PP
+mapwidth
+.RS 4
+[10\-200] (mandatory)
+.RE
+.PP
+mapheight
+.RS 4
+[10\-200] (mandatory)
+.RE
+.PP
+nextmap
+.RS 4
+the name of another map (without path and file ending)\&. After the current map has been completed, this new map will be loaded automatically\&. This tag is only valid for
+\fIcampaign\fR
+maps\&.
+.RE
+.PP
+info
+.RS 4
+index of the information message that is to be shown when a player requests level information\&. This message can contain the level name, author, revision, etc\&.
+.RE
+.PP
+campaign
+.RS 4
+indicates whether the map is part of a campaign [0|1]\&. Default is 0 (not part of a campaign)\&. See also
+\fIcampaignname\fR
+and
+\fIcampaigninfo\fR\&.
+.RE
+.PP
+campaignname
+.RS 4
+index of the campaign name\&. It should be set only when the map actually is the first of a campaign\&. See also
+\fIcampaign\fR
+and
+\fIcampaigninfo\fR\&. (mandatory and valid only for the introductory map of a campaign)
+.RE
+.PP
+campaigninfo
+.RS 4
+index of the information message for the campaign\&. This info is displayed when starting a new campaign and should contain a short outline of the background story\&. It is useful only when the map actually is the first of a campaign\&. See also
+\fIcampaign\fR
+and
+\fIcampaignname\fR\&.
+.RE
+.PP
+skirmish
+.RS 4
+indicates whether the map can be played in skirmish mode [0|1]\&. Default is 1 (true)\&.
+.RE
+.PP
+players
+.RS 4
+selects whether the map is intended for play against another human being (2) or against the computer (1)\&. This is for informational purposes only and defaults to 2\&.
+.RE
+.PP
+music
+.RS 4
+name of a soundtrack (either MIDI or Ogg Vorbis) excluding the file type suffix to be played during this map\&. If the setting is missing, the default track for Crimson Fields will be played\&.
+.RE
+.PP
+tileset
+.RS 4
+tileset file to be used\&. A tileset contains the map graphics and terrain definitions\&. The filename must be given without the
+\FC\&.tiles\F[]
+suffix\&. If omitted, the tile set defaults to \'default\'\&.
+.RE
+.PP
+unitset
+.RS 4
+unit set file to be used\&. A unit set contains the unit graphics and definitions\&. The filename must be given without the
+\FC\&.units\F[]
+suffix\&. If omitted, the unit set defaults to \'default\'\&.
+.RE
+.SS "map"
+.PP
+The map section defines the actual map layout\&. It is a rectangle of the size specified in the
+\fImission\fR
+section, consisting of various symbols which describe a certain map tile type\&. The map section is mandatory and may not contain comments\&. The following symbols exist\&.
+.PP
+\:\&.
+.RS 4
+plains
+.RE
+.PP
+*
+.RS 4
+forest
+.RE
+.PP
+%
+.RS 4
+mountains
+.RE
+.PP
+=
+.RS 4
+shallow water
+.RE
+.PP
+~
+.RS 4
+water
+.RE
+.PP
+\-
+.RS 4
+deep water
+.RE
+.PP
+#
+.RS 4
+swamp
+.RE
+.PP
+"
+.RS 4
+cliff
+.RE
+.PP
+0
+.RS 4
+headquarters, neutral entrance, east
+.RE
+.PP
+1
+.RS 4
+headquarters, yellow entrance, east
+.RE
+.PP
+2
+.RS 4
+headquarters, blue entrance, east
+.RE
+.PP
+3
+.RS 4
+depot, neutral entrance, north
+.RE
+.PP
+4
+.RS 4
+depot, yellow entrance, north
+.RE
+.PP
+5
+.RS 4
+depot, blue entrance, north
+.RE
+.PP
+6
+.RS 4
+factory, neutral entrance, north
+.RE
+.PP
+7
+.RS 4
+factory, yellow entrance, north
+.RE
+.PP
+8
+.RS 4
+factory, blue entrance, north
+.RE
+.PP
+9
+.RS 4
+factory, neutral entrance, east
+.RE
+.PP
+J
+.RS 4
+factory, yellow entrance, east
+.RE
+.PP
+L
+.RS 4
+factory, blue entrance, east
+.RE
+.PP
+A
+.RS 4
+city, yellow
+.RE
+.PP
+B
+.RS 4
+city, blue
+.RE
+.PP
+C
+.RS 4
+city, neutral
+.RE
+.PP
+D
+.RS 4
+headquarters, yellow entrance, west
+.RE
+.PP
+E
+.RS 4
+headquarters, blue entrance, west
+.RE
+.PP
+F
+.RS 4
+headquarters, neutral entrance, west
+.RE
+.PP
+G
+.RS 4
+headquarters, yellow entrance, north
+.RE
+.PP
+H
+.RS 4
+headquarters, blue entrance, north
+.RE
+.PP
+I
+.RS 4
+headquarters, neutral entrance, north
+.RE
+.PP
+>
+.RS 4
+headquarters, east
+.RE
+.PP
+<
+.RS 4
+headquarters, west
+.RE
+.PP
+^
+.RS 4
+headquarters, north
+.RE
+.PP
+v
+.RS 4
+headquarters, south
+.RE
+.PP
+\e
+.RS 4
+road, se\-nw
+.RE
+.PP
+|
+.RS 4
+road, s\-n
+.RE
+.PP
+/
+.RS 4
+road, sw\-ne
+.RE
+.PP
+y
+.RS 4
+road, sw\-n\-ne
+.RE
+.PP
+Y
+.RS 4
+road, se\-n\-nw
+.RE
+.PP
+X
+.RS 4
+road, s\-se\-nw\-n
+.RE
+.PP
+x
+.RS 4
+road, s\-sw\-n\-ne
+.RE
+.PP
+o
+.RS 4
+road, sw\-nw\-ne\-se
+.RE
+.PP
+k
+.RS 4
+road, sw\-s\-ne
+.RE
+.PP
+K
+.RS 4
+road, s\-se\-nw
+.RE
+.PP
+(
+.RS 4
+road, n\-se
+.RE
+.PP
+)
+.RS 4
+road, n\-sw
+.RE
+.PP
+]
+.RS 4
+road, nw\-s
+.RE
+.PP
+[
+.RS 4
+road, ne\-s
+.RE
+.PP
+n
+.RS 4
+road, sw\-se
+.RE
+.PP
+u
+.RS 4
+road, nw\-ne
+.RE
+.PP
+T
+.RS 4
+road, n\-s\-se
+.RE
+.PP
+U
+.RS 4
+road, n\-s\-sw
+.RE
+.PP
+V
+.RS 4
+road, n\-s\-ne
+.RE
+.PP
+W
+.RS 4
+road, n\-s\-nw
+.RE
+.PP
+!
+.RS 4
+bridge, n\-s
+.RE
+.PP
+`
+.RS 4
+bridge, sw\-ne
+.RE
+.PP
+\'
+.RS 4
+bridge, se\-nw
+.RE
+.PP
+a
+.RS 4
+fence, se\-nw end
+.RE
+.PP
+b
+.RS 4
+fence, nw\-se end
+.RE
+.PP
+c
+.RS 4
+fence, ne\-sw end
+.RE
+.PP
+d
+.RS 4
+fence, sw\-ne end
+.RE
+.PP
+e
+.RS 4
+fence, n\-s
+.RE
+.PP
+f
+.RS 4
+fence, sw\-ne
+.RE
+.PP
+g
+.RS 4
+fence, nw\-se
+.RE
+.PP
+h
+.RS 4
+fence, nw\-s
+.RE
+.PP
+i
+.RS 4
+fence, ne\-s
+.RE
+.PP
+j
+.RS 4
+fence, sw\-n
+.RE
+.PP
+l
+.RS 4
+fence, se\-n
+.RE
+.PP
+m
+.RS 4
+fence, nw\-ne
+.RE
+.PP
+p
+.RS 4
+fence, sw\-se
+.RE
+.PP
+There is also an alternative format\&. If the section is called
+\fImap\-raw\fR
+instead, the map is defined by giving the hexagon identifiers directly, using the comma as a tile separator\&. This approach requires intimate knowledge of the tileset used and may break the map if the tileset changes\&. The format has been created because there are now more tiles than can be represented with single ASCII characters\&.
+.SS "player"
+.PP
+This can be used to set some player definitions\&. There may be a maximum of two player sections in a file\&. The first section encountered corresponds to the first player, the next to the second\&. Valid qualifiers are
+.PP
+name
+.RS 4
+index of a message containing the player name (mandatory, maximum length 20 characters)
+.RE
+.PP
+briefing
+.RS 4
+index of the player\'s briefing message\&. The briefing can be reviewed during the game by choosing the
+Briefing
+item from the
+Game
+Menu\&. It is also recommended to create a
+\fImessage\fR
+event to tell the players about their objectives on the first turn (see
+\fIevent\fR
+and
+\fImessages\fR
+sections below)\&. If omitted defaults to \-1, meaning that no briefing is available\&.
+.RE
+.PP
+fcolor
+.RS 4
+foreground color to use for this player in the format
+\fIr,g,b\fR, e\&.g\&.
+\FC255,0,0\F[]
+for red\&. The default player colors match the default unit set, but different sets may use different color schemes (also see
+\fIbcolor\fR)\&.
+.RE
+.PP
+bcolor
+.RS 4
+background color to use for this player in the format
+\fIr,g,b\fR, e\&.g\&.
+\FC0,0,255\F[]
+for blue\&. The default player colors match the default unit set, but different sets may use different color schemes (also see
+\fIfcolor\fR)\&.
+.RE
+.SS "unit"
+.PP
+Each of these sections creates a unit on the map\&. Loaded transporter units must be specified before any units they carry\&. Valid qualifiers for units are
+.PP
+pos
+.RS 4
+location of the unit on the map\&. If there is a building at the given location, the unit will be put in\&. It is also possible to let units begin inside a transport\&. In that case you have to make sure, however, that in the level file the transport is declared before the carried unit [x/y]\&. (mandatory)
+.RE
+.PP
+id
+.RS 4
+unique unit identifier [0\-10000]\&. (mandatory)
+.RE
+.PP
+type
+.RS 4
+unit type definition to use for this unit\&. Known definitions for the default unit set are
+\fIInfantry\fR,
+\fIMedium Tanks\fR,
+\fIHeavy Tanks\fR,
+\fIAnti\-Aircraft Tanks\fR,
+\fIAnti\-Aircraft Guns\fR,
+\fIArtillery\fR,
+\fIMines\fR,
+\fIPatrol Boats\fR,
+\fIFighter Squadron\fR,
+\fIPersonnel Carriers\fR,
+\fITroopships\fR,
+\fITransport Planes\fR,
+\fIScouts\fR,
+\fIInterceptors\fR,
+\fIBunkers\fR,
+\fITorpedo Boats\fR,
+\fIBomber Wing\fR,
+\fIHovercraft\fR,
+\fIGunships\fR,
+\fITroop Train\fR,
+\fIRail Guns\fR,
+\fIArmoured Train\fR,
+\fISubmarines\fR, and
+\fIAircraft Carriers\fR\&. (mandatory)
+.RE
+.PP
+player
+.RS 4
+unit controller [1|2]\&. (mandatory)
+.RE
+.PP
+size
+.RS 4
+number of vehicles for this unit [1\-6]\&. Defaults to 6 (undamaged)\&.
+.RE
+.PP
+xp
+.RS 4
+experience level this unit starts at [0\-6]\&. Defaults to 0 (Rookie, no experience)\&.
+.RE
+.PP
+face
+.RS 4
+direction the unit is heading [0\-5]\&. Directions are numbered clockwise from North (0) to Northwest (5)\&. Defaults are North (0) for units controlled by player 1, and South (3) for the second player\&.
+.RE
+.PP
+crystals
+.RS 4
+amount of crystals the unit carries\&. This may only be given for transports and defaults to 0\&.
+.RE
+.SS "building"
+.PP
+A building section is required to actually create a building (sometimes also called a shop) on the map that units can enter\&. This is not automatically done by placing the symbol for a building entrance in the map section\&.
+.PP
+pos
+.RS 4
+location of the building entrance on the map [x/y]\&. (mandatory)
+.RE
+.PP
+id
+.RS 4
+unique building identifier [0\-10000]\&. (mandatory)
+.RE
+.PP
+player
+.RS 4
+building controller [1|2|0]\&. Units starting in unaligned buildings are automatically tagged unaligned as well\&. (mandatory)
+.RE
+.PP
+type
+.RS 4
+type of building\&. Units can be repaired in buildings of type
+\fIWorkshop\fR\&. New units can be produced in buildings of type
+\fIFactory\fR\&. A building may have multiple types\&. Defaults to
+\fIDepot\fR, meaning no special attributes\&. In addition to these attributes, a shop which produces crystals is (automatically) called a
+\fIMine\fR\&.
+.RE
+.PP
+name
+.RS 4
+index of a message containing the shop name (mandatory, maximum length 30 characters)
+.RE
+.PP
+mining
+.RS 4
+amount of crystals produced each turn [0\-1000]\&. Defaults to 0\&. If given, implies type
+\fIMine\fR\&.
+.RE
+.PP
+capacity
+.RS 4
+maximum amount of crystals [0\-10000]\&. Defaults to 1000\&.
+.RE
+.PP
+crystals
+.RS 4
+amount of crystals in stock [0\-capacity]\&. Defaults to 0\&.
+.RE
+.PP
+factory
+.RS 4
+name of a unit type definition that can be built here\&. If given, implies
+\FCtype = factory\F[]\&. Multiple
+\fIfactory\fR
+lines may be given for a shop\&.
+.RE
+.PP
+minweight
+.RS 4
+weight of the smallest unit allowed to enter the building [0\-99]\&. Defaults to 0\&.
+.RE
+.PP
+maxweight
+.RS 4
+weight of the heaviest unit allowed to enter the building [0\-99]\&. Defaults to 99\&.
+.RE
+.SS "event"
+.PP
+Events provide a way to interact with players during a game\&. They can cause actions like points being awarded or messages being displayed under certain conditions\&. The
+event type
+defines what happens, the
+event trigger
+controls when (or if) the event is executed\&.
+.PP
+.PP
+\fBEvent Types\fR
+.PP
+configure
+.RS 4
+dynamically change the setting for various internal strings during the course of a game, e\&.g\&. the players\' mission briefings\&.
+.RE
+.PP
+createunit
+.RS 4
+create a unit somewhere on the map\&.
+.RE
+.PP
+destroyunit
+.RS 4
+destroy a unit and remove it from the map\&.
+.RE
+.PP
+manipulateevent
+.RS 4
+modify event internals\&. Currently this can be used to dynamically enable or disable an event\&.
+.RE
+.PP
+message
+.RS 4
+display a message\&.
+.RE
+.PP
+mining
+.RS 4
+set the amount of crystals for a building\&.
+.RE
+.PP
+research
+.RS 4
+make a new unit type available for production in a factory, or remove it from the list of available units\&.
+.RE
+.PP
+score
+.RS 4
+award points to a player\&.
+.RE
+.PP
+sethex
+.RS 4
+change a tile on the map\&.
+.RE
+.PP
+settimer
+.RS 4
+dynamically adjust the
+\fItimer\fR
+trigger of another event\&.
+.RE
+.PP
+.PP
+\fBEvent Triggers\fR
+.PP
+handicap
+.RS 4
+the event is executed if the set handicap matches the current game settings\&. Usually such an event is triggered immediately on the first turn or not at all\&. You can, however, combine multiple events (e\&.g\&. a
+\fIhandicap\fR
+and a
+\fItimer\fR
+trigger) to change the default behaviour\&.
+.RE
+.PP
+havebuilding
+.RS 4
+the event is executed when the player controls a certain building at a specified time\&.
+.RE
+.PP
+havecrystals
+.RS 4
+the event is executed when the player owns a certain amount of crystals\&.
+.RE
+.PP
+haveunit
+.RS 4
+the event is executed when the player controls a certain unit at a specified time\&.
+.RE
+.PP
+timer
+.RS 4
+the event is unconditionally executed at the specified time\&.
+.RE
+.PP
+unitdestroyed
+.RS 4
+the event is executed when a specified unit is destroyed or captured by the enemy\&.
+.RE
+.PP
+unitposition
+.RS 4
+the event is executed when a specified unit ends its move on a certain target hex\&.
+.RE
+.PP
+The following list contains generic qualifiers which are valid for all event types\&.
+.PP
+.PP
+\fBQualifiers\fR
+.PP
+id
+.RS 4
+unique event identifier [0\-200]\&. (mandatory)
+.RE
+.PP
+type
+.RS 4
+event type (mandatory, see below)\&.
+.RE
+.PP
+trigger
+.RS 4
+event trigger (mandatory)\&. This describes the circumstances under which the event is executed (see below)\&.
+.RE
+.PP
+message
+.RS 4
+index of a message to be displayed when the event occurs\&.
+.RE
+.PP
+title
+.RS 4
+title of the message window\&. Only useful when a message is shown\&.
+.RE
+.PP
+depend
+.RS 4
+identifier of another event\&. This makes the current event depend on the given event\&. Prior to event execution, the trigger conditions for both events are checked, and the event is activated only if both checks are successful\&. Mutual, circular, and transitive dependencies are supported\&.
+.RE
+.PP
+discard
+.RS 4
+identifier of another event\&. When the current event is executed, the given event is discarded from the event stack and removed from the mission\&.
+.RE
+.PP
+flags
+.RS 4
+event flags\&. Currently, the only available flag is 1 (disable)\&. A disabled event will never execute, regardless of the trigger conditions\&.
+.RE
+.PP
+In addition there are special qualifiers which can only be used with certain event types or triggers\&. All of these are mandatory if nothing else is stated\&.
+.PP
+action (manipulateevent, mining, research)
+.RS 4
+For
+\fImanipulateevent\fR
+this defines how to handle the specified flags\&. A value of 0 will set, 1 will clear, and 2 will toggle the flags\&.
+.sp
+For
+\fImining\fR
+0 will set the crystal storage to an absolute amount, 1 will modify the current amount by the given number, 2 will set the mining rate, i\&.e\&. the amount mined each turn, and 3 will change the current mining rate by the given value\&. Minimum mining rate is 0, maximum is 200\&.
+.sp
+For
+\fIresearch\fR
+0 allows and 1 disallows producing the specified unit type\&. Default is 0\&.
+.RE
+.PP
+building (mining, research)
+.RS 4
+Identifier of the building referenced in the event\&.
+.RE
+.PP
+crystals (mining)
+.RS 4
+Amount of crystals\&. The
+\fIaction\fR
+flag controls how this number is actually interpreted\&.
+.RE
+.PP
+eflags (manipulateevent)
+.RS 4
+Event flags to be modified\&. Currently the only legal value for this is 1, the disable flag, which can be used to deactivate an event\&. Disabled events won\'t be triggered even if their trigger conditions are met\&.
+.RE
+.PP
+event (manipulateevent, settimer)
+.RS 4
+Identifier of the event to be modified\&.
+.RE
+.PP
+face (createunit)
+.RS 4
+Direction the created unit faces [0\-5]\&. Directions are numbered clockwise from North (0) to Northwest (5)\&. Optional, defaults to 0\&.
+.RE
+.PP
+offset (settimer)
+.RS 4
+Offset to use when adjusting the timer\&. 0 means absolute, i\&.e\&. set the trigger
+\fIttime\fR
+to the value of
+\fItime\fR\&. 1 means execution time, i\&.e\&. set it to the value of
+\fItime\fR
+plus the current time index when executing the event\&. 2 means current trigger configuration, i\&.e\&. add the
+\fItime\fR
+to the trigger
+\fIttime\fR\&. Note that if the target event is disabled,
+\fIsettimer\fR
+will automatically enable it\&.
+.RE
+.PP
+othermsg (score)
+.RS 4
+For score events, one often wants to show a message not only to the player who benefits from the event but also to his opponent\&. Instead of creating a separate
+\fImessage\fR
+event with inverted trigger conditions you can use this qualifier and
+\fIothertitle\fR
+to do just that (optional)\&.
+.RE
+.PP
+othertitle (score)
+.RS 4
+Index of the message title for the other player (optional, see
+\fIothermsg\fR)
+.RE
+.PP
+owner (destroyunit)
+.RS 4
+Only destroy the unit if it is controlled by this player [1,2,\-1]\&. Optional, default is any player (\-1)\&.
+.RE
+.PP
+pos (createunit)
+.RS 4
+hex to create the unit on\&. The unit will only be created if the target hex is empty at creation time or there is a shop or a valid transporter which is controlled by the player for whom the event is set up [x/y]\&.
+.RE
+.PP
+pos (destroyunit)
+.RS 4
+hex to destroy the unit on [x/y]\&. The
+\fIpos\fR
+parameter can only be used if
+\fIunit\fR
+is \-1\&.
+.RE
+.PP
+pos (message)
+.RS 4
+hex to focus the display on when showing the message [x/y] (optional)\&. If this parameter is absent the game will try to guess a suitable hex from the trigger data, e\&.g\&. a
+\fIhavebuilding\fR
+trigger will cause it to use the shop location\&.
+.RE
+.PP
+pos (sethex)
+.RS 4
+hex to change\&. If the hex is occupied by a unit at the time the event is executed it may end up on terrain it would not normally be able to enter [x/y]\&.
+.RE
+.PP
+setting (configure)
+.RS 4
+Name of the setting you wish to change\&. Valid names are
+\fIbriefing1\fR
+for the briefing for the first player,
+\fIbriefing2\fR
+for the objectives for the second player, and
+\fInextmap\fR
+for the next mission in a campaign\&.
+.RE
+.PP
+size (createunit)
+.RS 4
+Unit group size [1\-6]\&. Optional, defaults to 6\&.
+.RE
+.PP
+success (score)
+.RS 4
+Amount of success points the player receives when the event occurs\&. Any player with a success score of 100 or more wins the game\&.
+.RE
+.PP
+unit (createunit, research)
+.RS 4
+Name of a unit type specification to build or make available, respectively\&.
+.RE
+.PP
+unit (destroyunit)
+.RS 4
+Identifier of the unit to be destroyed\&. Set to \-1 and configure the
+\fIpos\fR
+parameter to destroy a unit in a specified location instead\&.
+.RE
+.PP
+tbuilding (havebuilding, havecrystals)
+.RS 4
+Identifier of the building to be controlled\&. For
+\fIhavecrystals\fR
+this parameter may be set to \-1 to check all shops a player controls, or to \-2 to check all shops and all transporters anywhere on the map\&.
+.RE
+.PP
+tcrystals (havecrystals)
+.RS 4
+Amount of crystals needed to trigger the event [\-5000\-5000]\&. If the amount given is greater than 0 the player needs at least that many crystals\&. If it is negative, the event occurs when the player\'s resources drop below the absolute number\&.
+.RE
+.PP
+thandicap (handicap)
+.RS 4
+Handicap setting to trigger the event [1 (none)|2 (player 1 handicapped)|4 (player 2 handicapped)]\&. You can add up the numbers to trigger on more than one setting\&.
+.RE
+.PP
+tile (sethex)
+.RS 4
+Identifier of the terrain the target hex will be changed to\&.
+.RE
+.PP
+time (settimer)
+.RS 4
+Time index\&. The
+\fIoffset\fR
+flag controls in what way this number is used to adjust the targetted trigger\&.
+.RE
+.PP
+towner (havebuilding, havecrystals, haveunit, unitdestroyed, unitposition)
+.RS 4
+The event will only occur if the owner of the building or unit is the same as the player specified here [1|2]\&. For the
+\fIunitdestroyed\fR
+trigger it is only required if
+\fItunit\fR
+is \-1\&. In this case you can select the player whose units have to be destroyed to activate the event\&. This setting may be omitted and defaults to the player not owning the event, while for
+\fIhavecrystals\fR
+and
+\fIunitposition\fR
+the default is the player owning the event\&. You must supply this key for the other two trigger types\&.
+.RE
+.PP
+ttime (havebuilding, haveunit, timer)
+.RS 4
+Time at which the event conditions should be checked\&. For
+\fItimer\fR
+the event will always be executed at this time\&. Time calculation starts with 0 at the start of a mission and increases by 1 each time the players change\&. The movement phase of player 2 on turn 10 is at time index 19 ((turn \- 1) * 2 + (player \- 1)), for example\&. (mandatory only for
+\fItimer\fR\&. If omitted for the other triggers, the condition will be checked each turn\&.)
+.RE
+.PP
+tunit (haveunit, unitdestroyed, unitposition)
+.RS 4
+Identifier of the unit to be targeted\&. For
+\fIunitdestroyed\fR
+and
+\fIunitposition\fR
+this may take a value of \-1 which will activate the event when all enemy units have been destroyed or any unit controlled by this player has reached the destination hex, respectively\&. For these two triggers you can also use a unit type, e\&.g\&.
+\fIInfantry\fR
+to target an entire unit class\&.
+.RE
+.PP
+tpos (unitposition)
+.RS 4
+Coordinates of the target hex [x/y]
+.RE
+.PP
+value (configure)
+.RS 4
+Index of the message to use as the new briefing when changing a briefing, file name of the next mission (excluding the suffix) when setting the next map\&.
+.RE
+.PP
+xp (createunit)
+.RS 4
+Initial experience level [0\-6]\&. Optional, defaults to 0\&.
+.RE
+.SS "messages"
+.PP
+The
+\fImessages\fR
+section contains all text messages that may possibly be displayed in the course of a mission\&. The format of this section differs from that of the other sections\&. Here is an excerpt from an imaginary level file\&.
+.sp
+.if n \{\
+.RS 4
+.\}
+.fam C
+.ps -1
+.nf
+.if t \{\
+.sp -1
+.\}
+.BB lightgray adjust-for-leading-newline
+.sp -1
+
+[messages(en)]
+This is a message\&.
+% this line separates messages
+This is the second message\&.
+% separator lines can be used for comments
+This is the third message,
+containing a line break\&.
+[/messages] this marks the end of the messages section
+  
+.EB lightgray adjust-for-leading-newline
+.if t \{\
+.sp 1
+.\}
+.fi
+.fam
+.ps +1
+.if n \{\
+.RE
+.\}
+.PP
+The two characters in brackets identify the language messages in this section are written in\&. There is one messages section for each language the mission supports\&. The
+\fI(en)\fR
+in the section title shows that this section contains English messages\&. All messages must be encoded in UTF\-8\&.
+.SH "Example"
+.sp
+.if n \{\
+.RS 4
+.\}
+.fam C
+.ps -1
+.nf
+.if t \{\
+.sp -1
+.\}
+.BB lightgray adjust-for-leading-newline
+.sp -1
+
+### This is a simple example mission file
+
+[mission]
+# mission title is "The Great Example"
+name = 5
+mapwidth = 11
+mapheight = 10
+# the first message in the [messages] section
+# will be used as level information
+info = 0
+# we use the default tileset and unit set so we could
+# omit the next two lines
+tileset = default
+unitset = default
+
+[map]
+***\&.\&.\&.***\&.\&.
+**\&.\&.\&.****\&.=
+*<^1n]*\&.\&.==
+**v\&.\&.(\&.\&.==~
+***\&.\&.\&.]\&.=~~
+#=#\&.==!====
+======(]\&.\&.\&.
+%*\&.=\&.\&.\&.E^>\&.
+%%\&.\&.%\&.\&.\&.v\&.\&.
+%%%%\&.%\&.\&.\&.**
+
+
+### first player \- The Good
+[player]
+name = 6
+# second message is briefing for this player
+briefing = 1
+
+### second player \- The Bad
+[player]
+name = 7
+# third message is briefing for this player
+briefing = 2
+
+
+### units for player 1
+
+[unit]
+# this unit will start in the building
+pos = 3/2
+player = 1
+id = 0
+type = Infantry
+
+[unit]
+pos = 5/4
+player = 1
+id = 1
+type = Medium Tanks
+
+[unit]
+pos = 6/3
+player = 1
+id = 2
+type = Medium Tanks
+
+[unit]
+pos = 3/2
+player = 1
+id = 3
+type = Scouts
+
+
+### units for player 2
+
+[unit]
+pos = 7/7
+player = 2
+id = 10
+type = Anti\-Aircraft Tanks
+
+[unit]
+pos = 6/6
+player = 2
+id = 11
+type = Personnel Carriers
+
+[unit]
+pos = 7/6
+player = 2
+id = 12
+type = Infantry
+
+[unit]
+pos = 7/7
+player = 2
+id = 13
+type = Heavy Tanks
+
+
+### buildings
+
+# HQ of the Good
+[building]
+name = 8
+pos = 3/2
+id = 0
+player = 1
+# can repair units here
+type = workshop
+crystals = 25
+
+# HQ of the Bad
+[building]
+name = 9
+pos = 7/7
+id = 1
+player = 2
+# can repair and build units
+type = workshop
+type = factory
+# the following units can be built
+factory = personnel carriers
+factory = anti\-aircraft guns
+factory = bomber wing
+crystals = 25
+
+### events
+
+# player 1 wins if he conquers
+# the enemy building at any time\&.\&.\&.
+[event]
+type = score
+id = 0
+player = 1
+trigger = havebuilding
+tbuilding = 1
+towner = 1
+# the next line could be left out
+ttime = \-1
+success = 100
+message = 3
+title = 4
+
+# \&.\&.\&.or destroys all enemy units
+[event]
+type = score
+id = 1
+player = 1
+trigger = unitdestroyed
+tunit = \-1
+success = 100
+
+
+# player 2 wins if he conquers
+# the enemy building at any time\&.\&.\&.
+[event]
+type = score
+id = 2
+player = 2
+trigger = havebuilding
+tbuilding = 0
+towner = 2
+success = 100
+message = 3
+title = 4
+
+# \&.\&.\&.or destroys all enemy units as well
+[event]
+type = score
+id = 3
+player = 2
+trigger = unitdestroyed
+tunit = \-1
+success = 100
+
+# display briefings on first turn
+#
+[event]
+type = message
+id = 4
+player = 1
+trigger = timer
+ttime = 0
+title = 5
+message = 1
+
+# Even though time index 0 is during player 1\'s phase
+# we want to trigger the message for player 2 as well\&.
+# This way it gets queued for display during the turn
+# replay\&. Otherwise player 2 would only see the briefing
+# after his replay\&.
+[event]
+type = message
+id = 5
+player = 2
+trigger = timer
+ttime = 0
+title = 5
+message = 2
+
+# we want to support difficulty levels (handicaps)
+#
+# if player 1 is handicapped we allocate some more
+# crystals to players 2\'s factory
+[event]
+type = mining
+id = 6
+player = 2
+trigger = handicap
+# 1 is no handicap, 2 is player 1, 4 is player 2
+thandicap = 2
+building = 1
+action = 1
+crystals = 35
+
+# if player 2 is handicapped player 1 gets another tank
+[event]
+type = createunit
+id = 7
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Medium Tanks
+pos = 3/2
+
+### english messages
+
+[messages(en)]
+The Great Example
+Revision 6 (16\-08\-2004)
+by Jens Granseuer <jensgr@gmx\&.net>
+%
+This is a nice introductory message, so that player 1 knows what he is expected to do\&. Word wraps are done automatically, so don\'t include line breaks if you don\'t want them\&. So, Player 1, let\'s take them apart:
+
+Either conquer the enemy headquarters or destroy all their troops\&.
+%
+This should present the situation to player 2\&.
+
+You are being attacked\&. Defend yourself\&. The attack is considered repelled if you gain control of the enemy headquarters or the entire attacking army is no more\&.
+%
+This is the success message for conquering the enemy headquarters\&.
+Congratulations!
+%
+Hip! Hip! Hurrah!
+%
+The Great Example
+%
+The Good
+%
+The Bad
+%
+HQ of the Good
+%
+HQ of the Bad
+[/messages]
+.EB lightgray adjust-for-leading-newline
+.if t \{\
+.sp 1
+.\}
+.fi
+.fam
+.ps +1
+.if n \{\
+.RE
+.\}
+.SH "Notes"
+.PP
+The file format of level files (source and data) is subject to change without notice\&. If you get an error
+"File not of the required type", it mostly should be sufficient to feed the appropriate source file to
+\fBcfed\fR
+again to create a valid level file\&. However, no promises are being made\&. You have been warned!
+.PP
+\fBcfed\fR
+will eventually be phased out in favour of
+\fBCoMET\fR, the graphical map editor for
+\fBcrimson\fR\&.
+.SH "See Also"
+.PP
+
+\fBcrimson\fR(6),
+\fBbi2cf\fR(6)
+.SH "Copyright"
+.PP
+Copyright \(co 2000\-2007 Jens Granseuer
+.PP
+This software is distributed under the terms of the
+\m[blue]\fBGNU General Public License\fR\m[]\&\s-2\u[1]\d\s+2
+(GPL)\&.
+.SH "Author"
+.PP
+\fBJens Granseuer\fR <\&jensgr@gmx\&.net\&>
+.RS 4
+Author.
+.RE
+.SH "Notes"
+.IP " 1." 4
+GNU General Public License
+.RS 4
+\%http://www.gnu.org/copyleft/gpl.html
+.RE

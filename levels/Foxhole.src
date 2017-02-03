@@ -1,0 +1,951 @@
+[mission]
+name = 3
+mapwidth = 47
+mapheight = 24
+info = 0
+players = 2
+
+[map-raw]
+360,360,360,360,360,360,360,360,360,360,361,361,361,361,361,361,361,361,361,361,361,361,361,361,361,361,361,360,360,360,360,360,360,30,360,360,360,360,361,361,361,360,360,360,360,360,360
+360,360,360,360,360,360,360,360,360,360,360,360,361,361,361,361,361,361,361,361,361,360,360,360,361,364,360,360,360,30,360,360,360,30,30,360,360,360,360,360,360,360,360,360,360,30,30
+360,360,30,30,30,360,360,360,360,360,360,360,360,360,360,360,361,360,361,360,360,117,117,118,360,360,360,360,360,78,30,360,360,360,360,30,360,360,360,360,360,307,307,30,30,30,30
+30,30,30,21,30,30,30,30,30,360,360,360,360,360,360,360,360,360,360,360,360,120,123,122,124,121,117,360,360,360,360,360,360,360,360,360,360,307,307,307,307,307,307,307,30,30,30
+30,30,22,24,6,181,30,30,30,30,30,30,360,360,30,30,30,30,117,117,117,117,125,119,126,118,117,360,360,360,30,360,360,360,307,307,307,307,307,30,30,307,30,21,30,30,30
+82,80,30,30,30,176,30,81,30,78,30,30,30,30,30,30,30,30,30,30,30,117,117,117,120,119,121,360,360,360,360,360,360,30,30,30,30,30,30,30,30,182,3,24,23,30,30
+81,83,30,30,30,188,30,30,78,82,82,30,30,30,30,184,30,184,30,178,184,177,30,30,30,30,30,360,360,360,360,30,30,80,30,30,81,84,83,85,30,176,30,30,30,30,30
+84,86,85,30,30,176,177,177,30,30,30,30,30,178,178,81,183,83,183,30,30,30,177,191,30,30,30,360,360,360,360,360,117,117,30,81,81,83,86,30,30,176,81,83,81,79,30
+82,81,82,30,30,176,30,30,177,177,30,178,178,30,81,82,84,86,85,78,30,30,30,176,177,177,360,360,360,360,30,30,117,30,30,80,84,86,85,30,30,187,84,86,85,81,30
+81,78,30,30,30,179,30,30,30,30,183,30,79,84,83,85,30,30,81,82,30,30,30,180,360,360,209,209,360,184,30,30,30,30,81,81,81,81,30,178,178,176,81,81,30,30,30
+30,30,30,30,182,38,38,38,35,30,30,30,81,81,86,81,30,30,30,30,30,30,30,360,209,209,360,360,183,30,177,191,30,178,184,183,184,183,178,30,30,176,30,30,30,30,30
+30,81,81,30,176,30,38,38,30,117,117,117,30,30,30,30,30,30,30,30,30,30,360,360,360,360,209,177,30,30,30,179,183,30,30,30,81,81,81,30,30,176,30,30,81,81,30
+30,30,81,30,180,181,38,84,83,85,117,118,117,117,117,30,30,79,82,81,30,360,360,360,360,360,30,30,177,183,178,30,30,145,30,30,30,81,81,38,30,176,30,81,81,81,30
+30,30,30,30,30,180,30,30,86,82,120,119,121,117,82,30,30,81,360,360,360,360,360,360,360,360,30,30,78,30,30,135,135,30,30,81,78,30,30,38,117,180,34,30,79,81,81
+30,30,30,30,30,80,177,177,30,81,81,81,30,81,82,30,360,360,360,360,360,360,360,360,360,360,360,144,30,135,135,81,81,83,81,79,77,30,38,38,117,117,181,81,30,30,30
+117,30,30,30,30,30,30,30,177,177,30,30,30,30,30,360,360,360,360,360,307,307,307,360,360,360,360,30,140,30,81,83,84,86,85,83,81,30,38,117,117,178,179,30,30,30,30
+117,117,30,30,30,30,30,30,30,30,177,177,30,30,360,360,360,360,307,84,83,85,360,360,360,360,30,30,81,81,84,86,85,30,84,86,85,30,38,178,178,38,38,38,30,30,30
+117,117,117,78,82,83,81,80,30,30,30,30,177,209,360,360,360,81,30,82,86,30,30,360,360,360,30,80,81,84,83,85,79,30,30,81,30,178,178,38,38,38,30,81,81,30,30
+121,118,117,117,84,86,85,83,30,30,30,30,30,360,209,209,30,30,30,30,30,30,30,360,360,360,30,30,30,81,86,30,30,30,30,178,178,38,38,38,38,38,38,30,81,30,30
+120,119,121,117,117,117,84,86,85,30,30,360,360,360,360,34,177,181,30,178,184,209,360,360,360,30,30,30,30,30,30,30,30,178,178,30,117,117,117,117,81,81,30,30,30,30,30
+118,121,117,118,117,30,82,81,30,30,30,360,360,360,360,30,30,193,178,360,360,360,209,177,30,178,184,183,184,177,30,178,178,30,30,30,30,117,117,117,117,81,81,118,117,30,30
+119,118,120,119,121,30,30,30,30,30,30,30,30,360,360,22,21,7,30,360,360,360,30,30,183,30,30,30,30,30,183,30,30,30,30,30,30,30,30,120,118,121,120,119,121,30,30
+123,122,124,121,117,117,30,30,30,30,30,30,30,360,360,363,24,30,360,360,360,30,117,30,30,30,30,30,30,30,30,30,30,360,360,307,30,76,30,30,119,117,117,117,30,30,30
+125,119,126,117,117,117,117,117,30,30,30,77,30,360,360,360,360,360,360,30,30,30,30,30,30,81,81,82,30,30,307,360,360,360,360,360,307,307,30,79,30,30,30,30,30,30,30
+
+[player]
+name = 10
+briefing = 1
+
+[player]
+name = 11
+briefing = 2
+
+# ********* units for player 1 -- ID's 0 to 39
+
+[unit]
+type = Hovercraft
+player = 1
+id = 2
+pos = 42/5
+
+[unit]
+type = Hovercraft
+player = 1
+id = 12
+pos = 4/4
+
+[unit]
+type = Hovercraft
+player = 2
+id = 52
+pos = 17/21
+
+[unit]
+type = Hovercraft
+player = 2
+id = 53
+pos = 17/21
+
+[unit]
+type = Infantry
+player = 1
+id = 1
+pos = 42/5
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 3
+pos = 31/11
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 4
+pos = 30/11
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 5
+pos = 30/10
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 6
+pos = 29/12
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 7
+pos = 28/12
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 9
+pos = 31/10
+
+[unit]
+type = Infantry
+player = 1
+id = 10
+pos = 29/11
+
+[unit]
+type = Scouts
+player = 1
+id = 11
+pos = 4/4
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 13
+pos = 10/9
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 14
+pos = 9/8
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 15
+pos = 8/8
+
+[unit]
+type = Infantry
+player = 1
+id = 16
+pos = 8/9
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 17
+pos = 3/14
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 18
+pos = 3/13
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 19
+pos = 3/12
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 20
+pos = 2/13
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 21
+pos = 2/14
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 22
+pos = 4/13
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 23
+pos = 4/14
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 24
+pos = 43/18
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 25
+pos = 42/18
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 26
+pos = 44/18
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 27
+pos = 43/17
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 28
+pos = 42/17
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 29
+pos = 43/16
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 30
+pos = 44/17
+
+[unit]
+type = Scouts
+player = 1
+id = 31
+pos = 40/16
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 32
+pos = 9/7
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 33
+pos = 10/7
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 34
+pos = 29/10
+
+[unit]
+type = Anti-Aircraft Guns
+player = 1
+id = 35
+pos = 4/4
+
+# ******* units for player 2 -- ID's 40 and up
+
+[unit]
+type = Mines
+player = 2
+id = 40
+pos = 25/10
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 41
+pos = 25/6
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 42
+pos = 25/7
+
+[unit]
+type = Bunkers
+player = 2
+id = 43
+pos = 22/8
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 44
+pos = 24/7
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 45
+pos = 24/8
+
+[unit]
+type = Scouts
+player = 2
+id = 46
+pos = 23/6
+
+[unit]
+type = Infantry
+player = 2
+id = 47
+pos = 23/7
+
+[unit]
+type = Infantry
+player = 2
+id = 48
+pos = 24/6
+
+[unit]
+type = Gunships
+player = 2
+id = 50
+pos = 16/18
+
+[unit]
+type = Gunships
+player = 2
+id = 51
+pos = 17/18
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 54
+pos = 10/17
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 55
+pos = 11/17
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 56
+pos = 10/16
+
+[unit]
+type = Infantry
+player = 2
+id = 57
+pos = 11/16
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 58
+pos = 17/21
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 59
+pos = 17/21
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 60
+pos = 28/21
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 61
+pos = 27/21
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 62
+pos = 17/21
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 63
+pos = 27/20
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 64
+pos = 28/20
+
+[unit]
+type = Scouts
+player = 2
+id = 65
+pos = 17/21
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 66
+pos = 22/6
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 67
+pos = 12/17
+
+[unit]
+type = Personnel Carriers
+player = 1
+id = 0
+pos = 41/6
+
+[unit]
+type = Hovercraft
+player = 1
+id = 8
+pos = 26/12
+
+[unit]
+type = Personnel Carriers
+player = 2
+id = 49
+pos = 22/7
+
+# ***** buildings ********
+
+[building]
+name = 12
+player = 1
+id = 0
+pos = 4/4
+type = workshop
+crystals = 15
+
+[building]
+name = 13
+player = 1
+id = 1
+pos = 42/5
+type = workshop
+crystals = 25
+
+[building]
+name = 14
+player = 2
+id = 2
+pos = 17/21
+type = workshop
+crystals = 50
+
+# **** objectives *******
+
+[event]
+id = 0
+type = message
+player = 1
+title = 3
+message = 1
+pos = 42/5
+trigger = timer
+ttime = 0
+
+[event]
+id = 1
+type = message
+player = 2
+title = 3
+message = 2
+pos = 17/21
+trigger = timer
+ttime = 0
+
+# destroy the personnel carrier
+[event]
+id = 2
+type = score
+player = 2
+title = 3
+message = 4
+trigger = unitdestroyed
+tunit = 0
+towner = 1
+success = 100
+othertitle = 3
+othermsg = 4
+
+# or bring it home
+[event]
+id = 3
+type = score
+player = 1
+title = 3
+message = 5
+trigger = unitposition
+tunit = 0
+tpos = 4/4
+success = 100
+othertitle = 3
+othermsg = 5
+
+# destroy all units (P1)
+[event]
+id = 4
+type = score
+player = 1
+title = 3
+message = 5
+trigger = unitdestroyed
+tunit = -1
+towner = 2
+success = 100
+
+# reinforcements
+# first batch (turn 4)
+[event]
+id = 6
+type = createunit
+player = 2
+title = 6
+message = 7
+trigger = havebuilding
+tbuilding = 2
+towner = 2
+ttime = 7
+unit = Medium Tanks
+pos = 17/21
+
+[event]
+id = 7
+type = createunit
+player = 2
+trigger = havebuilding
+tbuilding = 2
+towner = 2
+ttime = 7
+unit = Medium Tanks
+pos = 17/21
+
+[event]
+id = 8
+type = createunit
+player = 2
+trigger = havebuilding
+tbuilding = 2
+towner = 2
+ttime = 7
+unit = Scouts
+pos = 17/21
+
+[event]
+id = 9
+type = message
+player = 1
+title = 8
+message = 9
+pos = 17/21
+trigger = havebuilding
+tbuilding = 2
+towner = 2
+ttime = 7
+
+# second batch (turn 6)
+[event]
+id = 10
+type = createunit
+player = 2
+title = 6
+message = 7
+trigger = havebuilding
+tbuilding = 2
+towner = 2
+ttime = 11
+unit = Heavy Tanks
+pos = 17/21
+
+[event]
+id = 11
+type = createunit
+player = 2
+trigger = havebuilding
+tbuilding = 2
+towner = 2
+ttime = 11
+unit = Heavy Tanks
+pos = 17/21
+
+[event]
+id = 12
+type = createunit
+player = 2
+trigger = havebuilding
+tbuilding = 2
+towner = 2
+ttime = 11
+unit = Fighter Squadron
+pos = 17/21
+
+# third batch (turn 7)
+[event]
+id = 13
+type = createunit
+player = 2
+title = 6
+message = 7
+trigger = havebuilding
+tbuilding = 2
+towner = 2
+ttime = 13
+unit = Heavy Tanks
+pos = 17/21
+
+[event]
+id = 14
+type = createunit
+player = 2
+trigger = havebuilding
+tbuilding = 2
+towner = 2
+ttime = 13
+unit = Medium Tanks
+pos = 17/21
+
+[event]
+id = 15
+type = createunit
+player = 2
+trigger = havebuilding
+tbuilding = 2
+towner = 2
+ttime = 13
+unit = Medium Tanks
+pos = 17/21
+
+[event]
+id = 16
+type = createunit
+player = 2
+trigger = havebuilding
+tbuilding = 2
+towner = 2
+ttime = 13
+unit = Medium Tanks
+pos = 17/21
+
+# handicaps
+[event]
+id = 17
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Medium Tanks
+pos = 11/15
+face = 3
+
+[event]
+id = 18
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Heavy Tanks
+pos = 12/16
+face = 3
+
+[event]
+id = 19
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Medium Tanks
+pos = 29/20
+face = 3
+
+[event]
+id = 20
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Medium Tanks
+pos = 29/21
+face = 3
+
+[event]
+id = 21
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Patrol Boats
+pos = 12/3
+face = 3
+
+[event]
+id = 22
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Medium Tanks
+pos = 10/8
+
+[event]
+id = 23
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Scouts
+pos = 11/8
+
+# **** messages *******
+
+[messages(de)]
+Operation Fuchsbau
+von Jens Granseuer <jensgr@gmx.net>
+%
+Die Sache der Armee Freier Nexus gewinnt täglich neue Unterstützung. Das Imperium von Kand hat in letzter Zeit in einigen Schlachten Niederlagen hinnehmen müssen. Die meisten dieser Auseinandersetzungen waren nur unbedeutende Scharmützel, aber sie hatten eine sehr wichtige psychologische Komponente: Viele der lokalen Führer glauben jetzt, dass der Einfluss des Imperators schwindet und die Zeit gekommen ist, das Joch seiner Herrschaft abzuwerfen.
+
+Die Stadt Valdan hat kürzlich entschieden, sich der AFN anzuschließen. Valdan ist eine Provinzhauptstadt in der Nähe der Mündung des Flusses Sarph in das Nordmeer, und diente dem Imperium bisher als wichtiger Wachtturm an der Küste. Um die Details unserer Zusammenarbeit zu klären, haben die Führer von Valdan und Vertreter der AFN ein geheimes Treffen in der nahe gelegenen Stadt Rhin's Head vereinbart. Offenbar sind Informationen über diese Konferenz leider auch zum Imperium durchgedrungen, da sie ihre Verbände in der Nähe zusammengezogen haben. Als Reaktion darauf haben wir einige Einheiten losgeschickt, um sich mit den Valdanern zu treffen und sie sicher nach Rhin's Head zu eskortieren.
+
+Du bist dafür verantwortlich, dass der gepanzerte Transporter mit den Abgesandten aus Valdan Rhin's Head unbeschadet erreicht. Solltest du hierbei versagen, wird Valdan vermutlich noch für lange Zeit in der Hand des Imperators bleiben.
+%
+Nach den neuesten Berichten des Geheimdienstes sympathisieren viele der Untertanen des Imperators mit der Armee Freier Nexus und ihrem Ziel, das Imperium von Kand zu zerstören und Chaos in unserem friedlichen Reich zu säen. Unsere Versuche, diesem Problem mit diplomatischen Mitteln beizukommen, haben sie anscheinend nur noch weiter ermutigt, die AFN offen zu unterstützen.
+
+Wir haben nun Informationen erhalten, dass Valdan, eine Provinzhauptstadt an der nördlichen Küste und ein wichtiger Baustein unserer Verteidigung, sich der AFN anschließen will. Wir müssen deutlich machen, dass wir ein solches Verhalten nicht tolerieren können und dass unsere diplomatischen Bemühungen keinesfalls Zeichen militärischer Schwäche sind. Wir werden nicht tatenlos zusehen, wie die AFN alles zerstört, was wir mit unserem eigenen Schweiß und Blut aufgebaut haben.
+
+Unsere Quellen sagen, dass die Valdaner die Führer der AFN in der Kleinstadt Rhin's Head treffen wollen. An diesem Punkt kommen Sie ins Spiel. Sorgen Sie dafür, dass dieses Treffen niemals stattfindet. Die Abgesandten aus Valdan haben sich in einem gepanzerten Transporter auf den Weg nach Rhin's Head gemacht. Machen Sie die Fahrt zu einer sehr ungemütlichen Reise und lassen Sie den Transporter sein Ziel nicht erreichen!
+
+Wir verlegen immer noch Truppen in das Gebiet. Sie können also in einigen Tagen mit Verstärkung rechnen.
+
+Lang lebe der Imperator!
+%
+Operation Fuchsbau
+%
+Der Transporter mit den valdanischen Abgesandten wurde zerstört. Die Konferenz findet nicht statt, und Valdan bleibt Teil des Imperiums von Kand.
+%
+Die Abgesandten aus Valdan haben die Konferenz in Rhin's Head sicher erreicht. Bald wird eine Übereinkunft mit der Armee Freier Nexus erzielt, und kurz darauf erklärt sich Valdan offiziell unabhängig vom Imperium von Kand.
+%
+Verstärkung
+%
+Neue Verbände sind in Kekeelo eingetroffen und erwarten Ihre Befehle.
+%
+Geheimdienstbericht
+%
+Wir haben Grund zur Annahme, dass in den nächsten Tagen größere Verbände zur Verstärkung der kandelianischen Truppen in Kekeelo eintreffen werden. Die Zeit wird knapp...
+%
+Armee Freier Nexus
+%
+Imperium von Kand
+%
+Rhin's Head
+%
+Valdan
+%
+Kekeelo
+[/messages]
+
+
+[messages(en)]
+Operation: Foxhole
+by Jens Granseuer <jensgr@gmx.net>
+%
+The cause of the Free Nexus Army is winning more supporters each day. The Kandelian Empire has lately suffered defeats in a few battles. Most of those have only been minor skirmishes, but they had a very important psychological aspect to them: Many local leaders now believe that the Empire's powers are waning and the time has come to shake off the yoke of their rule.
+
+The city of Valdan recently decided to join the FNA. Valdan is a regional capital located close to the mouth of the river Sarph into the Northern Sea, and has so far been an important coastal guard tower to the Empire. To join our forces, the leaders of Valdan and representatives for the FNA arranged a secret meeting in the nearby town of Rhin's Head. However, it seems like details about the conference have leaked to the Empire as they have gathered their forces in the vicinity. In response we have dispatched a small force to rendezvous with the Valdans and safely escort them to Rhin's Head.
+
+Your job is to make sure that the armoured carrier with the Valdan leaders reaches Rhin's Head in one piece. Should you fail, Valdan will likely remain in the Emperor's hands for a long time to come.
+%
+Intelligence reports indicate that many of the Emperor's subjects sympathize with the rebellion of the Free Nexus Army and their goal, to shatter the Empire of Kand and bring chaos to our peaceful lands. It seems like our recent efforts to solve the problem with more diplomatical means has only encouraged them to openly support the FNA.
+
+We now received note that Valdan, a regional capital on the northern coast and a key location in our defence plan, is about to join forces with the FNA. We must make absolutely clear that we won't tolerate such a behaviour and that our preference of diplomatical means is in no way a sign of military weakness. We will not stand by and watch the FNA tear down everything we have built with our own sweat and blood.
+
+Our sources say that the Valdans are to meet the leaders of the FNA in the small town of Rhin's Head. This is where you come in. Make sure that this meeting never takes place. The Valdan emissaries have boarded an armoured personnel carrier and are on their way to Rhin's Head. Make it a most unpleasent ride. Don't let the carrier reach Rhin's Head!
+
+We are still relaying forces to the area, so expect some reinforcements in a few days.
+
+Long live the Emperor!
+%
+Operation: Foxhole
+%
+The carrier with the Valdan emissaries has been destroyed. The meeting is cancelled, and Valdan remains part of the Empire of Kand.
+%
+The Valdan emissaries safely reached the meeting in Rhin's Head. They soon reach an agreement with the Free Nexus Army and shortly afterwards officially declare themselves independent of the Empire of Kand.
+%
+Reinforcements
+%
+New forces have arrived in Kekeelo and are awaiting your orders.
+%
+Intelligence report
+%
+We have reason to believe that major Kandelian reinforcements are to arrive in Kekeelo during the next few days. You are running out of time...
+%
+Free Nexus Army
+%
+Empire of Kand
+%
+Rhin's Head
+%
+Valdan
+%
+Kekeelo
+[/messages]
+
+[messages(fr)]
+Operation: Terrier du Renard
+
+par Jens Granseuer <jensgr@gmx.net>
+traduction française: Benoit Peureux <benoit.peureux@wanadoo.fr>
+
+%
+La cause de l'Armée du Nexus Libre gagne de plus en plus de partisans chaque jour. Les Kandéliens ont récemment subis diverses défaites durant les dernières batailles. La plupart de ces défaites sont seulement des escarmouches mineures, mais elles ont eu un impact psychologique très important. Beaucoup de chefs locaux croient maintenant que la puissance des Kandéliens s'est affaiblie et que le temps est venu pour eux de se débarrasser du joug de l'Empire.
+
+La ville de Valdan a récemment décidé de rejoindre les Forces Armées du Nexus (FNA). Valdan est une capitale régionale située près de la bouche du fleuve Sarph sur la mer nordique, et elle a jusqu'ici été une place forte côtière importante pour l'empire. 
+
+Afin de conjuguer leurs forces, les chefs de Valdan et les représentants des Forces Armées du Nexus (FNA) ont organisé une réunion secrète dans la ville voisine Rhin's Head. Cependant, il semble que des informations au sujet de cette la conférence soient parvenues jusqu'à l'empire car les Kandéliens ont regroupé leurs forces militaires à proximité de la ville. En réponse, nous avons expédié une petite force au rendez-vous avec les Valdans afin de les escorter et les protéger jusqu'à Rhin's Head.
+
+Votre tâche consiste à vous assurer que le transporteur blindé qui véhicule les émissaires des chefs de Valdan, atteint normalement la ville de Rhin's Head. Si vous échouez, la ville de Valdan demeurera probablement encore longtemps entre les mains de l'empereur.
+%
+Les rapports de nos services de renseignements indiquent que plusieurs des sujets de l'Empereur sympathisent avec la rébellion de l'armée du Nexus Libre dans le but de quitter l'empire de Kand et d'apporter la ruine et la guerre à notre pays. Il semblerait que nos récents efforts pour résoudre le problème par une voie diplomatique les a seulement encouragés à soutenir ouvertement les Forces Armées de Nexus (FNA).
+
+Nous avons reçu des renseignements qui indiquent que Valdan, une capitale régionale sur la côte nordique et une place forte importante pour notre défense, est sur le point de joindre ses forces à celles des Forces Armées de Nexus (FNA). Nous devons affirmer sans ambiguïté que nous ne tolérerons pas un tel comportement et que notre utilisation des moyens diplomatiques n'est absolument pas un signe de faiblesse militaire. Nous ne nous contenterons pas d'observer les Forces Armées de Nexus (FNA) démanteler tout ce que nous avons construit avec notre sueur et notre sang.
+
+Nos sources indiquent que les intentions des Valdans sont de rencontrer les chefs des Forces Armées de Nexus (FNA) dans la petite ville de Rhin's Head. C'est là où vous vous rendrez afin de vous assurer que cette réunion n'aura jamais lieu. Les émissaires de Valdan ont embarqué dans un véhicule blindé de transport de personnel et sont sur le chemin de Rhin's Head. Jouez leur un mauvais tour à votre façon et ne laissez pas ce transporteur blindé atteindre la ville de Rhin's Head!
+
+Nous disposons encore de quelques forces armées dans ce secteur, aussi vous recevrez sans doute des renforts d'ici quelques jours.
+
+Vive l'Empereur!
+%
+Le Terrier du Renard
+%
+Le transporteur blindé des émissaires de Valdan a été détruit. La réunion est annulée et Valdan reste dans le giron de l'Empire de Kand.
+%
+Les émissaires de Valdan ont atteint sains et saufs la réunion dans la ville de Rhin's Head. Ils ont rapidement conclut un accord avec l'armée du Nexus Libre et peu après, ils se sont déclarés officiellement indépendants de l'Empire de Kand.
+%
+Renforts
+%
+De nouvelles forces sont arrivées dans Kekeelo et attendent vos ordres.
+%
+Rapport de renseignements
+%
+Nous avons de bonnes raisons de croire que des renforts importants de Kandéliens vont arriver à Kekeelo dans les jours à venir. Vous manquez cruellement de temps.
+%
+Armée du Nexus Libre
+%
+Empire de Kand
+%
+Rhin's Head
+%
+Valdan
+%
+Kekeelo
+[/messages]
+
+[messages(pl)]
+Operacja Lisia Nora
+autor: Jens Granseuer <jensgr@gmx.net>
+%
+Przyczyną zwycięstw Wolnej Armii Nexusu jest zyskiwanie wsparcia z dnia na dzień. Imperium Kandeliańskie ostatnio przegrało kilka bitew. Większość z nich to tylko drugorzędne potyczki, ale miały one ważne znaczanie psychologiczne: wielu lokalnych przywódców wierzy, że siły Imperium słabną i pora wyrwać się spod jego władzy.
+
+Miasto Valdan ostatnio zdecydowało się dołączyć do WAN. Valdan jest stolicą regionu, leży blisko ujścia rzeki Sarph do Morza Północnego i jest jak na razie ważną strażnicą wybrzeża dla Imperium. Żeby do nas dołączyć przywódcy Valdanu i reprezentanci WAN zaranżowali tajne spotkanie w pobliżu miasta Rhin Head. Jednakże wygląda na to, że szczegóły konferencji przeniknęły do Imperium, jako że ci zebrali siły w pobliżu. W odpowiedzi wysłaliśmy małe siły na spotkanie z Valdanami i eskortę do Rhin Head.
+
+Twoim zadaniem jest upewnienie się, że transportowiec z Valdańskimi przywódcami dotarł do Rhin Head w całości. Jeśli zawiedziesz Valdanie prawdopodobnie pozostaną pod władzą Imperatora przez bardzo długi czas.
+%
+Wywiad donosi, że wielu poddanych Imperatora sympatyzuje z rebeliantami Wolnej Armii Nexusu i wspiera ich cel, czyli zniszczenie Imperium Kandyjskiego oraz nadejście chaosu w naszych spokojnych krainach. Wygląda na to że nasze ostatnie starania dyplomatycznego rozwiązania problemu tylko zachęciły ich do otwartego wsparcia WAN.
+
+Właśnie dowiedzieliśmy się, że Valdan, stolica regionu północnego wybrzeża i kluczowa pozycja w naszym planie obrony, ma zamiar dołączyć do WAN. Musimy dać im do zrozumienia że nie będziemy tolerować takiego zachowania i że nasze próby dyplomatycznago rozwiązania problemu nie są oznaką słabości. Nie możemy pozwolić na to aby WAN zniszczyła wszystko, co budowaliśmy w pocie czoła przez tak długie lata.
+
+Nasze źródła donoszą, że Valdanie mają zamiar spotkać się z przywódcami WAN w małym mieście Rhin Head. Tam musisz wyruszyć. Upewnij się, że spotkanie nie dojdzie do skutku. Valdańscy emisariusze są już w drodze do Rhin Head w opancerzonym transporterze. Niech będzie to ich ostatnia podróż. Nie pozwól im dotrzeć do Rhin Head!
+
+Ciągle wysyłamy siły do tego obszaru więc spodziewaj się posiłków za kilka dni.
+
+Niech żyje Imperator!
+%
+Operacja Lisia Nora
+%
+Transportowiec z Valdańskimi emisariuszami został zniszczony. Spotkanie jest anulowane, a Valdan pozostaje częścią Imperium Kandyjskiego.
+%
+Valdańscy emisariusze bezpiecznie dotarli na spotkanie w Rhin Head. Wkrótce dojdą do porozumienia z Wolną Armią Nexusu i niedługo potem oficjalnie ogłoszą swoją niepodległość.
+%
+Posiłki
+%
+Nowe siły przybyły do Kekeelo i oczekują na twoje rozkazy.
+%
+Raport wywiadu
+%
+Możemy przypuszczać, że główne Kandeliańskie posiłki przybedą do Kekeelo w ciągu kilku następnych dni. Kończy Ci się czas..
+%
+Wolna Armia Nexusu
+%
+Imperium Kandyjskie
+%
+Rhin Head
+%
+Valdan
+%
+Kekeelo
+[/messages]
+
+[messages(sk)]
+Operácia: Líščia nora
+autor Jens Granseuer <jensgr@gmx.net>
+%
+Záujmy Armády za slobodný Nexus získavajú čoraz viac stúpencov. Kandské Impérium v poslednej dobe utrpelo porážky v niekoľkých bitkách. Väčšina z nich boli len malé potýčky, no mali veľmi dôležitý psychologický dopad: mnoho miestnych veliteľov si myslí, že sily Impéria slabnú a prišiel čas striasť bremeno ich vládnutia.
+
+Mesto Valdan sa nedávno rozhodlo pripojiť sa k ASN. Valdan je hlavné mesto oblasti situované blízko ústia rieky Sarph do Severného mora a doteraz bolo dôležitou pobrežnou baštou Impéria. Kvôli tomuto pripojeniu zorganizovali vodcovia Valdanu s predstaviteľmi ASN tajné stretnutie v blízkom meste Rhin's Head. Vyzerá to však tak, že informácie o konferencii sa dostali k zástupcom Impéria a v blízkosti miesta určenia zhromaždili svoje sily. Obratom sme vyslali malú skupinu, aby sa stretli s predstaviteľmi Valdanu a bezpečne ich eskortovali do Rhin's Head.
+
+Tvojou úlohou je zabezpečiť, aby sa obrnený transportér s vodcami Valdanu dostal do Rhin's Head celý. Ak zlyháš, Valdan zostane v rukách Impéria na dlhý čas.
+%
+Správy našich výzvedných služieb naznačujú, že mnoho vodcov podmanených Impériom sympatizuje so vzburou Armády za slobodný Nexus a s ich cieľom roztrieštiť Kandské Impérium a vniesť chaos do našich pokojných krajín. Zdá sa, že naše nedávne pokusy vyriešiť tento problém diplomatickejšími cestami ich len povzbudil, aby otvorene podporovali ASN.
+
+Práve sme dostali správu, že Valdan, hlavné mesto na severnom brehu a kľúčové miesto v našom obrannom pláne, sa chystá pripojiť sa k ASN. Musíme jasne ukázať, že takéto správanie tolerovať nebudeme a že naše uprednostňovanie diplomatických riešení nie je znakom vojenskej slabosti. Nebudeme len postávať a prizerať sa, ako ASN ničí všetko, čo sme potom a krvou vybudovali.
+
+Naše zdroje uvádzajú, že predstavitelia Valdanu sa chystajú stretnúť sa s vodcami ASN v malom meste Rhin's Head. Tu vstupuješ do deja ty. Zaisti, aby sa toto stretnutie nikdy neuskutočnilo. Vyslanci Valdanu sú na ceste do Rhin's Head v obrnenom osobnom transportéri. Čo najviac im tento výlet znepríjemni. Nedovoľ, aby transportér dorazil do Rhin's Head.
+
+Stále posielame do oblasti ďalšie sily, o niekoľko dní môžeš očakávať posily.
+
+Nech žije cisár!
+%
+Operácia: Líščia nora
+%
+Transportér s vyslancami Valdanu bol zničený. Stretnutie bolo zrušené a Valdan ostáva časťou Kandského Impéria.
+%
+Valdanskí vyslanci bezpečne dorazili na stretnutie v Rhin's Head. Čoskoro dohodnú zmluvu s ASN a zakrátko sa vyhlásia nezávislými od Kandského Impéria.
+%
+Posily
+%
+Ďalšie jednotky dorazili do Kekeela a očakávajú tvoje príkazy.
+%
+Správa tajnej služby
+%
+Máme informácie, že do Kekeela dorazia v priebehu niekoľkých dní väčšie Kandeliánske posily. Čas sa kráti...
+%
+Armáda za slobodný Nexus
+%
+Kandské Impérium
+%
+Rhin's Head
+%
+Valdan
+%
+Kekeelo
+[/messages]
+

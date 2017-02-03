@@ -1,0 +1,6 @@
+EXTRA_DIST = crimson.desktop crimson.spec.in README.bi2cf README.CoMET VisualC++.zip
+SUBDIRS = doc src tools gfx levels locale music sfx
+DISTCHECK_CONFIGURE_FLAGS = --enable-bi2cf --enable-cf2bmp --enable-cfed --enable-comet
+
+desktopdir = $(datadir)/applications
+desktop_DATA = crimson.desktop

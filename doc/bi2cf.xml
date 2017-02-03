@@ -1,0 +1,170 @@
+<?xml version='1.0'?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+ "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+<refentry id="bi2cf.6">
+<refentryinfo>
+  <date>Jan 30 2003</date>
+  <author>
+    <firstname>Florian</firstname>
+    <surname>Dietrich</surname>
+    <address><email>n8flo@yahoo.de</email></address>
+  </author>
+</refentryinfo>
+
+<refmeta>
+  <refentrytitle>bi2cf</refentrytitle>
+  <manvolnum>6</manvolnum>
+</refmeta>
+
+<refnamediv>
+  <refname>bi2cf</refname>
+  <refpurpose>a map conversion tool for Crimson Fields</refpurpose>
+</refnamediv>
+
+<refsynopsisdiv>
+  <cmdsynopsis>
+    <command>bi2cf</command>
+    <arg choice="plain"><replaceable>mapname</replaceable></arg>
+    <arg choice="opt">-p 1|2</arg>
+    <arg choice="opt">-f b|1|2|h</arg>
+    <arg choice="opt">-l</arg>
+    <arg choice="opt">-t <replaceable>mapname</replaceable></arg>
+    <arg choice="opt">-i <replaceable>mapinfo</replaceable></arg>
+    <arg choice="opt">-o <replaceable>outfile</replaceable></arg>
+    <arg choice="opt">-d <replaceable>mapdir</replaceable></arg>
+    <arg choice="opt">-O <replaceable>destdir</replaceable></arg>
+    <arg choice="opt">-q</arg>
+  </cmdsynopsis>
+
+  <cmdsynopsis>
+    <command>bi2cf</command>
+    <group choice="req">
+      <arg choice="plain">-h</arg>
+      <arg choice="plain">-v</arg>
+    </group>
+  </cmdsynopsis>
+</refsynopsisdiv>
+
+<refsect1><title>Description</title>
+  <para><command>bi2cf</command> is a map conversion tool for Crimson
+  Fields. It takes the data files of maps from Battle Isle, Battle Isle
+  Data Disk 1 or 2, or History Line 1914-1918 and converts them into map
+  sources usable with the
+  <citerefentry><refentrytitle>cfed</refentrytitle><manvolnum>6</manvolnum></citerefentry>
+  map compiler for Crimson Fields. <command>bi2cf</command> can handle
+  both uncompressed maps and levels crunched with TPWM.</para>
+
+  <para>For some units and tiles there are no corresponding counterparts
+  in Crimson Fields. These cases are mapped to similar ones if available.
+  As a result some maps will not be as balanced as the originals, others
+  may be unwinnable, and still others may even fail to compile. If this
+  happens the map in question needs to be adjusted manually.</para>
+</refsect1>
+
+<refsect1><title>Options</title>
+  <variablelist>
+    <varlistentry>
+      <term><option>-d</option> <replaceable>mapdir</replaceable></term>
+      <listitem>
+        <para>Set the location of the Battle Isle map files.</para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term><option>-f</option> b|1|2|h</term>
+      <listitem>
+        <para>Force map type to Battle Isle / BI Data Disk 1 / BI Data
+        Disk 2 / History Line, respectively. Use this option when map
+        format autodetection does not work correctly. Maps from BI Data
+        Disk 1 will always be detected as standard Battle Isle maps, so
+        you have to use <option>-f 1</option> in that case.</para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term><option>-h</option></term>
+      <listitem>
+        <para>Print a usage message on standard output and exit.</para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term><option>-i</option> <replaceable>mapinfo</replaceable></term>
+      <listitem>
+        <para>Set map info message.</para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term><option>-l</option></term>
+      <listitem>
+        <para>Skip last row and column of the map. This is necessary for
+        maps from the PC version of Battle Isle.</para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term><option>-o</option> <replaceable>outfile</replaceable></term>
+      <listitem>
+        <para>Write map to file <replaceable>outfile</replaceable>.
+        Default file name is <filename>mapname.src</filename>.</para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term><option>-O</option> <replaceable>destdir</replaceable></term>
+      <listitem>
+        <para>Set target directory for the converted map. This setting
+        is ignored if a map name was given using the <option>-t</option>
+        option.</para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term><option>-p</option> 1|2</term>
+      <listitem>
+        <para>Set default number of players for this map.</para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term><option>-q</option></term>
+      <listitem>
+        <para>Run quietly. Don't print processing information on
+        standard output.</para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term><option>-t</option> <replaceable>mapname</replaceable></term>
+      <listitem>
+        <para>Set title and file name for the converted map. Default is
+        <filename>maptype-mapname</filename>.</para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term><option>-v</option></term>
+      <listitem>
+        <para>Print version information on standard output and exit.
+        </para>
+      </listitem>
+    </varlistentry>
+  </variablelist>
+</refsect1>
+
+<refsect1><title>See Also</title>
+  <para>
+    <citerefentry><refentrytitle>cfed</refentrytitle><manvolnum>6</manvolnum></citerefentry>,
+    <citerefentry><refentrytitle>crimson</refentrytitle><manvolnum>6</manvolnum></citerefentry>
+  </para>
+</refsect1>
+
+<refsect1><title>Copyright</title>
+  <para>Copyright &copy; 2002 Florian Dietrich</para>
+  <para>This software is distributed under the terms of the
+  <ulink url="http://www.gnu.org/copyleft/gpl.html">GNU General Public
+  License</ulink> (GPL).</para>
+</refsect1>
+</refentry>
+

@@ -1,0 +1,1369 @@
+[mission]
+name = 0
+mapwidth = 32
+mapheight = 40
+info = 1
+players = 2
+
+[map-raw]
+30,30,30,30,30,80,80,83,80,80,30,30,30,30,30,184,30,30,30,30,30,31,30,30,30,30,30,30,30,30,30,30
+30,30,30,30,30,80,84,86,85,80,30,30,30,178,178,30,177,177,30,30,30,30,30,184,30,30,30,79,30,30,30,30
+30,78,30,31,30,30,80,30,30,30,30,178,178,84,83,85,81,30,177,191,30,178,178,30,20,30,30,30,30,30,30,30
+30,30,30,30,30,30,30,30,30,178,178,30,81,81,86,81,80,30,30,176,183,79,80,81,30,81,30,30,30,31,30,30
+30,30,30,21,30,184,30,192,178,30,30,117,81,117,117,118,81,30,30,176,81,84,83,85,84,86,85,80,30,30,30,38
+30,80,22,24,17,30,183,176,30,30,30,38,117,117,120,119,121,30,30,179,79,81,86,84,81,85,81,81,30,30,30,38
+30,83,81,30,30,30,30,188,30,30,30,38,38,38,117,30,30,178,178,30,84,86,85,81,86,30,80,360,30,30,30,30
+84,86,85,81,30,30,31,176,177,177,30,30,80,30,30,178,178,30,30,30,30,30,30,30,30,30,30,30,30,360,30,362
+81,84,83,85,79,30,30,176,30,30,177,177,30,182,178,30,30,30,30,78,30,360,360,361,360,30,30,361,360,30,361,362
+81,83,86,81,81,30,30,176,30,30,30,30,191,194,30,197,60,30,77,77,30,30,30,360,361,362,30,362,361,31,30,30
+84,86,85,30,80,56,30,176,30,30,30,22,0,23,183,30,181,30,30,30,30,30,360,360,361,361,362,362,362,362,362,362
+361,30,30,30,360,360,30,176,30,80,80,30,24,30,30,30,176,34,30,30,30,30,360,80,361,30,362,362,362,362,362,362
+361,364,361,361,360,360,360,176,79,83,80,79,31,80,30,30,176,30,30,30,31,30,30,30,361,361,361,362,362,362,362,361
+362,362,362,361,30,30,30,180,84,86,85,80,80,30,30,30,176,30,30,30,30,361,360,361,361,30,361,361,362,361,362,361
+362,362,362,362,361,362,30,361,177,177,80,80,80,30,30,30,180,177,30,30,30,360,30,360,361,361,361,362,361,363,361,361
+362,362,362,362,362,362,361,361,30,30,181,30,30,30,30,30,30,30,177,177,30,30,360,360,30,361,362,362,361,30,30,30
+362,30,361,361,361,361,30,79,360,30,176,76,30,30,30,30,30,30,30,30,181,184,30,30,361,78,362,362,30,22,11,23
+30,11,30,30,361,362,361,360,30,30,180,177,30,30,30,30,30,30,30,82,190,22,11,23,30,361,362,362,30,30,24,81
+22,24,23,30,362,361,361,30,360,360,117,117,177,177,30,30,30,30,30,30,176,30,24,360,31,360,362,361,361,30,31,30
+30,31,30,362,362,30,30,30,360,360,365,30,30,30,181,82,30,30,30,30,180,181,30,360,30,30,362,361,361,362,30,362
+30,30,30,362,361,77,361,30,30,30,30,30,30,30,176,30,30,30,30,30,30,176,30,30,361,361,361,362,362,362,362,362
+30,363,361,361,30,361,30,31,30,361,30,84,83,85,176,30,30,82,82,30,30,179,30,30,30,360,361,362,362,362,362,362
+361,361,361,362,361,30,30,30,361,361,78,79,86,178,187,30,30,30,30,178,178,30,30,360,360,361,361,362,361,361,361,361
+362,362,362,362,362,361,361,30,360,360,360,182,178,30,180,177,30,182,178,80,80,80,80,81,360,361,361,361,364,30,81,30
+362,361,361,361,30,30,361,361,360,360,360,11,31,78,30,30,177,189,30,80,79,84,83,85,81,79,30,361,361,360,30,361
+361,30,360,360,30,34,30,30,30,30,22,24,23,80,30,30,30,176,30,80,80,81,86,80,80,30,360,30,361,361,360,30
+30,30,30,30,30,81,81,81,30,30,79,30,80,30,30,30,30,179,30,30,79,30,80,30,80,30,81,30,30,361,30,30
+30,30,30,79,81,120,118,121,81,30,31,30,30,30,30,178,192,30,30,30,30,30,30,38,30,30,30,30,360,361,361,360
+30,38,30,30,81,117,119,81,81,30,30,30,30,178,192,30,180,191,30,78,30,34,30,30,38,38,30,30,30,80,360,30
+30,38,38,30,81,81,81,30,78,30,30,178,178,22,1,23,30,60,177,177,30,30,30,30,38,30,30,81,80,80,30,30
+30,30,30,30,30,80,30,80,30,80,182,30,30,30,24,30,30,30,30,30,177,177,30,30,30,30,80,84,83,85,80,30
+30,31,30,30,79,81,80,83,79,80,176,30,30,80,30,80,31,80,30,30,30,30,177,177,30,30,80,80,86,81,80,30
+30,30,30,58,80,80,84,86,85,80,176,30,30,80,79,117,80,79,80,118,30,30,30,30,191,177,80,80,79,80,80,30
+30,30,57,59,30,80,81,80,80,192,179,30,30,117,117,118,117,117,120,119,121,30,30,178,179,30,177,177,30,30,30,30
+30,30,30,30,30,30,80,178,178,180,30,30,30,38,120,119,121,38,38,30,30,178,178,30,30,30,30,30,20,30,30,30
+30,30,30,30,30,178,178,79,79,30,177,177,30,38,38,38,38,30,30,178,178,30,30,84,83,85,30,30,30,30,30,30
+30,21,30,178,178,30,79,81,79,79,30,30,177,177,30,30,30,178,178,30,81,30,30,79,86,81,79,79,30,30,30,30
+22,24,17,30,30,30,79,84,83,85,79,30,30,30,177,183,178,30,30,30,30,30,79,79,79,79,79,79,79,30,30,30
+30,30,30,30,30,30,79,79,86,79,79,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30
+30,30,30,30,30,30,30,79,79,79,30,30,30,30,30,30,30,30,30,30,30,30,30,38,30,30,30,30,30,30,30,30
+
+[player]
+name = 10
+briefing = 4
+
+[player]
+name = 11
+briefing = 4
+
+[unit]
+type = Personnel Carriers
+player = 1
+id = 32
+pos = 14/9
+face = 3
+
+[unit]
+type = Personnel Carriers
+player = 2
+id = 33
+pos = 13/27
+face = 0
+
+[unit]
+type = Personnel Carriers
+player = 2
+id = 34
+pos = 14/27
+face = 0
+
+[unit]
+type = Transport Planes
+player = 2
+id = 74
+pos = 3/32
+
+[unit]
+type = Personnel Carriers
+player = 1
+id = 30
+pos = 11/9
+face = 3
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 28
+pos = 3/1
+face = 3
+
+[unit]
+type = Scouts
+player = 1
+id = 29
+pos = 4/2
+face = 3
+
+[unit]
+type = Infantry
+player = 1
+id = 31
+pos = 13/9
+face = 3
+
+[unit]
+type = Infantry
+player = 2
+id = 35
+pos = 14/28
+face = 0
+
+[unit]
+type = Scouts
+player = 2
+id = 36
+pos = 2/35
+face = 1
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 37
+pos = 3/35
+face = 1
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 38
+pos = 22/29
+face = 0
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 39
+pos = 23/29
+face = 0
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 40
+pos = 21/29
+face = 0
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 41
+pos = 22/30
+face = 0
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 42
+pos = 23/30
+face = 0
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 43
+pos = 23/28
+face = 0
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 44
+pos = 18/38
+face = 0
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 45
+pos = 19/38
+face = 0
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 46
+pos = 17/37
+face = 0
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 47
+pos = 18/37
+face = 0
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 48
+pos = 19/37
+face = 0
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 49
+pos = 10/34
+face = 0
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 50
+pos = 11/34
+face = 0
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 51
+pos = 8/6
+face = 3
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 52
+pos = 8/5
+face = 3
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 53
+pos = 9/4
+face = 3
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 54
+pos = 9/5
+face = 3
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 55
+pos = 9/6
+face = 3
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 56
+pos = 10/5
+face = 3
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 57
+pos = 10/6
+face = 3
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 58
+pos = 19/1
+face = 3
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 59
+pos = 20/2
+face = 3
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 60
+pos = 21/1
+face = 3
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 61
+pos = 20/1
+face = 3
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 62
+pos = 18/5
+face = 3
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 63
+pos = 17/5
+face = 3
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 87
+pos = 12/16
+face = 3
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 88
+pos = 13/15
+face = 3
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 89
+pos = 11/15
+face = 3
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 90
+pos = 12/15
+face = 3
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 91
+pos = 19/21
+face = 0
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 92
+pos = 20/21
+face = 0
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 93
+pos = 19/22
+face = 0
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 94
+pos = 20/22
+face = 0
+
+[unit]
+type = Gunships
+player = 2
+id = 96
+pos = 17/29
+face = 0
+
+[unit]
+type = Gunships
+player = 1
+id = 95
+pos = 16/9
+face = 3
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 97
+pos = 13/14
+face = 3
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 98
+pos = 18/22
+face = 0
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 99
+pos = 17/4
+face = 3
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 100
+pos = 18/4
+face = 3
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 101
+pos = 11/33
+face = 0
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 102
+pos = 12/34
+face = 0
+
+[unit]
+type = Hovercraft
+player = 0
+id = 16
+pos = 22/17
+
+[unit]
+type = Hovercraft
+player = 0
+id = 18
+pos = 11/24
+
+[unit]
+type = Hovercraft
+player = 0
+id = 81
+pos = 30/16
+
+[unit]
+type = Hovercraft
+player = 0
+id = 85
+pos = 1/17
+
+[unit]
+type = Heavy Tanks
+player = 0
+id = 0
+pos = 24/2
+
+[unit]
+type = Medium Tanks
+player = 0
+id = 1
+pos = 24/2
+
+[unit]
+type = Infantry
+player = 0
+id = 2
+pos = 24/2
+
+[unit]
+type = Medium Tanks
+player = 0
+id = 3
+pos = 4/5
+
+[unit]
+type = Medium Tanks
+player = 0
+id = 4
+pos = 4/5
+
+[unit]
+type = Interceptors
+player = 0
+id = 5
+pos = 4/5
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 6
+pos = 12/10
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 7
+pos = 12/10
+
+[unit]
+type = Heavy Tanks
+player = 0
+id = 8
+pos = 30/16
+
+[unit]
+type = Medium Tanks
+player = 0
+id = 9
+pos = 30/16
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 0
+id = 10
+pos = 30/16
+
+[unit]
+type = Scouts
+player = 0
+id = 11
+pos = 30/16
+
+[unit]
+type = Heavy Tanks
+player = 0
+id = 12
+pos = 1/17
+
+[unit]
+type = Medium Tanks
+player = 0
+id = 13
+pos = 1/17
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 0
+id = 14
+pos = 1/17
+
+[unit]
+type = Scouts
+player = 0
+id = 15
+pos = 1/17
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 20
+pos = 14/29
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 21
+pos = 14/29
+
+[unit]
+type = Heavy Tanks
+player = 0
+id = 22
+pos = 28/34
+
+[unit]
+type = Medium Tanks
+player = 0
+id = 23
+pos = 28/34
+
+[unit]
+type = Infantry
+player = 0
+id = 24
+pos = 28/34
+
+[unit]
+type = Medium Tanks
+player = 0
+id = 25
+pos = 2/37
+
+[unit]
+type = Medium Tanks
+player = 0
+id = 26
+pos = 2/37
+
+[unit]
+type = Interceptors
+player = 0
+id = 27
+pos = 2/37
+
+[unit]
+type = Medium Tanks
+player = 0
+id = 19
+pos = 11/24
+
+[unit]
+type = Medium Tanks
+player = 0
+id = 64
+pos = 11/24
+
+[unit]
+type = Medium Tanks
+player = 0
+id = 65
+pos = 11/24
+
+[unit]
+type = Heavy Tanks
+player = 0
+id = 66
+pos = 11/24
+
+[unit]
+type = Heavy Tanks
+player = 0
+id = 67
+pos = 11/24
+
+[unit]
+type = Scouts
+player = 0
+id = 68
+pos = 11/24
+
+[unit]
+type = Heavy Tanks
+player = 0
+id = 17
+pos = 22/17
+
+[unit]
+type = Heavy Tanks
+player = 0
+id = 69
+pos = 22/17
+
+[unit]
+type = Medium Tanks
+player = 0
+id = 70
+pos = 22/17
+
+[unit]
+type = Medium Tanks
+player = 0
+id = 71
+pos = 22/17
+
+[unit]
+type = Medium Tanks
+player = 0
+id = 72
+pos = 22/17
+
+[unit]
+type = Scouts
+player = 0
+id = 73
+pos = 22/17
+
+[unit]
+type = Gunships
+player = 0
+id = 75
+pos = 24/2
+
+[unit]
+type = Gunships
+player = 0
+id = 76
+pos = 24/2
+
+[unit]
+type = Gunships
+player = 0
+id = 77
+pos = 28/34
+
+[unit]
+type = Gunships
+player = 0
+id = 78
+pos = 28/34
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 0
+id = 79
+pos = 30/16
+
+[unit]
+type = Scouts
+player = 0
+id = 80
+pos = 30/16
+
+[unit]
+type = Gunships
+player = 0
+id = 82
+pos = 30/16
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 0
+id = 83
+pos = 1/17
+
+[unit]
+type = Scouts
+player = 0
+id = 84
+pos = 1/17
+
+[unit]
+type = Gunships
+player = 0
+id = 86
+pos = 1/17
+
+[unit]
+type = Gunships
+player = 1
+id = 103
+pos = 12/10
+
+[unit]
+type = Gunships
+player = 1
+id = 104
+pos = 12/10
+
+[unit]
+type = Gunships
+player = 2
+id = 105
+pos = 14/29
+
+[unit]
+type = Gunships
+player = 2
+id = 106
+pos = 14/29
+
+[building]
+name = 12
+player = 0
+id = 0
+pos = 24/2
+type = workshop
+mining = 2
+crystals = 10
+
+[building]
+name = 13
+player = 0
+id = 1
+pos = 4/5
+type = workshop
+type = factory
+factory = Infantry
+factory = Medium Tanks
+factory = Heavy Tanks
+factory = Anti-Aircraft Tanks
+factory = Personnel Carriers
+factory = Scouts
+factory = Hovercraft
+factory = Gunships
+mining = 4
+crystals = 200
+
+[building]
+name = 14
+player = 1
+id = 2
+pos = 12/10
+type = workshop
+crystals = 30
+
+[building]
+name = 15
+player = 0
+id = 3
+pos = 30/16
+type = workshop
+crystals = 50
+
+[building]
+name = 16
+player = 0
+id = 4
+pos = 1/17
+type = workshop
+crystals = 50
+
+[building]
+name = 17
+player = 0
+id = 5
+pos = 22/17
+type = workshop
+crystals = 15
+
+[building]
+name = 18
+player = 0
+id = 6
+pos = 11/24
+type = workshop
+crystals = 15
+
+[building]
+name = 19
+player = 2
+id = 7
+pos = 14/29
+type = workshop
+crystals = 30
+
+[building]
+name = 20
+player = 0
+id = 8
+pos = 28/34
+type = workshop
+mining = 2
+crystals = 10
+
+[building]
+name = 21
+player = 0
+id = 9
+pos = 2/37
+type = workshop
+type = factory
+factory = Infantry
+factory = Medium Tanks
+factory = Heavy Tanks
+factory = Anti-Aircraft Tanks
+factory = Personnel Carriers
+factory = Scouts
+factory = Hovercraft
+factory = Gunships
+mining = 4
+crystals = 200
+
+[event]
+id = 0
+type = message
+player = 1
+title = 0
+message = 2
+pos = 12/10
+trigger = timer
+ttime = 0
+
+[event]
+id = 1
+type = message
+player = 2
+title = 0
+message = 3
+pos = 14/29
+trigger = timer
+ttime = 0
+
+[event]
+id = 2
+type = score
+player = 1
+depend = 5
+title = 9
+message = 7
+trigger = havebuilding
+tbuilding = 2
+towner = 1
+ttime = -1
+success = 25
+othermsg = 5
+othertitle = 8
+
+[event]
+id = 3
+type = score
+player = 1
+depend = 2
+trigger = havebuilding
+tbuilding = 7
+towner = 1
+ttime = -1
+success = 25
+
+[event]
+id = 4
+type = score
+player = 1
+depend = 3
+trigger = havebuilding
+tbuilding = 1
+towner = 1
+ttime = -1
+success = 25
+
+[event]
+id = 5
+type = score
+player = 1
+depend = 4
+trigger = havebuilding
+tbuilding = 9
+towner = 1
+ttime = -1
+success = 25
+
+[event]
+id = 6
+type = score
+player = 2
+depend = 9
+title = 9
+message = 7
+trigger = havebuilding
+tbuilding = 7
+towner = 2
+ttime = -1
+success = 25
+othermsg = 6
+othertitle = 8
+
+[event]
+id = 7
+type = score
+player = 2
+depend = 6
+trigger = havebuilding
+tbuilding = 2
+towner = 2
+ttime = -1
+success = 25
+
+[event]
+id = 8
+type = score
+player = 2
+depend = 7
+trigger = havebuilding
+tbuilding = 1
+towner = 2
+ttime = -1
+success = 25
+
+[event]
+id = 9
+type = score
+player = 1
+depend = 8
+trigger = havebuilding
+tbuilding = 9
+towner = 2
+ttime = -1
+success = 25
+
+[event]
+id = 10
+type = score
+player = 1
+depend = 12
+title = 9
+message = 7
+trigger = unitdestroyed
+tunit = -1
+towner = 2
+success = 20
+othermsg = 5
+othertitle = 8
+
+[event]
+id = 11
+type = score
+player = 1
+depend = 10
+trigger = havebuilding
+tbuilding = 1
+towner = 1
+ttime = -1
+success = 40
+
+[event]
+id = 12
+type = score
+player = 1
+depend = 11
+trigger = havebuilding
+tbuilding = 9
+towner = 1
+ttime = -1
+success = 40
+
+[event]
+id = 13
+type = score
+player = 2
+depend = 15
+title = 9
+message = 7
+trigger = unitdestroyed
+tunit = -1
+towner = 1
+success = 20
+othermsg = 6
+othertitle = 8
+
+[event]
+id = 14
+type = score
+player = 2
+depend = 13
+trigger = havebuilding
+tbuilding = 1
+towner = 2
+ttime = -1
+success = 40
+
+[event]
+id = 15
+type = score
+player = 2
+depend = 14
+trigger = havebuilding
+tbuilding = 9
+towner = 2
+ttime = -1
+success = 40
+
+[event]
+id = 16
+type = mining
+player = 1
+trigger = handicap
+thandicap = 4
+building = 1
+action = 1
+crystals = 150
+
+[event]
+id = 17
+type = mining
+player = 2
+trigger = handicap
+thandicap = 2
+building = 9
+action = 1
+crystals = 150
+
+
+[messages(de)]
+Heavy Metal
+%
+Heavy Metal
+von Jens Granseuer <jensgr@gmx.net>
+%
+Seit die Provinzhauptstadt sich unserem Kampf für die Freiheit angeschlossen hat, ist der gesamte Sektor in Aufregung. Größere Schlachten sind zwar selten, aber es brechen immer wieder kleinere Gefechte aus, die bisher allerdings nie zu einem Vorteil für die Kandelianer oder uns geführt haben. Obwohl sich die Situation auf den ersten Blick also kaum geändert hat, bereiten wir uns jetzt auf den entscheidenden Schlag vor. Wir haben unsere truppen in der Region langsam aber stetig verstärkt, und auch wenn das Imperium höchstwahrscheinlich ebenso gehandelt hat, müssen wir bald zuschlagen, denn unsere Ressourcenlage ist bereits äußerst angespannt.
+
+Östlich von Valdan befindet sich ein wichtiger Industriestandort. Die Kontrolle über diese Anlagen hat in den letzten Monaten ständig gewechselt. Du wirst diesen unsicheren Zustand beenden. Du musst beide Fabriken und das feindliche Hauptquartier erobern und die Kandelianer gleichzeitig von unserem fernhalten. Soweit wir wissen, arbeiten einige von den Bergwerken noch und können dir helfen, deinen Kristallvorrat aufzustocken.
+
+Viel Glück! Für einen freien Nexus!
+%
+Sie werden sich sicher erinnern, dass die Provinzhauptstadt Valdan vor einigen Monaten vom Imperator losgesagt hat und sich der Rebellion anschließen wollte. Seitdem kämpfen wir mit der Armee Freier Nexus um die Kontrolle in diesem Sektor. Bisher hat keine Seite entscheidende Siege erringen können, aber wir haben im Stillen Nachschub von Süden herangeführt und bereiten uns jetzt auf die letzte Offensive vor.
+
+Schlüssel zum Sieg sind die beiden Fabriken in der Gegend. Bisher konnte niemand sie für längere Zeit kontrollieren, aber du musst beide erobern, um die Bedrohung auszuschalten, die von Valdan ausgeht. Ein weiteres wichtiges Ziel ist die Kommandozentrale der AFN. Wenn wir ihre Kommunikationswege kontrollieren, werden sie nicht mehr in der Lage sein, ihre Verbände zu koordinieren. Unser eigenes Hauptquartier darf den Rebellen natürlich nicht in die Hände fallen.
+
+Lang lebe der Imperator!
+%
+Missionsziele:
+
+1. Übernimm die Kontrolle über beide Fabriken.
+
+2. Erobere das feindliche Hauptquartier.
+
+3. Verteidige das eigene Hauptquartier.
+%
+Die Rebellen haben einen entscheidenden Vorteil errungen. Die Kapazitäten beider Fabriken stellen eine ernstzunehmende Bedrohung für unsere Einheiten um Valdan dar. Es ist sogar möglich, dass wir die Region ganz verloren geben müssen. Sie haben versagt!
+%
+Das Imperium von Kand hat sich durchgesetzt. Jetzt, da sich beide Fabriken in ihren Händen befinden und unser eigener Kommandostand zerstört wurde, bleiben uns nicht mehr viele Möglichkeiten, um Valdan gegen die Eindringlinge zu helfen. Das Schicksal der Hauptstadt könnte damit besiegelt sein. Du hast versagt!
+%
+Die Fabriken sind gesichert, das feindliche Kommunikationsnetz ist zerstört und ihre Truppen haben erhebliche Verluste hinnehmen müssen. Wir können uns jetzt ganz auf Valdan selbst konzentrieren. Glückwunsch!
+%
+Operation gescheitert
+%
+Operation erfolgreich
+%
+Armee Freier Nexus
+%
+Imperium von Kand
+%
+Nol-Bergwerk
+%
+Fabrik von Nol
+%
+Rebellenhauptquartier
+%
+Askij
+%
+Duhiul
+%
+Drogard
+%
+Lingard
+%
+Imperiales Hauptquartier
+%
+Sergen-Bergwerk
+%
+Fabrik von Sergen
+[/messages]
+
+[messages(en)]
+Heavy Metal
+%
+Heavy Metal
+by Jens Granseuer <jensgr@gmx.net>
+%
+Ever since the regional capital of Valdan has decided to join our quest for freedom, the sector has been in turmoil. Full-sized battles have been rare, but skirmishes flare up all the time, though they have never led to an advantage for the Kandelians or us. So, while the situation has not changed much at first glance, we are now preparing for the final strike. We have slowly but constantly reinforced our units in the area, and while the Empire has most certainly done the same, we must strike soon because our resources are already running thin.
+
+East of Valdan is an important industrial center. Control of those facilities has changed back and forth during the last months. You will bring an end to this uncertainty. You need to conquer both factories and the enemy headquarters, and keep the Kandelians away from our own. As far as we know a few of the mining stations are still working and may help you increase your crystals supply.
+
+Good luck. For a free Nexus!
+%
+As you may remember, the regional capital of Valdan declared themselves independent of the Emperor and tried to join the rebellion a few months ago. Since then, we have been battling the Free Nexus Army for control of the area. While neither side has won any decisive victories yet, we have silently brought in reinforcements from the south and are now preparing for the final offensive.
+
+Key to victory are the two factories in the area. Nobody has managed to control them for any significant amount of time, but you need to conquer both of them to end the Valdan threat. Another important target is the operations center of the FNA, as they will not be able to coordinate their troops once we control their communications infrastucture. They must not get hold of our own headquarters, of course.
+
+Long live the Emperor!
+%
+Mission Objectives:
+
+1. Take control of both factories.
+
+2. Conquer the enemy headquarters.
+
+3. Defend your own headquarters.
+%
+The rebels have gained a decisive advantage. The capacities of both factories will pose a serious threat to our forces around Valdan, and it is even possible that we have lost the region completely. You have failed!
+%
+The Empire of Kand has prevailed. With both factories in their hands and our command post destroyed, we have not much left to help Valdan against the intruders. The capital may be doomed. You have failed!
+%
+The factories are secured, the enemy communications infrastructure is destroyed, and their forces have taken considerable damage. We can now concentrate on Valdan itself. Congratulations!
+%
+Mission failed
+%
+Mission accomplished
+%
+Free Nexus Army
+%
+Empire of Kand
+%
+Nol Mine
+%
+Nol Factory
+%
+Rebel HQ
+%
+Askij
+%
+Duhiul
+%
+Drogard
+%
+Lingard
+%
+Imperial HQ
+%
+Sergen Mine
+%
+Sergen Industries
+[/messages]
+
+[messages(fr)]
+La bataille pour le métal
+%
+La bataille pour le métal
+
+par Jens Granseuer <jensgr@gmx.net>
+traduction française: Benoit Peureux <benoit.peureux@wanadoo.fr>
+%
+Depuis que la capitale régionale de Valdan a décidé de se joindre à notre quête pour la liberté, le secteur a été perturbé. Il y a eu peu de batailles classiques, mais les escarmouches se produisent tous les jours, bien qu'elles n'aient jamais conduit à un avantage décisif pour les Kandéliens ou pour nous. Ainsi, alors que la situation n'a pas beaucoup changée à première vue, nous nous préparons maintenant à la bataille finale. Lentement mais avec constance nous avons renforcé nos unités dans le secteur, et tandis que l'Empire a certainement fait la même chose, nous devrons bientôt le frapper, avant que nos ressources ne s'amenuisent trop.
+
+À l'est de Valdan, il y a un centre industriel important. Le contrôle de ces installations a changé plusieurs fois durant les derniers mois. Vous devez en finir avec cette incertitude. Vous devez conquérir les 2 usines et le quartier général ennemi, et tenir les Kandéliens à l'écart du nôtre. Pour autant que nous le sachions, quelques mines d'extraction fonctionnent toujours et peuvent nous aider à augmenter notre approvisionnement en cristaux.
+
+Bonne chance. Vive le Nexus Libre!
+%
+Comme vous le savez, la capitale régionale de Valdan s'est déclarée indépendante de l'Empire de Kand et a essayé de rejoindre la rébellion il y a quelques mois. Depuis lors, nous avons lutté contre l'armée du Nexus Libre pour le contrôle du secteur. Tandis qu'aucune des 2 parties n'a encore gagné de victoire décisive, nous avons secrétement amené des renforts du sud et nous nous préparons maintenant pour l'offensive finale.
+
+La clef de la victoire sont les deux usines dans le secteur. Personne n'est parvenu à les contrôler durant une période de temps significative, mais vous devez conquérir ces deux usines pour en finir avec la menace de Valdan. Une autre cible importante est le centre d'opérations des Forces Armées de Nexus (FNA), car ils ne pourront pas coordonner leurs troupes une fois que nous contrôlerons leur infrastucture de communications. Bien entendu, ils ne doivent pas mettre la main sur notre quartier général.
+
+Vive l'Empereur!
+%
+Objectifs de la mission:
+
+1. Prendre le contrôle des 2 usines.
+
+2. Conquérir le quartier général ennemi.
+
+3. Défendre notre propre quartier général.
+%
+Les rebelles ont pris un avantage décisif. Les capacités de production des deux usines constitueront une menace sérieuse pour nos forces autour de Valdan, et il est même possible que nous ayons perdu la région complètement. Vous avez échoué! 
+%
+L'empire de Kand a gagné. Avec les deux usines de production entre leurs mains et notre poste de commandement détruit, nous n'avons pas beaucoup apporté de soutien à Valdan contre les envahisseurs. La capitale régionale est peut être condamnée. Vous avez échoué!
+%
+Les usines sont sous notre contrôle, l'infrastructure de communications ennemie est détruite, et leurs forces ont subis des dommages considérables. Nous pouvons maintenant nous concentrer sur la capitale régionale de Valdan elle-même. Félicitations! 
+%
+Echec de la mission
+%
+Mission accomplie
+%
+Armée du Nexus Libre
+%
+Empire de Kand
+%
+Mine de Nol
+%
+Usine de Nol
+%
+QG des rebelles
+%
+Askij
+%
+Duhiul
+%
+Drogard
+%
+Lingard
+%
+QG impérial
+%
+Mine de Sergen
+%
+Sergen Industries
+[/messages]
+
+[messages(pl)]
+Heavy metal
+%
+Heavy metal
+autor: Jens Granseuer <jensgr@gmx.net>
+%
+Od kiedy Valdan zdecydowało dołączyć się do naszej walki o wolność, w okolicy zapanowało zamieszanie. Duże bitwy były rzadkie, ale potyczki wybuchają nieustannie, jednakże nigdy nie przyniosły one nikomu przewagi. I, chociaż sytuacja jest na pierwszy rzut oka ustabilizowana, przygotowujemy się do ostatecznego uderzenia. Powoli zbieramy siły w tym sektorze, i chociaż Imperium na pewno robi to samo, szczupłość naszych zasobów zmusza nas do uderzenia.
+
+Wschód regionu jest ważnym ośrodkiem przemysłowym. Kontrola tego miejsca ciągle się zmieniała. Doprowadzisz tę niepewność do końca. Musisz zająć obie fabryki i wrogie centrum dowodzenia a także utrzymywać Kandeliańczyków z dala od naszych terenów. Zgodnie z tym co wiemy kilka kopalni jeszcze działa i może zaopatrzyć Cię w kryształy. 
+
+Powodzenia! Za wolny Nexus!
+%
+Jak zapewne pamiętasz stolica regionu Valdan ogłosiła się niepodległą od Imperatora i spróbowała dołączyć do rebelii kilka miesięcy temu. Od tamtego czasu walczymy z Wolną Armią Nexusu o kontrolę nad tym obszarem. Kiedy żadna ze stron nie uzyskała przewagi, po cichu sprowadzaliśmy wsparcie z południa i przygotowywujemy się do ostatecznej ofensywy.
+
+Kluczem do zwycięstwa są dwie fabryki w okolicy. Nikt ich nie kontrolował przez znaczący okres czasu, ale musisz zająć obie by zakończyć valdańskie zagrożenie. Kolejnym ważnym celem jest centrum dowodzenia WAN, gdyż nie będą w stanie koordynować działań, kiedy zajmiemy infrastrukturę komunikacyjną. iOczywiście oni nie mogą przejąć naszego centrum dowodzenia.
+
+Niech żyje Imperator!
+%
+Wytyczne:
+
+1. Zająć obie fabryki.
+
+2. Zająć wrogie centrum dowodzenia.
+
+3. Obronić własne centrum dowodzenia.
+%
+Rebelianci osiągneli znaczną przewagę. Zajęcie fabryk stanowi poważne zagrożenie dla naszych sił wokół Valdanu, jest też prawdopodobne, że straciliśmy cały region. Zawiodłeś nas!
+%
+Imperium Kandyjskie zatriumfowało. Z dwoma fabrykami w ich rękach i bez centrum dowodzenia nie możemy pomóc Valdanom przeciw najeźdźcom. Stolica jest skazana na klęskę. Zawiodłeś nas!
+%
+Fabryki są zabezpieczone, wroga infrastruktura komunikacyjna jest zniszczona, a wrogie siły poważnie przetrzebione. Teraz możemy skupić się tylko na Valdanie. Gratulacje!
+%
+Zadanie niewykonane!
+%
+Zadanie wykonane!
+%
+Wolna Armia Nexusu
+%
+Imperium Kandyjskie
+%
+Kopalnia Nol 
+%
+Fabryka Nol
+%
+Centrum Dowodzenia WAN
+%
+Askij
+%
+Duhiul
+%
+Drogard
+%
+Lingard
+%
+Imperialne Centrum Dowodzenia
+%
+Kopalnia Sergen
+%
+Fabryka Sergen
+[/messages]
+
+[messages(sk)]
+Heavy Metal
+%
+Heavy Metal
+autor Jens Granseuer <jensgr@gmx.net>
+%
+Odkedy sa hlavné mesto oblasti Valdan rozhodlo pripojiť sa k nášmu ťaženiu za slobodou, toto pásmo bolo plné chaosu. Bitky v plnom rozsahu boli zriedkavé, ale každú chvíľu vzplanula nejaká šarvátka. Tieto však nikdy neviedli k získaniu prevahy niektorej strany. Zatiaľčo situácia sa na prvý pohľad veľmi nezmenila, teraz sa pripravujeme na posledný úder. Pomaly, no vytrvalo sme posilňovali naše jednotky v oblasti a aj keď Impérium nepochybne robilo to isté, musíme čoskoro udrieť, pretože naše zdroje sa míňajú.
+
+Východne od Valdanu je dôležité priemyselné centrum. Vláda nad týmito zariadeniami sa počas posledných mesiacov často menila. Tvojou úlohou bude ukončiť túto neistotu. Musíš dobyť obe továrne a nepriateľskú centrálu a nedovoliť Kandeliáncom obsadiť našu. Pokiaľ vieme, niekoľko baní ešte stále funguje a mohli by ti pomôcť zvýšiť si zásoby kryštálov.
+
+Veľa šťastia. Za slobodný Nexus!
+%
+Ako si asi pamätáš, hlavné mesto Valdan sa pred niekoľkými mesiacmi vyhlásilo nezávislé od cisára a snažilo sa pripojiť sa k vzbure. Odvtedy sme bojovali s Armádou za slobodný Nexus o kontrolu nad oblasťou. Aj keď ani jedna strana ešte nevyhrala rozhodujúce víťazstvá, tajne sme priviedli posily z juhu a práve pripravujeme záverečný útok.
+
+Kľúčom k víťazstvu sú dve továrne v oblasti. Nikomu sa nepodarilo ovládnuť ich na dlhší čas, ale potrebujeme ovládnuť obe, aby sme boli schopní ukončiť Valdanskú hrozbu. Ďalším dôležitým cieľom je centrála ASN. Rebeli nebudú môcť koordinovať činnosť svojich jednotiek, ak ovládneme ich komunikačnú infraštruktúru. Povstalcom sa samozrejme nesmie podariť obsadiť náš hlavný stan.
+
+Nech žije cisár!
+%
+Ciele misie:
+
+1. Obsaď obe továrne.
+
+2. Obsaď nepriateľskú základňu.
+
+3. Obráň vlastný hlavný stan.
+%
+Povstalci získali rozhodujúcu výhodu. Kapacity oboch tovární budú pre naše jednotky v okolí Valdanu predstavovať vážnu hrozbu a je možné, že sme oblasť úplne stratili. Zlyhal si!
+%
+Kandské Impérium zvíťazilo. S oboma továrňami v rukách a so zničením nášho hlavného stanu nám nenechali mnoho možností na pomoc Valdanu proti okupantom. S hlavným mestom je koniec. Zlyhal si!
+%
+Továrne sú zabezpečené, nepriateľská komunikačná infraštruktúra je zničená a ich jednotky sú vážne poškodené. Teraz sa môžeš sústrediť priamo na Valdan. Gratulujem!
+%
+Misia neúspešná
+%
+Misia úspešná
+%
+Armáda za slobodný Nexus
+%
+Kandské Impérium
+%
+Baňa Nol
+%
+Továreň Nol
+%
+Povstalecký hlavný stan
+%
+Askij
+%
+Duhiul
+%
+Drogard
+%
+Lingard
+%
+Imperiálny hlavný stan
+%
+Baňa Sergen
+%
+Továreň Sergen
+[/messages]
+

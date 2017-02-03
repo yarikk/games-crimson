@@ -1,0 +1,1215 @@
+[mission]
+name = 0
+mapwidth = 25
+mapheight = 40
+info = 12
+players = 1
+
+[map-raw]
+78,78,78,230,78,78,78,78,78,80,80,117,117,118,117,120,118,121,117,117,117,118,117,117,117
+78,22,1,23,228,78,78,78,80,80,117,120,123,122,124,121,119,230,117,117,120,119,121,118,117
+78,80,24,78,222,78,78,80,76,117,117,118,125,119,126,224,224,118,223,223,75,76,120,119,121
+80,76,80,80,222,80,80,117,117,117,120,119,121,238,224,117,120,119,121,75,223,223,76,76,117
+75,75,76,117,222,79,117,117,117,224,230,229,224,222,117,117,117,117,117,76,144,138,228,76,117
+117,117,117,117,222,78,117,224,224,117,117,117,117,226,117,117,75,78,76,78,31,143,222,30,76
+117,117,117,117,226,241,224,78,117,117,117,74,75,76,223,228,76,78,76,78,32,243,233,57,58
+77,123,118,124,117,117,223,223,77,75,117,78,76,83,76,222,78,78,78,224,224,132,240,19,59
+120,125,122,126,121,117,117,76,223,223,76,78,84,86,85,222,78,224,224,132,132,132,78,117,117
+117,117,119,117,117,117,117,76,76,83,223,228,78,78,78,239,238,132,132,132,132,78,78,117,117
+121,117,19,75,117,76,78,230,84,86,85,222,78,224,224,79,222,132,132,30,78,117,117,118,117
+117,117,234,244,76,224,224,79,223,223,77,239,224,79,79,80,222,132,132,132,78,117,120,119,121
+117,78,236,144,229,79,79,80,79,79,229,80,80,77,80,74,222,117,132,120,118,121,117,117,117
+75,224,231,223,134,140,141,134,80,80,80,75,75,120,118,121,222,117,117,117,119,117,117,35,37
+224,78,144,134,223,223,30,30,134,147,117,117,117,118,119,117,226,237,37,37,37,37,37,224,224
+78,78,78,80,134,147,223,223,117,117,117,118,120,119,121,117,37,236,244,229,230,229,224,34,34
+79,79,79,78,78,79,117,117,223,223,120,119,121,37,117,37,37,225,35,78,35,77,34,37,117
+78,78,78,76,76,117,117,118,117,117,223,223,117,35,37,224,224,77,78,79,77,34,34,117,117
+76,117,117,117,117,117,120,119,121,117,117,30,237,242,224,77,77,78,78,34,34,37,37,117,117
+117,120,118,121,117,117,117,117,117,37,34,30,236,30,78,78,78,79,78,34,37,37,117,123,118
+117,118,119,117,117,117,38,37,37,34,34,77,222,78,77,78,78,34,34,117,117,118,120,125,122
+120,119,121,37,37,37,37,34,34,77,77,145,222,30,77,77,78,34,37,117,120,119,121,117,119
+37,37,37,37,37,34,34,77,78,135,135,224,231,223,78,30,30,34,37,120,118,121,117,76,117
+37,34,132,132,37,132,78,135,135,224,224,135,145,77,223,223,30,117,117,117,119,76,76,78,78
+34,78,77,77,77,30,146,224,224,135,135,34,78,35,30,30,223,223,117,117,117,76,79,79,80
+77,77,77,230,30,224,224,146,135,77,34,34,34,37,35,117,117,117,223,223,79,79,79,79,79
+78,78,19,78,229,78,30,35,34,34,77,37,37,117,117,120,118,121,117,30,228,79,79,79,80
+77,77,77,34,34,132,132,37,37,37,37,37,117,117,117,76,119,78,79,79,222,80,79,80,80
+34,34,34,34,132,37,37,117,117,120,118,121,117,117,117,79,78,79,79,79,234,244,80,343,311
+34,37,37,37,37,117,37,117,117,117,119,117,76,79,78,79,79,79,79,224,239,311,304,232,224
+37,37,117,117,117,118,117,117,117,76,117,79,79,79,79,79,79,224,224,311,311,135,145,225,30
+117,117,117,117,120,119,121,117,117,79,78,79,79,79,79,224,224,311,311,135,135,224,224,146,135
+117,120,118,121,117,76,117,79,76,80,79,79,79,227,224,311,311,135,135,224,224,30,30,30,30
+117,117,119,117,76,79,79,79,80,79,79,80,80,302,311,146,135,224,224,30,30,30,30,224,224
+118,121,117,76,79,79,79,79,79,80,80,311,311,239,230,241,224,30,30,30,30,224,224,343,311
+119,117,79,80,79,79,79,80,80,311,311,224,224,30,30,30,223,223,30,224,224,311,311,30,30
+117,79,76,80,79,80,80,311,311,224,224,250,256,249,30,30,30,30,229,311,311,30,30,250,250
+117,76,80,80,80,311,311,224,224,250,250,30,30,30,249,249,30,339,343,30,30,18,250,30,30
+76,79,80,311,311,224,224,250,250,30,30,77,30,30,30,30,249,249,30,250,250,30,30,30,30
+80,311,311,224,224,250,250,30,30,30,30,78,78,79,30,30,30,30,255,30,30,30,30,30,30
+
+[player]
+name = 1
+briefing = 21
+
+[player]
+name = 2
+briefing = 19
+
+[unit]
+type = Infantry
+player = 1
+id = 0
+pos = 22/37
+
+[unit]
+type = Infantry
+player = 1
+id = 1
+pos = 20/37
+
+[unit]
+type = Scouts
+player = 1
+id = 3
+pos = 21/36
+
+[unit]
+type = Infantry
+player = 2
+id = 5
+pos = 23/32
+
+[unit]
+type = Infantry
+player = 2
+id = 6
+pos = 24/32
+
+[unit]
+type = Infantry
+player = 2
+id = 7
+pos = 23/33
+
+[unit]
+type = Personnel Carriers
+player = 2
+id = 8
+pos = 21/34
+face = 4
+
+[unit]
+type = Infantry
+player = 2
+id = 9
+pos = 20/35
+
+[unit]
+type = Infantry
+player = 2
+id = 10
+pos = 20/34
+
+[unit]
+type = Infantry
+player = 2
+id = 11
+pos = 21/33
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 13
+pos = 20/39
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 14
+pos = 22/39
+
+[unit]
+type = Fighter Squadron
+player = 2
+id = 15
+pos = 22/32
+
+[unit]
+type = Artillery
+player = 1
+id = 16
+pos = 18/19
+
+[unit]
+type = Artillery
+player = 1
+id = 17
+pos = 14/20
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 18
+pos = 17/18
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 20
+pos = 15/19
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 21
+pos = 19/18
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 23
+pos = 18/18
+
+[unit]
+type = Infantry
+player = 1
+id = 26
+pos = 13/20
+
+[unit]
+type = Infantry
+player = 1
+id = 27
+pos = 15/20
+
+[unit]
+type = Infantry
+player = 1
+id = 28
+pos = 17/19
+
+[unit]
+type = Infantry
+player = 1
+id = 29
+pos = 19/19
+
+[unit]
+type = Infantry
+player = 1
+id = 30
+pos = 17/22
+
+[unit]
+type = Personnel Carriers
+player = 1
+id = 31
+pos = 17/21
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 32
+pos = 16/22
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 33
+pos = 18/22
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 34
+pos = 15/11
+xp = 1
+face = 2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 35
+pos = 15/10
+xp = 1
+face = 2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 36
+pos = 14/11
+face = 2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 37
+pos = 14/12
+xp = 1
+face = 2
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 38
+pos = 5/24
+face = 2
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 39
+pos = 6/26
+face = 0
+
+[unit]
+type = Artillery
+player = 2
+id = 42
+pos = 6/2
+
+[unit]
+type = Artillery
+player = 2
+id = 43
+pos = 6/1
+
+[unit]
+type = Infantry
+player = 2
+id = 44
+pos = 5/6
+
+[unit]
+type = Infantry
+player = 2
+id = 45
+pos = 13/5
+
+[unit]
+type = Artillery
+player = 2
+id = 47
+pos = 13/12
+
+[unit]
+type = Artillery
+player = 2
+id = 48
+pos = 5/16
+face = 2
+
+[unit]
+type = Bunkers
+player = 2
+id = 49
+pos = 7/14
+
+[unit]
+type = Bunkers
+player = 2
+id = 50
+pos = 6/14
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 52
+pos = 2/13
+face = 2
+
+[unit]
+type = Hovercraft
+player = 1
+id = 53
+pos = 8/36
+
+[unit]
+type = Infantry
+player = 1
+id = 54
+pos = 8/35
+
+[unit]
+type = Infantry
+player = 1
+id = 55
+pos = 7/35
+
+[unit]
+type = Infantry
+player = 2
+id = 58
+pos = 12/32
+
+[unit]
+type = Infantry
+player = 2
+id = 59
+pos = 13/31
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 62
+pos = 23/13
+face = 4
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 63
+pos = 22/15
+face = 4
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 64
+pos = 23/15
+face = 4
+
+[unit]
+type = Artillery
+player = 2
+id = 68
+pos = 24/29
+face = 4
+
+[unit]
+type = Armoured Train
+player = 1
+id = 69
+pos = 19/38
+face = 1
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 40
+pos = 3/24
+face = 1
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 77
+pos = 1/27
+face = 2
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 78
+pos = 9/13
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 67
+pos = 20/11
+
+[unit]
+type = Scouts
+player = 1
+id = 24
+pos = 18/20
+
+[unit]
+type = Artillery
+player = 2
+id = 79
+pos = 24/15
+face = 4
+
+[unit]
+type = Hovercraft
+player = 2
+id = 4
+pos = 24/33
+face = 4
+
+[unit]
+type = Hovercraft
+player = 2
+id = 56
+pos = 13/32
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 83
+pos = 24/30
+face = 4
+
+[unit]
+type = Hovercraft
+player = 1
+id = 85
+pos = 6/37
+face = 1
+
+[unit]
+type = Armoured Train
+player = 2
+id = 86
+pos = 15/37
+face = 2
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 2
+pos = 21/38
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 12
+pos = 6/38
+face = 1
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 22
+pos = 14/21
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 19
+pos = 13/19
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 25
+pos = 14/19
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 41
+pos = 7/37
+face = 1
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 51
+pos = 12/33
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 57
+pos = 23/29
+face = 4
+
+[unit]
+type = Scouts
+player = 1
+id = 60
+pos = 8/36
+
+[unit]
+type = Rail Guns
+player = 1
+id = 61
+pos = 21/37
+
+[unit]
+type = Infantry
+player = 2
+id = 65
+pos = 2/26
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 70
+pos = 2/1
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 71
+pos = 2/1
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 74
+pos = 23/7
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 75
+pos = 23/7
+
+[unit]
+type = Infantry
+player = 2
+id = 76
+pos = 2/26
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 72
+pos = 2/1
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 73
+pos = 2/1
+
+[unit]
+type = Infantry
+player = 2
+id = 80
+pos = 23/7
+
+[unit]
+type = Infantry
+player = 2
+id = 81
+pos = 23/7
+
+[building]
+name = 3
+player = 1
+id = 0
+pos = 21/37
+type = workshop
+crystals = 40
+
+[building]
+name = 4
+player = 2
+id = 1
+pos = 2/26
+type = workshop
+crystals = 15
+
+[building]
+name = 5
+player = 2
+id = 2
+pos = 2/10
+type = workshop
+crystals = 5
+
+[building]
+name = 9
+player = 2
+id = 4
+pos = 23/7
+type = workshop
+crystals = 15
+
+[building]
+name = 16
+player = 2
+id = 5
+pos = 2/1
+type = workshop
+type = factory
+factory = Infantry
+factory = Medium Tanks
+factory = Heavy Tanks
+mining = 25
+crystals = 80
+
+[event]
+id = 18
+type = message
+player = 1
+title = 5
+message = 20
+trigger = havebuilding
+tbuilding = 2
+towner = 1
+ttime = -1
+
+[event]
+id = 26
+type = score
+player = 1
+depend = 28
+title = 7
+message = 6
+trigger = havebuilding
+tbuilding = 2
+towner = 1
+ttime = -1
+success = 50
+othermsg = 13
+othertitle = 10
+
+[event]
+id = 27
+type = message
+player = 1
+title = 0
+message = 11
+trigger = timer
+ttime = 0
+pos = 21/37
+
+[event]
+id = 28
+type = score
+player = 1
+title = 4
+message = 22
+trigger = havebuilding
+tbuilding = 1
+towner = 1
+ttime = -1
+success = 50
+
+[event]
+id = 15
+type = message
+player = 2
+title = 0
+message = 15
+trigger = timer
+ttime = 0
+pos = 2/1
+
+[event]
+id = 19
+type = score
+player = 1
+title = 7
+message = 6
+trigger = unitdestroyed
+tunit = -1
+towner = 2
+success = 100
+othermsg = 13
+othertitle = 10
+
+[event]
+id = 20
+type = score
+player = 1
+title = 7
+message = 18
+trigger = havebuilding
+tbuilding = 5
+towner = 1
+ttime = -1
+success = 100
+othermsg = 13
+othertitle = 10
+
+[event]
+id = 21
+type = score
+player = 2
+title = 7
+message = 14
+trigger = unitdestroyed
+tunit = -1
+towner = 1
+success = 100
+othermsg = 17
+othertitle = 10
+
+[event]
+id = 22
+type = score
+player = 2
+title = 7
+message = 14
+trigger = havebuilding
+tbuilding = 0
+towner = 2
+ttime = -1
+success = 100
+othermsg = 17
+othertitle = 10
+
+[event]
+id = 23
+type = mining
+player = 1
+trigger = handicap
+thandicap = 6
+building = 0
+crystals = 40
+action = 1
+
+[event]
+id = 24
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Heavy Tanks
+pos = 16/28
+face = 3
+
+[event]
+id = 25
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Medium Tanks
+pos = 17/27
+face = 1
+
+[event]
+id = 29
+type = sethex
+player = 2
+trigger = handicap
+thandicap = 2
+tile = 33
+pos = 10/28
+
+[event]
+id = 30
+type = sethex
+player = 2
+trigger = handicap
+thandicap = 2
+tile = 32
+pos = 11/28
+
+[event]
+id = 31
+type = sethex
+player = 2
+trigger = handicap
+thandicap = 2
+tile = 32
+pos = 12/28
+
+[event]
+id = 32
+type = sethex
+player = 2
+trigger = handicap
+thandicap = 2
+tile = 78
+pos = 11/29
+
+[event]
+id = 0
+type = mining
+player = 2
+trigger = timer
+ttime = 21
+building = 5
+crystals = -15
+action = 3
+
+[event]
+id = 1
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Heavy Tanks
+pos = 16/19
+face = 0
+
+[event]
+id = 2
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Heavy Tanks
+pos = 16/20
+face = 0
+
+[messages(de)]
+Funkstille
+%
+Armee Freier Nexus
+%
+Imperium von Kand
+%
+Kommandoposten der Rebellen
+%
+Depot
+%
+Störsender
+%
+Nachdem die Gegenmaßnahmen des Imperiums beseitigt sind, können wir endlich die Daten übermittlen. Gute Arbeit!
+%
+Mission abgeschlossen!
+%
+Der Störsender, der unseren Funkverkehr blockiert hat, wurde abgeschaltet.
+%
+Flugfeld
+%
+Mission gescheitert!
+%
+Kommandant, unsere derzeitige Situation ist sehr ungünstig. Das Imperium ist in diesem Sektor bereits sehr stark, und wir wissen, dass sie in Kürze weitere Verstärkungen erwarten, mit denen sie eine erneute Offensive gegen unsere Stützpunkte starten könnten.
+
+Wenn wir unsere Stellungen behaupten wollen, dürfen diese Verstärkungen die Front niemals erreichen. Um dieses Ziel zu erreichen, haben wir schon mehrere Aufklärer hinter den feindlichen Linien abgesetzt. Eine der Einheiten scheint die feindlichen Truppen geortet zu haben. Sie fürchteten aber, entdeckt worden zu sein, und wir haben den Kontakt verloren, bevor sie uns alle Daten übermitteln konnten.
+
+Unser Notfallplan sieht vor, dass die Informationen in einem Depot nordwestlich unseres Kommandopostens deponiert werden, also werden wir versuchen, sie dort einzusammeln. Damit wir sie dann an das Hauptquartier senden können, müssen Sie wahrscheinlich auch den Störsender im Norden ausschalten. Wir vermuten, dass er dafür verantwortlich ist, dass wir den Kontakt zu unseren Aufklärern verloren haben.
+
+Viel Glück! Für einen freien Nexus!
+%
+Funkstille
+von Chang Tang Yen <brain13homepage@yahoo.com.tw>
+und Jens Granseuer <jensgr@gmx.net>
+%
+Die Rebellen sind im Besitz der Informationen und haben unseren Störsender ausgeschaltet. Unser Angriffsplan wurde vereitelt. Sie haben versagt!
+%
+Sie haben die AFN in diesem Sektor besiegt. Gute Arbeit!
+%
+Die Rebellen haben mehrere Stützpunkte sehr nahe an unserem Territorium errichtet. Das müssen wir ändern. Im Moment schicken wir Verstärkung von Norden in den Sektor. Wenn sie unbeschadet bis zur Front durchkommen, haben wir keinen ernstzunehmenden Widerstand mehr zu erwarten.
+
+Es gibt allerdings Hinweise darauf, dass die Armee Freier Nexus Spione im Operationsgebiet hat, die unsere Nachschubrouten ausfindig machen sollen. Ein gezielter Angriff auf unsere Verstärkungen würde unsere Angriffspläne ernsthaft gefährden, daher dürfen die Spione ihren Auftrag auf keinen Fall ausführen.
+
+Die Truppen der AFN scheinen sich zur Zeit auf ein Depot nahe der Front zu konzentrieren. Möglicherweise wollen sie dort Informationen ihrer Aufklärer einsammeln, Sie müssen das Depot also verteidigen. Wir haben außerdem unseren Störsender aktiviert. Das bedeutet, dass Sie Ihre Befehle auf konventionellem Weg übermitteln müssen, aber solange die Kommunikation der AFN gestört ist, gibt es ihnen hoffentlich keine Möglichkeit, die Daten aus unserer Reichweite zu bringen.
+
+Schützen Sie das Depot und den Störsender oder stellen Sie sicher, dass es keine feindlichen Aktivitäten mehr in diesem Sektor gibt.
+
+Lang lebe der Imperator!
+%
+Imperiales Hauptquartier
+%
+Sie konnten die kandelianischen Nachschubrouten nicht lokalisieren, und ihre Verstärkungen können in den Kampf eingreifen. Wir müssen uns aus diesem Sektor zurückziehen. Sie haben versagt!
+%
+Mit dem Imperialen Hauptquartitier unter unserer Kontrolle können wir den Störsender leicht abschalten und die Daten übermitteln. Gute Arbeit!
+%
+Missionziele:
+
+(1) Verteidigen Sie das Depot.
+
+(2) Stellen Sie sicher, dass der Störsender aktiv bleibt.
+
+(3) Beschützen Sie das Hauptquartier.
+%
+Unsere Kommunikation funktioniert wieder.
+%
+Missionsziele:
+
+(1) Nehmen Sie die Informationen am kandelianischen Depot auf.
+
+(2) Schalten Sie den Störsender ab.
+
+(3) Beschützen Sie den Kommandoposten.
+%
+Wir haben die Daten der Aufklärer gefunden.
+[/messages]
+
+[messages(en)]
+Radio Silence
+%
+Free Nexus Army
+%
+Empire of Kand
+%
+Rebel Command Post
+%
+Depot
+%
+Jamming Station
+%
+With the Kandelian ECM system offline we can finally transmit the data. Well done!
+%
+Mission accomplished!
+%
+The jammer blocking our communication lines has been shut down.
+%
+Air Base
+%
+Mission failed!
+%
+Commander, our current situation is looking a bit grim. The Empire is very strong in this sector already and we know they are expecting major reinforcements soon so that they can launch another offensive against our bases.
+
+The only way we can hold our positions is to prevent those reinforcements from ever reaching the front. To this effect we deployed several recon squads behind the enemy lines. One of them seems to have located the enemy troops but they feared to have been detected and we lost contact before they could transmit all the data.
+
+The intel guys were supposed to deploy their findings in a depot northwest of our command post, so we will try to pick them up there. In order to send them back to HQ you may also have to disable the jamming station to the north. We suspect that it's the reason we have lost contact earlier.
+
+Good luck! For a free Nexus!
+%
+Radio Silence
+by Chang Tang Yen <brain13homepage@yahoo.com.tw>
+and Jens Granseuer <jensgr@gmx.net>
+%
+The rebels have recovered their data and shut down the jamming station. Our assault plan has been shattered. You have failed!
+%
+You have defeated the FNA in this sector. Well done!
+%
+The rebels have established several bases close to our territory. We need to change that. Just now we are sending reinforcements into this sector from the north. If we can manage to get them to the front unharmed we do not expect any considerable opposition.
+
+However, evidence suggests that the Free Nexus Army has spies in the area who are trying to locate our supply routes. A coordinated attack on our reinforcements would seriously jeopardize our assault plans. Therefore those spies must not be allowed to complete their mission.
+
+FNA troops have shown increasing interest in a depot close to the front lines. Quite possibly they are trying to pick up intel data there so you must defend the depot. We also activated our jamming station in the area. This means you will have to relay your orders via more conventional means but as long as the enemy communications lines are down the FNA will probably not be able to bring the data out of our reach quickly enough.
+
+Protect the depot and the jamming station or make sure the sector is free of enemy activity.
+
+Long live the Emperor!
+%
+Imperial Headquarters
+%
+You have not been able to uncover the Kandelian supplies, and their reinforcements make all the difference. We must retreat from this sector. You have failed!
+%
+With the Kandelian headquarters under our control we can easily disable the jamming station and transmit the data. Well done!
+%
+Mission objectives:
+
+(1) Defend the Depot.
+
+(2) Keep the jamming station online.
+
+(3) Protect the Headquarters.
+%
+Communications are back online.
+%
+Mission objectives:
+
+(1) Pick up the intel data deployed at the Kandelian Depot.
+
+(2) Shut down the jamming station.
+
+(3) Protect the Command Post.
+%
+We have recovered the intel data.
+[/messages]
+
+[messages(fr)]
+Silence radio
+%
+Armée du Nexus Libre
+%
+Empire de Kand
+%
+Centre de Commandement Rebelle
+%
+Dépôt
+%
+Station Jamming
+%
+Depuis que le système de contre-mesure électronique des Kandéliens est stoppé nous pouvons enfin transmettre des données. Bien joué!
+%
+Mission accomplie!
+%
+Le brouilleur bloquant nos lignes de communication a été arrêté. 
+%
+Base aérienne
+%
+Echec de la mission!
+%
+Commandant, notre situation actuelle n'est pas bonne. L'empire est déjà très fort dans ce secteur et nous savons que les Kandéliens espérent recevoir bientôt d'importants renforts, de sorte qu'ils puissent lancer une autre offensive contre nos bases 
+
+La seule manière que nous avons de tenir nos positions consiste à empêcher ces renforts d'atteindre le front. Dans ce but, nous avons déployé plusieurs pelotons de reconnaissance derrière les lignes ennemies. L'un d'entre eux semble avoir localisé les troupes ennemies, mais il craint d'avoir été détecté et nous avons perdu le contact avec lui avant qu'il ne nous transmette toutes ses données.
+
+Notre plan d'urgence prévoit que les informations seront déposées dans un dépôt au nord-ouest de notre poste de commandement, en attendant que nous puissions les récupérer. Vous devez neutraliser la station de brouillage du nord afin que nous puissions envoyer ces informations à notre quartier général. Nous suspectons aussi que cette station de brouillage soit la raison pour laquelle nous avons perdu le contact avec nos éclaireurs.
+
+Bonne chance! Vive le Nexus Libre!
+%
+Silence radio
+
+par Chang Tang Yen <brain13homepage@yahoo.com.tw>
+et Jens Granseuer <jensgr@gmx.net>
+traduction française: Benoit Peureux <benoit.peureux@wanadoo.fr>
+%
+Les rebelles ont récupéré leurs données et ont stoppé la station de brouillage. Notre plan d'assaut est compromis. Vous avez échoué! 
+%
+Vous avez battu les Forces Armées de Nexus (FNA) dans ce secteur. Bien joué!
+%
+Les rebelles ont établi plusieurs bases à la limite de notre territoire. Nous devons changer cela. En ce moment nous envoyons des renforts dans ce secteur en provenance du nord. Si nous pouvons les amener indemnes jusque sur le front alors nous n'aurons plus aucune opposition.
+
+Cependant, à l'évidence l'armée du Nexus Libre dispose d'espions dans le secteur, qui essayent de localiser l'itinéraire de nos renforts. Une attaque coordonnée sur nos renforts compromettrait sérieusement notre plan d'assaut. Par conséquent vous ne devez pas permettre à ces espions d'accomplir leur mission.
+
+Les troupes des Forces Armées de Nexus (FNA) ont montré un intérêt croissant pour un dépôt près des lignes de front. Très probablement elles essayent de capter des données d'urgence là bas. Vous devez donc défendre ce dépôt. Nous avons également activé notre station de brouillage dans le secteur. Cela signifie que vous devrez relayer vos ordres par l'intermédiaire de moyens de communication plus conventionnels mais tant que les lignes de communication ennemies sont brouillées les Forces Armées de Nexus ne pourrons probablement pas transmettre assez vite leurs données en dehors de notre zone de brouillage. Protégez le dépôt et la station de brouillage ou assurez vous que le secteur est exempt d'activité ennemie.
+
+Vive l'Empereur!
+%
+QG impérial
+%
+Vous n'avez pas pu découvrir l'itinéraire des Kandéliens, et leurs renforts font toute la différence sur le terrain. Nous devons nous retirer de ce secteur. Vous avez échoué!
+%
+Avec le quartier général Kandélien sous notre contrôle nous pouvons facilement neutraliser la station de brouillage et transmettre les données. Bien joué!
+%
+Objectifs de la mission:
+
+(1) Défendre le dépôt.
+
+(2) Maintenir la station de brouillage opérationnelle.
+
+(3) Protéger notre quartier général.
+%
+Les communications sont rétablies.
+%
+Objectifs de la mission:
+
+(1) Récupérer les données déposées dans le dépôt Kandélien.
+
+(2) Interrompre le fonctionnement de la station de brouillage.
+
+(3) Protéger le poste de commandement.
+%
+Nous avons récupéré les informations des éclaireurs.
+[/messages]
+
+[messages(pl)]
+Cisza radiowa
+%
+Wolna Armia Nexusu
+%
+Imperium Kandyjskie
+%
+Placówka dowodzenia rebelii
+%
+Skład
+%
+Stacja zagłuszająca
+%
+Teraz, kiedy Kandeliański system zagłuszania padł, możemy wreszcie przesłać dane. Dobra robota!
+%
+Misja zakończona!
+%
+Zagłuszacz blokujący nasze linie komunikacyjne został wyłączony.
+%
+Lotnisko
+%
+Misja nieudana!
+%
+Komandorze, nasza sytuacja wygląda nieciekawie. Imperium już jest w tym sektorze bardzo silne a wiemy że spodziewają się wkrótce znacznych posiłków, będą więc mogli rozpocząć kolejną ofensywę przeciwko naszym bazom.
+
+Jedyny sposób w jaki możemy utrzymać pozycje to powstrzymać te posiłki przed dotarciem na front. W tym celu wysłaliśmy za linie wroga kilka oddziałów zwiadowczych. Wygląda na to że jeden z nich znalazł wrogie jednostki, ale bali się że zostali odkryci i straciliśmy kontakt zanim przesłali wszystkie dane.
+
+Wywiadowcy mieli przechować swoje odkrycia w składzie na północny-zachód od naszej placówki dowodzenia, więc będziemy się starali ich stamtąd odebrać. Żeby wysłać te dane do sztabu, musimy również wyłączyć stację zagłuszania na północy. Prawdopodobnie dlatego wcześniej straciliśmy kontakt.
+
+Powodzenia! Za wolny Nexus!
+%
+Cisza radiowa
+Autor: Chang Tang Yen <brain13homepage@yahoo.com.tw>
+i Jens Granseuer <jensgr@gmx.net>
+%
+Rebelianci odzyskali swoje dane i wyłączyli stację zagłuszającą. Nasz plan szturmu został zdruzgotany. Zawiodłeś!
+%
+Pokonałeś WAN w tym sektorze. Dobra robota!
+%
+Rebelianci założyli kilka baz blisko naszego terytorium. Musimy to zmienić. Właśnie wysyłamy do tego sektora posiłki z północy. Jeśli dotrą one na front nienaruszone nie spodziewamy się znaczącego oporu.
+
+Jednakże dowody wskazują że Wolna Armia Nexusu ma w okolicy szpiegów starających się zlokazliwać nasze linie zaopatrzenia. Skoordynowany atak na nasze posiłki poważnie zakłóci plan ataku. Dlatego ci szpiedzy nie mogą ukończyć misji.
+
+Żołnieże WAN wykazują rosnące zainteresowanie składem blisko linii frontu. Całkiem możliwe że chcą stamtąd pobrać dane wywiadu, więc musisz bronić tego składu. Uruchomiliśmy też stację zagłuszającą. Oznacza to że musisz przekazywać rozkazy bardziej konwencjonalnymi metodami, ale dopóki wrogie linie transmisyjne nie działają WAN nie będzie w stanie przesłać danych wystarczająco szybko.
+
+Chroń skład i stację zagłuszającą lub upewnij się że w sektorze nie ma wrogiej aktywności.
+
+Niech żyje Imperator!
+%
+Imperialny sztab
+%
+Nie udało Ci się odkryć Kandeliańskich zasobów, a ich posiłki zmieniają skalę sił. Musimy wycofać się z tego sektora. Zawiodłeś!
+%
+Mając pod kontrolą Kandeliański sztab łatwo możemy wyłączyć stację zagłuszającą i przesłać dane. Dobra robota!
+%
+Cele misji:
+
+(1) Broń składu.
+
+(2) Utrzymaj pracę stacji zagłuszającej.
+
+(3) Ochraniaj sztab.
+%
+Łączność wznowiona.
+%
+Cele misji:
+
+(1) Odbierz dane wywiadu złożone w Składzie Kandeliańskim.
+
+(2) Wyłącz stację zagłuszającą.
+
+(3) Chroń placówkę dowodzenia.
+%
+Odzyskaliśmy dane wywiadu.
+[/messages]
+
+[messages(sk)]
+Mĺkve frekvencie
+%
+Armáda za slobodný Nexus
+%
+Kandské Impérium
+%
+Veliteľské stanovisko ASN
+%
+Sklad
+%
+Rušička
+%
+Keďže kandeliánska rušička nefunguje, konečne môžeme vysielať informácie. Výborne!
+%
+Misia splnená!
+%
+Rušička, ktorá blokovala naše komunikačné kanály, bola vypnutá.
+%
+Letecká základňa
+%
+Misia neúspešná!
+%
+Veliteľ, naša situácia vyzerá dosť zle. Impérium je v tejto oblasti už aj tak veľmi silné a vieme, že čakajú skoré posily, aby mohli znovu zaútočiť na naše základne.
+
+Jediný spôsob, ako udržať naše pozície, je zabrániť posilám vôbec dosiahnúť bojové línie. Kvôli tomuto sme rozostavili niekoľko prieskumných oddielov v nepriateľskom tyle. Jeden z nich pravdepodobne lokalizoval nepriateľské jednotky, no naši vojaci sa báli, že nepriateľ zistí ich prítomnosť. Predtým, ako nám mohli poslať všetky informácie, sme s nimi stratili kontakt.
+
+Naši špióni mali ukryť svoje poznatky v sklade na severozápad od nášho veliteľského stanovišťa, pokúsime sa ich tam nájsť. Aby sme ich mohli poslať našej centrále, musíme vypnúť rádiovú rušičku na severe. Je možné, že práve kvôli nej sme s našimi jednotkami stratili kontakt.
+
+Veľa šťastia! Za slobodný Nexus!
+%
+Mĺkve frekvencie
+autori Chang Tang Yen <brain13homepage@yahoo.com.tw>
+a Jens Granseuer <jensgr@gmx.net>
+%
+Povstalci získali svoje dáta a vyradili rušičku z činnosti. Náš útočný plán stroskotal. Zlyhal si!
+%
+Porazil si ASN v tejto zóne. Výborne!
+%
+Rebeli v blízkosti nášho územia založili niekoľko základní, čo musíme zmeniť. Už v tejto chvíli sú na ceste posily zo severu. Ak sa na front dostanú bez škôd, neočakávame žiaden významný odpor.
+
+No máme informácie, že Armáda za slobodný Nexus má v oblasti špiónov, ktorí sa snažia objaviť naše zásobovacie trasy. Koordinovaný útok na naše posily by naše útočné plány vážne ohrozil. Preto týmto špiónom nesmieme umožniť ich misiu splniť.
+
+Vojská ASN prejavujú zvýšený záujem o sklad neďaleko bojových línií. Pravdepodobne sa snažia odtiaľ získať nejaké tajné informácie, preto musíš sklad obrániť. V oblasti sme taktiež aktivovali rušičku, teda príkazy budeš musieť vydávať tradičnejšími spôsobmi. Pokiaľ však budú nepriateľské komunikačné kanály vyradené z činnosti, ASN snáď nebude schopná dáta dosť rýchlo ukradnúť.
+
+Ochráň sklad a rušičku, alebo znič všetky nepriateľské vojská v oblasti.
+
+Nech žije cisár!
+%
+Hlavný stan Impéria
+%
+Nedokázal si objaviť kandeliánske zásoby a ich posily mali rozhodujúcu váhu. Musíme sa stiahnuť z oblasti. Zlyhal si!
+%
+Keď sme obsadili kandeliánsky hlavný stan, nebude problém vypnúť rušičku a poslať informácie vedeniu. Výborne!
+%
+Ciele misie:
+
+(1) Obráň sklad.
+
+(2) Udrž rušičku v prevádzke.
+
+(3) Ochráň náš hlavný stan.
+%
+Komunikačné kanály sú opäť funkčné.
+%
+Ciele misie:
+
+(1) Vyzdvihni tajné informácie ukryté v kandeliánskom sklade.
+
+(2) Vyraď rušičku z prevádzky.
+
+(3) Ochráň naše veliteľské stanovisko.
+%
+Získali sme informácie našich špiónov.
+[/messages]
+

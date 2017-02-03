@@ -1,0 +1,692 @@
+[mission]
+name = 0
+mapwidth = 20
+mapheight = 15
+info = 3
+skirmish = 0
+campaign = 1
+nextmap = Tutorial3
+players = 1
+
+[map-raw]
+30,180,30,30,30,30,78,71,65,79,77,78,360,360,360,30,30,30,30,30
+30,30,177,177,77,79,70,73,72,82,38,81,30,365,360,360,30,360,360,360
+117,30,74,30,181,78,80,98,104,99,81,82,79,80,360,360,360,360,360,360
+117,117,30,30,180,181,30,96,30,87,81,82,81,80,78,80,360,30,30,30
+121,117,30,30,55,179,98,57,58,94,82,81,82,77,77,30,30,19,30,30
+117,117,30,30,182,56,88,30,59,30,90,99,81,78,30,224,224,176,177,183
+76,80,30,30,180,181,88,57,58,30,30,87,30,227,224,30,30,176,56,30
+80,78,30,30,30,176,93,89,59,30,30,95,30,222,30,30,34,176,30,30
+81,79,30,30,30,176,142,34,89,101,91,37,31,225,30,31,30,176,30,207
+81,30,77,80,30,179,133,30,30,38,30,224,224,38,30,30,30,190,207,30
+82,77,30,178,178,30,143,30,30,224,224,76,30,30,32,30,30,205,30,35
+82,79,182,78,30,30,30,30,224,30,30,31,30,117,38,117,30,176,30,30
+117,77,176,30,30,30,30,30,30,30,30,38,36,117,117,75,30,179,30,30
+117,38,176,3,21,23,144,134,30,35,75,120,118,121,117,178,178,53,30,76
+117,178,185,177,24,30,30,30,134,134,117,117,119,182,178,30,67,30,30,30
+
+[player]
+name = 1
+briefing = 15
+
+[player]
+name = 2
+briefing = 6
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 0
+pos = 8/10
+xp = 6
+face = 1
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 1
+pos = 5/4
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 2
+pos = 9/9
+face = 4
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 3
+pos = 5/3
+
+[building]
+name = 4
+player = 1
+id = 0
+pos = 3/13
+type = workshop
+type = factory
+crystals = 10
+
+[building]
+name = 5
+player = 2
+id = 1
+pos = 17/4
+type = workshop
+type = factory
+factory = Infantry
+
+[event]
+id = 0
+type = message
+player = 1
+message = 7
+trigger = timer
+ttime = 0
+
+[event]
+id = 2
+type = mining
+player = 1
+depend = 3
+message = 9
+flags = 1
+trigger = unitposition
+tunit = 0
+towner = 1
+tpos = 3/13
+building = 0
+crystals = 20
+action = 1
+
+[event]
+id = 3
+type = research
+player = 1
+depend = 2
+trigger = unitposition
+tunit = 1
+towner = 1
+tpos = 3/13
+building = 0
+unit = Medium Tanks
+
+[event]
+id = 4
+type = mining
+player = 2
+depend = 2
+trigger = timer
+ttime = 0
+building = 1
+crystals = 8
+action = 2
+
+[event]
+id = 5
+type = settimer
+player = 1
+depend = 2
+trigger = timer
+ttime = 0
+event = 6
+time = 6
+offset = 1
+
+[event]
+id = 6
+type = mining
+player = 1
+message = 10
+flags = 1
+trigger = timer
+ttime = 6
+building = 1
+crystals = 15
+action = 2
+discard = 14
+
+[event]
+id = 7
+type = research
+player = 2
+depend = 6
+trigger = timer
+ttime = 0
+building = 1
+unit = Medium Tanks
+
+[event]
+id = 8
+type = research
+player = 2
+depend = 6
+trigger = timer
+ttime = 0
+building = 1
+unit = Infantry
+action = 1
+
+[event]
+id = 9
+type = settimer
+player = 1
+depend = 6
+trigger = timer
+ttime = 0
+event = 10
+time = 10
+offset = 1
+
+[event]
+id = 10
+type = research
+player = 1
+message = 11
+flags = 1
+trigger = timer
+ttime = 10
+building = 0
+unit = Infantry
+
+[event]
+id = 11
+type = score
+player = 1
+message = 12
+trigger = havebuilding
+tbuilding = 1
+towner = 1
+ttime = -1
+success = 100
+othermsg = -1
+othertitle = -1
+
+[event]
+id = 12
+type = mining
+player = 1
+depend = 10
+trigger = timer
+ttime = 0
+building = 0
+crystals = 8
+action = 1
+
+[event]
+id = 13
+type = score
+player = 2
+trigger = havebuilding
+tbuilding = 0
+towner = 2
+ttime = -1
+success = 100
+othermsg = 14
+
+[event]
+id = 14
+type = score
+player = 2
+trigger = unitdestroyed
+tunit = 0
+towner = 1
+success = 100
+othermsg = 13
+discard = 15
+
+[event]
+id = 15
+type = score
+player = 2
+trigger = unitdestroyed
+tunit = 1
+towner = 1
+success = 100
+othermsg = 13
+
+[event]
+id = 1
+type = configure
+player = 1
+message = 8
+trigger = unitdestroyed
+tunit = -1
+towner = 2
+setting = briefing1
+value = 16
+
+[event]
+id = 16
+type = configure
+player = 1
+depend = 2
+trigger = timer
+ttime = 0
+setting = briefing1
+value = 17
+
+[event]
+id = 17
+type = configure
+player = 1
+depend = 6
+trigger = timer
+ttime = 0
+setting = briefing1
+value = 18
+
+[event]
+id = 18
+type = configure
+player = 1
+depend = 10
+trigger = timer
+ttime = 0
+setting = briefing1
+value = 19
+
+[event]
+id = 19
+type = score
+player = 2
+flags = 1
+trigger = unitdestroyed
+tunit = Infantry
+towner = 1
+success = 100
+othermsg = 13
+othertitle = -1
+
+[event]
+id = 21
+type = manipulateevent
+player = 1
+depend = 1
+trigger = timer
+ttime = 0
+event = 2
+eflags = 1
+action = 1
+
+[event]
+id = 20
+type = manipulateevent
+player = 1
+trigger = unitposition
+tunit = Infantry
+towner = 1
+tpos = 3/13
+event = 19
+eflags = 1
+action = 1
+
+[messages(de)]
+Von Knaben und Männern
+%
+Rekrut
+%
+Simulator
+%
+Kriegskunst, Lektion 2: Von Knaben und Männern
+
+von Andrej KrivulÄÃ­k <krivulcik@gmail.com>
+%
+Fabrik
+%
+Feindliche Basis
+%
+Dies ist eine Übungsmission für einen Spieler.
+%
+Willkommen, Kommandant!
+
+In dieser Mission werden Sie lernen, wie Sie Ihre Truppen effektiv in Nahkampfsituationen einsetzen. Sie werden den Wert von Kampferfahrung und die Unterschiede zwischen neuen Rekruten und kampferprobten Veteranen kennenlernen.
+
+Ihre Armee besteht zunächst aus zwei Panzereinheiten, eine davon Rekruten (mit einem einzigen Streifen als Rangabzeichen), die andere Veteranen (Rangabzeichen Stern). Jede Ihrer Einheiten wird von je einer feindlichen Panzereinheit angegriffen, die selbst keinerlei Kampferfahrung besitzt.
+
+Zerstören Sie die angreifenden Panzer. Beobachten Sie, wie Ihre Veteranen den Gegnern weitaus überlegen sind, während Ihre unerfahrene Einheit es deutlich schwieriger hat.
+
+Verlieren Sie keine Ihrer Einheiten! Falls nötig, ziehen Sie die Rekruten zurück und schicken Sie die Veteranen zur Unterstützung.
+%
+Gute Arbeit, Kommandant! Die feindlichen Panzer wurden zerstört.
+
+Ziehen Sie Ihre beiden Panzer in die Fabrik. Wenn sie beschädigt wurden, können Sie sie dort reparieren. Wählen Sie dazu im Depotfenster die beschädigte Einheit und klicken Sie auf "Reparieren" (das rote Kreuz mit dem Schraubenschlüssel).
+
+Die Reparatur einer Einheit kostet unabhängig vom Typ der Einheit oder der Stärke der Beschädigung 5 Kristalle und bringt sie zu voller Einheitenstärke zurück. Außerdem reduziert sie die Erfahrung der Einheit um einen Punkt für jeden neuen Rekruten. Einheiten können nur in Werkstätten repariert werden (auf der Hauptkarte wird neben dem Gebaäudenamen ein Schraubenschlüssel angezeigt), allerdings trifft dies auf fast alle Gebäude zu.
+%
+Gut. Jetzt können Sie beschädigte Panzer reparieren. Zusätzlich haben wir der Fabrik weitere Ressourcen zur Verfügung gestellt, mit denen sie Nachschub produzieren können.
+
+Sie können eine neue Einheit produzieren, indem Sie auf "Produzieren" klicken (das Symbol mit dem Hammer). Daraufhin wird die Liste aller Einheitentypen inklusive der Produktionskosten angezeigt, die in dieser Fabrik gebaut werden können. Typen, für deren Bau nicht genügend Kristalle zur Verfügung stehen, werden mit einem roten Punkt gekennzeichnet.
+
+Neue Einheiten können nur in Fabriken produziert werden (in der Hauptkarte mit neben dem Namen ein Hammer angezeigt), und die möglichen Einheitentypen können sich von Fabrik zu Fabrik unterscheiden. Zur Zeit können Sie nur "Mittlere Panzer" bauen.
+
+Produzieren Sie eine neue Panzereinheit und rücken Sie anschließend weiter auf den feindlichen Stützpunkt vor.
+%
+Achtung! Ihr Feind startet einen Angriff auf Ihre Fabrik. Kampfhandlungen sind unvermeidbar. Setzen Sie Ihren Vormarsch fort und zerstören Sie alle feindlichen Einheiten.
+
+Wenn Ihre Truppen den feind bekämpfen, erhalten sie Erfahrungspunkte. Eine Einheit erhält einen Erfahrunspunkt für das Beschädigen eines Gegners. Wenn sie eine Einheit zerstört, steigt die Erfahrung um drei Punkte. Wenn eine Einheit drei Erfahrungspunkte gesammelt hat, wird sie in den nächsthöheren Rang befördert, was ihre neu erworbenen Fähigkeiten zum Ausruck bringt.
+
+Verfolgen Sie, wie Ihre Einheiten Erfahrung sammeln und sich dadurch in Kampfsituationen kontinuierlich verbessern.
+%
+Wie Sie sehen können, können erfahrene Einheiten gleichstarke Gegner, die gerade die Fabrik verlassen haben, mit Leichtigkeit bezwingen. Das ist eine wichtige Erkenntnis, die Ihnen auf Ihren Feldzügen eine große Hilfe sein wird.
+
+Wir haben der Fabrik weitere Kristalle zur Verfügung gestellt, und Sie können jetzt auch Infanterie produzieren. Bauen Sie Infanterie und erobern Sie damit die feindliche Basis!
+%
+Der Stützpunkt ist jetzt unter Ihrer Kontrolle.
+
+In diesem Szenario haben Sie gelernt, Einheiten zu produzieren und zu reparieren. Sie haben außerdem erfahren, welchen Unterschied Kampferfahrung und damit der Rang einer Einheit machen kann.
+
+Denken Sie immer daran, dass es in der Regel effizienter ist, erfahrene Einheiten zu reparieren als neue zu bauen. Das gilt sowohl für die Menge der benötigten Kristalle als auch für die Kampfstärke der Einheiten.
+
+Gut gemacht! Fahren Sie mit der nächsten Mission fort.
+%
+Leider haben Sie eine Ihrer lebenswichtigen Einheiten verloren. Wir müssen diese Mission abbrechen.
+%
+Ihre Fabrik ist dem Feind in die Hände gefallen! Sie haben diese Übung nicht bestanden.
+%
+Verteidigen Sie sich und zerstören sie die feindlichen Panzer.
+%
+Ziehen Sie die Panzer in die Fabrik.
+%
+Reparieren Sie Ihre Panzer und produzieren Sie eine weitere Einheit. Rücken Sie weiter auf die feindliche Basis vor.
+%
+Zerstören Sie alle feindlichen Einheiten und beachten Sie, wie Ihre Truppen befördert werden.
+%
+Erobern Sie die feindliche Basis mit Ihrer Infanterie.
+[/messages]
+
+[messages(en)]
+Of Boys and Men
+%
+Rookie
+%
+Simulator
+%
+The Art of War, Lesson 2: Of Boys and Men
+
+by Andrej Krivulčík <krivulcik@gmail.com>
+%
+Factory
+%
+Enemy Base
+%
+This is a tutorial mission designed for a single player.
+%
+Welcome, Commander!
+
+In this mission you will learn how to effectively deploy your troops in close-quarter battles. You will get to know the importance of combat experience and the differences between new recruits and skilled veteran units.
+
+Your army is comprised of two tank units, one of them a rookie (carries a single stripe as insignia) and the other a veteran (carries a star). Each of your units is being attacked by enemy tanks without any experience in the field.
+
+Destroy the tanks attacking you. Note how your veteran tanks can easily outperform their opponents while your unskilled unit will struggle against the enemy.
+
+Do not lose either of your units! If necessary, retreat with your damaged tanks and get help from the veteran unit.
+%
+Well done, Commander, the enemy tanks have been destroyed.
+
+Move both your tanks to the factory where you can repair them if they got damaged. You can do this by selecting a damaged unit in the depot window and clicking the "Repair" button (the red cross with a wrench).
+
+Repairing a unit always costs 5 crystals regardless of the type of unit or the amount of damage it has taken, and brings it back to full squad strength. It also lowers the unit's experience points by one for each new recruit. Units can be repaired only in shops that are workshops (indicated by the wrench icon next to the workshop name in the main map view), but you will rarely find a shop that is not.
+%
+Good. Now you can repair your damaged tanks. Additionally, we have allocated some more resources to the factory so that you can produce reinforcements.
+
+You can build a unit by clicking the production button (which looks like a hammer). You will be presented with the list of units available to produce along with their cost. If you don't have enough crystals to build a unit, a red dot will appear on its icon.
+
+You can build units only in factories (a hammer is shown next to the shop name in the main map view), and each factory may allow different types of units to be built. You can only build Medium Tanks at this time.
+
+Produce a new Medium Tanks unit and proceed towards the enemy base afterwards.
+%
+Warning! Your enemy is launching an attack on your factory. Skirmish is inevitable. Continue your advance towards the enemy base and destroy any opposing forces.
+
+As your units combat the enemy, they gain experience. A unit receives one experience point for damaging an enemy unit in a battle. If it destroys its opponent, it is awarded three experience points. When a unit has gathered three experience points it advances to the next rank which reflects its newly acquired combat skills.
+
+Watch your units gaining experience and note how they become more and more efficient in battle as they advance.
+%
+As you can see, experienced units can easily beat equally powerful units that have just left the factory. This is an important lesson that should help you defeat your enemies more easily.
+
+We have allocated some more resources to the factory and you can now produce Infantry. Build some infantrymen and conquer the enemy base!
+%
+The base is now under your control.
+
+In this scenario you have learned how to build and repair units. You have also seen how much of a difference combat experience and as such the rank of a unit can make.
+
+Keep in mind that it is usually more efficient to repair experienced units than to recruit new ones, in terms of both crystals and combat strength.
+
+Well done! Proceed to the next mission.
+%
+Unfortunately, you have lost one of your vital units. We must abort the mission.
+%
+Our factory has fallen into the enemy's hands! You have failed this training session.
+%
+Defend yourself and destroy the enemy tanks.
+%
+Return the tanks to the factory.
+%
+Repair your tanks and build an additional unit. Then proceed towards the enemy base.
+%
+Destroy all enemy units you encounter and watch your units advance in rank.
+%
+Conquer the enemy base with your infantry.
+[/messages]
+
+[messages(fr)]
+Des garçons et des hommes 
+%
+Rookie
+%
+Simulateur
+%
+L'art de la Guerre, Leçon n° 2: Des garçons et des hommes 
+
+par Andrej Krivulčík <krivulcik@gmail.com>
+traduction française: Benoit Peureux <benoit.peureux@wanadoo.fr>
+%
+Usine
+%
+Base ennemie
+%
+Cette mission est une mission d'instruction conçue pour un seul joueur à la fois.
+%
+Bienvenue, Commandant!
+
+Dans cette mission vous apprendrez comment déployer efficacement vos troupes dans des situations de bataille rapprochée. Vous comprendrez l'importance de l'expérience du combat et les différences entre des recrues nouvellement incorporées et des unités de vétérans expérimentés. 
+
+Votre armée est composée de deux unités de chars, l'une d'entre elles est constituée de jeunes recrues (elle porte un trait simple comme insigne) et l'autre est composée de vétérans (ele porte une étoile). Chacune de vos unités est attaquée par les chars ennemis sans expérience du terrain. 
+
+Détruisez les chars qui vous attaquent. Remarquez comment vos chars dirigés par des vétérans peuvent facilement surpasser leurs adversaires tandis que votre unité de jeunes recrues doit lutter pied à pied contre l'ennemi.
+
+Ne perdez pas vos unités! Au besoin, faites effectuer une retraite à vos chars endommagés et aidez vous avec l'unité de vétérans.
+%
+Bien joué Commandant, les chars ennemis sont détruits.
+
+Déplacer vos deux unités de chars jusqu'à l'usine où vous pourrez les réparer s'ils sont endommagés. Pour effectuer les réparations, choisissez une unité endommagée dans la fenêtre représentant le dépôt et cliquez sur le bouton « réparation » (la croix rouge avec une clé).
+
+La réparation d'une unité coûte toujours 5 cristaux indépendamment du type de l'unité ou de la quantité de dommages qu'elle a subis, et cela vous permet de reconstituer votre peloton dans son état initial. La réparation coûte également un point aux points d'expérience de l'unité pour chaque nouvelle recrue. Les unités ne peuvent être réparées que dans les magasins qui sont des ateliers (cela est indiqué par une icône de clé à côté du nom de l'atelier dans la vue principale sur la carte) et vous ne trouverez que rarement un magasin qui ne soit pas aussi un atelier.
+%
+Bien. Maintenant vous pouvez réparer vos chars endommagés. En plus, nous avons alloué des ressources supplémentaires à l'usine de sorte que vous puissiez produire des renforts. Vous pouvez créer une nouvelle unité en cliquant sur le bouton de mise en production (il ressemble à un marteau). Cela vous mettra en présence de la liste d'unités que vous pouvez produire, avec leur coût. Si vous n'avez pas assez de cristaux pour produire une unité, un point rouge apparaîtra sur son icône.
+
+Vous ne pouvez construire des unités que dans les usines (un marteau est placé à côté du nom du magasin dans la vue principale sur la carte), et chaque usine peut produire les différents types d'unités. Actuellement vous ne pouvez produire que des chars moyens.
+
+Construisez une nouvelle unité de chars moyens et dirigez vous ensuite vers la base ennemie.
+%
+Attention! Vos ennemis lancent une attaque contre votre usine. L'escarmouche est inévitable. Poursuivez votre progression vers la base ennemie et détruisez toutes les forces adverses. 
+
+Pendant que vos unités combattent l'ennemi, elles acquièrent de l'expérience. Une unité reçoit un point d'expérience pour chaque unié ennemie endommagée dans un affrontement. Si elle détruit son adversaire, elle reçoit trois points d'expérience. Quand une unité a recueilli trois points d'expérience elle progresse d'un grade, ce qui reflète ses nouvelles qualifications acquises au combat.
+
+Observez vos unités en train d'acquérir de l'expérience et notez comment elles deviennent de plus en plus efficaces à mesure que la bataille avance.
+%
+Comme vous pouvez le constater, les unités expérimentées peuvent facilement battre des unités aussi puissantes qu'elles mais sortant juste de l'usine. C'est une leçon importante qui devrait vous aider à battre vos ennemis plus facilement. 
+
+Nous avons alloué encore plus de ressources à l'usine et vous pouvez maintenant produire des troupes d'infanterie. Construisez quelques unités d'infanterie et partez à la conquéte de la base ennemie!
+%
+La base est maintenant sous votre contrôle.
+
+Dans ce scénario, vous avez appris comment construire et réparer des unités. Vous avez également vu la différence que peut faire l'expérience des combats ou le niveau de grade d'une unité.
+
+Gardez à l'esprit qu'il est habituellement plus efficace de réparer les unités expérimentées que de se procurer des nouvelles unités, tant du point de vue du coût en cristaux que de l'expérience du combat.
+
+Bien joué! Vous pouvez poursuivre avec la mission suivante.
+%
+Malheureusement, vous avez perdu une de vos unités essentielles. Nous devons interrompre la mission.
+%
+Notre usine est tombée dans les mains de l'ennemi! Vous avez loupé cette session de formation. 
+%
+Défendez vous et détruisez les chars ennemis.
+%
+Renvoyez les chars à l'usine.
+%
+Réparez vos chars et construisez des units supplémentaires. Envoyez les ensuite vers la base ennemie.
+%
+Détruisez toutes les unités ennemies que vous rencontrez et observez comment le niveau de vos unités progresse.
+%
+Partez à la conquéte de la base ennemie avec vos unités d'infanterie.
+[/messages]
+
+[messages(pl)]
+Chłopcy i mężczyźni
+%
+Poborowy
+%
+Symulator
+%
+Sztuka Wojny, lekcja 2: Chłopcy i mężczyźni
+
+autor Andrej Krivulčík <krivulcik@gmail.com>
+%
+Fabryka
+%
+Baza przeciwnika
+%
+To jest misja szkoleniowa, pomyślana dla jednego gracza.
+%
+Witaj Dowódco!
+
+W tej misji nauczysz się jak efektywnie wykorzystywać jednostki w zwarciu. Poznasz wagę doświadczenia bojowego i różnice między rekrutami a doświadczonymi weteranami.
+
+Twoja armia składa się z dwóch jednostek czołgów, jednej zielonej (oznaczonej pojedynczym paskiem rangi) i drugiej doskonale doświadczonej (oznaczonej gwiazdką). Każda jednostka jest atakowana przez czołgi przeciwnika bez doświadczenia polowego.
+
+Zniszcz atakujące Cię czołgi. Zauważ jak weterani bezproblemowo przewyższają przeciwników podczas gdy niedoświadczona jednostka ledwie sobie radzi.
+
+Nie strać żadnej z jednostek! Jeśli musisz wycofaj uszkodzone czołgi i poczekaj na pomoc od weteranów.
+%
+Dobra robota Dowódco, czołgi przeciwnika zostały zniszczone.
+
+Wprowadź obie jednostki do fabryki gdzie możesz je naprawić jeśli zostały uszkodzone. Możesz to zrobić wybierając uszkodzoną jednostkę w oknie składu i klikając na przycisku "Naprawa" (czerwony krzyż z kluczem).
+
+Naprawienie jednoski zawsze kosztuje 5 kryształów niezależnie od typu jednostki i skali uszkodzeń jakie poniosła i doprowadza ją do pełnej siły. Obniża też doświadczenie jednostki o jeden punkt za każdego nowego rekruta. Jednostki można naprawiać tylko w tych sklepach które mają warsztaty (oznaczone ikoną klucza koło nazwy na mapie głównej), ale rzadko zdarzają się sklepy bez tego.
+%
+Dobrze. Możesz teraz naprawić uszkodzone czołgi. Dodatkowo dostarczyliśmy do fabryki trochę surowców żebyś mógł wyprodukować wsparcie.
+
+Możesz budować jednostki klikając na przycisku produkcji (wygląda jak młotek). Zostanie Ci przedstawiona lista dostępnych jednostek wraz z kosztami. Jeśli nie masz wystarczającej ilości kryształów żeby wybudować jednostkę na jej ikonie pojawi się czerwona kropka.
+
+Wyprodukuj nową jednostkę lekkich czołgów a następnie udaj się w stronę bazy przeciwnika.
+%
+Uwaga! Przeciwnik rozpoczął atak na Twoją fabrykę. Potyczka jest nieunikniona. Kontynuuj marsz w stronę bazy przeciwnika i zniszcz wszelkie siły opozycyjne.
+
+Gdy Twoje jednostki walczą z przeciwnikiem zyskują doświadczenie. Jednostka dostaje jeden punkt doświadczenia za uszkodzenie przeciwnika w bitwie. Jeśli zniszczy przeciwnika zyskuje trzy punkty doświadczenia. Gdy zgromadzi trzy punkty doświadczenia awansuje na następny poziom co odzwierciedla nowo nabyte umiejętności bojowe.
+
+Obserwuj jak Twoje jednostki zdobywają doświadczenie i zauważ jak stają się coraz skuteczniejsze w walce.
+%
+Jak widzisz, weterani mogą z łatwością pokonać równie mocne jednostki które dopiero wyszły z fabryki. To ważna lekcja która powinna Ci pomóc łatwiej pokonać przeciwników.
+
+Przydzieliliśmy więcej surowców do bazy i możesz teraz produkować piechotę. Wyszkol ich i podbij bazę wroga!
+%
+Baza jest pod naszą kontrolą.
+
+W tym scenariuszu nauczyłeś się jak budować i naprawiać jednostki. Zobaczyłeś też jakie znaczenie ma doświadczenie i ranga jednostki.
+
+Miej na uwadze że zazwyczaj bardziej efektywne jest naprawianie doświadczonych jednostek niż budowanie nowych, zarówno pod względem kryształów jak i siły bojowej.
+
+Dobra robota! Kontynuuj szkolenie w następnej misji.
+%
+Niestety straciłeś jedną z kluczowych jednostek. Musimy przerwać misję.
+%
+Nasza fabryka wpadła w ręce wroga! Oblałeś tę sesję szkoleniową.
+%
+Broń się i zniszcz czołgi przeciwnika.
+%
+Wróć czołgami do fabryki.
+%
+Napraw swoje czołgi i wybuduj dodatkową jednostkę. Potem udaj się w stronę bazy wroga.
+%
+Zniszcz wszystkie napotkane jednostki wroga i obserwuj awansowanie własnych.
+%
+Podbij bazę wroga swoją piechotą.
+[/messages]
+
+[messages(sk)]
+O chlapcoch a mužoch
+%
+Nováčik
+%
+Simulátor
+%
+Umenie vojny, Lekcia 2: O chlapcoch a mužoch
+
+by Andrej Krivulčík <krivulcik@gmail.com>
+%
+Továreň
+%
+Nepriateľská základňa
+%
+Toto je výcviková misia určená pre jedného hráča.
+%
+Vitaj, veliteľ!
+
+V tejto misii sa naučíš účinne využívať svoje jednotky pri boji zblízka. Zistíš, aké dôležité sú bojové skúsenosti a rozdiely medzi nováčikmi a skúsenými jednotkami.
+
+Tvoja armáda pozostáva z dvoch jednotiek tankov, jedna z nich je nováčik (má ako odznak jeden pruh), druhá je skúsená (má hviezdičku). Obe jednotky boli napadnuté nepriateľskými tankami, ktoré ešte nemajú žiadne skúsenosti z boja.
+
+Znič útočiace tanky. Všimni si, že skúsené tanky si ľahko poradia s nepriateľom, zatiaľčo neskúsená jednotka bude mať s porazením nepriateľa problémy.
+
+Nemôžeš si dovoliť žiadne straty! V prípade potreby sa s poškodenými tankami stiahni a pomôž im skúsenou jednotkou.
+%
+Výborne, veliteľ, nepriateľské tanky sú zničené.
+
+Vráť sa oboma tankami do továrne, kde ich môžeš nechať opraviť (ak boli poškodené). V okne budovy zvoľ poškodenú jednotku a stlač tlačidlo „Opraviť“ (červený kríž s kľúčom).
+
+Opravenie jednotky stojí vždy 5 kryštálov bez ohľadu na typ jednotky a jej poškodenie. Oprava obnoví silu jednotky a zníži jej skúsenosť o bod za každého naverbovaného nováčika. Jednotky sa dajú opravovať iba v budovách, ktoré sú dielne (v hlavnom pohľade na mapu sú označené ikonou kľúča vedľa názvu dielne), no budovy, ktoré nie sú dielne, sa vyskytujú len zriedka.
+%
+Dobre. Teraz môžeš opraviť poškodené tanky. Do továrne sme pridelili kryštály navyše, aby si mohol vyrobiť posily pre svoje jednotky.
+
+Jednotku vytvoríš stlačením tlačidla pre produkciu (vyzerá ako kladivo). Zobrazí sa zoznam jednotiek, ktoré môžeš vyrobiť, spolu s ich cenou. Ak nie je v továrni dostatok kryštálov pre výrobu jednotky, zobrazí sa na nej červená bodka.
+
+Jednotky sa dajú vyrábať len v továrňach (pri názve továrne sa v hlavnom pohľade na mapu zobrazuje ikona kladiva) a v každej továrni môžeš produkovať len určité typy jednotiek. Teraz môžeš vyrobiť len ľahké tanky.
+
+Vyrob jednotku ľahkých tankov a potom postupuj smerom k nepriateľskej základni.
+%
+Upozornenie! Nepriateľ útočí na tvoju továreň. Súboj je neodvratný. Pokračuj v postupe na nepriateľskú základňu a znič akékoľvek nepriateľské jednotky.
+
+Keď jednotky bojujú s nepriateľom, získavajú skúsenosti. Jednotka získa jeden bod za poškodenie nepriateľskej jednotky v boji. Ak nepriateľa zničí, získa tri body. Za každé tri získané body je povýšená na vyššiu hodnosť, čo vyjadruje práve získané bojové skúsenosti.
+
+Sleduj, ako tvoje jednotky získavajú pri boji skúsenosti, a ako so získavaním hodností rastú ich schopnosti.
+%
+Ako vidíš, skúsené jednotky ľahko porazia rovnako silné jednotky, ktoré práve opustili výrobnú linku. Tento dôležitý poznatok ti určite uľahčí vyhrávanie bojov s budúcimi nepriateľmi.
+
+Do továrne sme pridelili ďalšie zdroje, a teraz môžeš vyrobiť aj pechotu. Naverbuj jednotku pešiakov a obsaď nepriateľskú základňu!
+%
+Základňu máš pod kontrolou.
+
+V tejto misii si sa naučil vyrábať a opravovať jednotky. Videl si aj, aký veľký rozdiel môže byť medzi rôzne skúsenými jednotkami.
+
+Pamätaj, že väčšinou je výhodnejšie opraviť súčasné skúsené jednotky, ako vyrobiť nové. Ušetríš tak kryštály a neprídeš o ich cenné skúsenosti.
+
+Výborne! Pokračuj ďalšou misiou.
+%
+Nanešťastie si prišiel o jednu z dôležitých jednotiek. Misiu musíme ukončiť.
+%
+Naša továreň padla do nepriateľských rúk! V tejto výcvikovej misii si zlyhal.
+%
+Bráň sa a znič nepriateľské tanky.
+%
+Stiahni sa s tankami do továrne.
+%
+Oprav poškodené tanky a postav ďalšiu jednotku. Potom postupuj smerom k nepriateľskej základni.
+%
+Znič všetky nepriateľské jednotky a všímaj si, ako tvoje jednotky získavajú vyššie hodnosti.
+%
+Obsaď nepriateľskú základňu jednotkou pešiakov.
+[/messages]
+

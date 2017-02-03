@@ -1,0 +1,856 @@
+[mission]
+name = 0
+mapwidth = 20
+mapheight = 15
+info = 3
+skirmish = 0
+campaign = 1
+campaignname = 5
+campaigninfo = 6
+nextmap = Tutorial2
+players = 1
+
+[map-raw]
+203,181,30,139,135,31,117,117,117,117,76,117,117,118,30,30,177,177,77,30
+30,176,30,136,55,232,117,75,117,75,117,118,120,119,121,30,74,30,181,30
+30,176,146,30,32,225,74,117,117,117,120,119,121,37,117,117,30,30,180,181
+145,188,77,178,224,37,117,120,118,121,117,38,31,30,117,117,30,30,55,179
+30,190,196,78,36,33,76,117,119,120,118,121,34,117,117,117,30,30,182,56
+79,176,82,82,78,77,31,311,338,117,119,118,117,117,76,80,30,30,180,181
+81,180,81,84,83,85,315,38,31,35,120,119,121,82,80,78,30,30,30,176
+82,83,177,223,86,311,312,38,38,76,117,117,81,82,81,79,30,30,30,176
+84,86,85,311,304,223,30,31,34,30,117,117,82,81,81,30,77,80,30,179
+82,315,311,30,30,31,203,181,30,30,117,120,118,121,82,77,30,178,178,30
+82,309,30,30,30,32,36,202,31,30,30,117,119,118,82,79,182,78,30,30
+80,309,30,30,30,30,37,176,30,30,74,117,120,119,121,77,176,30,30,30
+77,312,30,98,104,90,30,180,38,34,34,35,117,117,117,38,176,5,26,28
+311,30,30,88,30,71,90,99,177,177,38,30,117,117,117,178,185,177,29,30
+30,30,30,96,70,73,72,87,30,30,177,183,184,183,207,146,145,30,177,177
+
+[player]
+name = 1
+briefing = 17
+
+[player]
+name = 2
+briefing = 7
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 0
+pos = 0/0
+xp = 6
+face = 2
+
+[building]
+name = 4
+player = 2
+id = 0
+pos = 17/12
+
+[event]
+id = 0
+type = sethex
+player = 1
+trigger = handicap
+thandicap = 7
+tile = 27
+pos = 17/12
+
+[event]
+id = 1
+type = message
+player = 1
+message = 8
+trigger = timer
+ttime = 0
+
+[event]
+id = 2
+type = message
+player = 1
+message = 9
+trigger = timer
+ttime = 2
+
+[event]
+id = 3
+type = createunit
+player = 2
+discard = 4
+trigger = unitposition
+tunit = 0
+towner = 1
+tpos = 4/8
+unit = Mines
+pos = 2/12
+size = 3
+
+[event]
+id = 4
+type = createunit
+player = 2
+discard = 5
+trigger = unitposition
+tunit = 0
+towner = 1
+tpos = 5/8
+unit = Mines
+pos = 2/12
+size = 3
+
+[event]
+id = 5
+type = createunit
+player = 2
+discard = 6
+trigger = unitposition
+tunit = 0
+towner = 1
+tpos = 6/8
+unit = Mines
+pos = 2/12
+size = 3
+
+[event]
+id = 6
+type = createunit
+player = 2
+discard = 7
+trigger = unitposition
+tunit = 0
+towner = 1
+tpos = 3/9
+unit = Mines
+pos = 2/12
+size = 3
+
+[event]
+id = 7
+type = createunit
+player = 2
+discard = 8
+trigger = unitposition
+tunit = 0
+towner = 1
+tpos = 4/9
+unit = Mines
+pos = 2/12
+size = 3
+
+[event]
+id = 8
+type = createunit
+player = 2
+discard = 9
+trigger = unitposition
+tunit = 0
+towner = 1
+tpos = 5/9
+unit = Mines
+pos = 2/12
+size = 3
+
+[event]
+id = 9
+type = createunit
+player = 2
+discard = 10
+trigger = unitposition
+tunit = 0
+towner = 1
+tpos = 6/9
+unit = Mines
+pos = 2/12
+size = 3
+
+[event]
+id = 10
+type = createunit
+player = 2
+discard = 11
+trigger = unitposition
+tunit = 0
+towner = 1
+tpos = 7/9
+unit = Mines
+pos = 2/12
+size = 3
+
+[event]
+id = 11
+type = createunit
+player = 2
+discard = 3
+trigger = unitposition
+tunit = 0
+towner = 1
+tpos = 4/10
+unit = Mines
+pos = 2/12
+size = 3
+
+[event]
+id = 12
+type = message
+player = 1
+message = 10
+trigger = unitposition
+tunit = Mines
+towner = 2
+tpos = 2/12
+
+[event]
+id = 13
+type = message
+player = 1
+discard = 14
+message = 11
+trigger = unitposition
+tunit = 0
+towner = 1
+tpos = 2/11
+
+[event]
+id = 14
+type = message
+player = 1
+discard = 13
+message = 11
+trigger = unitposition
+tunit = 0
+towner = 1
+tpos = 3/11
+
+[event]
+id = 15
+type = sethex
+player = 1
+depend = 3
+message = 12
+trigger = unitdestroyed
+tunit = -1
+towner = 2
+tile = 21
+pos = 18/12
+
+[event]
+id = 16
+type = createunit
+player = 2
+depend = 15
+trigger = unitposition
+tunit = 0
+towner = 1
+tpos = 13/14
+unit = Mines
+pos = 15/13
+size = 2
+
+[event]
+id = 17
+type = createunit
+player = 1
+depend = 15
+trigger = unitposition
+tunit = 0
+towner = 1
+tpos = 13/14
+unit = Infantry
+pos = 13/3
+face = 2
+xp = 6
+
+[event]
+id = 18
+type = sethex
+player = 1
+discard = 15
+message = 13
+trigger = unitposition
+tunit = 0
+towner = 1
+tpos = 13/14
+tile = 24
+pos = 18/13
+
+[event]
+id = 19
+type = sethex
+player = 1
+trigger = unitposition
+tunit = Infantry
+towner = 1
+tpos = 14/14
+tile = 178
+pos = 14/14
+
+[event]
+id = 20
+type = sethex
+player = 1
+message = 14
+trigger = unitposition
+tunit = Infantry
+towner = 1
+tpos = 14/14
+tile = 4
+pos = 17/12
+
+[event]
+id = 21
+type = sethex
+player = 1
+message = 15
+trigger = havebuilding
+tbuilding = 0
+towner = 1
+ttime = -1
+tile = 23
+pos = 19/12
+
+[event]
+id = 22
+type = score
+player = 1
+message = 16
+trigger = unitposition
+tunit = 0
+towner = 1
+tpos = 17/12
+success = 100
+
+[event]
+id = 24
+type = configure
+player = 1
+depend = 3
+trigger = timer
+ttime = 0
+setting = briefing1
+value = 18
+
+[event]
+id = 25
+type = configure
+player = 1
+depend = 3
+trigger = unitdestroyed
+tunit = -1
+towner = 2
+setting = briefing1
+value = 19
+
+[event]
+id = 26
+type = configure
+player = 1
+trigger = unitposition
+tunit = 0
+towner = 1
+tpos = 13/14
+setting = briefing1
+value = 20
+
+[event]
+id = 27
+type = configure
+player = 1
+trigger = unitposition
+tunit = Infantry
+towner = 1
+tpos = 14/14
+setting = briefing1
+value = 21
+
+[event]
+id = 28
+type = configure
+player = 1
+trigger = havebuilding
+tbuilding = 0
+towner = 1
+ttime = -1
+setting = briefing1
+value = 22
+
+[messages(de)]
+Grundlagen
+%
+Rekrut
+%
+Simulator
+%
+Kriegskunst, Lektion 1: Grundlagen
+
+von Andrej Krivulčík <krivulcik@gmail.com>
+%
+Depot
+%
+Kriegskunst (Einführung)
+%
+Lerne die Grundlagen des Spiels in mehreren simulierten Missionen und unter Anleitung erfahrener Ausilder kennen.
+%
+Dies ist eine Übungsmission für einen Spieler.
+%
+Willkommen, Kommandant!
+
+Dies ist die erste in einer Reihe von simulierten Missionen, in denen Sie lernen werden, wie Sie Ihre Armee effizient und erfolgreich führen.
+
+Wir beginnen mit der einfachsten Aufgabe -- Bewegung. Wählen Sie zunächst Ihre Einheit aus durch einen Mausklick aus. Dadurch wird sie markiert, während der größte Teil des Schlachtfeldes abgedunkelt wird. Ihre Einheit kann sich in dieser Runde nur auf den hellen Feldern bewegen. Sie können die Einheit auch noch einmal anklicken, um Ihre Auswahl rückgängig zu machen. Wenn Sie auf ein zulässiges Zielfeld doppelklicken, wird die Einheit sofort dorthin ziehen.
+
+Nachdem Sie allen Soldaten Ihre Befehle übermittelt haben, klicken Sie mit der rechten Maustaste auf einen beliebigen Punkt des Schlachtfeldes (aber nicht auf eine Einheit) und wählen Sie "Runde beenden" aus dem Menü.
+
+Ziehen Sie jetzt Ihre Panzer ein wenig auf der Karte herum.
+%
+Als Sie Ihre Truppen bewegt haben, haben sicher bemerkt, dass der Bewegungsradius von der Beschaffenheit des Untergrunds abhängt.
+
+Für jede Bewegung werden Bewegungspunkte benötigt, und schwieriger Untergrund verbraucht mehr davon als Straßen. Sie können Informationen über die Bewegungspunkte und das zulässige Gelände für eine Einheit abrufen, indem Sie sie mit der rechten Maustaste anklicken.
+
+Daraufhin erscheint ein Fenster mit den Spezifikationen der Einheit. Die Zahl neben dem Pfeil gibt die Bewegungspunkte an, und bei der Darstellung der Geländetypen sie die Felder mit einem roten Punkt markiert, die die Einheit nicht befahren kann.
+%
+Nachdem Sie das Bewegen verstanden haben, kommen wir zum wichtigsten Aspekt der Schlacht -- dem Angriff:
+
+Um einen Angriff durchführen zu können, muss sich eine feindliche Einheit innerhalb der Reichweite Ihrer Einheit befinden (die meisten Einheiten verfügen über eine Schussweite von einem Feld). Ihr Gegner hat einige Minen im Südwesten platziert. Ziehen Sie Ihre Panzer dorthin und greifen Sie sie an!
+%
+Nach diesem Zug haben Sie eine feindliche Einheit in Reichweite. Sie können ein Ziel durch einen Doppelklick auswählen. Sie könnten jetzt auch zunächst andere Befehle erteilen und später in der Runde zurückkommen, um ein Ziel zuzuweisen.
+
+Das Ergebnis des Angriffs wird erst ermittelt, wenn Sie allen Einheiten Befehle erteilt und die Runde beendet haben. Wichtigster Faktor für die Berechnungen sind die Angriffs- und Verteidigungswerte der Beteiligten, aber es gibt noch weitere Einflussfaktoren, die in einer späteren Lektion genauer behandelt werden.
+
+Minen sind einfache Blocker ohne eigene Angriffsmöglichkeiten, aber sie sind schwer gepanzert. Sie werden möglicherweise mehere Runden benötigen, um sie zu zerstören.
+%
+Gut gemacht! Sie wissen jetzt, wie man feindliche Einheiten angreift und zerstört. Dies wird sich sehr vorteilhaft auf Ihre zukünftige Karriere auswirken.
+
+Sie haben wahrscheinlich schon das Gebilde im Südosten der Karte bemerkt. Ihr Gegner baut dort ein Depot. Solche Gebäude spielen in Schlachten eine entscheidende Rolle, da sie häufig dazu genutzt werden können, beschädigte Einheiten zu reparieren. Sie sollten deshalb stets versuchen, ihrem Gegner diesen Vorteil zu verwehren. Ziehen Sie Ihre Panzer zur Baustelle, um das Depot zu zerstören!
+%
+Diese Straße wird durch eine Panzersperre blockiert, Ihre Panzer können sie nicht durchbrechen! Wir schicken Ihnen eine erfahrene Einheit Fallschirmjäger, die in den Bergen gelandet sind. Für diesen speziellen Einsatz haben wir sie mit dem nötigen Gerät ausgerüstet, um die Straße zu räumen.
+
+In der Zwischenzeit hat Ihr Gegner einen weiteren Teil des Depots vollendet und weitere Minen gelegt, um Ihnen den Vormarsch zu erschweren. Sie werden auch diese zerstören müssen. Räumen Sie danach die Straße, indem Sie die Infanterie auf den blockierten Abschnitt ziehen.
+%
+Gute Arbeit! Ihre Panzer können jetzt das feindliche Depot erreichen, das beinahe fertiggestellt ist. Um einen weiteren Vorteil zu erzielen, müssen Sie das Depot erobern, statt es zu zerstören.
+
+Feindliche und neutrale Gebäude können nur von Infanterieeinheiten eingenommen werden. Diese Fähigkeit macht sie trotz ihrer eher geringen Kampfstärke sehr wertvoll. Ziehen Sie die Infanterie in das feindliche Depot, um es zu erobern!
+%
+Ihre Infanteristen haben das Depot eingenommen!
+
+Wir haben den Bau abgeschlossen, und das Depot ist jetzt fertig und einsatzbereit. Fahren Sie Ihre Panzer hinein, um diesen Einsatz zu abzuschließen.
+%
+Einsatz abgeschlossen!
+
+Gut gemacht! Sie sollten jetzt die Grundlagen der Bewegung von Einheiten, des Angriffs von Feinden und des Eroberns von Gebäuden verstanden haben. Fahren Sie mit der nächsten Misson fort.
+%
+Bringen Sie Ihre Panzer über den Fluss.
+%
+Ziehen Sie Ihre Panzer neben die Minen, greifen Sie sie an und zerstören Sie sie.
+%
+Rücken Sie zur Baustelle vor.
+%
+Räumen Sie die Straße von feindlichen Minen und Panzersperren.
+%
+Erobern Sie das feindliche Depot.
+%
+Ziehen Sie Ihre Panzer in das Depot.
+[/messages]
+
+[messages(en)]
+Basics
+%
+Rookie
+%
+Simulator
+%
+The Art of War, Lesson 1: The Basics
+
+by Andrej Krivulčík <krivulcik@gmail.com>
+%
+Depot
+%
+The Art of War (Tutorial)
+%
+Learn the basics of the game in several simulated missions under the guidance of highly experienced instructors.
+%
+This is a tutorial mission designed for a single player.
+%
+Welcome, Commander!
+
+This is the first of several simulated missions in which you will learn the basics required to efficiently command your army.
+
+We will start with the simplest task -- moving. First select your unit by clicking on it. You will notice that it is outlined and most of the battlefield is shaded. Your unit is able to move only to the light hexes or squares in one turn. You can click on the same unit again to deselect it. When you select a valid destination (this requires two clicks), your unit will move there immediately.
+
+After you have finished giving orders to your soldiers, right-click anywhere on the battlefield (not on a unit) and select "End Turn" from the menu.
+
+Now try moving your tanks around a bit.
+%
+When driving around, notice how different terrain slows down or completely blocks your tanks.
+
+This is because moving around requires movement points and difficult terrain requires more of these than road. You can obtain information about movement points and about the terrain a unit is able to pass by right-clicking on the respective unit.
+
+You will be presented with the unit specifications. The number next to the arrow indicates the movement points and the unit can pass only terrain that isn't marked with a red dot in the information window.
+%
+Now that you got the hang of moving, let's introduce the most common aspect of battle -- attacking:
+
+To attack, your unit must have an enemy unit within its attack range (most units have a firing range of one hex). Your opponent has placed some mines to the southwest. Move your tanks next to them in order to attack them!
+%
+Your unit has finished movement with an enemy unit in firing range. You can select a target by double-clicking on it. You can also deselect your unit now and come back later during this turn to assign a target.
+
+Combat is resolved after you have assigned targets to all your units and have ended your turn. The attack and defense values of the combatants are the main factor in combat calculations, but several other factors can affect the outcome of the fight as well (we will cover these in detail in a later lesson).
+
+Mines are dumb blockers without any offensive capabilities, but they are heavily armoured. You may need several turns to destroy them.
+%
+Well done! You now know how to attack and destroy enemy units. This will prove very useful in your future career.
+
+You have certainly noticed the construction in the southeastern part of the map. Your enemy is building a depot there. Controlling depots is very important in real-life battles because you can often use them to repair damaged units. You should always try to deny this advantage to your opponent. Move your tanks to the construction site in order to destroy it!
+%
+This road is blocked by tank stoppers. Your tanks are unable to pass! We are sending in some highly experienced paratroopers who have landed in the mountains. For the purpose of this mission, we have equipped this squad with special gear needed to clear the road.
+
+In the meantime the enemy has completed another part of the depot and has placed more mines on the road to hinder your advance. You will need to destroy them. Clear the road afterwards by moving the infantry onto the blocked hex.
+%
+Well done! Your tanks can now reach the enemy depot which is almost complete. Conquer it instead of destroying it to gain an additional advantage.
+
+Only infantry units are able to conquer enemy and neutral depots. This ability makes them very valuable despite their relatively poor combat performance. Move your infantry into the enemy depot to take control of it!
+%
+Your infantrymen have seized the depot!
+
+We have finished the construction and the depot is now complete and fully functional. Drive the tanks inside to end this mission.
+%
+Mission accomplished!
+
+You should now understand the basic principles of moving units, attacking enemies and capturing enemy buildings. Well done! Proceed to the next mission.
+%
+Move your tanks across the bridge.
+%
+Move your tanks next to the mines, attack and destroy them.
+%
+Proceed to the construction site.
+%
+Clear the road from enemy mines and tank stoppers.
+%
+Conquer the enemy depot.
+%
+Move your tanks into the depot.
+[/messages]
+
+[messages(fr)]
+Les bases
+%
+Rookie
+%
+Simulation
+%
+L'art de la guerre, Leçon 1: Les Bases du jeu
+
+par Andrej Krivulčík <krivulcik@gmail.com>
+traduction française: Benoit Peureux <benoit.peureux@wanadoo.fr>
+%
+Dépôt
+%
+L'Art de la Guerre (Tutorial)
+%
+Apprendre les régles du jeu dans plusieurs missions simulées sous les conseils d'instructeurs expérimentés.
+%
+C'est une mission d'instruction conçue pour un seul joueur à la fois.
+%
+Bienvenue, Commandant! 
+
+Voici la première de plusieurs missions simulées dans lesquelles vous apprendrez les bases requises pour commander efficacement votre armée. 
+
+Nous commencerons par la tâche la plus simple: se déplacer. 
+
+Choisissez d'abord votre unité en cliquant dessus. Vous noterez qu'elle est éclairée et que la majeure partie du champ de bataille est assombrie. 
+Votre unité peut se déplacer seulement dans les emplacements éclairés à chaque tour. 
+Vous pouvez cliquer encore sur la même unité pour la désélectionner. 
+
+Quand vous choisissez une destination valide (ceci exige deux clics), votre unité se déplace immédiatement à l'endroit choisi. 
+
+Après que vous ayez fini de donner des ordres à vos soldats, faites un clic-droit n'importe où sur le champ de bataille (pas sur une unité) et choisissez la commande « fin du tour » dans le menu. 
+
+Essayer maintenant de déplacer un peu vos chars.
+%
+En déplaçant vos unités, remarquez comment les différents terrains ralentissent ou bloquent complètement vos chars. 
+C'est parce que se déplacer sur le terrain exige des efforts et en toute logique, se déplacer en terrain difficile exige plus d'efforts que sur la route. 
+
+Vous pouvez obtenir des informations sur les points de mouvement ou le type de terrain qu'une unité peut franchir en effectuant un clic droit sur l'unité en question, afin d'accéder à ses caractéristiques propres. Le nombre à côté de la flèche indique les points de mouvement et l'unité peut seulement se déplacer sur les types de terrain qui ne sont pas marqués par un point rouge dans la partie basse de la fenêtre d'information.
+%
+Maintenant que vous savez déplacer vos unités, présentons l'aspect le plus commun de la bataille: l'attaque. 
+
+Pour attaquer, votre unité doit avoir une unité ennemie dans sa zone d'attaque (la plupart des unités ont une plage de tir d'une case). Votre adversaire a placé quelques mines au sud-ouest. Déplacez vos chars à côté d'elles afin de les attaquer!
+%
+Votre unité a fini son mouvement vers l'unité ennemie qui se trouve à présent dans sa zone d'attaque. Vous pouvez choisir une cible en double-cliquant  dessus. Vous pouvez également ne pas sélectionner votre unité maintenant et revenir un peu plus tard (mais durant ce tour) pour lui assigner une cible. Votre séquence de combat s'arréte après que vous ayez assigné des cibles à toutes vos unités et terminé votre tour. 
+
+Les points d'attaque et de défense des combattants sont le facteur principal dans les calculs relatif au combat, mais plusieurs autres facteurs peuvent en affecter les résultats (nous verrons ces détails dans une future leçon). 
+
+Les mines vous bloquent, sans dispsoer de capacités offensives mais elles sont fortement blindées. Vous pouvez avoir besoin de plusieurs tours pour les détruire.
+%
+Bien joué! Vous savez maintenant attaquer et détruire les unités ennemies. Ceci s'avérera très utile pour votre future carrière... 
+
+Vous avez certainement remarqué la construction dans la partie du sud-est de la carte. Votre ennemi a construit un dépôt àcet endroit là. Le contrôle des dépôts est très important dans les batailles réelles parce que vous pouvez souvent les utiliser  pour réparer vos unités endommagées. Vous devriez toujours essayer d'empécher votre adversaire d'accéder à cet avantage. Déplacer vos chars vers ce chantier de construction afin de le détruire!
+%
+Cette route est bloquée par des barrières anti-chars. Vos chars ne peuvent pas passer! Nous envoyons quelques parachutistes très expérimentés qui ont atteris  dans les montagnes. Pour cette mission, nous avons équipé ce peloton des moyens spéciaux nécessaires pour dégager la route. 
+
+En attendant l'ennemi a réalisé une autre partie du dépôt et il a placé plus de mines sur la route pour gêner votre avance. Vous devrez les détruire. Puis dégagez la route après en déplaçant votre infanterie sur la case qui bloque vos chars.
+%
+Bien joué! Vos chars peuvent maintenant atteindre le dépôt ennemi qui est presque construit. Veuillez le conquérir plutôt que le détruire afin de gagner un avantage supplémentaire. 
+
+Seules les unités d'infanterie peuvent conquérir les dépôts ennemis ou neutres. Cette capacité les rend très utiles en dépit de leur relativement faibles capacités au combat. 
+
+Faites entrer votre infanterie dans le dépôt ennemi afin d'en prendre le contrôle!
+%
+Vos troupes d'infanterie ont pris le dépôt!
+
+Nous avons terminé sa construction et le dépôt est maintenant complet et entièrement fonctionnel. Conduisez vos chars à l'intérieur pour finir cette mission.
+%
+Mission accomplie!
+
+Vous devriez maintenant connaître les principes de base du jeu, comment déplacer vos unités mobiles, comment attaquer vos ennemis et leurs batiments. 
+Vous pouvez vous lancer dans la mission suivante.
+%
+Déplacez vos chars afin qu'ils traversent le pont.
+%
+Poursuivez en déplaçant vos chars en direction des mines, attaquez les et détruisez les.
+%	
+Réalisez le chantier de construction. 
+%
+Dégager la route des mines et des barriéres anti chars de l'ennemi.
+%
+Conquérir le dépôt ennemi.
+%
+Déplacez vos chars à l'intérieur du dépôt.
+[/messages]
+
+[messages(pl)]
+Podstawy
+%
+Poborowy
+%
+Symulator
+%
+Sztuka Wojny, lekcja 1: Podstawy
+
+autor Andrej Krivulčík <krivulcik@gmail.com>
+%
+Skład
+%
+Sztuka Wojny (szkolenie)
+%
+Poznaj podstawy gry w kilku symulowanych misjach pod opieką doświadczonych instruktorów.
+%
+To jest misja szkoleniowa, pomyślana dla jednego gracza.
+%
+Witaj Dowódco!
+
+To pierwsza z kilku symulowanych misji, w trakcie których poznasz podstawy efektywnego zarządzania armią.
+
+Zaczniemy od najprostszego zadania -- ruchu. Najpierw wybierz jednostę klikając na niej. Zauważysz że została otoczona ramką i większość pola bitwy jest szara. Twoja jednostka może w tej turze przesunąć się tylko na jasne pola. Możesz kliknąć jeszcze raz na jednostce żeby ją odznaczyć. Kiedy wybierzesz prawidłowy punkt docelowy (wymaga to dwóch kliknięć), Twoja jednostka natychmiast się tam przemieści.
+
+Gdy skończysz wydawać rozkazy swoim żołnierzom, kliknij prawym przyciskiem myszy gdziekolwiek na polu bitwy (nie na jednostce) i wybierz z menu "Koniec Tury".
+
+Spróbuj teraz poruszać trochę swoimi czołgami.
+%
+Jeżdżąc po okolicy, zauważ jak rodzaj terenu zwalnia albo całkowicie blokuje Twoje czołgi.
+
+To dlatego, że ruch wymaga punktów ruchu, a ciężki teren wymaga ich więcej niż droga. Możesz uzyskać informacje o punktach ruchu jednostki i typach terenu przez które może ona przejechać klikając prawym przyciskiem na odpowiedniej jednostce.
+
+Zostaną Ci przedstawione dane jednostki. Liczba przy strzałce oznacza ile punktów ruchu ma jednostka i może ona przejść tylko typy terenu które w oknie informacyjnym nie są zaznaczone czerwoną kropką.
+%
+Teraz, gdy załapałeś już ruch, wprowadzimy najczęstrzy aspekt bitwy -- atakowanie:
+
+Żeby zaatakować jednostka musi mieć wroga w polu rażenia (większość jednostek ma zasięg jednego hexa). Przeciwnik ustawił na południowym zachodzie kilka min. Umieść swoje czołgi koło nich żeby je zaatakować!
+%
+Twoja jednostka skończyła ruch mając przeciwnika w polu rażenia. Możesz wybrać cel dwukrotnie na nim klikając. Możesz też odznaczyć jednostkę i wrócić do niej na późniejszym etapie tury żeby wyznaczyć cel.
+
+Walka jest rozstrzygana po tym, jak wyznaczyłeś cele wszystkim jednostkom i zakończyłeś turę. Główną rolę w obliczeniach wyniku grają wartości obrony i ataku walczących, ale na wynik ma też wpływ kilka innych czynników (opiszemy je w trakcie późniejszej lekcji).
+
+Miny to nic nie robiące blokady bez możliwości ofensywnych, ale solidnie opancerzone. Możesz potrzebować kilku tur żeby je zniszczyć.
+%
+Dobra robota! Wiesz już teraz jak atakować i niszczyć wrogie jednostki. Będzie to potrzebne w trakcie Twojej dalszej kariery.
+
+Na pewno zauważyłeś plac budowy w południowo-wschodniej części mapy. Przeciwnik buduje tam skład. Kontrola składów jest bardzo ważna w prawdziwych bitwach, ponieważ zwykle możesz ich używać żeby naprawiać uszkodzone jednostki. Zawsze powinieneś starać się pozbawić przeciwnika tej przewagi. Przemieść swoje czołgi na plac budowy żeby go zniszczyć!
+%
+Droga jest zabarykadowana. Twoje czołgi nie mogą się przedostać! Wysyłamy doświadczonych spadochroniarzy, którym udało się wylądować w górach. Dla celów tej misji wyposażyliśmy ten oddział w specjalny sprzęt potrzebny do oczyszczenia drogi.
+
+W międzyczasie przeciwnik ukończył kolejną część składu i postawił na drodze więcej min żeby zwolnić Twój pochód. Musisz je zniszczyć. Oczyść później drogę wprowadzając piechotę na barykadę.
+%
+Dobra robota! Teraz Twoje czołgi mogą dojechać do wrogiego składu, który jest już na ukończeniu. Przejmij go zamiast niszczyć żeby zdobyć dodatkową przewagę.
+
+Tylko jednostki piechoty mogą przejmować wrogie i neutralne składy. Ta umiejętniść sprawia że są bardzo ważne, mimo ich stosunkowo niewielkich umiejętności bojowych. Wejdź piechotą do składu żeby przejąć nad nim kontrolę!
+%
+Twoja piechota zdobyła skład!
+
+Dokończyliśmy budowę i skład jest teraz w pełni funkcjonalny. Wjedź do niego czołgami aby zakończyć misję.
+%
+Misja zakończona!
+
+Powinieneś teraz rozumieć podstawy przemieszczania jednostek, atakowania wrogów i przejmowania wrogich budowli. Dobra robota! Kontynuuj szkolenie w następnej misji.
+%
+Pzemieść czołgi za most.
+%
+Ustaw czołgi przy minach, zaatakuj i zniszcz je.
+%
+Podążaj na plac budowy.
+%
+Oczyść drogę z wrogich min i barykad.
+%
+Przejmij wrogi skład.
+%
+Wjedź czołgami do składu.
+[/messages]
+
+[messages(sk)]
+Základy
+%
+Nováčik
+%
+Simulátor
+%
+Umenie vojny, Lekcia 1: Základy
+
+by Andrej Krivulčík <krivulcik@gmail.com>
+%
+Sklad
+%
+Umenie vojny (Výcvik)
+%
+V niekoľkých simulovaných misiách sa pod vedením najskúsenejších inštruktorov naučíš základom hry.
+%
+Toto je výcviková misia určená pre jedného hráča.
+%
+Vitaj, veliteľ!
+
+Toto je prvá z niekoľkých simulovaných misií, v ktorých sa naučíš základy potrebné pre efektívne vedenie armády.
+
+Začneme s najjednoduchším úkonom -- pohybom. Najprv označ jednotku tým, že na ňu klikneš. Jednotka bude orámovaná a väčšina bojového poľa stmavne. Jednotka za jeden ťah dôjde len na svetlé polia. Kliknutím na tú istú jednotku sa táto odznačí. Po vybratí platného cieľa (budú potrebné dva kliky) sa tam jednotka hneď presunie.
+
+Keď svojim vojakom vydáš všetky príkazy, klikni pravým tlačidlom myši kdekoľvek na mapu (no nie na jednotku) a z objavivšieho sa menu zvoľ "Skončiť ťah".
+
+Vyskúšaj si pohyb tankami.
+%
+Pri presune si všimni, že rozličný terén tanky buď spomaľuje alebo úplne blokuje.
+
+To preto, lebo pohyb vyžaduje "pohybové body" a náročný terén ich vyžaduje viac ako napríklad cesta. Informácie o pohybových bodoch a o teréne, po ktorom dokáže jednotka prejsť, získaš stlačením pravého tlačidla myši na príslušnej jednotke.
+
+Objaví sa okno s charakteristikou jednotky. Číslo vedľa šípky zobrazuje počet pohybových bodov. Po teréne, ktorý je v tomto okne označený červeným bodom, jednotka nedokáže prejsť.
+%
+Teraz, keď si si už na pohyb zvykol, poďme na bežnejšiu činnosť vo vojne -- útočenie:
+
+Aby jednotka mohla útočiť, musí mať v útočnom dosahu nepriateľskú jednotku (väčšina jednotiek má palebný dosah len jedno pole). Nepriateľ umiestnil na juhozápade míny. Presuň tanky vedľa nich, aby si na ne mohol zaútočiť.
+%
+Jednotka ukončila presun a v dosahu paľby má nepriateľskú jednotku. Ako cieľ ju môžeš označiť dvojitým kliknutím. Teraz môžeš svoju jednotku aj odznačiť a vrátiť sa neskôr v priebehu tohto ťahu, aby si jej určil cieľ.
+
+Boje sa rozhodnú až po určení všetkých cieľov a ukončení ťahu. Vo výpočte výsledkov hrajú hlavnú úlohu útočné a obranné hodnoty bojujúcich jednotiek, no na výsledok boja vplýva aj niekoľko ďalších faktorov (podrobnejšie sa im budeme venovať v neskorších lekciách).
+
+Míny sú neinteligentné blokovacie jednotky bez útočných schopností. Sú však ťažko obrnené, preto bude na ich zničenie treba možno viac ťahov.
+%
+Výborne! Teraz vieš, ako zaútočiť na nepriateľské jednotky a zničiť ich. V budúcej kariére sa ti to veľmi zíde.
+
+Určite si si všimol stavbu v juhovýchodnej časti oblasti. Nepriateľ tam dostavuje sklad. V skutočných bitkách je kontrola nad skladmi veľmi dôležitá (často sa dajú využiť na opravu poškodených jednotiek). Nikdy nepriateľovi takúto výhodu dobrovoľne neposkytni. Presuň tanky k stavbe, aby ju zničili!
+%
+Táto cesta je zablokovaná tankovými barikádami. Tanky tadeto neprejdú! Posielame do terénu skúsených výsadkárov, ktorí práve pristáli v horách. Kvôli tejto misii sme ich vybavili špeciálnym náčiním, ktorým dokážu cestu spriechodniť.
+
+Medzitým nepriateľ dostaval ďalšiu časť skladu a aby spomalil tvoj postup, na cestu umiestnil ďalšie míny. Budeš ich musieť zničiť. Potom uvoľni cestu (vojakov presuň na zablokovaný úsek).
+%
+Výborne! Tanky sa teraz dostanú až k nepriateľskému skladu, ktorý je teraz takmer kompletný. Namiesto zničenia ho obsaď, čím získaš ďalšiu výhodu.
+
+Obsadiť nepriateľské (alebo neutrálne) sklady a iné budovy dokáže iba pechota. Aj keď v boji je to relatívne slabá jednotka, vďaka tejto schopnosti je veľmi hodnotná. Teraz vojdi pechotou do skladu, aby si ho obsadil!
+%
+Tvoja pechota sa zmocnila kontroly nad skladom!
+
+Sklad sme dostavali a teraz je hotový a plne funkčný. Pre úspešné ukončenie misie zavez tanky dovnútra.
+%
+Misia splnená!
+
+Teraz by si mal ovládať základné pravidlá pri pohybe jednotiek, útočení na nepriateľské jednotky a pri obsadzovaní budov. Výborne! Pokračuj ďalšou misiou.
+%
+Presuň tanky na druhú stranu rieky.
+%
+Presuň tanky vedľa mín, zaútoč na ne a znič ich.
+%
+Presuň tanky ku konštrukcii.
+%
+Vyčisti cestu od nepriateľských mín a tankových barikád.
+%
+Obsaď nepriateľský sklad.
+%
+Zavez tanky dovnútra skladu
+[/messages]
+
+[messages(hu)]
+Bevezetö
+%
+Újonc
+%
+Szimulátor
+%
+A háború müvészete, 1. lecke: az alapok
+
+készítette: Andrej Krivulčík <krivulcik@gmail.com>
+%
+Raktár
+%
+A háború müvészete (oktató küldetés)
+%
+Sajátítsa el a játék alapjait tapasztalt instruktorok útmutatása alapján, a szimulált küldetések segítségével.
+%
+Ez az oktató küldetés egy játékos számára készült.
+%
+Köszöntöm, Parancsnok!
+
+Ez az elsö azok közül a szimulált küldetések közül, ahol megtanulja majd a hadsereg hatékony irányításának alapjait.
+
+A legegyszerübb feladattal kezdjük: a mozgással. Elöször válasszon ki egy egységet: ehhez kattintson rá. Az egység ekkor kiemelt körvonallal jelenik meg, és a hadszintér nagy része homályba borul. Az egység csak a világos mezökön képes mozogni ebben a körben. Ismét az egységre kattintva megszüntetheti a kijelölést. Ha duplán kattint egy érvényes célpontra, az egység azonnal elindul oda.
+
+Miután minden egységnek kiadta az parancsokat, kattintson jobb gombbal bárhová (egységeket kivéve) a hadszíntéren, és válaszza a "Kör vége" pontot a menüböl.
+
+Most próbálkozzon meg a tankok mozgatásával.
+%
+Figyelje meg, hogy a tankok eltérö sebességgel mozognak a különféle tereptípusokon.
+
+Ennek az az oka, hogy a mozgás pontokba kerül, és a nehéz terep több mozgáspontot igényel, mint az út. Az egységek mozgáspontjairól, és arról, hogy milyen terepen képes mozogni az egység, az egységen való jobb kattintással szerezhet információkat.
+
+Ekkor megjelenik az egység leírása. A nyilak melletti számok jelzik a mozgáspontokat. Az egység a piros ponttal jelöl tereptípusokon nem tud áthaladni.
+
+%
+Most, hogy a mozgás már megy, nézzük a csaták leggyakoribb elemét: a támadást.
+
+A támadáshoz az egységnek annyira meg kell közelíteni az ellenséget, hogy a támadási hatókörön belül kerüljön (a legtöbb egység hatóköre 1 mezö). Az ellenség aknákat rakott le délnyugatra. Küldje oda a tankokat, hogy megtámadhassa öket!
+%
+Az egység mozgása úgy fejezödött be, hogy az ellenség a hatókörébe került. Egy célpontot úgy jelölhet ki, hogy duplán kattint rá. Ha megszünteti a saját egység kiválasztását, a körön belül késöbb is visszatérhet hozzá, és új célpontot jelölhet ki számára.
+
+A harc akkor következik be, ha minden egység megkapta a kijelölt célpontját, és véget ér a kör. A harc eredménye elsösorban a harcoló felek támadó és védekezö értékeitöl függ, de számos más tényezö is is befolyásolhatja a harc kimenetelét (ezekröl egy késöbbi leckében részletesen is beszélünk).
+
+Az aknák támadásképtelen akadályok, de erösen páncélozottak. Az elpusztításukhoz több körre is szükség lehet.
+%
+Helyes! Most már tudja, hogyan támadja és semmisítse meg az ellenség egységeit. Ez igen hasznos lesz a parancsnoki elömenetele szempontjából.
+
+Biztosan észrevette már az építkezést az térkép délkeleti felén. Az ellenség egy raktárat épít ott. A raktárak ellenörzése nagyon fontos a valódi ütközetekben, gyakran van szükség rájuk a sérült egységek megjavítására. Mindig probáljon arra törekedni, hogy megfossza az ellenfelét ettöl a lehetöségtöl. Küldje tankjait az építkezés helyszínére, és pusztítsa el!
+%
+Az utat tankcsapdák zárják el. A tankok nem tudnak tovább haladni! A probléma megoldására tapasztalt ejtöernyösöket küldünk, akik a hegyekben érnek földet. Ebben a küldetésben az út megtisztításához szükséges utászfelszereléssel láttuk el a szakaszt.
+
+Idöközben az ellenség befejezte a raktár egy másik részét, és további aknákat telepített az útra az elörenyomulás megakadályozására. Ezeket el kell pusztítania. Ezután tisztítsa meg az utat: ehhez küldje a gyalogságot a blokkolt mezöre.
+
+%
+Helyes! A tankok most már képesek elérni az ellenséges raktárat, ami közben már szinte teljesen elkészült. Ahelyett, hogy elpusztítaná, inkább foglalja el, így további elönyt szerezhet.
+
+Csak a gyalogság foglalhat el ellenséges vagy semleges raktárakat. Ez a képesség nagyon értékessé teszi, annak ellenére, hogy a harcban nem jeleskedik. Mozgassa a gyalogságot az ellenséges raktárba és foglalja el!
+
+%
+A gyalogság elfoglalta a raktárat!
+
+Az építkezés befejezödött, a raktár felépült és müködöképes. A küldetés befejezéséhez hajtson be a tankokkal.
+%
+Küldetés teljesítve!
+
+Most már rendelkezik az egységek mozgatásához, az ellenség megtámadásához és épületeinek elfoglalásához szükséges alapvetö ismeretekkel. Csak így tovább! Lépjen tovább a következö küldetésre.
+%
+Keljen át a tankokkal a hídon!
+%
+Mozgassa a tankjait az aknák mellé, támadjon, és semmisítse meg öket!
+%
+Haladjon tovább az építkezés felé!
+%
+Tisztítsa meg az utat az ellenséges aknáktól és tankcsapdáktól!
+%
+Foglalja el az ellenséges raktárat!
+%
+Mozgassa a tankokat a raktárba!
+[/messages]

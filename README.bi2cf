@@ -1,0 +1,15 @@
+bi2cf is a map conversion tool for Crimson Fields. It takes the data files
+of a map from Battle Isle, Battle Isle Data Disk 1 or 2, or History Line
+1914-1918 and converts them into map sources suitable for the cfed map
+compiler for Crimson Fields.
+
+Unfortunately, we didn't get permission to distribute the original maps or
+the modified versions, so you need a copy of one of those games to make use
+of this program. You can, of course, also convert custom maps which have
+been created using one of the map editors available for Battle Isle.
+
+See the bi2cf(6) man page for usage information.
+
+bi2cf was written by Florian Dietrich <n8flo@yahoo.de> and is distributed
+under the GNU General Public License (GPL).
+

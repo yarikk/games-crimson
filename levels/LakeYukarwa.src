@@ -1,0 +1,657 @@
+[mission]
+name = 9
+mapwidth = 30
+mapheight = 20
+info = 10
+campaign = 1
+players = 1
+
+[map-raw]
+30,30,30,30,30,30,30,30,77,30,30,22,21,7,30,179,30,30,30,79,79,360,360,361,362,362,362,361,360,360
+30,30,30,30,30,55,30,30,77,178,184,177,24,197,196,30,30,30,79,81,81,360,360,361,362,362,362,361,361,360
+30,30,30,30,77,30,30,178,178,30,78,30,195,191,237,223,30,30,77,360,360,35,361,362,362,362,362,361,360,80
+30,21,30,77,79,178,178,30,30,30,77,224,230,235,199,181,228,360,77,360,360,360,361,362,362,362,361,360,360,81
+22,24,8,183,178,78,30,30,30,227,224,30,57,59,222,176,222,38,360,360,360,361,362,362,362,362,361,360,82,82
+34,35,78,360,79,30,30,30,30,222,30,55,56,226,222,190,225,66,360,65,360,361,362,361,362,361,361,360,360,82
+30,30,77,360,360,360,30,30,30,222,360,30,38,66,240,189,65,69,360,360,66,361,361,361,361,360,360,81,81,83
+30,30,77,360,360,360,30,30,30,222,360,360,38,68,69,187,68,32,360,361,361,360,360,360,361,361,360,360,84,86
+30,360,55,360,360,360,360,360,35,222,360,360,360,77,227,188,65,311,361,360,77,78,81,81,360,360,361,81,82,82
+360,360,360,360,360,360,360,30,30,360,360,360,360,54,222,208,223,228,360,30,30,78,81,360,360,363,361,360,79,82
+360,360,360,360,365,360,360,361,311,32,33,360,360,360,360,176,67,225,30,30,30,77,79,80,360,360,361,360,78,80
+360,360,360,360,360,361,361,360,360,30,30,360,30,30,33,190,224,30,30,30,30,78,78,81,360,360,361,361,360,79
+360,360,360,360,361,360,360,360,360,35,30,30,30,30,30,176,30,30,30,30,30,77,79,81,82,360,361,361,360,360
+361,360,360,360,361,360,360,360,360,360,30,30,30,30,30,180,30,30,54,77,30,30,77,360,80,360,361,371,361,361
+362,361,361,360,361,360,360,360,360,360,360,30,30,30,30,30,177,177,77,30,30,30,30,77,79,364,361,370,361,361
+362,361,361,361,361,361,360,360,360,371,360,30,30,30,30,30,30,178,198,177,30,30,30,30,77,184,361,368,361,360
+362,362,362,362,362,361,361,361,361,369,130,177,30,30,30,178,178,38,38,38,177,177,30,178,178,77,177,189,361,81
+362,362,362,362,362,361,361,361,361,372,30,30,177,0,178,30,38,68,69,65,38,38,186,30,30,22,21,17,81,82
+362,362,362,362,362,361,361,361,361,360,360,30,22,24,23,30,38,69,117,117,74,38,176,30,30,30,24,78,81,81
+362,362,362,362,361,361,361,361,360,360,360,30,30,30,30,30,68,65,117,117,117,38,176,30,30,30,54,78,81,81
+
+[player]
+name = 5
+briefing = 2
+
+[player]
+name = 6
+briefing = 8
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 1
+pos = 13/4
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 3
+pos = 14/5
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 4
+pos = 13/5
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 5
+pos = 14/6
+
+[unit]
+type = Scouts
+player = 2
+id = 0
+pos = 13/3
+
+[unit]
+type = Scouts
+player = 2
+id = 2
+pos = 14/4
+
+[unit]
+type = Personnel Carriers
+player = 1
+id = 6
+pos = 15/16
+face = 1
+
+[unit]
+type = Infantry
+player = 1
+id = 7
+pos = 14/17
+face = 1
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 9
+pos = 14/16
+
+[unit]
+type = Artillery
+player = 2
+id = 10
+pos = 14/2
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 11
+pos = 16/5
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 12
+pos = 16/4
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 14
+pos = 15/2
+
+[unit]
+type = Infantry
+player = 2
+id = 16
+pos = 15/0
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 8
+pos = 15/15
+
+[unit]
+type = Scouts
+player = 1
+id = 18
+pos = 13/16
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 22
+pos = 14/15
+
+[unit]
+type = Personnel Carriers
+player = 2
+id = 15
+pos = 13/1
+
+[unit]
+type = Infantry
+player = 2
+id = 20
+pos = 14/1
+
+[unit]
+type = Medium Tanks
+player = 0
+id = 19
+pos = 2/4
+
+[unit]
+type = Scouts
+player = 0
+id = 21
+pos = 2/4
+
+[unit]
+type = Hovercraft
+player = 0
+id = 25
+pos = 2/4
+
+[unit]
+type = Hovercraft
+player = 0
+id = 26
+pos = 2/4
+
+[unit]
+type = Infantry
+player = 0
+id = 17
+pos = 2/4
+
+[building]
+name = 1
+player = 0
+id = 0
+pos = 2/4
+type = workshop
+crystals = 50
+
+[building]
+name = 3
+player = 1
+id = 1
+pos = 13/17
+type = workshop
+crystals = 25
+
+[building]
+name = 0
+player = 0
+id = 2
+pos = 27/17
+type = workshop
+type = factory
+factory = Infantry
+factory = Medium Tanks
+factory = Heavy Tanks
+factory = Personnel Carriers
+factory = Scouts
+factory = Hovercraft
+mining = 5
+crystals = 200
+
+[building]
+name = 4
+player = 2
+id = 4
+pos = 13/0
+type = workshop
+crystals = 25
+
+[event]
+id = 0
+type = message
+player = 1
+message = 7
+title = 9
+trigger = timer
+ttime = 0
+
+[event]
+id = 1
+type = message
+player = 2
+message = 11
+title = 9
+trigger = timer
+ttime = 0
+
+[event]
+id = 6
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Heavy Tanks
+pos = 15/14
+face = 0
+
+[event]
+id = 7
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Scouts
+pos = 13/15
+face = 0
+
+[event]
+id = 8
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Heavy Tanks
+pos = 14/9
+face = 3
+
+[event]
+id = 9
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Scouts
+pos = 14/8
+face = 3
+
+[event]
+id = 10
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 3
+unit = Scouts
+pos = 16/3
+face = 3
+
+# the sethex events should appear before the
+# score events since we want to display the map
+# changes before the victory message
+[event]
+id = 11
+type = sethex
+player = 1
+depend = 2
+trigger = timer
+ttime = 0
+tile = 360
+pos = 17/8
+
+[event]
+id = 12
+type = sethex
+player = 1
+depend = 2
+trigger = timer
+ttime = 0
+tile = 360
+pos = 16/9
+
+[event]
+id = 13
+type = sethex
+player = 1
+depend = 2
+trigger = timer
+ttime = 0
+tile = 211
+pos = 15/9
+
+[event]
+id = 2
+type = score
+player = 1
+discard = 4
+title = 12
+message = 14
+trigger = havebuilding
+tbuilding = 4
+towner = 1
+ttime = -1
+success = 100
+othermsg = 16
+othertitle = 13
+
+[event]
+id = 3
+type = score
+player = 2
+discard = 5
+title = 12
+message = 15
+trigger = havebuilding
+tbuilding = 1
+towner = 2
+ttime = -1
+success = 100
+othermsg = 17
+othertitle = 13
+
+[event]
+id = 4
+type = score
+player = 1
+discard = 2
+title = 12
+message = 14
+trigger = unitdestroyed
+tunit = -1
+towner = 2
+success = 100
+othermsg = 16
+othertitle = 13
+
+[event]
+id = 5
+type = score
+player = 2
+discard = 3
+title = 12
+message = 15
+trigger = unitdestroyed
+tunit = -1
+towner = 1
+success = 100
+othermsg = 17
+othertitle = 13
+
+[messages(de)]
+Fabrik
+%
+Depot
+%
+Missionsziele:
+
+1a. Erobere das Kraftwerk und zerstöre den Staudamm.
+1b. Zerstöre alle feindlichen Einheiten.
+
+2. Halte die Kandelianer von unserem Hauptquartier fern.
+%
+Rebellenhauptquartier
+%
+Wasserkraftwerk
+%
+Armee Freier Nexus
+%
+Imperium von Kand
+%
+Da die Kandelianer uns auf der Sarot-Ebene nicht stoppen konnten, marschiert der Hauptteil unserer Armee jetzt gegen Lula, ein industrieller Zentrum, in dem viele der Kristalle aus den berühmten Minen von Yalwa verarbeitet werden.
+
+Lula wird unser erster Sammlungspunkt nach unserem Aufbruch aus Rhintura sein. Wir müssen unsere Treibstoffvorräte auffüllen und uns um Nachschub und neue Rekruten für unsere Sache kümmern, die unsere bisher erlittenen Verluste ausgleichen können.
+
+Natürlich weiß das Imperium, dass Lula unser nächstes Ziel sein wird, und sie verstärken auch bereits ihre Truppen dort. Aus diesem Grund haben wir eine Abteilung zum Yukarwa-See geschickt. Viele der nachrückenden Truppen der Kandelianer müssen dort die Brücke über den Staudamm überqueren, der mitten durch den See läuft. Wenn wir dieses Gebiet unter unsere Kontrolle bringen und den Damm und die Brücke darauf zerstören können, sollte das die Verstärkungen lange genug verzögern, dass wir die Stadt einnehmen können, bevor sie dort ankommen.
+
+Die Brücke wird schwer bewacht. Am einfachsten können wir sie von dem Wasserkraftwerk aus zerstören, das nördlich des Sees liegt. Unsere Ingenieure haben berechnet, dass der Damm dem Wasserdruck nicht standhalten können wird, wenn wir alle Stautore schließen.
+
+Leider waren die Informationen unserer Aufkärer offenbar nicht ganz korrekt. Der Staudamm wird besser geschützt, als wir angenommen hatten...
+
+Viel Glück! Für einen freien Nexus!
+%
+Missionsziele:
+
+1a. Erobern Sie das Rebellenhauptqartier.
+1b. Zerstören Sie alle feindlichen Einheiten.
+
+2. Schützen Sie das Wasserkraftwerk vor den Rebellen.
+%
+Das Ufer des Yukarwa-Sees
+%
+Das Ufer des Yukarwa-Sees
+
+von Nikola Smolenski <smolensk@eunet.yu>
+
+Fünfter Teil des Yalwa-Feldzugs.
+%
+Die Rebellen marschieren gegen Lula, ein industrielles Zentrum, in dem viele der Kristalle aus den berühmten Minen von Yalwa verarbeitet werden. Falls ihnen diese Stadt in die Hände fällt, können sie ihr Material und ihre Vorräte erneuern, was diese ganze Farce noch weiter in die Länge ziehen wird.
+
+Wir verstärken bereits unsere Truppen in der Stadt, aber viele dieser nachrückenden Einheiten müssen die Brücke über den Staudamm des Yukarwa-Sees überqueren. Unsere Aufklärung berichtet, dass sich auch eine Abteilung der Rebellen auf dem Weg dorthin befindet. Wenn es ihnen gelänge, dieses Gebiet unter ihre Kontrolle zu bringen und womöglich die Brücke zu zerstören, würde das die Verstärkung für Lula verzögern und die Verteidigung der Stadt für General Farkoon deutlich erschweren.
+
+Der wahrscheinlichste Angriffsvektor für die Zerstörung des Staudamms ist das Wasserkraftwerk nördlich des Sees. Die Stautore können von dort kontrolliert werden, und absichtliche Fehlbedienung könnte leicht das gesamte Stauwerk zerstören. Aus diesem Grund müssen Sie die Einheit der Rebellen vernichten und die Zerstörung des Staudamms um jeden Preis verhindern.
+
+Lang lebe der Imperator!
+%
+Mission erfolgreich
+%
+Mission fehlgeschlagen
+%
+Gut gemacht. Wir haben den Yukarwa-Staudamm zerstört und die Ankunft des imperialen Nachschubs deutlich verzögert. Auf nach Lula!
+%
+Sie haben den Rebellenangriff zurückgeschlagen und den Staudamm vor der Zerstörung bewahrt. Gute Arbeit!
+%
+Der Staudamm wurde zerstört, und unsere nachrückenden Verbände werden Lula nicht mehr rechtzeitig erreichen. Sie haben versagt!
+%
+Du wurdest besiegt. Der Staudamm ist unversehrt, und mit ihren Verstärkungen werden die Kandelianer Lula in eine uneinnehmbare Festung verwandeln.
+[/messages]
+
+[messages(en)]
+Factory
+%
+Depot
+%
+Objectives:
+
+1a. Conquer the power plant and destroy the dam.
+1b. Destroy all enemy units.
+
+2. Keep the Kandelians away from our headquarters.
+%
+Rebel HQ
+%
+Hydroelectric Power Plant
+%
+Free Nexus Army
+%
+Empire of Kand
+%
+Since the Kandelians have not been able to stop us on the Sarot Plains, our main body is now marching towards Lula, an industrial center where many of the crystals from the famous Mines of Yalwa are processed.
+
+Lula is going to be our first rallying point since we began our mission in Rhintura. We need to refuel, replenish our supplies and recruit more volunteers for our cause to replace our casualties.
+
+Of course, the Empire knows where we are headed, and they are already reinforcing their army in Lula. Therefore we have sent a division to Lake Yukarwa, west of our main route across the plains. A lot of the troops the Kandelians are sending in from the west need to cross the bridge across the dam that divides the lake. If we can manage to capture the area and destroy the dam and its bridge, that should delay reinforcements to Lula long enough that we can take the city before they arrive.
+
+The bridge is heavily guarded, and the easiest way to destroy it is via the hydroelectric power plant that is sitting north of the lake.  We can close all the floodgates from there, and our engineers have calculated that the dam structure will not be sturdy enough to withstand the water pressure and burst.
+
+Unfortunately, it appears that our intelligence data was not entirely correct and that the dam is more heavily guarded than we expected...
+
+Good luck! For a free Nexus!
+%
+Objectives:
+
+1a. Conquer the rebel headquarters.
+1b. Destroy all enemy units.
+
+2. Keep the rebels away from the power plant.
+%
+The Shores of Lake Yukarwa
+%
+The Shores of Lake Yukarwa
+
+by Nikola Smolenski <smolensk@eunet.yu>
+
+Fifth installment of the Yalwa campaign.
+%
+The rebels are now marching towards Lula, an industrial center where many of the crystals from the famous Mines of Yalwa are processed. If they manage to capture the city, they will be able to refuel and replenish their supplies, so this entire farce will drag on even longer.
+
+We are already reinforcing the city, but many of the troops we are sending in need to cross the bridge across the dam at Lake Yukarwa. Our intelligence tells us that one rebel division is heading there as well. If they managed to capture the area and destroy the dam and its bridge, that would delay reinforcements to Lula so that General Farkoon will have a much harder time defending the city.
+
+The most likely attack vector for destroying the dam is the hydroelectric power plant to the north of the lake. The dam's floodgates can be operated from there, and it is easily possible to make the entire structure collapse this way. Therefore, you need to crush the rebel division and protect the power plant!
+
+Long live the Emperor!
+%
+Mission accomplished
+%
+Mission failed
+%
+Well done. We have destroyed the Yukarwa dam and delayed the arrival of the Kandelian reinforcements. On to Lula!
+%
+You have repelled the rebel attack and saved the dam from destruction. Well done!
+%
+The dam has been destroyed, and our reinforcements will not get to Lula in time. You have failed!
+%
+You have been defeated. The dam is still intact, and the Kandelian reinforcements will turn Lula into an impregnable fortress.
+[/messages]
+
+[messages(fr)]
+Usine
+%
+Dépôt
+%
+Objectifs:
+
+1a. Conquérir l'usine d'énergie hydro-électrique et détruire le barrage.
+1b. Détruire toutes les unités ennemies.
+
+2. Maintenir les Kandéliens éloignés de notre quartier général.
+%
+QG des rebelles
+%
+Usine hydroélectrique 
+%
+Armée du Nexus Libre
+%
+Empire de Kand
+%
+Depuis que les Kandéliens n'ont pas réussi à nous arrêter dans les plaines de Sarot, notre corps principal d'armée poursuit sa marche vers Lula, un centre industriel qui traite plusieurs des cristaux des mines célèbres de Yalwa.
+
+Lula va être notre premier point de rassemblement puisque nous avons commencé notre mission dans Rhintura. Nous devons nous réapprovisionner en combustible, compléter le niveau de nos approvisionnements et recruter de nombreux engagés volontaires afin de remplacer nos pertes.
+
+Naturellement, l'Empire sait où nous nous dirigeons, et il renforce déjà son armée dans Lula. Par conséquent nous avons envoyé une division au lac Yukarwa, à l'ouest de notre itinéraire principal à travers les plaines. Beaucoup des troupes de renfort que les Kandéliens envoient vers Lula viennent de l'ouest et doivent traverser le pont sur le barrage qui divise le lac. Si nous pouvons parvenir à contrôler ce secteur et à détruire le barrage et son pont, cela devrait retarder les renforts pour Lula assez longtemps pour que nous puissions prendre la ville avant leur arrivée.
+
+Le pont est fortement gardé, et la manière la plus facile de le détruire c'est par l'intermédiaire de l'usine d'énergie hydro-électrique située au nord du lac. Nous pouvons fermer toutes les portes du barrage à parir de là, et nos ingénieurs ont calculé que la structure du barrage ne sera pas assez solide pour résister à la pression de l'eau et qu'il cédera.
+
+Malheureusement, il s'avère que nos renseignements ne sont pas entièrement correctes et que le barrage est plus fortement gardé que prévu...
+
+Bonne chance! Vive le Nexus Libre!
+%
+Objectifs:
+
+1a. Conquérir le quartier général des rebelles.
+1b. Détruire toutes les unités ennemies.
+
+2. Maintenir les rebelles éloignés d l'usine hydro-électrique.
+%
+Les rives de Yukarwa
+%
+Les rives de Yukarwa
+
+par Nikola Smolenski <smolensk@eunet.yu>
+traduction française: Benoit Peureux <benoit.peureux@wanadoo.fr>
+
+Cinquiéme partie de la campagne de Yalwa.
+%
+Les rebelles marchent maintenant vers Lula, un important centre industriel où sont traités plusieurs des cristaux des célèbres mines de Yalwa. Si les rebelles parviennent à capturer la ville, ils pourront se réapprovisionner en combustible et compléter le niveau de leurs approvisionnements, ainsi cette lamentable farce traînera encore plus longtemps en longueur.
+
+Nous renforçons déjà la ville, mais plusieurs des troupes de renfort doivent traverser le pont sur le barrage du lac Yukarwa. Nos renseignements nous indiquent qu'une division rebelle s'y dirige aussi. Si les rebelles parvenaient à contrôler le secteur et à détruire le barrage et son pont, cela retarderait les renforts de Lula et le Général Farkoon aurait les plus grandes difficultés pour défendre la ville de Lula.
+
+Le vecteur d'attaque le plus susceptible de permettre la destruction du barrage est l'usine d'énergie hydro-électrique située au nord du lac. Les portes du barrage peuvent être actionnés à partir de cet endroit, et il deviendrait alors possible de provoquer l'effondrement de la structure du barrage. Par conséquent, vous devez écraser la division rebelle et protéger la centrale!
+
+Vive l'Empereur!
+%
+Mission accomplie
+%
+Echec de la mission
+%
+Bien joué. Nous avons détruit le barrage de Yukarwa et retardé l'arrivée des renforts Kandéliens vers Lula!
+%
+Vous avez repoussé l'attaque des rebelles et sauvé le barrage de la destruction. Bien joué!
+%
+Le barrage est détruit et nos renforts ne pourront pas être à Lula à temps. Vous avez échoué!
+%
+Vous avez été vaincu. Le barrage est resté intact et les renforts Kandéliens ont permis de transformer la ville de Lula en une place forte imprenable.
+[/messages]
+
+[messages(pl)]
+Fabryka
+%
+Skład
+%
+Cele misji:
+
+1a. Podbij elektrownię i zniszcz zaporę
+1b. Zniszcz wszystkie jednostki przeciwnika.
+
+2. Trzymaj Kandyjczyków z dala od naszego sztabu.
+%
+Sztab rebelii
+%
+Elektrownia wodna
+%
+Wolna Armia Nexusu
+%
+Imperium Kandyjskie
+%
+Ponieważ Kandyjczykom nie udało się powstrzymać nas na Równinach Sarot, trzon naszych sił maszeruje w stronę Lula, centrum przemysłowego gdzie przetwarzana jest większość kryształów ze sławnych Kopalni Yalwa.
+
+Lula będzie naszym pierwszym punktem zbornym od początku naszej misji w Rhinturze. Musimy odnowić zapasy i zwerbować ochotników dla naszej sprawy żeby zastąpić poległych.
+
+Oczywiście Imperium wie gdzie idziemy i już wzmacnia swój garnizon w Lula. Dlatego też wysłaliśmy dywizję nad Jezioro Yukarwa, na zachód od naszego głównego szlaku przez równiny. Duża część posiłków Kandyjskich nadchodzi z zachodu i musi przebyć most na tamie w poprzek jeziora. Jeśli uda nam się przejąć ten obszar i zniszczyć tamę i most to spowolnimy posiłki dla Lula na tyle, że zdążymy zdobyć miasto przed ich przybyciem.
+
+Most jest mocno broniony, i najprostszą metoda na jego zniszczenie jest zdobycie elektrowni wodnej na północy jeziora. Możemy stamtąd zaknąć wszystkie przepusty, a nasi inżynierowie obliczyli, że konstrukcja tamy nie jest wystarczająco mocna żeby wytrzymać takie ciśnienie wody.
+
+Niestety wygląda na to, że nasz wywiad nie był najlepszy i tama jest broniona mocniej niż przypuszczaliśmy...
+
+Powodzenia! Za wolny Nexus!
+%
+Cele misji:
+
+1a. Podbić sztab rebeliantów.
+1b. Zniszczyć wszystkie jednostki wroga.
+
+2. Trzymać rebeliantów z daleka od elektrowni.
+%
+Brzegi Jeziora Yukarwa
+%
+Brzegi Jeziora Yukarwa
+
+autor: Nikola Smolenski <smolensk@eunet.yu>
+polskie tłumaczenie: Wacław Schiller <torinthiel@data.pl>
+
+Piąta misja kampanii Yalwa.
+%
+Rebelianci maszerują w stronę Lula, centrum przemysłowego w którym przetwarzana jest większość kryształów z Kopalni Yalwa. Jeśli uda im się zdobyć miasto będą mogli odnowić zapasy, a zatem cała ta farsa jeszcze się przeciągnie.
+
+Cały czas wysyłamy posiłki do miasta, ale większość z nich musi przekroczyć most na zaporze na Jeziorze Yukarwa. Nasz wywiad donosi, że jedna dywizja rebeliantów zmierza w tę stronę. Jeśli uda im się zdobycie obszaru i zniszczenie mostu i tamy, to posiłki zostaną poważnie opóźnione. Generałowi Farkoonowi będzie wówczas o wiele trudniej obronić miasto.
+
+Najbardziej prawdopodobny atak na tamę to przejęcie kontroli nad elektrownią wodną na północy jeziora. Można stamtąd sterować przepustami, których zamknięcie spowoduje zniszczenie zapory. Dlatego też musisz zgnieść dywizję wroga i bronić elektrowni.
+
+Niech żyje Imperator!
+%
+Misja ukończona
+%
+Misja nieudana
+%
+Dobra robota. Zniszczyliśmy tamę na jeziorze Yukarwa i opóźniliśmy posiłki Kandyjczyków. Naprzód, na Lula!
+%
+Odparłeś atak rebeliantów i ocaliłeś tamę przed zniszczeniem. Dobra robota!
+%
+Tama Została zniszczona i nasze posiłki nie dotrą do Lula na czas. Zawiodłeś!
+%
+Zostałeś pokonany. Tama jest nienaruszona i posiłki Kandyjczyków zamienią Lula w niezdobytą fortecę.
+[/messages]
+

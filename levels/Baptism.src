@@ -1,0 +1,2121 @@
+[mission]
+name = 0
+mapwidth = 38
+mapheight = 64
+info = 1
+campaign = 1
+nextmap = LakeYukarwa
+players = 1
+
+[map-raw]
+30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,38,38,30,30,30,30,30,30,30,30,30,30,30,30,250,250,30,30,30,30,30,30,30
+30,30,30,30,38,38,30,38,38,38,38,38,30,38,38,145,38,30,30,30,30,30,30,30,30,256,30,250,250,30,30,30,30,30,30,30,30,30
+30,30,30,31,30,30,38,30,38,38,38,38,38,135,135,30,30,30,30,250,256,249,60,250,250,30,255,30,31,31,30,30,30,30,30,135,145,30
+30,30,30,30,31,30,30,38,38,30,30,135,135,31,30,31,30,250,250,230,30,230,258,21,30,30,78,31,30,31,30,31,30,135,135,30,30,30
+77,30,30,30,30,30,30,30,30,146,135,32,31,31,31,250,250,224,224,30,229,30,4,24,23,30,30,31,31,30,30,135,135,30,30,30,30,30
+177,177,30,30,30,30,30,77,30,31,31,32,132,250,250,224,224,30,30,144,30,30,30,30,31,30,30,31,30,135,135,30,30,30,30,30,30,30
+30,30,177,177,30,30,30,30,30,31,31,250,250,224,224,33,30,33,30,31,134,134,30,30,30,30,30,135,135,30,30,30,30,30,30,30,30,30
+30,30,30,30,177,177,30,30,31,250,269,286,224,31,33,172,32,33,31,31,31,30,134,134,30,135,135,30,30,31,30,30,30,30,30,30,30,30
+30,82,79,82,30,30,177,282,250,224,224,30,249,249,33,33,149,149,33,33,31,32,30,30,140,30,31,30,31,31,31,172,30,30,30,30,30,30
+30,81,81,30,30,250,250,30,195,177,30,30,132,32,249,249,32,33,149,174,33,31,31,33,33,33,33,33,33,175,150,33,33,30,30,30,30,30
+30,31,78,31,254,30,31,31,30,30,177,177,30,30,30,31,249,249,33,31,174,149,33,33,32,37,33,150,150,33,31,32,31,77,30,30,30,30
+30,30,30,31,248,31,30,33,31,31,30,30,177,206,30,30,32,30,249,249,33,33,172,149,33,150,175,33,31,30,30,31,30,30,30,30,30,30
+30,30,30,30,248,33,33,32,33,33,33,30,30,31,177,177,30,30,30,30,249,249,32,33,151,33,33,30,32,33,31,30,30,30,30,30,30,30
+30,31,32,33,248,172,152,149,33,33,32,33,31,31,31,30,177,177,31,30,31,30,249,249,33,30,33,30,30,33,32,31,30,30,30,30,30,30
+30,32,31,33,248,33,33,33,155,33,33,172,33,33,31,31,30,30,177,177,30,30,31,31,249,249,30,30,31,30,32,30,30,30,30,30,30,30
+30,30,31,31,248,33,32,33,154,151,150,33,33,33,31,33,30,31,30,30,177,177,31,30,31,30,249,249,30,30,30,30,30,30,30,78,30,178
+30,30,31,30,248,30,33,30,33,33,36,33,33,152,32,33,33,33,31,31,30,30,177,177,30,77,30,30,249,249,30,30,30,30,30,178,178,250
+30,178,184,177,248,31,31,31,33,31,33,172,150,33,149,149,33,33,33,30,31,30,30,30,177,177,30,30,30,30,249,249,30,178,178,250,250,30
+178,30,30,31,277,177,30,30,31,31,33,33,33,33,33,33,149,172,32,33,31,31,30,31,30,30,177,177,30,30,30,178,280,255,250,30,30,30
+30,32,33,33,248,31,177,177,31,31,31,33,33,32,33,33,33,33,33,33,31,31,31,31,30,31,30,30,177,186,178,30,30,30,30,30,30,311
+33,33,33,172,248,33,33,33,177,177,31,31,31,33,33,33,37,33,33,33,31,33,31,32,30,31,31,31,31,176,30,30,30,30,30,343,311,30
+33,150,150,33,248,172,152,172,31,31,177,177,31,30,33,31,32,33,172,149,33,33,33,33,33,31,33,33,30,202,31,31,30,30,315,30,30,30
+150,33,33,33,248,33,33,33,31,33,31,31,177,177,33,33,31,31,33,33,149,149,33,150,152,149,33,172,33,202,31,31,30,30,309,30,35,30
+33,32,33,31,248,31,32,32,172,155,32,132,31,30,181,31,31,33,33,31,33,33,151,33,33,32,151,33,32,176,31,31,30,315,312,30,30,30
+31,31,31,30,248,31,31,31,31,148,33,33,31,31,176,31,31,33,31,31,31,32,33,31,33,31,32,33,31,176,31,30,30,312,30,30,30,30
+31,31,56,38,252,19,30,30,32,173,33,32,31,30,176,30,31,32,30,31,30,31,31,31,31,31,31,30,31,176,30,315,311,30,30,30,80,81
+65,31,38,38,38,30,30,58,31,154,33,33,31,38,176,30,30,30,30,30,31,30,31,30,30,30,30,30,30,179,30,312,30,30,30,30,81,82
+31,67,65,65,38,38,57,59,32,33,172,33,31,65,176,30,30,30,31,31,30,30,30,30,30,30,30,178,178,315,311,30,30,30,78,82,81,81
+65,70,71,73,65,65,38,31,32,67,33,67,67,65,176,38,30,34,30,31,30,30,30,30,30,178,178,30,30,312,30,30,30,30,79,84,83,85
+65,65,72,71,65,65,38,38,65,67,67,69,65,65,176,38,38,30,30,78,31,31,30,182,178,30,30,311,311,30,30,30,77,30,30,83,86,81
+65,65,70,72,73,65,65,65,65,65,68,65,65,38,176,38,38,31,30,30,30,30,30,176,30,315,311,30,30,30,30,30,30,30,84,86,85,82
+71,73,38,65,82,70,71,73,65,71,65,65,30,38,176,38,38,30,31,31,31,30,30,176,30,309,30,30,30,30,30,30,30,30,79,84,83,85
+72,68,69,70,71,73,72,65,70,72,73,65,38,30,176,38,30,30,30,30,30,30,30,180,30,312,30,30,30,30,30,30,30,30,30,81,86,83
+65,70,71,73,72,69,65,38,65,65,65,38,38,38,176,30,38,30,31,30,30,30,30,315,298,177,30,30,30,30,30,30,34,79,30,78,84,86
+83,85,72,71,68,65,65,38,38,38,38,30,38,178,187,30,30,30,30,30,30,31,30,312,30,30,177,181,30,30,30,30,30,80,30,30,81,81
+86,71,70,72,73,65,65,38,38,30,38,38,182,30,176,30,30,30,30,30,30,30,315,30,30,30,30,176,30,30,30,30,30,30,30,30,82,81
+70,72,73,70,71,73,38,30,78,30,30,30,176,30,176,30,30,30,30,30,30,30,309,30,30,30,30,176,30,78,30,30,30,30,30,30,30,80
+65,69,65,65,72,38,38,30,30,31,30,30,176,30,176,55,30,30,30,30,30,311,321,30,30,30,30,176,30,30,30,30,30,30,30,30,30,30
+68,38,65,38,38,38,38,30,30,30,31,178,187,30,180,181,30,30,30,311,311,30,309,30,30,30,30,187,30,30,30,30,30,30,31,30,30,30
+65,38,38,38,30,38,30,30,30,178,178,30,176,30,30,296,317,316,311,30,30,31,341,77,30,224,224,176,30,30,30,30,30,30,30,78,30,30
+38,38,38,38,30,30,30,178,197,223,30,317,180,298,311,176,30,30,30,30,30,30,313,306,224,30,30,176,30,30,30,30,30,30,30,30,77,30
+38,30,30,30,30,178,178,315,317,316,304,228,316,30,177,194,30,30,30,30,30,224,224,30,314,30,30,176,30,30,54,30,30,30,30,30,30,30
+30,30,30,178,178,30,30,312,76,30,30,225,30,30,30,30,181,30,30,224,224,30,30,30,309,30,30,176,30,30,30,30,30,30,30,30,30,30
+30,178,178,317,30,343,311,30,30,227,224,30,30,30,78,30,176,224,224,30,30,30,30,30,309,30,30,176,30,30,30,30,30,30,30,30,30,30
+178,30,315,30,316,30,30,30,30,222,30,81,82,83,81,30,190,30,30,30,30,30,30,30,309,30,30,176,30,30,30,30,30,30,30,30,30,30
+30,315,312,30,78,30,81,83,30,222,79,83,84,86,85,78,176,30,30,30,30,30,30,38,313,314,30,180,30,30,30,30,30,30,30,30,30,30
+30,312,30,30,77,78,84,86,85,222,84,86,85,81,81,30,176,30,34,30,30,38,38,30,38,313,30,30,177,177,30,30,30,30,30,30,30,30
+311,30,30,30,30,30,82,83,82,222,82,82,82,77,30,178,179,30,30,30,30,38,78,38,38,38,314,38,30,30,177,177,30,30,30,30,30,30
+30,30,30,30,30,81,84,86,85,222,30,30,30,178,178,30,30,30,30,38,38,30,38,30,38,38,309,30,30,38,30,30,177,177,30,30,30,30
+30,30,30,30,30,78,81,30,30,222,30,178,178,30,30,30,30,30,30,38,38,30,38,38,38,38,341,30,30,38,38,30,30,30,177,177,30,30
+30,30,30,30,30,30,30,30,30,190,178,30,30,30,30,82,30,38,38,38,38,38,38,38,38,38,309,38,38,30,38,30,30,30,30,30,177,177
+30,30,30,30,30,30,30,53,30,176,30,30,30,84,83,85,38,38,38,38,38,38,65,65,38,38,309,30,30,30,30,30,30,30,30,30,30,30
+30,30,30,79,30,30,30,30,30,176,30,80,30,81,86,83,81,77,38,38,38,38,38,38,38,38,313,314,38,30,30,30,31,30,30,30,30,30
+30,30,30,30,30,30,30,30,30,176,30,30,30,83,84,86,85,30,38,30,38,38,38,30,30,30,30,309,30,30,30,30,30,30,30,30,30,30
+30,30,30,30,30,30,30,30,30,176,30,30,84,86,85,83,81,82,38,80,38,30,38,30,30,78,30,309,30,30,30,30,30,30,30,78,30,30
+79,30,30,30,30,30,30,30,30,176,30,81,81,81,84,86,85,84,83,85,30,30,30,30,30,77,30,309,30,30,30,30,30,30,30,30,80,83
+81,80,30,77,31,30,77,30,30,176,30,82,79,81,82,84,83,85,86,82,30,30,30,30,30,30,30,341,30,30,30,78,78,81,30,30,84,86
+82,82,81,80,30,30,30,30,30,176,30,31,82,84,83,85,86,82,81,81,30,30,30,30,30,30,30,309,30,78,30,30,30,84,83,85,81,81
+81,83,81,81,80,30,30,30,30,176,30,30,30,81,86,78,30,30,30,30,30,30,30,30,30,30,30,312,30,30,30,80,78,83,86,81,82,81
+84,86,85,82,30,30,30,30,30,176,30,30,78,79,30,30,30,80,30,30,30,30,30,30,30,30,315,30,30,81,30,83,84,86,85,83,82,81
+81,83,81,79,30,30,78,30,30,176,30,30,78,30,30,30,30,30,30,30,30,30,30,30,30,315,312,30,30,81,84,86,85,82,84,86,85,83
+84,86,85,80,30,30,30,30,30,176,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,309,30,30,30,30,82,84,83,85,81,83,84,86
+83,85,81,81,80,79,30,30,30,176,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,312,30,30,30,30,81,82,86,83,84,86,85,83
+86,81,81,82,81,82,79,30,30,176,30,30,30,30,30,30,30,30,30,30,30,30,30,311,311,30,30,78,30,81,81,81,84,86,85,82,84,86
+
+[player]
+name = 2
+briefing = 8
+
+[player]
+name = 3
+briefing = 9
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 0
+pos = 32/47
+face = 5
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 1
+pos = 32/48
+face = 5
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 2
+pos = 31/47
+face = 5
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 3
+pos = 33/48
+face = 5
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 4
+pos = 33/47
+face = 5
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 5
+pos = 4/54
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 6
+pos = 5/54
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 7
+pos = 3/54
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 8
+pos = 3/55
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 9
+pos = 4/56
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 10
+pos = 5/55
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 11
+pos = 4/55
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 12
+pos = 9/56
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 13
+pos = 9/57
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 14
+pos = 9/58
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 15
+pos = 35/49
+face = 5
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 16
+pos = 36/50
+face = 5
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 17
+pos = 37/50
+face = 5
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 18
+pos = 6/58
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 19
+pos = 7/58
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 20
+pos = 6/59
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 21
+pos = 7/59
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 22
+pos = 7/53
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 23
+pos = 8/54
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 24
+pos = 7/54
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 25
+pos = 8/55
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 26
+pos = 31/50
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 27
+pos = 32/51
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 28
+pos = 31/51
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 29
+pos = 30/51
+
+[unit]
+type = Infantry
+player = 1
+id = 30
+pos = 11/61
+
+[unit]
+type = Infantry
+player = 1
+id = 31
+pos = 12/61
+
+[unit]
+type = Infantry
+player = 1
+id = 32
+pos = 12/62
+
+[unit]
+type = Infantry
+player = 1
+id = 33
+pos = 34/52
+
+[unit]
+type = Infantry
+player = 1
+id = 34
+pos = 35/52
+
+[unit]
+type = Personnel Carriers
+player = 1
+id = 35
+pos = 34/53
+crystals = 20
+
+[unit]
+type = Personnel Carriers
+player = 1
+id = 36
+pos = 10/61
+crystals = 20
+
+[unit]
+type = Personnel Carriers
+player = 1
+id = 37
+pos = 10/62
+crystals = 20
+
+[unit]
+type = Scouts
+player = 1
+id = 38
+pos = 15/48
+
+[unit]
+type = Scouts
+player = 1
+id = 40
+pos = 27/44
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 43
+pos = 20/53
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 44
+pos = 20/54
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 46
+pos = 21/53
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 47
+pos = 21/54
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 51
+pos = 31/48
+face = 5
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 52
+pos = 7/57
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 54
+pos = 22/57
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 55
+pos = 23/56
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 56
+pos = 23/57
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 57
+pos = 24/57
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 58
+pos = 24/58
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 59
+pos = 23/58
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 60
+pos = 22/58
+
+[unit]
+type = Fighter Squadron
+player = 2
+id = 62
+pos = 7/27
+
+[unit]
+type = Fighter Squadron
+player = 2
+id = 63
+pos = 7/26
+
+[unit]
+type = Gunships
+player = 2
+id = 64
+pos = 22/2
+
+[unit]
+type = Infantry
+player = 2
+id = 65
+pos = 35/22
+
+[unit]
+type = Infantry
+player = 2
+id = 66
+pos = 36/23
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 67
+pos = 26/33
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 68
+pos = 27/33
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 69
+pos = 25/33
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 70
+pos = 26/34
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 71
+pos = 27/34
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 72
+pos = 25/34
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 73
+pos = 26/35
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 74
+pos = 14/31
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 75
+pos = 14/30
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 76
+pos = 14/29
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 77
+pos = 14/28
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 78
+pos = 27/27
+face = 4
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 79
+pos = 26/28
+face = 4
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 80
+pos = 12/22
+face = 2
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 81
+pos = 13/22
+face = 2
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 82
+pos = 15/12
+face = 2
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 83
+pos = 16/13
+face = 2
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 84
+pos = 15/5
+face = 4
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 85
+pos = 16/5
+face = 4
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 86
+pos = 9/9
+face = 2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 87
+pos = 10/10
+face = 2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 88
+pos = 28/19
+face = 2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 89
+pos = 27/18
+face = 2
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 90
+pos = 7/23
+face = 2
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 91
+pos = 7/24
+face = 2
+
+[unit]
+type = Rail Guns
+player = 2
+id = 96
+pos = 27/1
+face = 4
+
+[unit]
+type = Rail Guns
+player = 2
+id = 97
+pos = 4/23
+
+[unit]
+type = Infantry
+player = 2
+id = 98
+pos = 11/17
+
+[unit]
+type = Infantry
+player = 2
+id = 99
+pos = 17/18
+
+[unit]
+type = Infantry
+player = 2
+id = 100
+pos = 18/21
+
+[unit]
+type = Infantry
+player = 2
+id = 101
+pos = 27/22
+
+[unit]
+type = Infantry
+player = 2
+id = 102
+pos = 11/14
+
+[unit]
+type = Infantry
+player = 2
+id = 103
+pos = 5/13
+
+[unit]
+type = Infantry
+player = 2
+id = 104
+pos = 10/27
+face = 1
+
+[unit]
+type = Infantry
+player = 2
+id = 105
+pos = 7/21
+face = 1
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 110
+pos = 34/8
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 111
+pos = 35/8
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 112
+pos = 34/9
+
+[unit]
+type = Personnel Carriers
+player = 2
+id = 113
+pos = 20/18
+face = 1
+
+[unit]
+type = Infantry
+player = 2
+id = 114
+pos = 22/11
+
+[unit]
+type = Infantry
+player = 2
+id = 115
+pos = 15/7
+
+[unit]
+type = Infantry
+player = 2
+id = 116
+pos = 31/8
+
+[unit]
+type = Infantry
+player = 1
+id = 119
+pos = 33/52
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 120
+pos = 14/23
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 121
+pos = 14/24
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 122
+pos = 25/28
+face = 4
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 123
+pos = 24/29
+face = 4
+
+[unit]
+type = Scouts
+player = 2
+id = 124
+pos = 3/17
+face = 2
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 128
+pos = 30/47
+face = 5
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 129
+pos = 30/48
+face = 5
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 133
+pos = 15/28
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 134
+pos = 15/29
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 135
+pos = 15/30
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 136
+pos = 25/27
+face = 4
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 137
+pos = 26/27
+face = 4
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 138
+pos = 23/16
+face = 2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 139
+pos = 24/28
+face = 4
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 140
+pos = 4/4
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 141
+pos = 4/5
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 143
+pos = 5/5
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 144
+pos = 5/3
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 145
+pos = 6/4
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 146
+pos = 6/5
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 147
+pos = 13/19
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 148
+pos = 14/20
+
+[unit]
+type = Artillery
+player = 2
+id = 149
+pos = 24/7
+
+[unit]
+type = Scouts
+player = 2
+id = 127
+pos = 27/3
+
+[unit]
+type = Scouts
+player = 2
+id = 150
+pos = 13/20
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 142
+pos = 5/4
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 153
+pos = 16/15
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 154
+pos = 17/15
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 155
+pos = 18/16
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 156
+pos = 17/16
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 157
+pos = 16/16
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 158
+pos = 20/49
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 159
+pos = 19/49
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 160
+pos = 19/50
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 161
+pos = 20/51
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 162
+pos = 21/49
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 163
+pos = 20/50
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 164
+pos = 21/50
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 165
+pos = 18/31
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 166
+pos = 19/31
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 167
+pos = 20/31
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 168
+pos = 19/30
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 169
+pos = 35/23
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 170
+pos = 1/5
+face = 2
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 126
+pos = 36/15
+face = 4
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 171
+pos = 35/15
+face = 4
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 172
+pos = 36/16
+face = 4
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 173
+pos = 35/16
+face = 4
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 174
+pos = 37/15
+face = 4
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 175
+pos = 37/14
+face = 4
+
+[unit]
+type = Scouts
+player = 1
+id = 176
+pos = 34/17
+face = 4
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 93
+pos = 20/28
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 178
+pos = 20/26
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 180
+pos = 19/25
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 181
+pos = 18/26
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 182
+pos = 21/25
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 183
+pos = 22/26
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 184
+pos = 22/28
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 185
+pos = 21/28
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 186
+pos = 19/28
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 187
+pos = 18/28
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 188
+pos = 20/27
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 92
+pos = 19/27
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 125
+pos = 19/26
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 177
+pos = 21/26
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 179
+pos = 21/27
+
+[unit]
+type = Infantry
+player = 1
+id = 189
+pos = 20/25
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 190
+pos = 4/42
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 191
+pos = 3/42
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 192
+pos = 5/41
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 193
+pos = 4/41
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 194
+pos = 3/41
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 195
+pos = 11/39
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 196
+pos = 12/39
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 197
+pos = 10/39
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 198
+pos = 11/38
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 199
+pos = 10/38
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 200
+pos = 11/37
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 201
+pos = 12/38
+
+[unit]
+type = Scouts
+player = 2
+id = 202
+pos = 14/35
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 203
+pos = 33/26
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 204
+pos = 32/27
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 205
+pos = 33/27
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 206
+pos = 31/28
+
+[unit]
+type = Infantry
+player = 1
+id = 207
+pos = 36/17
+face = 4
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 208
+pos = 19/41
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 209
+pos = 20/41
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 210
+pos = 21/41
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 211
+pos = 20/42
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 212
+pos = 18/42
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 213
+pos = 19/42
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 214
+pos = 20/43
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 215
+pos = 21/42
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 216
+pos = 22/42
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 217
+pos = 12/42
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 218
+pos = 13/41
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 219
+pos = 14/42
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 220
+pos = 13/42
+
+[unit]
+type = Gunships
+player = 2
+id = 221
+pos = 35/28
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 117
+pos = 32/37
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 118
+pos = 33/37
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 222
+pos = 34/38
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 223
+pos = 32/38
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 224
+pos = 34/39
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 225
+pos = 33/38
+
+[unit]
+type = Scouts
+player = 2
+id = 226
+pos = 33/36
+
+[unit]
+type = Scouts
+player = 2
+id = 94
+pos = 5/25
+
+[unit]
+type = Scouts
+player = 2
+id = 95
+pos = 5/25
+
+[unit]
+type = Fighter Squadron
+player = 2
+id = 106
+pos = 22/4
+
+[unit]
+type = Fighter Squadron
+player = 2
+id = 107
+pos = 22/4
+
+[unit]
+type = Fighter Squadron
+player = 2
+id = 108
+pos = 22/4
+
+[unit]
+type = Fighter Squadron
+player = 2
+id = 109
+pos = 22/4
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 151
+pos = 5/25
+
+[unit]
+type = Gunships
+player = 2
+id = 152
+pos = 5/25
+
+[building]
+name = 4
+player = 2
+id = 0
+pos = 22/4
+type = workshop
+mining = 2
+crystals = 80
+
+[building]
+name = 5
+player = 2
+id = 1
+pos = 5/25
+type = workshop
+crystals = 60
+
+### create unit events set off at fixed time
+
+[event]
+id = 5
+type = createunit
+player = 2
+trigger = timer
+ttime = 29
+unit = Fighter Squadron
+pos = 5/25
+
+[event]
+id = 6
+type = createunit
+player = 2
+trigger = timer
+ttime = 29
+unit = Fighter Squadron
+pos = 5/25
+
+[event]
+id = 7
+type = createunit
+player = 2
+trigger = timer
+ttime = 29
+unit = Bomber Wing
+pos = 5/25
+
+[event]
+id = 8
+type = createunit
+player = 2
+trigger = timer
+ttime = 29
+unit = Bomber Wing
+pos = 5/25
+
+[event]
+id = 35
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Gunships
+pos = 5/25
+depend = 5
+
+[event]
+id = 36
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Gunships
+pos = 5/25
+depend = 5
+
+[event]
+id = 29
+type = message
+player = 1
+depend = 5
+title = 14
+message = 15
+trigger = timer
+ttime = 29
+
+###
+
+[event]
+id = 9
+type = message
+player = 1
+title = 0
+message = 6
+trigger = timer
+ttime = 0
+
+[event]
+id = 10
+type = message
+player = 2
+title = 0
+message = 7
+trigger = timer
+ttime = 0
+
+[event]
+id = 11
+type = score
+player = 1
+discard = 12
+title = 16
+message = 10
+trigger = havebuilding
+tbuilding = 0
+towner = 1
+ttime = -1
+success = 100
+othermsg = 13
+othertitle = 17
+
+[event]
+id = 12
+type = score
+player = 1
+discard = 11
+title = 16
+message = 10
+trigger = unitdestroyed
+tunit = -1
+towner = 2
+success = 100
+othermsg = 13
+othertitle = 17
+
+[event]
+id = 13
+type = score
+player = 2
+title = 16
+message = 11
+trigger = unitdestroyed
+tunit = -1
+towner = 1
+success = 100
+othermsg = 12
+othertitle = 17
+
+### create unit events set off after the depot has been taken
+
+[event]
+id = 14
+type = createunit
+player = 2
+flags = 1
+trigger = timer
+ttime = 0
+unit = Fighter Squadron
+pos = 22/4
+xp = 2
+
+[event]
+id = 15
+type = createunit
+player = 2
+depend = 14
+trigger = timer
+ttime = 0
+unit = Fighter Squadron
+pos = 22/4
+xp = 2
+
+[event]
+id = 16
+type = createunit
+player = 2
+depend = 14
+trigger = timer
+ttime = 0
+unit = Bomber Wing
+pos = 22/4
+xp = 2
+
+[event]
+id = 17
+type = createunit
+player = 2
+depend = 14
+trigger = timer
+ttime = 0
+unit = Bomber Wing
+pos = 22/4
+xp = 2
+
+[event]
+id = 18
+type = createunit
+player = 2
+depend = 14
+trigger = timer
+ttime = 0
+unit = Bomber Wing
+pos = 22/4
+xp = 2
+
+[event]
+id = 19
+type = createunit
+player = 2
+depend = 14
+trigger = timer
+ttime = 0
+unit = Fighter Squadron
+pos = 22/4
+xp = 2
+
+[event]
+id = 20
+type = createunit
+player = 2
+depend = 14
+trigger = timer
+ttime = 0
+unit = Fighter Squadron
+pos = 22/4
+xp = 2
+
+[event]
+id = 24
+type = createunit
+player = 2
+depend = 14
+trigger = timer
+ttime = 0
+unit = Medium Tanks
+pos = 22/4
+xp = 2
+
+[event]
+id = 25
+type = createunit
+player = 2
+depend = 14
+trigger = timer
+ttime = 0
+unit = Medium Tanks
+pos = 22/4
+xp = 2
+
+[event]
+id = 26
+type = createunit
+player = 2
+depend = 14
+trigger = timer
+ttime = 0
+unit = Heavy Tanks
+pos = 22/4
+xp = 3
+
+[event]
+id = 27
+type = createunit
+player = 2
+depend = 14
+trigger = timer
+ttime = 0
+unit = Scouts
+pos = 22/4
+xp = 2
+
+[event]
+id = 37
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Fighter Squadron
+pos = 22/4
+xp = 2
+depend = 14
+
+[event]
+id = 38
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Bomber Wing
+pos = 22/4
+xp = 2
+depend = 14
+
+[event]
+id = 21
+type = settimer
+player = 2
+trigger = havebuilding
+tbuilding = 1
+towner = 1
+ttime = -1
+event = 14
+time = 3
+offset = 1
+
+[event]
+id = 30
+type = message
+player = 1
+depend = 14
+title = 14
+message = 15
+trigger = timer
+ttime = 0
+
+### create unit events set off after the first Kandelian battle
+### group is destroyed (or rather a random member thereof)
+
+[event]
+id = 22
+type = settimer
+player = 2
+trigger = unitdestroyed
+tunit = 69
+towner = 2
+event = 0
+time = 1
+offset = 1
+
+[event]
+id = 0
+type = createunit
+player = 2
+flags = 1
+trigger = timer
+ttime = 0
+unit = Fighter Squadron
+pos = 22/4
+
+[event]
+id = 1
+type = createunit
+player = 2
+depend = 0
+trigger = timer
+ttime = 0
+unit = Fighter Squadron
+pos = 22/4
+
+[event]
+id = 2
+type = createunit
+player = 2
+depend = 0
+trigger = timer
+ttime = 0
+unit = Fighter Squadron
+pos = 22/4
+
+[event]
+id = 3
+type = createunit
+player = 2
+depend = 0
+trigger = timer
+ttime = 0
+unit = Bomber Wing
+pos = 22/4
+
+[event]
+id = 4
+type = createunit
+player = 2
+depend = 0
+trigger = timer
+ttime = 0
+unit = Bomber Wing
+pos = 22/4
+
+[event]
+id = 39
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Bomber Wing
+pos = 22/4
+depend = 0
+
+[event]
+id = 40
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Fighter Squadron
+pos = 22/4
+depend = 0
+
+[event]
+id = 23
+type = message
+player = 1
+depend = 0
+title = 14
+message = 15
+trigger = timer
+ttime = 0
+
+###
+
+[event]
+id = 28
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Fighter Squadron
+pos = 16/60
+face = 0
+
+[event]
+id = 31
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 5
+unit = Gunships
+pos = 17/52
+face = 0
+
+[event]
+id = 32
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 5
+unit = Gunships
+pos = 18/53
+face = 0
+
+[event]
+id = 33
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Heavy Tanks
+pos = 5/58
+face = 0
+
+[event]
+id = 34
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Scouts
+pos = 16/48
+face = 0
+
+[messages(de)]
+Feuertaufe
+%
+Feuertaufe
+
+von Jens Granseuer <jensgr@gmx.net>
+
+Vierter Teil des Yalwa-Feldzugs.
+%
+Armee Freier Nexus
+%
+Imperium von Kand
+%
+Kandelianischer Hauptquartier
+%
+Flugplatz
+%
+Die nächste Phase unserer Operation wird die bis hierher gefährlichste werden. Um Lula zu erreichen, müssen wir die Sarot-Ebene überqueren. Während dieser Zeit werden wir sehr verwundbar sein, insbesondere durch Angriffe aus der Luft. Die Kandelianer wissen dies natürlich, und obwohl wir als vorbereitende Maßnahmen in den vergangenen Wochen einige Angriffe gegen Luftwaffenstützpunkte und ähnliche Ziele ausgeführt haben, müssen wir immer noch mit schweren Verlusten rechnen. Dies ist unvermeidlich.
+
+Diese einfache Tatsache darf uns aber trotz allem nicht davon abhalten, diesen Schritt zu tun. Es wird Opfer geben, aber zu guter Letzt werden wir vor Lula stehen und die Stadt dem Imperium entreißen.
+
+Wir müssen die Kandelianer auf der Ebene schlagen. Sobald wir ihren Stützpunkt dort eingenommen haben, wird der schlimmste Teil der Ebene bereits hinter uns liegen.
+
+Viel Glück! Für einen freien Nexus!
+%
+Die Rebellen versuchen nun, die Sarot-Ebene in Richtung Lula zu überqueren. Dort sitzen sie wie auf dem Präsentierteller. Obwohl wir bei Angriffen auf Luftwaffenstützpunkte in den letzten Wochen im südlichen Teil der Ebene einige Geschwader verloren haben, haben wir immer noch genügend Ressourcen übrig, um diese Revolte ein für allemal zu beenden.
+
+Sie müssen dafür sorgen, dass es der Armee Freier Nexus nicht gelingt, die Ebene zu überqueren.
+
+Lang lebe der Imperator!
+%
+Missionsziele:
+
+1a. Erobere das Kandelianische Hauptquartier
+1b. Zerstöre alle feindlichen Einheiten.
+%
+Missionsziele:
+
+1. Zerstören Sie alle Einheiten der AFN.
+
+2. Halten Sie die Rebellen von unserem Hauptquartier fern.
+%
+Gut gemacht! Wir haben die Sarot-Ebene hinter uns gelassen. Die Kandelianer können jetzt schwerlich noch verhindern, dass wir Lula erreichen. Du hast die Schlacht auf der Sarot-Ebene gewonnen.
+%
+Gratulation. Sie haben der Rebellion in der Schlacht auf der Sarot-Ebene den Todesstoß versetzt.
+%
+Die Armee Freier Nexus wurde ausgelöscht. Die Rebellion hat so ein schnelles Ende gefunden und wird lediglich eine Fußnote in den Geschichtsbüchern bleiben. Du hast versagt.
+%
+Sie haben versagt. Die AFN hat die Sarot-Ebene erfolgreich überquert. Wir müssen unsere Anstrengungen jetzt auf die Befestigung und Verteidigung Lulas konzentrieren.
+%
+Bericht der Aufklärer
+%
+Unsere Aufklärer melden weitere feindliche Staffeln im Anflug!
+%
+Mission erfolgreich
+%
+Mission fehlgeschlagen
+[/messages]
+
+[messages(en)]
+Baptism of Fire
+%
+Baptism of Fire
+
+by Jens Granseuer <jensgr@gmx.net>
+
+Fourth installment of the Yalwa campaign.
+%
+Free Nexus Army
+%
+Empire of Kand
+%
+Kandelian HQ
+%
+Airfield
+%
+The next phase of our campaign is going to be the most dangerous yet. To reach Lula, we need to cross the Sarot Plains. During this time we will be very vulnerable, especially to attacks from above. The Kandelians know this, of course, and even though we have launched several attacks on airbases and similar targets during the past weeks in preparation for this, we still have to expect heavy losses. This is inevitable.
+
+However, this simple fact must not prevent us from taking this step. There will be casualties, but at the end of the day, we will stand before Lula and wrench it from the Empire's grasp.
+
+You must defeat the Kandelians on the plains. When we have taken their command post there, the worst part of the plains will be behind us.
+
+Good luck! For a free Nexus!
+%
+The rebels are now trying to cross the Sarot Plains towards Lula. They present their own heads on a platter. Even though we have lost a number of wings in recent assaults on several airbases in the southern parts of the plains, we still have ample resources left to put this revolt down for good now.
+
+You must make sure the rebels do not cross the Sarot Plains.
+
+Long live the Emperor!
+%
+Mission Objectives:
+
+1a. Conquer the Kandelian headquarters.
+1b. Destroy all enemy units.
+%
+Mission Objectives:
+
+1. Destroy all FNA units.
+
+2. Keep the rebels away from our headquarters.
+%
+Well done! We have left the Sarot Plains behind us, and there is not much the Kandelians can do to keep us from reaching Lula now. You have won the Battle of the Sarot Plains.
+%
+Congratulations. You have vanquished the rebel threat in the Battle of the Sarot Plains.
+%
+The Free Nexus Army has been wiped out. The rebellion has come to a quick end, and it will remain a footnote in the history books. You have failed.
+%
+You have failed. The rebel army has successfully crossed the Sarot Plains. We must now concentrate our efforts on fortifying and defending Lula.
+%
+Recon Report
+%
+Our reconnaissance units show more bandits incoming!
+%
+Mission accomplished
+%
+Mission failed
+[/messages]
+
+[messages(fr)]
+Baptême du Feu
+%
+Baptême du Feu
+
+par Jens Granseuer <jensgr@gmx.net>
+traduction française: Benoit Peureux <benoit.peureux@wanadoo.fr>
+
+Quatrième partie de la campagne de Yalwa.
+%
+Armée du Nexus Libre
+%
+Empire de Kand
+%
+QG Kandélien
+%
+Terrain d'aviation
+%
+La prochaine phase de notre campagne va être encore plus dangereuse que les précédentes. Pour atteindre Lula, nous devons traverser les plaines de Sarot. Pendant ce trajet nous serons très vulnérables, particulièrement aux attaques à partir des airs. 
+
+A l'évidence, les Kandéliens le savent, et bien que nous ayons lancé plusieurs attaques sur leurs bases aériennes et sur des cibles semblables durant les semaines passées pour préparer notre opération, nous devons encore nous attendre à de lourdes pertes. Cela parait inévitable!
+
+Cependant, cela ne doit pas nous empêcher de prendre cette décision. Certes, il y aura des pertes, mais à la fin du jour, nous serons devant Lula et nous pourrons l'arracher à l'emprise de l'empire.
+
+Vous devez vaincre les Kandéliens dans les plaines. Quand nous aurons pris leur poste de commandement, les difficultés seront derrière nous.
+
+Bonne chance! Vive le Nexus Libre!
+%
+Les rebelles essayent maintenant de traverser les plaines de Sarot en direction de Lula. Ils courent au casse pipe! Quoique nous ayons perdu un certain nombre de bases aériennes lors des assauts ennemis récents sur les parties méridionales des plaines, nous avons toujours les ressources suffisantes pour mater définitivement cette révolte.
+
+Vous devez vous assurer que les rebelles ne traversent pas les plaines de Sarot.
+
+Vive l'Empereur!
+%
+Objectifs de la mission:
+
+1a. Conquérir le quartier général (QG) des Kandéliens.
+1b. Détruire toutes les unités ennemies.
+%
+Objectifs de la mission:
+
+1. Détruire toutes les unités des Forces Armées de Nexus.
+
+2. Eloigner les rebelles de notre quartier général (QG).
+%
+Bravo! Les plaines de Sarot sont à présent derrière nous, et il n'y a plus rien que les Kandéliens puissent faire pour nous empécher d'atteindre Lula. Vous avez gagné la bataille des plaines de Sarot.
+%
+Félicitations. Vous avez vaincu la menace rebelle dans la bataile des plaines de Sarot.
+%
+L'armée du Nexus Libre a été éliminée. La rébellion s'est ensuite terminée rapidement et elle ne représentera pour la postérité qu'une péripétie mineure de l'histoire de Nexus. Vous avez échoué.
+%
+Vous avez échoué. L'armée rebelle a franchi avec succès les plaines de Sarot. Nous devons maintenant concentrer tous nos efforts pour fortifier et défendre Lula.
+%
+Rapport de reconnaissance
+%
+Nos rapports de reconnaissance indiquent l'arrivée massive de bandits!
+%
+Mission accomplie
+%
+Echec de la mission
+[/messages]
+
+[messages(pl)]
+Chrzest ognia
+%
+Chrzest ognia
+
+autor: Jens Granseuer <jensgr@gmx.net>
+polskie tłumaczenie: Wacław Schiller <torinthiel@data.pl>
+
+Czwarta misja kampanii Yalwa.
+%
+Wolna Armia Nexusu
+%
+Imperium Kandyjskie
+%
+Sztab Kandyjski
+%
+Lotnisko
+%
+Następna faza naszej kampanii będzie najniebezpieczniejszą z dotychczasowych. Żeby dotrzeć do regionu Lula musimy przekroczyć Równiny Sarot. W tym czasie będziemy mocno zagrożeni, zwłaszcza atakami z powietrza. Kandyjczycy oczywiście wiedzą o tym więc, chociaż przygotowując się na to w ostatnich kilku tygodniach przeprowadziliśmy kilka ataków na ich bazy lotnicze i podobne obiekty, nadal musimy spodziewać się ciężkich strat. Jest to nieuniknione.
+
+Ale ten prosty fakt nie może nas powstrzymać przed działaniem. Będą straty, ale pod koniec dnia będziemy stać u wrót Lula i wyrwiemy ją z uścisku Imperium.
+
+Musimy pokonać Kandyjczyków na równinach. Kiedy przejmiemy kontrolę nad ich lokalnym centrum dowodzenia, będzie za nami najgorsza część równin.
+
+Powodzenia! Za wolny Nexus!
+%
+Rebelianci starają się teraz przekroczyć Równiny Sarot. Kierują się w stronę regionu Lula. Mamy ich na talerzu. Chociaż w ostatnich atakach na bazy lotnicze straciliśmy wiele skrzydeł, wciąż mamy wystarczające siły żeby ukrócić tę rewolucję na dobre.
+
+Musisz upewnić się, że rebelianci nie przekroczą Równin Sarot.
+
+Niech żyje Imperator!
+%
+Cele misji:
+
+1a. Przejmij sztab Kandyjski.
+1b. Zniszcz wszystkie jednostki wroga.
+%
+Cele misji:
+
+1. Zniszcz wszystkie jednoski FNA.
+
+2. Trzymaj rebeliantów z daleka od naszego sztabu.
+%
+Dobra robota! Pozostawiliśmy za nami Równiny Sarot i Kandyjczycy niewiele mogą już zrobić żeby powstrzymać nas przed dotarciem do Lula. Wygrałeś Bitwę na Równinach Sarot.
+%
+Gratulacje. Usunąłeś rebelianckie zagrożenie w Bitwie na Równinach Sarot.
+%
+Armia Wolnego Neksusu została zniszczona. Rebelia już się skończyła i pozostanie przypiskiem w księgach historii. Zawiodłeś.
+%
+Zawiodłeś. Armia rebelii przekroczyła Równiny Sarot. Musimy teraz skoncentrować nasze wysiłki na fortyfikowaniu i bronieniu Lula.
+%
+Raport zwiadu
+%
+Nasze jednostki zwiadowcze zaobserwowały przybycie większej ilości bandytów.
+%
+Misja wykonana
+%
+Misja nieudana
+[/messages]
+ 

@@ -1,0 +1,49 @@
+I would like to thank everyone who made Crimson Fields possible,
+especially (in order of appearance):
+
+* Marcus Schreiner, for "The General"
+
+* Uwe Hermann, for various patches and the initial version of the man
+  pages as well as maintaining the Debian package
+
+* Adam Gates, for the Win32 port
+
+* Nils Müller, for contributions to the combat system and additional gfx
+
+* Daniel da Rocha Hoppe, for the sound effects
+
+* Thorsten Jordan, for "The Great Battle" and "Island Hoppers"
+
+* Florian Dietrich, for lots of additional gfx and the bi2cf converter
+
+* Laurent Le Guillou, for "The Lost Factories"
+
+* Chang Tang Yen, for "Operation: Anthill", "Lankh Valley", and
+  "Revelation"
+
+* Frank Fiedler, for additional gfx
+
+* Thomas Klausner, for "Mountain Defense"
+
+* Maik Stohn, for the Windows CE port
+
+* David Fancella, for the soundtracks
+
+* Andrej Krivulcik, for the tutorial campaign
+
+* Silvio Iaccarino, for maintaining the Windows and PocketPC ports
+
+
+Translators:
+* Sebastian Gabor, Waclaw Schiller (pl)
+* Benjamin Power, Benoit Pereux (fr)
+* Andrej Krivulcik (sk)
+* Erno Szabados (hu)
+* Americo Iacovizzi (it)
+* Nikola Smolenski (sr)
+* Murat Senel (tr)
+ 
+and everyone else who sent in bug reports, suggestions, or comments.
+
+Thanks!
+

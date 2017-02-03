@@ -1,0 +1,753 @@
+[mission]
+name = 0
+mapwidth = 24
+mapheight = 24
+info = 10
+players = 1
+
+[map-raw]
+307,307,307,56,307,35,87,139,145,178,178,92,96,30,34,34,34,35,35,178,184,191,82,82
+307,238,60,307,307,35,87,133,182,98,92,30,30,30,30,30,30,178,178,264,256,1,177,181
+227,22,14,23,34,38,87,133,176,88,30,30,30,30,30,178,178,269,250,251,22,24,23,176  
+226,223,24,66,38,38,87,143,176,93,30,30,30,178,178,250,264,30,258,84,83,85,60,176
+38,38,223,223,66,111,95,30,176,30,30,178,178,30,254,250,257,255,251,79,86,81,56,176
+38,38,38,113,128,130,144,147,205,178,178,30,30,30,262,30,30,70,71,72,80,38,38,205  
+38,91,91,135,145,30,30,30,190,144,30,30,30,30,248,30,30,360,73,360,360,360,38,208
+91,135,135,30,30,30,30,30,176,30,147,117,30,30,248,30,360,360,360,361,360,360,360,208
+146,30,30,360,30,30,30,30,176,120,118,121,117,117,248,360,360,360,361,361,361,361,360,176
+30,360,360,360,30,360,30,360,208,361,119,361,361,361,274,360,360,360,360,360,361,360,360,211
+360,363,360,360,360,360,360,360,208,117,361,118,117,117,274,30,30,30,30,30,360,360,360,208  
+360,360,361,361,365,360,360,30,176,30,120,119,121,30,248,30,30,30,30,315,311,31,360,202
+360,360,361,360,360,360,360,30,205,30,30,30,30,30,248,30,30,30,30,312,31,31,31,202
+30,30,360,30,30,30,30,30,176,30,30,34,30,30,248,30,30,30,315,156,172,36,33,32
+30,30,30,30,30,30,30,30,176,30,30,30,34,30,248,32,30,343,312,154,36,37,36,172
+30,30,30,61,30,30,30,30,176,30,30,30,30,30,248,311,311,30,31,33,174,162,175,36
+30,30,62,64,63,30,30,30,176,30,30,30,30,311,290,30,30,30,30,33,37,148,37,36   
+30,30,30,176,30,30,30,30,176,30,30,311,343,77,248,30,30,30,30,36,36,153,36,36
+30,30,30,176,30,30,30,178,185,298,311,76,77,78,248,30,30,30,30,30,172,127,132,132
+30,30,30,176,30,178,178,311,311,77,177,177,77,78,248,30,30,139,145,30,130,30,129,127
+30,30,30,193,178,315,311,77,77,78,77,78,177,206,248,30,30,143,30,30,30,11,30,117    
+30,182,178,30,30,309,78,81,79,82,77,77,77,77,277,206,31,31,30,30,22,24,23,117   
+30,0,30,30,30,312,77,84,83,85,79,83,78,78,248,31,203,31,30,30,30,30,30,38    
+22,24,23,311,311,81,82,81,86,81,84,86,85,79,248,38,31,38,34,35,34,38,38,38
+
+[player]
+name = 3
+briefing = 9
+
+[player]
+name = 4
+briefing = 9
+
+[unit]
+type = Personnel Carriers
+player = 1
+id = 6
+pos = 3/21
+
+[unit]
+type = Hovercraft
+player = 2
+id = 33
+pos = 17/6
+
+[unit]
+type = Hovercraft
+player = 2
+id = 34
+pos = 16/7
+
+[unit]
+type = Anti-Aircraft Guns
+player = 2
+id = 0
+pos = 17/3
+
+[unit]
+type = Gunships
+player = 2
+id = 5
+pos = 22/3
+
+[unit]
+type = Infantry
+player = 1
+id = 7
+pos = 2/22
+
+[unit]
+type = Infantry
+player = 1
+id = 8
+pos = 3/22
+
+[unit]
+type = Gunships
+player = 1
+id = 9
+pos = 4/16
+
+[unit]
+type = Gunships
+player = 1
+id = 10
+pos = 3/16
+
+[unit]
+type = Gunships
+player = 1
+id = 11
+pos = 2/16
+
+[unit]
+type = Gunships
+player = 1
+id = 12
+pos = 3/15
+
+[unit]
+type = Artillery
+player = 1
+id = 13
+pos = 4/19
+
+[unit]
+type = Artillery
+player = 1
+id = 14
+pos = 5/18
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 15
+pos = 4/21
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 16
+pos = 4/22
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 17
+pos = 2/20
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 18
+pos = 1/20
+
+[unit]
+type = Infantry
+player = 2
+id = 35
+pos = 16/1
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 41
+pos = 12/2
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 42
+pos = 12/1
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 44
+pos = 11/2
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 53
+pos = 20/18
+
+[unit]
+type = Infantry
+player = 2
+id = 54
+pos = 20/13
+
+[unit]
+type = Infantry
+player = 2
+id = 55
+pos = 23/14
+
+[unit]
+type = Infantry
+player = 2
+id = 57
+pos = 15/6
+
+[unit]
+type = Rail Guns
+player = 2
+id = 39
+pos = 14/5
+
+[unit]
+type = Infantry
+player = 2
+id = 4
+pos = 15/7
+
+[unit]
+type = Infantry
+player = 2
+id = 58
+pos = 16/6
+
+[unit]
+type = Bunkers
+player = 2
+id = 59
+pos = 23/0
+
+[unit]
+type = Bunkers
+player = 2
+id = 60
+pos = 22/0
+
+[unit]
+type = Artillery
+player = 2
+id = 61
+pos = 10/0
+
+[unit]
+type = Anti-Aircraft Guns
+player = 2
+id = 62
+pos = 9/0
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 64
+pos = 8/2
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 65
+pos = 8/3
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 37
+pos = 10/2
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 38
+pos = 11/1
+
+[unit]
+type = Bunkers
+player = 2
+id = 2
+pos = 10/6
+
+[unit]
+type = Bunkers
+player = 2
+id = 3
+pos = 7/4
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 32
+pos = 8/1
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 36
+pos = 10/3
+
+[unit]
+type = Armoured Train
+player = 2
+id = 1
+pos = 19/1
+face = 4
+
+[unit]
+type = Hovercraft
+player = 1
+id = 19
+pos = 1/22
+
+[unit]
+type = Hovercraft
+player = 2
+id = 46
+pos = 21/1
+
+[unit]
+type = Scouts
+player = 1
+id = 20
+pos = 1/22
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 21
+pos = 1/22
+
+[unit]
+type = Scouts
+player = 0
+id = 22
+pos = 21/20
+
+[unit]
+type = Infantry
+player = 0
+id = 24
+pos = 21/20
+
+[unit]
+type = Infantry
+player = 0
+id = 25
+pos = 21/20
+
+[unit]
+type = Heavy Tanks
+player = 0
+id = 26
+pos = 21/20
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 0
+id = 28
+pos = 2/2
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 0
+id = 29
+pos = 2/2
+
+[unit]
+type = Infantry
+player = 2
+id = 47
+pos = 21/1
+
+[unit]
+type = Infantry
+player = 2
+id = 48
+pos = 21/1
+
+[unit]
+type = Interceptors
+player = 2
+id = 49
+pos = 21/1
+
+[unit]
+type = Interceptors
+player = 2
+id = 50
+pos = 21/1
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 51
+pos = 21/1
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 52
+pos = 21/1
+
+[unit]
+type = Interceptors
+player = 2
+id = 40
+pos = 21/1
+
+[unit]
+type = Infantry
+player = 0
+id = 27
+pos = 2/2
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 0
+id = 30
+pos = 2/2
+
+[unit]
+type = Gunships
+player = 0
+id = 31
+pos = 2/2
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 43
+pos = 1/22
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 1
+id = 45
+pos = 1/22
+
+[unit]
+type = Hovercraft
+player = 0
+id = 23
+pos = 21/20
+
+[building]
+name = 2
+player = 1
+id = 0
+pos = 1/22
+type = workshop
+crystals = 30
+
+[building]
+name = 6
+player = 0
+id = 2
+pos = 21/20
+type = workshop
+crystals = 30
+
+[building]
+name = 5
+player = 0
+id = 3
+pos = 2/2
+type = workshop
+type = factory
+factory = Infantry
+factory = Anti-Aircraft Tanks
+factory = Interceptors
+factory = Hovercraft
+crystals = 75
+
+[building]
+name = 1
+player = 2
+id = 4
+pos = 21/1
+type = workshop
+crystals = 50
+
+[event]
+id = 2
+type = score
+player = 1
+trigger = havebuilding
+tbuilding = 4
+towner = 1
+ttime = -1
+success = 100
+
+[event]
+id = 3
+type = score
+player = 2
+trigger = havebuilding
+tbuilding = 0
+towner = 2
+ttime = -1
+success = 100
+
+[event]
+id = 0
+type = message
+player = 1
+title = 3
+message = 7
+pos = 1/22
+trigger = timer
+ttime = 0
+
+[event]
+id = 1
+type = message
+player = 2
+title = 4
+message = 8
+pos = 21/1
+trigger = timer
+ttime = 0
+
+[event]
+id = 4
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Heavy Tanks
+pos = 1/22
+
+[event]
+id = 5
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Heavy Tanks
+pos = 1/22
+
+[event]
+id = 6
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Heavy Tanks
+pos = 1/22
+
+[event]
+id = 7
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Bunkers
+pos = 21/5
+
+
+[messages(de)]
+Die Schlucht von Omyar
+%
+Kandelianisches Hauptquartier
+%
+Hauptquartier der Rebellen
+%
+Armee Freier Nexus
+%
+Imperium von Kand
+%
+Omyar
+%
+Womsch
+%
+Die Provinz Yalmar wird durch den Fluss Sarph geteilt, der in den Bergen von Shalassia im Südwesten entspringt und schließlich einige hundert Meilen nordöstlich ins Nordmeer mündet. Um Ultha, die Hauptstadt von Yalmar zu erreichen, müssen unsere Truppen den Fluss überqueren. Von den größeren Brücken wurde viele in den Kämpfen der letzten Wochen zerstört oder beschädigt, und wir müssen uns beeilen, bevor das Imperium auch die übrig gebliebenen sprengt, was unseren Vormarsch erheblich verzögern würde.
+
+Die beste Möglichkeit für uns bietet sich bei der Schlucht von Omyar. Die dortigen Brücken sind noch weitgehend intakt und groß genug, um auch schweres Gerät hinüber zu bringen. Du musst die Brücken unter unsere Kontrolle bringen, indem du das Hauptquartier des Imperiums besetzt, so dass wir unsere Armee gefahrlos nach Norden bringen können.
+
+Viel Glück. Für einen freien Nexus!
+%
+Die Rebellen bewegen sich langsam nach Norden in Richtung Ultha, der Hauptstadt der Provinz Yalmar. Ein großes Hindernis auf ihrem Weg ist der Fluss Sarph, der die gesamte Provinz von Südwesten nach Nordosten durchquert. Viele Brücken über den Fluss sind in den Kämpfen der letzten Wochen zerstört oder beschädigt worden oder sind einfach zu klein, um auch schweres Gerät über den Fluss zu bringen. Die Rebellen versuchen also nun, einige der verbliebenen großen Brücken zu erobern.
+
+Zwei dieser Brücken befinden sich bei der Schlucht von Omyar, und dies scheint der Ort zu sein, an dem die Armee Freier Nexus ihre Kräfte zusammen zieht. Wir unterhalten eine größere Basis neben dem Fluss, und solange wir diesen Stützpunkt kontrollieren, können die Aufständischen keine größeren Verbände über die Brücken schicken.
+
+Verteidigen Sie die Brücken und schlagen Sie die Angreifer zurück!
+
+Lang lebe der Imperator!
+%
+Missionsziele:
+
+Zerstören Sie alle feindlichen Truppen
+
+oder
+
+erobern Sie das gegnerische Hauptquartier.
+%
+Die Schlucht von Omyar
+
+Die Schlacht um die Brücken über den Fluss Sarph.
+[/messages]
+
+[messages(en)]
+Across the Omyar Gorge
+%
+Kandelian HQ
+%
+Rebel HQ
+%
+Free Nexus Army
+%
+Empire of Kand
+%
+Omyar
+%
+Womsch
+%
+The Yalmar province is divided by the Sarph river which comes down from the Shalassian Mountains in the southwest and finally flows into the Northern Sea several hundred miles to the northeast. To reach Ultha, the capital of the Yalmar province, our forces have to cross the river. Of the larger bridges, many have been destroyed or damaged in recent battles, and we need to move quickly before the Empire decides to blow up the remaining ones which would considerably delay our advance.
+
+The best opportunity for us seems to be the bridges at the Omyar Gorge which are still intact and large enough to get the heavy troops across. You must capture the bridges by taking the Imperial main base so that we can safely move our army northwards.
+
+Good luck. For a free Nexus!
+%
+The rebels are slowly marching north towards Ultha, the capital of the Yalmar province. A major obstacle on their path is the Sarph river which crosses the entire province from southwest to northeast. Many bridges across the river have been destroyed or damaged during recent battles or are simply too small to move heavy gear across, so they are now coming for the remaining larger ones.
+
+Two of those large bridges are located at the Omyar Gorge, and this seems to be where the rebels have shifted their attention. We do have a fairly large base next to the river, and as long as we control the base the Free Nexus Army will not be able to send significant forces across the bridges.
+
+Defend the bridges and repel the rebel army!
+
+Long live the Emperor!
+%
+Mission objectives:
+
+Destroy all hostile forces
+
+or
+
+conquer the enemy headquarters.
+%
+Across the Omyar Gorge
+
+The battle for the bridges across the Sarph river.
+[/messages]
+
+[messages(fr)]
+Les gorges d'Omyar
+%
+QG des Kandéliens
+%
+QG des rebelles
+%
+Armée du Nexus Libre
+%
+Empire de Kand
+%
+Omyar
+%
+Womsch
+%
+La province de Yalmar est coupée par le fleuve Sarph qui descend des montagnes de Shalassian dans le sud-ouest et coule jusque dans la mer du nord, plusieurs centaines de kilométres au nord-est. Pour atteindre Ultha, la capitale de la province de Yalmar, nos forces doivent traverser ce fleuve.
+Lors des batailles récentes, la plupart des principaux ponts ont été détruits ou endommagés, et nous devons nous déplacer rapidement avant que l'Empire ne décide de faire sauter ceux qui sont encore intacts afin de nous entraver considérablement dans notre progression.
+
+La meilleure opportunité que nous ayons, nous semble être d'emprunter les ponts de la gorge d'Omyar qui sont encore intacts et suffisamment importants pour que nos troupes lourdes puissent les traverser. Vous devez contrôler ces ponts en prenant la principale base impériale à proximité, de sorte que nous puissions déplacer sans risque notre armée vers le nord.
+
+Bonne chance. Vive le Nexus Libre!
+%
+Les rebelles progressent lentement au nord vers Ultha, la capitale de la province de Yalmar. Le fleuve Sarph qui coule en travers de la province du sud-ouest au nord-est est un obstacle important sur leur route. De nombreux ponts sur le fleuve ont été détruits ou endommagés pendant des batailles récentes ou sont simplement trop petits pour permettre à leur troupes lourdes de traverser. Ainsi ils doivent maintenant rechercher les derniers ponts suffisament importants pour supporter leur passage.
+
+Deux de ces grands ponts sont situés dans la gorge d'Omyar, et ils semblent avoir retenus l'attention des rebelles. Nous disposons d'une base assez grande à côté du fleuve, et tant que nous contrôlons cette base, l'armée du Nexus Libre ne pourra pas faire traverser de forces significatives par ces ponts.
+
+Vous devez défendre les ponts et repousser l'armée rebelle! 
+
+Vive l'Empereur!
+%
+Objectifs de la mission:
+
+Détruire toutes les forces hostiles
+
+ou
+
+conquérir le quartier général ennemi.
+%
+Les gorges d'Omyar
+
+La bataille pour le contrôle des ponts sur le fleuve Sarph.
+
+traduction française: Benoit Peureux <benoit.peureux@wanadoo.fr>
+[/messages]
+
+[messages(pl)]
+Przez Przełom Omyar'a
+%
+Centrum Dowodzenia Imperium
+%
+Centrum Dowodzenia Rebelii
+%
+Wolna Armia Nexusu
+%
+Imperium Kandyjskie
+%
+Omyar
+%
+Womsch
+%
+Prowincja Yalmar jest przecięta rzeką Sarph, wypływającą z Gór Shalessiańskich na południowym zachodzie, a wpływającą do Morza Północnego na północnym wschodzie. Aby dotrzeć do Ulthy stolicy Yalmaru nasze siły muszą przekroczyć rzekę. Większość z mostów została zniszczona w ostatnich bitwach, a my musimy działać szybko zanim Imperium zdecyduje się wysadzić pozostałe, co znacznie opóźniłoby nam pochód.
+
+Najlepszym wyjściem dla nas jest skorzystanie z mostów na Przełomie Omyar'a, które są nienaruszone i dostatecznie wytrzymałe, aby ciężkie jednostki mogły z nich skorzystać. Musisz zabezpieczyć mosty, poprzez przejęcie głównej bazy Imperium, aby mogliśmy bezpiecznie poprowadzić armię na północ.
+
+Powodzenia. Za wolny Nexus!
+%
+Rebelianci powoli maszerują w kierunku miasta Ultha, stolicy prowincji Yalmar. Główną przeszkodą na ich drodze jest rzeka Sarph, która przecina całą prowincję z południowego-zachodu na północny-wschód. Wiele mostów przez rzekę zostało zniszczonych lub uszkodzonych podczas ostanich bitew, reszta jest zbyt mała dla ciężkich jednostek, więc WAN rusza w kierunku zachowanych większych mostów.
+
+Dwa z tych większych mostów są zlokalizowane na Przełomie Omyar'a, i to wydaje się być miejscem, gdzie rebelianci zwrócili swoją uwagę. Posiadamy dość dużą bazę przy rzece i dopóki ją kontrolujemy dopóty Wolna Armia Nexusu nie bę dzie w stanie wysłać znaczących sił za mosty.
+
+Broń mostów i odeprzyj armię rebeliantów!
+
+Niech żyje Imperator!
+%
+Wytyczne:
+
+Zniszcz wszystkie wrogie siły
+
+lub
+
+zajmij wrogie centrum dowodzenia
+%
+Przez Przełom Omyara
+
+Bitwa o mosty przez rzekę Sarph.
+[/messages]
+
+[messages(sk)]
+Cez úžinu Omyar
+%
+Centrála Kandeliáncov
+%
+Centrála povstalcov
+%
+Armáda za slobodný Nexus
+%
+Kandské Impérium
+%
+Omyar
+%
+Womsch
+%
+Rieka Sarph, ktorá steká zo Shalasského pohoria na juhozápade a vlieva sa do Severného mora niekoľko stoviek míľ na severovýchod, rozdeľuje provinciu Yalmar na dve časti. Aby sme dorazili k Ulthe, hlavnému mestu provincie Yalmar, musíme túto rieku prekročiť. Veľa väčších mostov bolo v doterajších bitkách zničených alebo poškodených a musíme sa ponáhľať, kým sa Impérium rozhodne zničiť ostávajúce mosty, čo by značne spomalilo náš postup.
+
+Najlepšia príležitosť vyzerajú byť mosty pri úžine Omyar, ktoré sú ešte nepoškodené a dosť veľké aj na presun ťažkej mechaniky. Musíme mosty dobyť obsadením hlavnej základne Impéria, aby mohla naša armáda bezpečne postupovať na sever.
+
+Veľa šťastia. Za slobodný Nexus!
+%
+Povstalci pomaly postupujú na sever k Ulthe, hlavnému mestu provincie Yalmar. Významná prekážka na ich ceste je rieka Sarph, ktorá preteká celou provinciou z juhozápadu na severovýchod. Mnoho mostov cez rieku bolo v nedávnych bitkách zničených alebo poškodených, alebo sú príliš malé na presun ťažkých strojov. Preto sa zamerali na ostávajúce veľké mosty.
+
+Dva takéto veľké mosty sa nachádzajú pri úžine Omyar a vyzerá to tak, že práve tu povstalci obrátili svoju pozornosť. Vedľa rieky máme dosť veľkú základňu, a kým nad ňou udržíme kontrolu, Armáda za slobodný Nexus nebude môcť poslať cez mosty väčšiu vojenskú silu.
+
+Obráň mosty a odvráť vzbúrenecký útok!
+
+Nech žije cisár!
+%
+Ciele misie:
+
+Znič všetky nepriateľské jednotky
+
+alebo
+
+obsaď nepriateľskú centrálu.
+%
+Cez úžinu Omyar
+
+Bitka o mosty cez rieku Sarph.
+[/messages]
+

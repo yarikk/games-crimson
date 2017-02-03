@@ -1,0 +1,1036 @@
+[mission]
+name = 5
+mapwidth = 35
+mapheight = 20
+info = 4
+campaign = 1
+nextmap = ClippedWings
+players = 1
+
+[map-raw]
+30,30,30,30,30,30,30,30,30,315,311,30,30,30,30,30,176,30,30,30,81,84,83,85,81,81,30,30,30,30,30,30,30,30,30
+30,30,30,81,30,30,30,38,30,309,30,30,30,30,30,178,185,177,30,30,81,30,86,81,81,81,30,30,30,30,30,30,30,30,30
+30,317,81,81,78,30,30,30,30,309,30,56,19,30,182,30,30,30,177,177,30,184,30,30,78,30,30,30,56,184,30,30,30,30,30
+311,30,310,310,81,30,30,30,30,312,30,30,30,178,179,30,78,30,142,30,183,30,177,177,30,30,30,178,178,30,19,30,30,30,30
+30,30,30,30,342,310,30,311,343,30,30,178,178,30,30,30,30,30,143,30,30,30,30,224,198,186,178,30,30,30,30,30,30,30,30
+30,30,30,30,30,30,328,310,30,178,192,77,30,30,30,30,308,30,34,30,30,224,224,30,30,176,30,30,30,33,30,30,30,30,30
+30,30,78,30,35,30,30,178,300,314,222,30,30,30,53,30,30,145,30,30,227,30,54,30,30,176,30,38,32,33,30,55,30,30,30
+30,30,30,30,30,178,192,30,30,309,222,30,79,78,30,135,135,30,30,224,225,311,338,30,30,176,30,32,33,33,32,30,30,135,135
+30,22,21,7,192,30,222,30,30,313,226,244,78,30,146,30,30,224,224,31,315,38,30,30,30,176,30,30,33,32,30,135,135,30,30
+30,30,24,190,179,30,226,223,31,224,306,310,223,223,30,224,224,338,30,30,309,80,78,80,30,176,30,30,30,135,135,30,30,30,30
+30,30,30,176,30,30,30,30,229,30,77,30,310,310,241,244,315,30,30,30,309,77,82,78,30,185,30,30,146,30,30,30,30,30,30
+30,30,30,176,30,30,55,30,30,30,30,135,145,224,306,310,303,223,30,76,313,310,30,182,178,30,177,177,30,30,30,30,30,30,30
+30,30,30,176,30,30,30,30,30,135,135,224,224,30,30,30,332,310,223,223,30,30,314,179,30,30,30,30,177,177,34,30,30,311,311
+30,30,30,188,30,30,38,38,146,224,224,32,30,30,30,31,309,30,310,310,223,186,299,30,30,54,30,30,30,30,181,311,311,30,38
+30,30,30,176,177,177,38,224,224,32,33,32,53,30,30,343,312,30,30,30,314,185,313,310,30,30,30,77,78,311,296,30,30,38,38
+30,30,30,176,30,30,195,177,38,30,30,30,30,315,311,30,30,30,30,178,299,30,177,198,310,310,30,311,311,30,176,38,38,38,38
+30,56,30,179,30,30,30,30,177,177,30,184,30,312,30,30,30,197,178,30,309,224,224,30,177,177,316,30,30,30,176,30,38,30,38
+30,30,19,30,30,30,30,30,30,30,183,311,298,177,30,178,178,30,223,229,305,84,83,85,30,30,177,177,30,184,176,30,30,21,30
+30,30,30,30,77,30,30,30,30,315,311,30,30,30,183,30,30,30,30,81,309,79,86,81,30,30,30,30,183,30,194,183,3,24,23
+30,30,30,30,30,30,30,30,31,309,30,30,30,30,30,30,30,30,30,30,309,30,81,30,30,30,30,30,30,30,30,30,30,30,30
+
+[player]
+name = 0
+briefing = 15
+
+[player]
+name = 1
+briefing = 16
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 0
+pos = 9/16
+face = 2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 1
+pos = 10/16
+face = 2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 2
+pos = 22/3
+face = 2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 4
+pos = 20/3
+face = 2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 6
+pos = 3/10
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 7
+pos = 3/11
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 8
+pos = 6/7
+face = 1
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 9
+pos = 7/6
+face = 1
+
+[unit]
+type = Personnel Carriers
+player = 2
+id = 12
+pos = 3/16
+face = 0
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 13
+pos = 3/9
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 14
+pos = 5/7
+face = 1
+
+[unit]
+type = Hovercraft
+player = 2
+id = 22
+pos = 5/1
+
+[unit]
+type = Infantry
+player = 2
+id = 23
+pos = 6/1
+
+[unit]
+type = Infantry
+player = 2
+id = 24
+pos = 28/3
+face = 4
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 26
+pos = 24/16
+face = 5
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 27
+pos = 25/16
+face = 5
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 32
+pos = 32/11
+face = 4
+
+[unit]
+type = Personnel Carriers
+player = 1
+id = 33
+pos = 31/16
+
+[unit]
+type = Infantry
+player = 1
+id = 34
+pos = 32/16
+
+[unit]
+type = Infantry
+player = 1
+id = 35
+pos = 32/17
+
+[unit]
+type = Infantry
+player = 1
+id = 36
+pos = 31/17
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 38
+pos = 28/17
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 39
+pos = 29/16
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 31
+pos = 31/10
+face = 4
+
+[unit]
+type = Scouts
+player = 1
+id = 40
+pos = 29/17
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 41
+pos = 4/10
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 42
+pos = 4/11
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 43
+pos = 4/12
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 44
+pos = 21/3
+face = 2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 45
+pos = 19/3
+face = 2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 46
+pos = 20/4
+face = 2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 48
+pos = 8/17
+face = 2
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 52
+pos = 9/15
+face = 2
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 53
+pos = 26/13
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 54
+pos = 27/13
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 55
+pos = 26/14
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 56
+pos = 27/14
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 57
+pos = 28/14
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 58
+pos = 27/12
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 59
+pos = 28/13
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 61
+pos = 24/17
+face = 5
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 62
+pos = 25/17
+face = 5
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 10
+pos = 13/9
+face = 5
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 11
+pos = 14/9
+face = 5
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 20
+pos = 14/11
+face = 4
+
+[unit]
+type = Medium Tanks
+player = 1
+id = 21
+pos = 15/10
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 25
+pos = 14/10
+
+[unit]
+type = Heavy Tanks
+player = 1
+id = 29
+pos = 15/9
+face = 1
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 30
+pos = 10/6
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 37
+pos = 7/9
+face = 2
+
+[unit]
+type = Medium Tanks
+player = 2
+id = 47
+pos = 9/13
+face = 1
+
+[unit]
+type = Anti-Aircraft Tanks
+player = 2
+id = 50
+pos = 11/5
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 5
+pos = 19/2
+face = 2
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 28
+pos = 8/16
+face = 2
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 3
+pos = 21/2
+face = 2
+
+[unit]
+type = Heavy Tanks
+player = 2
+id = 15
+pos = 3/8
+
+[unit]
+type = Infantry
+player = 2
+id = 16
+pos = 3/8
+
+[unit]
+type = Infantry
+player = 2
+id = 17
+pos = 3/8
+
+[unit]
+type = Infantry
+player = 2
+id = 18
+pos = 3/8
+
+[unit]
+type = Infantry
+player = 2
+id = 19
+pos = 3/8
+
+[building]
+name = 3
+player = 2
+id = 0
+pos = 3/8
+type = workshop
+crystals = 50
+
+[building]
+name = 2
+player = 1
+id = 1
+pos = 32/18
+type = workshop
+crystals = 30
+
+[building]
+name = 6
+player = 2
+id = 2
+pos = 12/2
+type = workshop
+crystals = 20
+
+[building]
+name = 6
+player = 2
+id = 3
+pos = 30/3
+type = workshop
+crystals = 20
+
+[building]
+name = 6
+player = 2
+id = 4
+pos = 2/17
+type = workshop
+crystals = 20
+
+[event]
+id = 0
+type = message
+player = 1
+title = 5
+message = 7
+trigger = timer
+ttime = 0
+pos = 32/18
+
+[event]
+id = 1
+type = message
+player = 2
+title = 5
+message = 8
+trigger = timer
+ttime = 0
+pos = 3/8
+
+[event]
+id = 2
+type = score
+player = 1
+title = 10
+message = 14
+trigger = unitdestroyed
+tunit = -1
+towner = 2
+success = 100
+othermsg = 12
+othertitle = 9
+
+[event]
+id = 3
+type = score
+player = 1
+title = 10
+message = 14
+trigger = havebuilding
+tbuilding = 0
+towner = 1
+ttime = -1
+success = 100
+othermsg = 12
+othertitle = 9
+
+[event]
+id = 4
+type = score
+player = 2
+title = 10
+message = 13
+trigger = unitdestroyed
+tunit = -1
+towner = 1
+success = 100
+othermsg = 11
+othertitle = 9
+
+[event]
+id = 5
+type = score
+player = 2
+title = 10
+message = 13
+trigger = havebuilding
+tbuilding = 1
+towner = 2
+ttime = -1
+success = 100
+othermsg = 11
+othertitle = 9
+
+[event]
+id = 6
+type = score
+player = 1
+depend = 7
+title = 10
+message = 14
+trigger = havebuilding
+tbuilding = 2
+towner = 1
+ttime = -1
+success = 50
+othermsg = 12
+othertitle = 9
+
+[event]
+id = 7
+type = score
+player = 1
+depend = 6
+trigger = havebuilding
+tbuilding = 3
+towner = 1
+ttime = -1
+success = 50
+othermsg = -1
+othertitle = -1
+
+[event]
+id = 8
+type = score
+player = 1
+depend = 9
+title = 10
+message = 14
+trigger = havebuilding
+tbuilding = 2
+towner = 1
+ttime = -1
+success = 50
+othermsg = 12
+othertitle = 9
+
+[event]
+id = 9
+type = score
+player = 1
+depend = 8
+trigger = havebuilding
+tbuilding = 4
+towner = 1
+ttime = -1
+success = 50
+othermsg = -1
+othertitle = -1
+
+[event]
+id = 10
+type = score
+player = 1
+depend = 11
+title = 10
+message = 14
+trigger = havebuilding
+tbuilding = 3
+towner = 1
+ttime = -1
+success = 50
+othermsg = -1
+othertitle = -1
+
+[event]
+id = 11
+type = score
+player = 1
+depend = 10
+trigger = havebuilding
+tbuilding = 4
+towner = 1
+ttime = -1
+success = 50
+othermsg = -1
+othertitle = -1
+
+[event]
+id = 12
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 5
+unit = Infantry
+pos = 31/15
+face = 0
+
+[event]
+id = 13
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Scouts
+pos = 12/4
+face = 1
+
+[event]
+id = 14
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Scouts
+pos = 6/15
+face = 2
+
+[event]
+id = 15
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Scouts
+pos = 28/18
+face = 0
+
+[event]
+id = 16
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Medium Tanks
+pos = 26/17
+face = 5
+
+[event]
+id = 17
+type = createunit
+player = 1
+trigger = handicap
+thandicap = 4
+unit = Heavy Tanks
+pos = 31/11
+face = 4
+
+[event]
+id = 18
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Heavy Tanks
+pos = 20/2
+face = 2
+
+[event]
+id = 19
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 3
+unit = Infantry
+pos = 4/1
+face = 3
+
+[event]
+id = 20
+type = createunit
+player = 2
+trigger = handicap
+thandicap = 2
+unit = Medium Tanks
+pos = 30/3
+face = 0
+
+[messages(de)]
+Armee Freier Nexus
+%
+Imperium von Kand
+%
+Rebellenhauptquartier
+%
+Kandelianisches Hauptquartier
+%
+Schwerter und Pflugscharen
+
+von Jens Granseuer <jensgr@gmx.net>
+
+Zweiter Teil des Yalwa-Feldzugs.
+%
+Schwerter und Pflugscharen
+%
+Kornspeicher
+%
+Die ersten zwei Wochen unseres Feldzugs sind bemerkenswert gut verlaufen. Wir haben Kand vollständig aus Rhintura vertrieben und sogar große Teile des Umlandes unter unsere Kontrolle gebracht. Unsere anfänglichen Erfolge haben uns außerdem einen beständigen Strom von neuen Rekruten beschert, so dass wir jetzt anfangen können, in größeren Maßstäben zu planen.
+
+Unser Endziel ist Ultha, die Hauptstadt der Provinz Yalwa. Im nächsten Schritt müssen wir daher die Sarot-Ebene nach Norden durchqueren. Dieser Abschnitt ist logistisch gesehen eine besondere Herausforderung. Glücklicherweise war die Region nordwestlich von Rhintura schon immer die Speisekammer der Republik von Kerlo. Wir sind deshalb zuversichtlich, dass wir uns die notwendigen Vorräte für den Marsch dort beschaffen können.
+
+Unsere Aufklärer haben drei Kornspeicher ausfindig gemacht, die nur leicht bewacht zu sein scheinen. Nach unseren Berechnungen müssen wir mindestens zwei davon übernehmen.
+
+Viel Glück! Für einen freien Nexus!
+%
+Das kurze Aufflackern von Unruhen in der kleinen Stadt Rhintura vor zwei Wochen ist mittlerweile zu einer ausgewachsenen Rebellion geworden. Unsere Streitkräfte mussten sich nach fünf Tagen und schweren Verlusten aus der Stadt zurück ziehen.
+
+Unser oberstes Ziel ist es jetzt, den Aufstand auf Rhintura zu begrenzen. Die Unruhen dürfen sich auf keinen Fall weiter ausbreiten, da sie unsere ganze Mission auf Nexus in Gefahr bringen können. Wenn wir die Rebellen in Rhintura einschließen können, bleibt ihnen keine andere Wahl als sich zu ergeben, denn sie besitzen nur begrenzte Vorräte. Einige halbherzige Ausfälle auf Vorratslager haben bereits stattgefunden, aber wir erwarten den Hauptangriff bei einer Gruppe von Kornspeichern nordwestlich von Rhintura. Wir glauben, dass sie mindestens zwei dieser Speicher benötigen, um ihre Rebellion fortzusetzen, daher bekommen Sie den Auftrag, sie zu verteidigen. Lassen Sie den Rebellen keinesfalls mehr als einen einzigen Kornspeicher in die Hände fallen!
+
+Lang lebe der Imperator!
+%
+Mission fehlgeschlagen
+%
+Mission erfolgreich
+%
+Du hast es nicht geschafft, die nötigen Vorrate für ein Fortleben der Rebellion zu beschaffen.
+%
+Die Rebellen haben genug Vorräte gesammelt, um weiterhin Unruhe zu verbreiten. Sie haben versagt!
+%
+Sie haben die Kornspeicher erfolgreich verteidigt und damit verhindert, dass die Armee Freier Nexus weiteren Schaden anrichten kann. Gute Arbeit!
+%
+Du hast die Vorräte beschafft, die wir für den Marsch über die Sarot-Ebene benötigen. Gut gemacht!
+%
+Missionsziele:
+
+1a. Erobere zwei Kornspeicher.
+1b. Erobere das Imperiale Hauptquartier.
+1c. Zerstöre alle feindlichen Einheiten.
+
+2. Halte die Kandelianer von unserem Hauptquartier fern.
+%
+Missionsziele:
+
+1. Schützen Sie die Kornspeicher. Die Rebellen dürfen zu keinem Zeitpunkt zwei von ihnen kontrollieren.
+
+2. Halten Sie die Rebellen von unserem Hauptquartier fern.
+
+3a. Erobern Sie das Hauptquartier der Rebellen.
+3b. Zerstören Sie alle Einheiten der AFN.
+[/messages]
+
+[messages(en)]
+Free Nexus Army
+%
+Empire of Kand
+%
+Rebel HQ
+%
+Kandelian HQ
+%
+Swords and Plowshares
+
+by Jens Granseuer <jensgr@gmx.net>
+
+Second installment of the Yalwa campaign.
+%
+Swords and Plowshares
+%
+Granary
+%
+The first two weeks of our campaign have been going remarkably well. We have pushed Kand out of Rhintura entirely and even gained control of most of the surrounding area. Our initial success also provided us with a steady stream of new recruits. We are starting to think big.
+
+Our final goal is Ultha, the capital of the Yalwa province. Therefore our next step will be to cross the Sarot Plains northwards. This move is quite a logistical challenge. Fortunately, the region just northwest of Rhintura used to be the pantry of the Republic of Kerlo. We are confident we can get the supplies we need for the march from there.
+
+Intelligence have located three granaries that seem to be only lightly guarded. Our projections show that we need to bring at least two of those under our control.
+
+Good luck! For a free Nexus!
+%
+The flare of unrest in the small town of Rhintura two weeks ago has now turned into a fully grown rebellion. Our forces have retreated from the city after five days of fighting and heavy losses.
+
+Our primary objective right now is to contain the rebellion inside Rhintura. It must not spread or our entire mission on Nexus will be at risk. If we can lock the rebels in they will have no choice but to surrender as their supplies are running out. They already started a few half-hearted sorties at a few supply centers but the major attack is expected to be directed at a cluster of granaries to the northwest of Rhintura. We believe that they need about two of those to continue on their rampage, that is why we want you to defend the cluster. Do not let the rebels get anything but a single granary!
+
+Long live the Emperor!
+%
+Mission failed
+%
+Mission accomplished
+%
+You have failed to gather the supplies required for fuelling the rebellion.
+%
+The rebels have gathered the supplies they need to further spread their cause. You have failed!
+%
+You have successfully guarded the granaries and prevented the Free Nexus Army from wreaking more havoc. Well done!
+%
+You have reaped all the supplies we need for the march across the Sarot Plains. Well done!
+%
+Mission Objectives:
+
+1a. Conquer two granaries.
+1b. Conquer the Imperial headquarters.
+1c. Destroy all enemy units.
+
+2. Keep the Kandelians away from our headquarters.
+%
+Mission Objectives:
+
+1. Defend the granaries. The rebels must never control two of them.
+
+2. Keep the rebels away from our headquarters.
+
+3a. Conquer the rebel headquarters.
+3b. Destroy all FNA units.
+[/messages]
+
+[messages(fr)]
+Armée du Nexus Libre
+%
+Empire de Kand
+%
+QG des rebelles
+%
+QG des Kandéliens
+%
+Épées et socs de charrues
+
+par Jens Granseuer <jensgr@gmx.net>
+traduction française: Benoit Peureux <benoit.peureux@wanadoo.fr>
+
+Seconde partie de la compagne de Yalwa.
+%
+Epées et socs de charrues
+%
+Granary
+%
+Les deux premières semaines de notre campagne se sont remarquablement bien déroulées. Nous avons expulsé Les forces de Kand hors de Rhintura et même pris le contrôle de la majeure partie de ses abords. Notre succès initial nous a également fourni une source réguliére de nouvelles recrues. Nous commençons à voir les choses en grand. 
+
+Notre objectif final est Ultha, la capitale de la province de Yalwa. Par conséquent notre prochaine étape sera la traversée des plaines de Sarot au nord. Ce mouvement est un défi vrai logistique. Heureusement, juste au nord-ouest de la région de Rhintura il y a la République de Kerlo. Nous sommes confiants car nous pouvons y trouver les approvisionnements dont nous avons besoin pour poursuivre notre marche.
+
+Nos services de renseignements ont localisé trois centres d'approvisionnement qui semblent être peu gardés. Nos estimations montrent que nous devrions pouvoir prendre le contrôle de 2 de ces centres.
+
+Bonne chance! Vive le Nexus Libre!
+%
+Le malaise qui s'est manifesté dans la petite ville de Rhintura il y a deux semaines s'est maintenant transformé en rébellion ouverte. Nos forces ont quittées la ville après cinq jours de combat et de lourdes pertes. 
+
+A l'heure actuelle, notre principal objectif est de contenir la rébellion à l'intérieur de Rhintura. Elle ne doit pas se propager ou notre présence sur Nexus sera mise en péril. Si nous pouvons enfermer les rebelles dans la ville, ils n'auront plus le choix et devront se rendre lorsque leurs provisions seront épuisées. 
+
+Ils ont déjà commencé quelques sorties hésitantes en direction de certains centres d'approvisionnement mais on s'attend à ce que leur attaque principale soit dirigée vers un groupe de dépôts d'approvisionnement situés dans le nord-ouest de Rhintura. Nous croyons qu'ils ont besoin de contrôler environ deux de ces centres pour pouvoir continuer leurs saccages. 
+
+C'est pourquoi nous voulons que vous défendiez cet ensemble de dépôts d'approvisionnement. Faites en sorte que les rebelles n'obtiennent rien, même pas un simple dépôt! 
+
+Vive l'Empereur!
+%
+Echec de la mission
+%
+Mission accomplie
+%
+Vous n'avez pas réussi à vous procurer les provisions nécessaires à la rébellion 
+%
+Les rebelles ont réussi à se procurer les provisions nécessaires à la poursuite et à l'extension de la rébellion. Vous avez échoué!
+%
+Vous avez parfaitement réussi à garder le contrôle des centres de ravitaillement et empéché les rebelles de poursuivres leurs saccages. Bien joué!
+%
+Vous avez réussi à prendre toutes les provisions nécessaires à notre marche à travers les plaines de Sarot. Bien joué!
+%
+Objectifs de la mission:
+
+1a. Prendre 2 centres de ravitaillement
+1b. Conquérir le quartier général impérial.
+1c. Détruire toutes les unités ennemies.
+
+2. Maintenir les Kandéliens éloignés de notre quartier général.
+%
+Objectifs de la mission:
+
+1. Défendre les centres de ravitaillement. Les rebelles ne doivent en aucun cas en contrôler 2 d'entre eux.
+
+2. Maintenir les rebelles éloignés de notre quartier général.
+
+3a. Conquérir le quartier général des rebelles.
+3b. Détruire toutes les unités des Forces du Nexus Libre.
+[/messages]
+
+[messages(pl)]
+Wolna Armia Nexusu
+%
+Imperium Kandyjskie
+%
+Sztab rebelii
+%
+Sztab Kandyjski
+%
+Miecze i lemiesze
+
+autor: Jens Granseuer <jensgr@gmx.net>
+
+Druga misja kampanii Yalwa.
+%
+Miecze i lemiesze
+%
+Spichlerz
+%
+Pierwsze dwa tygodnie naszej kampanii to wspaniałe pasmo skucesów. Całkowicie wyparliśmy Kand z Rhintury, a nawet mamy kontrolę nad większą częścią okolicy. Początkowy sukces zapewnił nam też stały dopływ rekrutów. Zaczynamy myśleć o wielkich czynach.
+
+Naszym ostatecznym celem jest Ultha, stolica prowincji Yalwa. Wobec tego naszym najbliższym krokiem będzie przekroczenie Równin Sarot na północ. To duże wyzwanie logistyczne. Na szczęście, region na północny zachód od Rhintury był kiedyś spiżarnią Republiki Kerlo. Jesteśmy przekonani że znajdziemy tam surowce potrzebne w czasie marszu.
+
+Wywiad zlokalizował trzy spichlerze, wyglądające na słabo bronione. Nasze symulacje pokazują, że musimy przejąć kontrolę nad co najmniej dwoma z nich.
+
+Powodzenia! Za wolny Nexus!
+%
+Zarzewie niepokoju powstałe dwa tygodnie temu w niewielkim mieście Rhintura rozwinęło się w prawdziwą rebelię. Nasze siły musiały się wycofać z miasta po pięciu dniach walki i poniesieniu poważnych strat.
+
+Naszym głównym celem w tym momencie jest zatrzymać rebelię wewnątrz Rhintury. Nie może się ona rozprzestrzenić, albo wystawi to na szwank całą naszą misję na Nexusie. Jeśli uda nam się zablokować rebeliantów nie będą mieli wyboru i będą musieli się poddać gdy skończą im się zapasy. Przeprowadzili już kilka niepewnych wypadów na kilka centrów zaopatrzenia, ale spodziewamy się głównego ataki na zespół spichlerzy na północny zachód od Rhintury. Sądzimy, że potrzebują dwóch żeby kontynuować swe zapędy, dlatego też chcemy byś bronił zespołu. Nie pozwól rebeliantom na zdobycie czegoś więcej niż jednego spichlerza!
+
+Niech żyje Imperator!
+%
+Misja nieudana
+%
+Misja wykonana
+%
+Nie udało Ci się zebrać surowców potrzebnych do zasilenia rebelii. 
+%
+Rebelianci zdobyli surowce, których potrzebują do dalszego szerzenia swojej sprawy. Zawiodłeś!
+%
+Udało Ci się upilnować spichlerzy i powstrzymać Wolną Armię Nexusu przed dalszym szerzeniem zamętu. Dobra robota!
+%
+Zebrałeś wszystkie surowce jakich potrzebujemy na przemarsz przez Równiny Sarot. Znakomicie!
+%
+Cele misji:
+
+1a. Przejąć dwa spichlerze.
+1b. Przejąć imperialny sztab.
+1c. Zniszczyć wszystkie jednostki przeciwnika.
+
+2. Trzymać Kandyjczyków z dala od naszego sztabu.
+%
+Cele misji:
+
+1. Bronić spichlerzy. Rebelianci nie mogą nigdy kontrolować dwóch z nich.
+
+2. Trzymać rebeliantów z daleka od naszego sztabu.
+
+3a. Przejąć sztab rebelii.
+3b. Zniszczyć wszystkie jednostki FNA.
+[/messages]
+
+[messages(sk)]
+Armáda za slobodný Nexus
+%
+Kandské Impérium
+%
+Hlavný stan rebelov
+%
+Kandeliánsky hlavný stan
+%
+Me�215e a pluhy
+
+autor Jens Granseuer <jensgr@gmx.net>
+
+Druhá �215asť kampane Yalwa.
+%
+Meče a pluhy
+%
+Sýpka
+%
+Prvé dva týždne nášho ťaženia prebiehali nezvyčajne dobre. Kandeliáncov sme úplne vytlačili z oblasti Rhintury a získali sme kontrolu nad väčšinou okolitých oblastí. Náš úspech hneď od začiatku nám zabezpečil stabilný prílev nových vojakov. Môžeme začať uvažovať o väčších cieľoch.
+
+Hlavný cieľ nášho ťaženia je Ultha, hlavné mesto provincie Yalwa. Preto bude naším ďalším krokom prejsť cez Sarotské planiny na sever. Toto je hlavne prepravný problém. Našťastie oblasť severozápadne od Rhintury bývala hlavnou poľnohospodárskou oblasťou Kerlskej republiky. Tam určite nájdeme zásoby, ktoré potrebujeme na ďalší postup odtiaľ.
+
+Máme informácie o troch sýpkach, ktoré sa zdajú byť slabo strážené. Podľa našich odhadov potrebujeme získať kontrolu aspoň nad dvoma z nich.
+
+Veľa šťastia! Za slobodný Nexus!
+%
+Nepokoje, ktoré vypukli v malom meste Rhinture pred dvoma týždňami, sa teraz zmenili na vzburu v plnom rozsahu. Naše vojská sa po piatich dňoch bojov a ťažkých stratách museli z mesta stiahnuť.
+
+V tejto chvíli je naším provoradým cieľom udržať povstanie v Rhinture. Nesmie sa ďalej rozšíriť, ináč ohrozí celú našu misiu na Nexuse. Ak sa nám podarí povstalcov obkľúčiť, budú sa musieť vzdať, pretože zásoby sa im míňajú už teraz. Už podnikli niekoľko menších výpadov na niekoľko zásobovacích centier, no hlavný útok očakávame na skupinu sýpok severozápadne od Rhintury. Myslíme, že na pokračovanie svojich akcií potrebujú dve z nich, a preto potrebujeme, aby si ich obránil. Nedovoľ povstalcom obsadiť viac ako jedinú sýpku!
+
+Nech žije cisár!
+%
+Misia neúspešná
+%
+Misia splnená
+%
+Nepodarilo sa ti získať zásoby, ktoré potrebujeme na podporu povstania.
+%
+Vzbúrenci získali zásoby, ktoré potrebujú na rozširovanie povstania. Zlyhal si!
+%
+Úspešne si ubránil sýpky a nedovolil si Armáde za slobodný Nexus spôsobiť viac škôd. Výborne!
+%
+Získal si všekty zásoby, ktoré potrebujeme na prekročenie Sarotských planín. Výborne!
+%
+Ciele misie:
+
+1a. Obsaď dve sýpky.
+1b. Obsaď hlavný stan Impéria.
+1c. Znič všetky nepriateľské jednotky.
+
+2. Nedovoľ Kandeliáncom obsadiť náš hlavný stan.
+%
+Ciele misie:
+
+1. Obraňuj sýpky. Vzbúrenci nesmú ovládnuť žiadne dve z nich.
+
+2. Nedovoľ vzbúrencom obsadiť našu centrálu.
+
+3a. Obsaď hlavný stan rebelov.
+3b. Znič všetky jednotky ASN.
+[/messages]
+

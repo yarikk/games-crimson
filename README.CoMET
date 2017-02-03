@@ -1,0 +1,17 @@
+CoMET is the Crimson Fields Map Editing Tool. Please keep in mind that
+this is still a work in progress (and much more so than the game itself).
+Currently, the editor is considered to be in alpha state.
+
+Most basic features are implemented. You can, for example, create new
+maps, load, edit and save them, so it can already be a great help when
+designing missions. One of the major limitations is that you can only
+create single-line messages in plain ASCII. As a result, CoMET is for
+now only really useful when used together with cfed, which it will
+eventually replace. You can do the map layout with CoMET, export the
+result as a text file, and add the missing bits by hand (see the cfed
+documentation for details on how to do this).
+
+CoMET can read the binary level files created with cfed, and you can make
+modifications to them. Even settings not yet supported by CoMET should
+remain intact during this procedure.
+

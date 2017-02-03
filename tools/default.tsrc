@@ -1,0 +1,3082 @@
+[tileset]
+name = default
+icons = CFTiles.bmp
+class0 = 30
+class1 = 81
+class2 = 117
+class3 = 150
+class4 = 250
+class5 = 360
+class6 = 362
+class7 = 361
+class8 = 178
+class9 = 148
+
+# 000: headquarters [player 1], north
+[tile]
+terrain = shop
+icon = 9
+move = 1
+color = 138,118,100
+
+# 001: headquarters [player 2], north
+[tile]
+terrain = shop
+icon = 10
+move = 1
+color = 138,118,100
+
+# 002: headquarters [neutral], north
+[tile]
+terrain = shop
+icon = 8
+move = 1
+color = 138,118,100
+
+# 003: headquarters [player 1], west
+[tile]
+terrain = shop
+icon = 12
+move = 1
+color = 138,118,100
+
+# 004: headquarters [player 2], west
+[tile]
+terrain = shop
+icon = 13
+move = 1
+color = 138,118,100
+
+# 005: headquarters [neutral], west
+[tile]
+terrain = shop
+icon = 11
+move = 1
+color = 138,118,100
+
+# 006: headquarters [player 1], east
+[tile]
+terrain = shop
+icon = 15
+move = 1
+color = 138,118,100
+
+# 007: headquarters [player 2], east
+[tile]
+terrain = shop
+icon = 16
+move = 1
+color = 138,118,100
+
+# 008: headquarters [neutral], east
+[tile]
+terrain = shop
+icon = 14
+move = 1
+color = 138,118,100
+
+# 009: depot [player 1], north
+[tile]
+terrain = shop
+icon = 18
+move = 1
+color = 138,118,100
+
+# 010: depot [player 2], north
+[tile]
+terrain = shop
+icon = 19
+move = 1
+color = 138,118,100
+
+# 011: depot [neutral], north
+[tile]
+terrain = shop
+icon = 17
+move = 1
+color = 138,118,100
+
+# 012: factory [player 1], north
+[tile]
+terrain = shop
+icon = 36
+move = 1
+color = 138,118,100
+
+# 013: factory [player 2], north
+[tile]
+terrain = shop
+icon = 37
+move = 1
+color = 138,118,100
+
+# 014: factory [neutral], north
+[tile]
+terrain = shop
+icon = 35
+move = 1
+color = 138,118,100
+
+# 015: factory [player 1], east
+[tile]
+terrain = shop
+icon = 39
+move = 1
+color = 138,118,100
+
+# 016: factory [player 2], east
+[tile]
+terrain = shop
+icon = 40
+move = 1
+color = 138,118,100
+
+# 017: factory [neutral], east
+[tile]
+terrain = shop
+icon = 38
+move = 1
+color = 138,118,100
+
+# 018: city [player 1]
+[tile]
+terrain = shop
+icon = 42
+move = 1
+color = 138,118,100
+
+# 019: city [player 2]
+[tile]
+terrain = shop
+icon = 43
+move = 1
+color = 138,118,100
+
+# 020: city [neutral]
+[tile]
+terrain = shop
+icon = 41
+move = 1
+color = 138,118,100
+
+# 021: structure, north
+[tile]
+icon = 21
+color = 138,118,100
+
+# 022: structure, west
+[tile]
+icon = 20
+color = 138,118,100
+
+# 023: structure, east
+[tile]
+icon = 23
+color = 138,118,100
+
+# 024: structure, south
+[tile]
+icon = 22
+color = 138,118,100
+
+# 025: structure, center
+[tile]
+icon = 34
+color = 138,118,100
+
+# 026: depot [under construction], north
+[tile]
+icon = 44
+color = 138,118,100
+
+# 027: depot [under construction], west
+[tile]
+icon = 46
+color = 138,118,100
+
+# 028: depot [under construction], east
+[tile]
+icon = 47
+color = 138,118,100
+
+# 029: depot [under construction], south
+[tile]
+icon = 45
+color = 138,118,100
+
+# 030: plains
+[tile]
+terrain = plains
+icon = 24
+move = 2
+color = 94,142,52
+
+# 031: plains [slightly rugged]
+[tile]
+terrain = plains
+icon = 25
+attack = 1
+defend = 1
+move = 2
+color = 94,142,52
+
+# 032: plains [moderately rugged]
+[tile]
+terrain = plains
+icon = 26
+defend = 1
+move = 2
+color = 94,142,52
+
+# 033: plains [rugged]
+[tile]
+terrain = plains
+icon = 27
+attack = 2
+defend = 2
+move = 2
+color = 102,114,29
+
+# 034: plains [few pebbles]
+[tile]
+terrain = plains
+icon = 28
+move = 2
+color = 94,142,52
+
+# 035: plains [pebbles]
+[tile]
+terrain = plains
+icon = 29
+move = 2
+color = 94,142,52
+
+# 036: plains [rugged, few pebbles]
+[tile]
+terrain = plains
+icon = 30
+attack = 2
+defend = 2
+move = 2
+color = 102,114,29
+
+# 037: plains [rugged, pebbles]
+[tile]
+terrain = plains
+icon = 31
+attack = 2
+defend = 2
+move = 2
+color = 102,114,29
+
+# 038: plains [hilly] 1
+[tile]
+terrain = plains
+icon = 32
+attack = 1
+move = 2
+color = 94,142,52
+
+# 039: plains [hilly] 2
+[tile]
+terrain = plains
+icon = 1
+attack = 1
+move = 2
+color = 94,142,52
+
+# 040: plains [craters] 1
+[tile]
+terrain = plains
+icon = 1
+attack = 1
+move = 2
+color = 94,142,52
+
+# 041: plains [craters] 2
+[tile]
+terrain = plains
+icon = 1
+attack = 1
+move = 2
+color = 94,142,52
+
+# 042: plains [craters] 3
+[tile]
+terrain = plains
+icon = 1
+attack = 1
+move = 2
+color = 94,142,52
+
+# 043: reserved
+[tile]
+icon = 1
+color = 0,0,0
+
+# 044: reserved
+[tile]
+icon = 1
+color = 0,0,0
+
+# 045: reserved
+[tile]
+icon = 1
+color = 0,0,0
+
+# 046: building [large house], north
+[tile]
+terrain = plains
+icon = 1
+defend = 1
+move = 2
+color = 94,142,52
+
+# 047: building [large house], west
+[tile]
+terrain = plains
+icon = 1
+defend = 1
+move = 2
+color = 94,142,52
+
+# 048: building [large house], east
+[tile]
+terrain = plains
+icon = 1
+defend = 1
+move = 2
+color = 94,142,52
+
+# 049: building [large house], south
+[tile]
+terrain = plains
+icon = 1
+defend = 1
+move = 2
+color = 94,142,52
+
+# 050: building [warehouse], north
+[tile]
+icon = 66
+defend = 1
+move = 2
+color = 138,118,100
+
+# 051: building [warehouse], west
+[tile]
+icon = 65
+defend = 1
+move = 2
+color = 138,118,100
+
+# 052: building [warehouse], south
+[tile]
+icon = 67
+defend = 1
+move = 2
+color = 138,118,100
+
+# 053: building [house]
+[tile]
+terrain = plains
+icon = 61
+defend = 1
+move = 2
+color = 94,142,52
+
+# 054: building [cottage]
+[tile]
+terrain = plains
+icon = 62
+defend = 1
+move = 2
+color = 94,142,52
+
+# 055: building [shed]
+[tile]
+terrain = plains
+icon = 63
+defend = 1
+move = 2
+color = 94,142,52
+
+# 056: building [silos]
+[tile]
+terrain = plains
+icon = 64
+defend = 1
+move = 2
+color = 94,142,52
+
+# 057: building [hangars]
+[tile]
+terrain = plains
+icon = 68
+defend = 1
+move = 2
+color = 104,89,25
+
+# 058: airstrip, north
+[tile]
+terrain = plains
+icon = 69
+move = 2
+color = 104,89,25
+
+# 059: airstrip, south
+[tile]
+terrain = plains
+icon = 70
+move = 2
+color = 104,89,25
+
+# 060: landing platform [small]
+[tile]
+terrain = road
+icon = 71
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 061: landing platform [large], north
+[tile]
+terrain = road
+icon = 382
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 062: landing platform [large], west
+[tile]
+terrain = road
+icon = 380
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 063: landing platform [large], east
+[tile]
+terrain = road
+icon = 381
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 064: landing platform [large], south
+[tile]
+terrain = road
+icon = 383
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 065: hill [small] 1
+[tile]
+terrain = rough
+icon = 72
+attack = 3
+defend = 3
+move = 3
+color = 70,112,31
+
+# 066: hill [small] 2
+[tile]
+terrain = rough
+icon = 73
+attack = 3
+defend = 3
+move = 3
+color = 70,112,31
+
+# 067: hill [small, rugged]
+[tile]
+terrain = rough
+icon = 74
+attack = 4
+defend = 4
+move = 3
+color = 102,114,29
+
+# 068: hill [medium], northwest
+[tile]
+terrain = rough
+icon = 75
+attack = 3
+defend = 3
+move = 3
+color = 70,112,31
+
+# 069: hill [medium], southeast
+[tile]
+terrain = rough
+icon = 76
+attack = 3
+defend = 3
+move = 3
+color = 70,112,31
+
+# 070: hill [large], west
+[tile]
+terrain = rough
+icon = 77
+attack = 3
+defend = 3
+move = 3
+color = 70,112,31
+
+# 071: hill [large], north
+[tile]
+terrain = rough
+icon = 79
+attack = 3
+defend = 3
+move = 3
+color = 70,112,31
+
+# 072: hill [large], east
+[tile]
+terrain = rough
+icon = 78
+attack = 3
+defend = 3
+move = 3
+color = 70,112,31
+
+# 073: hill [large], south
+[tile]
+terrain = rough
+icon = 80
+attack = 3
+defend = 3
+move = 3
+color = 70,112,31
+
+# 074: rocks [one]
+[tile]
+terrain = plains
+icon = 97
+defend = 1
+move = 3
+color = 94,142,52
+
+# 075: rocks [two]
+[tile]
+terrain = plains
+icon = 98
+defend = 1
+move = 3
+color = 94,142,52
+
+# 076: rocks [three]
+[tile]
+terrain = plains
+icon = 96
+defend = 1
+move = 3
+color = 94,142,52
+
+# 077: woodlands [very light]
+[tile]
+terrain = plains
+icon = 48
+move = 2
+color = 94,142,52
+
+# 078: woodlands [light]
+[tile]
+terrain = plains
+icon = 49
+attack = 1
+defend = 1
+move = 2
+color = 70,112,31
+
+# 079: woodlands [medium]
+[tile]
+terrain = plains
+icon = 50
+attack = 2
+defend = 2
+move = 2
+color = 70,112,31
+
+# 080: woodlands [dense]
+[tile]
+terrain = plains
+icon = 51
+attack = 3
+defend = 3
+move = 2
+color = 70,112,31
+
+# 081: forest 1
+[tile]
+terrain = forest
+icon = 52
+attack = 5
+defend = 10
+move = 3
+color = 46,86,20
+
+# 082: forest 2
+[tile]
+terrain = forest
+icon = 53
+attack = 5
+defend = 10
+move = 3
+color = 46,86,20
+
+# 083: forest [large], north
+[tile]
+terrain = forest
+icon = 56
+attack = 5
+defend = 10
+move = 3
+color = 46,86,20
+
+# 084: forest [large], west
+[tile]
+terrain = forest
+icon = 54
+attack = 5
+defend = 10
+move = 3
+color = 46,86,20
+
+# 085: forest [large], east
+[tile]
+terrain = forest
+icon = 55
+attack = 5
+defend = 10
+move = 3
+color = 46,86,20
+
+# 086: forest [large], south
+[tile]
+terrain = forest
+icon = 57
+attack = 5
+defend = 10
+move = 3
+color = 46,86,20
+
+# 087: slope [straight], n-s(w)
+[tile]
+terrain = rough
+icon = 86
+move = 3
+color = 94,142,52
+
+# 088: slope [straight], n-s(e)
+[tile]
+terrain = rough
+icon = 85
+move = 3
+color = 94,142,52
+
+# 089: slope [straight], nw-se(ne)
+[tile]
+terrain = rough
+icon = 84
+move = 3
+color = 94,142,52
+
+# 090: slope [straight], nw-se(sw)
+[tile]
+terrain = rough
+icon = 83
+move = 3
+color = 94,142,52
+
+# 091: slope [straight], sw-ne(nw)
+[tile]
+terrain = rough
+icon = 82
+move = 3
+color = 94,142,52
+
+# 092: slope [straight], sw-ne(se)
+[tile]
+terrain = rough
+icon = 81
+move = 3
+color = 94,142,52
+
+# 093: slope [curve], n-se(ne)
+[tile]
+terrain = rough
+icon = 106
+move = 3
+color = 94,142,52
+
+# 094: slope [curve], n-se(sw)
+[tile]
+terrain = rough
+icon = 91
+move = 3
+color = 94,142,52
+
+# 095: slope [curve], n-sw(nw)
+[tile]
+terrain = rough
+icon = 95
+move = 3
+color = 94,142,52
+
+# 096: slope [curve], n-sw(se)
+[tile]
+terrain = rough
+icon = 89
+move = 3
+color = 94,142,52
+
+# 097: slope [curve], s-ne(nw)
+[tile]
+terrain = rough
+icon = 92
+move = 3
+color = 94,142,52
+
+# 098: slope [curve], s-ne(se)
+[tile]
+terrain = rough
+icon = 107
+move = 3
+color = 94,142,52
+
+# 099: slope [curve], s-nw(sw)
+[tile]
+terrain = rough
+icon = 94
+move = 3
+color = 94,142,52
+
+# 100: slope [curve], s-nw(ne)
+[tile]
+terrain = rough
+icon = 88
+move = 3
+color = 94,142,52
+
+# 101: slope [curve], nw-ne(n)
+[tile]
+terrain = rough
+icon = 105
+move = 3
+color = 94,142,52
+
+# 102: slope [curve], nw-ne(s)
+[tile]
+terrain = rough
+icon = 90
+move = 3
+color = 94,142,52
+
+# 103: slope [curve], sw-se(n)
+[tile]
+terrain = rough
+icon = 87
+move = 3
+color = 94,142,52
+
+# 104: slope [curve], sw-se(s)
+[tile]
+terrain = rough
+icon = 93
+move = 3
+color = 94,142,52
+
+# 105: slope [end], n-s(w)
+[tile]
+terrain = plains
+icon = 119
+move = 2
+color = 94,142,52
+
+# 106: slope [end], n-s(e)
+[tile]
+terrain = plains
+icon = 118
+move = 2
+color = 94,142,52
+
+# 107: slope [end], s-n(w)
+[tile]
+terrain = plains
+icon = 113
+move = 2
+color = 94,142,52
+
+# 108: slope [end], s-n(e)
+[tile]
+terrain = plains
+icon = 112
+move = 2
+color = 94,142,52
+
+# 109: slope [end], nw-se(ne)
+[tile]
+terrain = plains
+icon = 117
+move = 2
+color = 94,142,52
+
+# 110: slope [end], nw-se(sw)
+[tile]
+terrain = plains
+icon = 116
+move = 2
+color = 94,142,52
+
+# 111: slope [end], ne-sw(nw)
+[tile]
+terrain = plains
+icon = 115
+move = 2
+color = 94,142,52
+
+# 112: slope [end], ne-sw(se)
+[tile]
+terrain = plains
+icon = 114
+move = 2
+color = 94,142,52
+
+# 113: slope [end], sw-ne(nw)
+[tile]
+terrain = plains
+icon = 109
+move = 2
+color = 94,142,52
+
+# 114: slope [end], sw-ne(se)
+[tile]
+terrain = plains
+icon = 108
+move = 2
+color = 94,142,52
+
+# 115: slope [end], se-nw(ne)
+[tile]
+terrain = plains
+icon = 111
+move = 2
+color = 94,142,52
+
+# 116: slope [end], se-nw(sw)
+[tile]
+terrain = plains
+icon = 110
+move = 2
+color = 94,142,52
+
+# 117: mountain [small]
+[tile]
+terrain = mountains
+icon = 99
+attack = 15
+defend = 15
+move = 4
+color = 178,182,180
+
+# 118: mountain [large/huge], north
+[tile]
+terrain = mountains
+icon = 121
+attack = 15
+defend = 15
+move = 4
+color = 178,182,180
+
+# 119: mountain [large/huge], south
+[tile]
+terrain = mountains
+icon = 122
+attack = 15
+defend = 15
+move = 4
+color = 178,182,180
+
+# 120: mountain [large/huge], west
+[tile]
+terrain = mountains
+icon = 120
+attack = 15
+defend = 15
+move = 4
+color = 178,182,180
+
+# 121: mountain [large/huge], east
+[tile]
+terrain = mountains
+icon = 123
+attack = 15
+defend = 15
+move = 4
+color = 178,182,180
+
+# 122: mountain [huge], summit
+[tile]
+terrain = mountains
+icon = 126
+attack = 15
+defend = 15
+move = 6
+color = 178,182,180
+
+# 123: mountain [huge], northwest
+[tile]
+terrain = mountains
+icon = 124
+attack = 15
+defend = 15
+move = 4
+color = 178,182,180
+
+# 124: mountain [huge], northeast
+[tile]
+terrain = mountains
+icon = 127
+attack = 15
+defend = 15
+move = 4
+color = 178,182,180
+
+# 125: mountain [huge], southwest
+[tile]
+terrain = mountains
+icon = 125
+attack = 15
+defend = 15
+move = 4
+color = 178,182,180
+
+# 126: mountain [huge], southeast
+[tile]
+terrain = mountains
+icon = 128
+attack = 15
+defend = 15
+move = 4
+color = 178,182,180
+
+# 127: barricades [little rubble] 1
+[tile]
+terrain = rough
+icon = 100
+attack = 2
+defend = 2
+move = 3
+color = 102,114,29
+
+# 128: barricades [little rubble] 2
+[tile]
+terrain = rough
+icon = 101
+attack = 2
+defend = 2
+move = 3
+color = 102,114,29
+
+# 129: barricades [medium rubble]
+[tile]
+terrain = rough
+icon = 102
+attack = 2
+defend = 2
+move = 3
+color = 102,114,29
+
+# 130: barricades [dense rubble]
+[tile]
+terrain = rough
+icon = 103
+attack = 2
+defend = 2
+move = 3
+color = 102,114,29
+
+# 131: barricades [crater]
+[tile]
+terrain = rough
+icon = 103
+attack = 2
+defend = 2
+move = 3
+color = 102,114,29
+
+# 132: barricades [rugged, tank stoppers]
+[tile]
+terrain = rough
+icon = 104
+attack = 4
+defend = 4
+move = 3
+color = 102,114,29
+
+# 133: fence [straight], n-s
+[tile]
+terrain = rough
+icon = 148
+attack = 4
+defend = 5
+move = 3
+color = 150,154,132
+
+# 134: fence [straight], nw-se
+[tile]
+terrain = rough
+icon = 150
+attack = 4
+defend = 5
+move = 3
+color = 150,154,132
+
+# 135: fence [straight], ne-sw
+[tile]
+terrain = rough
+icon = 149
+attack = 4
+defend = 5
+move = 3
+color = 150,154,132
+
+# 136: fence [curve], n-sw
+[tile]
+terrain = rough
+icon = 168
+attack = 4
+defend = 5
+move = 3
+color = 150,154,132
+
+# 137: fence [curve], n-se
+[tile]
+terrain = rough
+icon = 169
+attack = 4
+defend = 5
+move = 3
+color = 150,154,132
+
+# 138: fence [curve], s-nw
+[tile]
+terrain = rough
+icon = 151
+attack = 4
+defend = 5
+move = 3
+color = 150,154,132
+
+# 139: fence [curve], s-ne
+[tile]
+terrain = rough
+icon = 152
+attack = 4
+defend = 5
+move = 3
+color = 150,154,132
+
+# 140: fence [curve], nw-ne
+[tile]
+terrain = rough
+icon = 170
+attack = 4
+defend = 5
+move = 3
+color = 150,154,132
+
+# 141: fence [curve], sw-se
+[tile]
+terrain = rough
+icon = 171
+attack = 4
+defend = 5
+move = 3
+color = 150,154,132
+
+# 142: fence [end], n-s
+[tile]
+terrain = rough
+icon = 173
+attack = 4
+defend = 5
+move = 3
+color = 150,154,132
+
+# 143: fence [end], s-n
+[tile]
+terrain = rough
+icon = 172
+attack = 4
+defend = 5
+move = 3
+color = 150,154,132
+
+# 144: fence [end], nw-se
+[tile]
+terrain = rough
+icon = 144
+attack = 4
+defend = 5
+move = 3
+color = 150,154,132
+
+# 145: fence [end], ne-sw
+[tile]
+terrain = rough
+icon = 147
+attack = 4
+defend = 5
+move = 3
+color = 150,154,132
+
+# 146: fence [end], sw-ne
+[tile]
+terrain = rough
+icon = 146
+attack = 4
+defend = 5
+move = 3
+color = 150,154,132
+
+# 147: fence [end], se-nw
+[tile]
+terrain = rough
+icon = 145
+attack = 4
+defend = 5
+move = 3
+color = 150,154,132
+
+# 148: trenches [straight], n-s
+[tile]
+terrain = trenches
+icon = 129
+attack = 5
+defend = 10
+move = 3
+color = 102,114,29
+
+# 149: trenches [straight], nw-se
+[tile]
+terrain = trenches
+icon = 134
+attack = 5
+defend = 10
+move = 3
+color = 102,114,29
+
+# 150: trenches [straight], ne-sw
+[tile]
+terrain = trenches
+icon = 133
+attack = 5
+defend = 10
+move = 3
+color = 102,114,29
+
+# 151: trenches [curve], nw-ne
+[tile]
+terrain = trenches
+icon = 135
+attack = 5
+defend = 10
+move = 3
+color = 102,114,29
+
+# 152: trenches [curve], sw-se
+[tile]
+terrain = trenches
+icon = 136
+attack = 5
+defend = 10
+move = 3
+color = 102,114,29
+
+# 153: trenches [curve], n-sw
+[tile]
+terrain = trenches
+icon = 130
+attack = 5
+defend = 10
+move = 3
+color = 102,114,29
+
+# 154: trenches [curve], n-se
+[tile]
+terrain = trenches
+icon = 131
+attack = 5
+defend = 10
+move = 3
+color = 102,114,29
+
+# 155: trenches [curve], nw-s
+[tile]
+terrain = trenches
+icon = 132
+attack = 5
+defend = 10
+move = 3
+color = 102,114,29
+
+# 156: trenches [curve], ne-s
+[tile]
+terrain = trenches
+icon = 153
+attack = 5
+defend = 10
+move = 3
+color = 102,114,29
+
+# 157: trenches [junction], nw-se-ne
+[tile]
+terrain = trenches
+icon = 139
+attack = 5
+defend = 10
+move = 3
+color = 102,114,29
+
+# 158: trenches [junction], ne-sw-nw
+[tile]
+terrain = trenches
+icon = 138
+attack = 5
+defend = 10
+move = 3
+color = 102,114,29
+
+# 159: trenches [junction], sw-ne-se
+[tile]
+terrain = trenches
+icon = 137
+attack = 5
+defend = 10
+move = 3
+color = 102,114,29
+
+# 160: trenches [junction], se-nw-sw
+[tile]
+terrain = trenches
+icon = 140
+attack = 5
+defend = 10
+move = 3
+color = 102,114,29
+
+# 161: trenches [junction], n-sw-se
+[tile]
+terrain = trenches
+icon = 154
+attack = 5
+defend = 10
+move = 3
+color = 102,114,29
+
+# 162: trenches [junction], s-nw-ne
+[tile]
+terrain = trenches
+icon = 155
+attack = 5
+defend = 10
+move = 3
+color = 102,114,29
+
+# 163: trenches [junction], n-s-sw
+[tile]
+terrain = trenches
+icon = 156
+attack = 5
+defend = 10
+move = 3
+color = 102,114,29
+
+# 164: trenches [junction], n-s-se
+[tile]
+terrain = trenches
+icon = 157
+attack = 5
+defend = 10
+move = 3
+color = 102,114,29
+
+# 165: trenches [junction], nw-s-se
+[tile]
+terrain = trenches
+icon = 158
+attack = 5
+defend = 10
+move = 3
+color = 102,114,29
+
+# 166: trenches [junction], ne-sw-s
+[tile]
+terrain = trenches
+icon = 159
+attack = 5
+defend = 10
+move = 3
+color = 102,114,29
+
+# 167: trenches [junction], n-ne-sw
+[tile]
+terrain = trenches
+icon = 160
+attack = 5
+defend = 10
+move = 3
+color = 102,114,29
+
+# 168: trenches [junction], n-nw-se
+[tile]
+terrain = trenches
+icon = 161
+attack = 5
+defend = 10
+move = 3
+color = 102,114,29
+
+# 169: trenches [crossing], n-nw-s-se
+[tile]
+terrain = trenches
+icon = 162
+attack = 5
+defend = 10
+move = 3
+color = 102,114,29
+
+# 170: trenches [crossing], n-ne-s-sw
+[tile]
+terrain = trenches
+icon = 163
+attack = 5
+defend = 10
+move = 3
+color = 102,114,29
+
+# 171: trenches [crossing], nw-ne-sw-se
+[tile]
+terrain = trenches
+icon = 164
+attack = 5
+defend = 10
+move = 3
+color = 102,114,29
+
+# 172: trenches [circular]
+[tile]
+terrain = trenches
+icon = 167
+attack = 5
+defend = 10
+move = 3
+color = 102,114,29
+
+# 173: trenches [barbed wire], n-s
+[tile]
+terrain = trenches
+icon = 141
+attack = 5
+defend = 15
+move = 3
+color = 102,114,29
+
+# 174: trenches [barbed wire], nw-se
+[tile]
+terrain = trenches
+icon = 143
+attack = 5
+defend = 15
+move = 3
+color = 102,114,29
+
+# 175: trenches [barbed wire], sw-ne
+[tile]
+terrain = trenches
+icon = 142
+attack = 5
+defend = 15
+move = 3
+color = 102,114,29
+
+# 176: road [straight], n-s
+[tile]
+terrain = road
+icon = 193
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 177: road [straight], nw-se
+[tile]
+terrain = road
+icon = 192
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 178: road [straight], ne-sw
+[tile]
+terrain = road
+icon = 194
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 179: road [curve], n-sw
+[tile]
+terrain = road
+icon = 198
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 180: road [curve], n-se
+[tile]
+terrain = road
+icon = 197
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 181: road [curve], s-nw
+[tile]
+terrain = road
+icon = 199
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 182: road [curve], s-ne
+[tile]
+terrain = road
+icon = 200
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 183: road [curve], nw-ne
+[tile]
+terrain = road
+icon = 202
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 184: road [curve], sw-se
+[tile]
+terrain = road
+icon = 201
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 185: road [junction], n-sw-se
+[tile]
+terrain = road
+icon = 225
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 186: road [junction], s-nw-ne
+[tile]
+terrain = road
+icon = 226
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 187: road [junction], n-s-sw
+[tile]
+terrain = road
+icon = 216
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 188: road [junction], n-s-se
+[tile]
+terrain = road
+icon = 206
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 189: road [junction], s-n-nw
+[tile]
+terrain = road
+icon = 218
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 190: road [junction], s-n-ne
+[tile]
+terrain = road
+icon = 217
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 191: road [junction], nw-se-s
+[tile]
+terrain = road
+icon = 205
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 192: road [junction], ne-sw-s
+[tile]
+terrain = road
+icon = 204
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 193: road [junction], sw-ne-n
+[tile]
+terrain = road
+icon = 195
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 194: road [junction], se-nw-n
+[tile]
+terrain = road
+icon = 196
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 195: road [junction], nw-se-ne
+[tile]
+terrain = road
+icon = 221
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 196: road [junction], ne-sw-nw
+[tile]
+terrain = road
+icon = 222
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 197: road [junction], sw-ne-se
+[tile]
+terrain = road
+icon = 223
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 198: road [junction], se-nw-sw
+[tile]
+terrain = road
+icon = 224
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 199: road [crossing], n-s-nw-se
+[tile]
+terrain = road
+icon = 219
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 200: road [crossing], n-s-ne-sw
+[tile]
+terrain = road
+icon = 220
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 201: road [crossing], nw-se-ne-sw
+[tile]
+terrain = road
+icon = 203
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 202: road [craters], n-s
+[tile]
+terrain = road
+icon = 177
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 203: road [craters], nw-se
+[tile]
+terrain = road
+icon = 178
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 204: road [craters], ne-sw
+[tile]
+terrain = road
+icon = 179
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 205: road [tank stoppers], n-s
+[tile]
+terrain = rough
+icon = 174
+attack = 5
+defend = -2
+move = 2
+color = 50,34,4
+
+# 206: road [tank stoppers], nw-se
+[tile]
+terrain = rough
+icon = 175
+attack = 5
+defend = -2
+move = 2
+color = 50,34,4
+
+# 207: road [tank stoppers], ne-sw
+[tile]
+terrain = rough
+icon = 176
+attack = 5
+defend = -2
+move = 2
+color = 50,34,4
+
+# 208: road [bridge], n-s
+[tile]
+terrain = road
+icon = 183
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 209: road [bridge], nw-se
+[tile]
+terrain = road
+icon = 184
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 210: road [bridge], ne-sw
+[tile]
+terrain = road
+icon = 185
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 211: road [destroyed bridge], n-s
+[tile]
+terrain = water
+icon = 186
+move = 2
+color = 50,118,148
+
+# 212: road [destroyed bridge], nw-se
+[tile]
+terrain = water
+icon = 187
+move = 2
+color = 50,118,148
+
+# 213: road [destroyed bridge], ne-sw
+[tile]
+terrain = water
+icon = 188
+move = 2
+color = 50,118,148
+
+# 214: road [bridge], n-s    +  coast, nw-n-ne
+[tile]
+terrain = road
+icon = 207
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 215: road [bridge], n-s    +  coast, sw-s-se
+[tile]
+terrain = road
+icon = 208
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 216: road [bridge], nw-se  +  coast, n-nw
+[tile]
+terrain = road
+icon = 231
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 217: road [bridge], nw-se  +  coast, s-se
+[tile]
+terrain = road
+icon = 232
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 218: road [bridge], nw-se  +  coast, n-nw-sw-s
+[tile]
+terrain = road
+icon = 211
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 219: road [bridge], nw-se  +  coast, n-ne-se-s
+[tile]
+terrain = road
+icon = 212
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 220: road [bridge], ne-sw  +  coast, n-nw-sw-s
+[tile]
+terrain = road
+icon = 209
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 221: road [bridge], ne-sw  +  coast, n-ne-se-s
+[tile]
+terrain = road
+icon = 210
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 222: path [straight], n-s
+[tile]
+terrain = road
+icon = 240
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 223: path [straight], nw-se
+[tile]
+terrain = road
+icon = 241
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 224: path [straight], ne-sw
+[tile]
+terrain = road
+icon = 242
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 225: path [curve], n-sw
+[tile]
+terrain = road
+icon = 245
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 226: path [curve], n-se
+[tile]
+terrain = road
+icon = 246
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 227: path [curve], s-ne
+[tile]
+terrain = road
+icon = 247
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 228: path [curve], s-nw
+[tile]
+terrain = road
+icon = 248
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 229: path [curve], nw-ne
+[tile]
+terrain = road
+icon = 244
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 230: path [curve], sw-se
+[tile]
+terrain = road
+icon = 243
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 231: path [junction], n-sw-se
+[tile]
+terrain = road
+icon = 273
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 232: path [junction], s-nw-ne
+[tile]
+terrain = road
+icon = 274
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 233: path [junction], n-s-sw
+[tile]
+terrain = road
+icon = 252
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 234: path [junction], n-s-se
+[tile]
+terrain = road
+icon = 253
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 235: path [junction], s-n-nw
+[tile]
+terrain = road
+icon = 255
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 236: path [junction], s-n-ne
+[tile]
+terrain = road
+icon = 254
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 237: path [junction], nw-se-s
+[tile]
+terrain = road
+icon = 228
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 238: path [junction], ne-sw-s
+[tile]
+terrain = road
+icon = 229
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 239: path [junction], sw-ne-n
+[tile]
+terrain = road
+icon = 256
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 240: path [junction], se-nw-n
+[tile]
+terrain = road
+icon = 227
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 241: path [junction], nw-se-ne
+[tile]
+terrain = road
+icon = 230
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 242: path [junction], ne-sw-nw
+[tile]
+terrain = road
+icon = 270
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 243: path [junction], sw-ne-se
+[tile]
+terrain = road
+icon = 271
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 244: path [junction], se-nw-sw
+[tile]
+terrain = road
+icon = 272
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 245: path [crossing], n-s-nw-se
+[tile]
+terrain = road
+icon = 249
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 246: path [crossing], n-s-ne-sw
+[tile]
+terrain = road
+icon = 251
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 247: path [crossing], nw-se-ne-sw
+[tile]
+terrain = road
+icon = 250
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 248: rails [straight], n-s
+[tile]
+terrain = rails
+icon = 239
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 249: rails [straight], nw-se
+[tile]
+terrain = rails
+icon = 257
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 250: rails [straight], ne-sw
+[tile]
+terrain = rails
+icon = 258
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 251: rails [curve], n-sw
+[tile]
+terrain = rails
+icon = 261
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 252: rails [curve], n-se
+[tile]
+terrain = rails
+icon = 262
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 253: rails [curve], s-nw
+[tile]
+terrain = rails
+icon = 281
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 254: rails [curve], s-ne
+[tile]
+terrain = rails
+icon = 263
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 255: rails [curve], nw-ne
+[tile]
+terrain = rails
+icon = 260
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 256: rails [curve], sw-se
+[tile]
+terrain = rails
+icon = 259
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 257: rails [junction], n-sw-se
+[tile]
+terrain = rails
+icon = 310
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 258: rails [junction], s-nw-ne
+[tile]
+terrain = rails
+icon = 311
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 259: rails [junction], n-s-sw
+[tile]
+terrain = rails
+icon = 285
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 260: rails [junction], n-s-se
+[tile]
+terrain = rails
+icon = 286
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 261: rails [junction], s-n-nw
+[tile]
+terrain = rails
+icon = 301
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 262: rails [junction], s-n-ne
+[tile]
+terrain = rails
+icon = 287
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 263: rails [junction], nw-se-s
+[tile]
+terrain = rails
+icon = 304
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 264: rails [junction], ne-sw-s
+[tile]
+terrain = rails
+icon = 305
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 265: rails [junction], sw-ne-n
+[tile]
+terrain = rails
+icon = 302
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 266: rails [junction], se-nw-n
+[tile]
+terrain = rails
+icon = 303
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 267: rails [junction], nw-se-ne
+[tile]
+terrain = rails
+icon = 306
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 268: rails [junction], ne-sw-nw
+[tile]
+terrain = rails
+icon = 307
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 269: rails [junction], sw-ne-se
+[tile]
+terrain = rails
+icon = 308
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 270: rails [junction], se-nw-sw
+[tile]
+terrain = rails
+icon = 309
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 271: rails [crossing], n-s-nw-se
+[tile]
+terrain = rails
+icon = 282
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 272: rails [crossing], n-s-ne-sw
+[tile]
+terrain = rails
+icon = 284
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 273: rails [crossing], nw-se-ne-sw
+[tile]
+terrain = rails
+icon = 283
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 274: rails [bridge], n-s
+[tile]
+terrain = rails
+icon = 292
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 275: rails [bridge], nw-se
+[tile]
+terrain = rails
+icon = 293
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 276: rails [bridge], ne-sw
+[tile]
+terrain = rails
+icon = 294
+attack = 2
+defend = -3
+move = 2
+color = 50,34,4
+
+# 277: crossing: rails, n-s    +  road, nw-se
+[tile]
+terrain = road
+terrain = rails
+icon = 189
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 278: crossing: rails, n-s    +  road, ne-sw
+[tile]
+terrain = road
+terrain = rails
+icon = 190
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 279: crossing: rails, nw-se  +  road, n-s
+[tile]
+terrain = road
+terrain = rails
+icon = 191
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 280: crossing: rails, nw-se  +  road, ne-sw
+[tile]
+terrain = road
+terrain = rails
+icon = 213
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 281: crossing: rails, ne-sw  +  road, n-s
+[tile]
+terrain = road
+terrain = rails
+icon = 214
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 282: crossing: rails, ne-sw  +  road, nw-se
+[tile]
+terrain = road
+terrain = rails
+icon = 215
+attack = 3
+defend = -3
+move = 1
+color = 50,34,4
+
+# 283: crossing: rails, n-s    +  path, nw-se
+[tile]
+terrain = road
+terrain = rails
+icon = 275
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 284: crossing: rails, n-s    +  path, ne-sw
+[tile]
+terrain = road
+terrain = rails
+icon = 276
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 285: crossing: rails, nw-se  +  path, n-s
+[tile]
+terrain = road
+terrain = rails
+icon = 277
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 286: crossing: rails, nw-se  +  path, ne-sw
+[tile]
+terrain = road
+terrain = rails
+icon = 278
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 287: crossing: rails, ne-sw  +  path, n-s
+[tile]
+terrain = road
+terrain = rails
+icon = 279
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 288: crossing: rails, ne-sw  +  path, nw-se
+[tile]
+terrain = road
+terrain = rails
+icon = 280
+attack = 3
+defend = -3
+move = 2
+color = 104,89,25
+
+# 289: crossing: rails, n-s    +  river nw-se
+[tile]
+terrain = rails
+icon = 297
+defend = -4
+move = 2
+color = 50,34,4
+
+# 290: crossing: rails, n-s    +  river ne-sw
+[tile]
+terrain = rails
+icon = 299
+defend = -4
+move = 2
+color = 50,34,4
+
+# 291: crossing: rails, nw-se  +  river n-s
+[tile]
+terrain = rails
+icon = 295
+defend = -4
+move = 2
+color = 50,34,4
+
+# 292: crossing: rails, nw-se  +  river ne-sw
+[tile]
+terrain = rails
+icon = 300
+defend = -4
+move = 2
+color = 50,34,4
+
+# 293: crossing: rails, ne-sw  +  river n-s
+[tile]
+terrain = rails
+icon = 296
+defend = -4
+move = 2
+color = 50,34,4
+
+# 294: crossing: rails, ne-sw  +  river nw-se
+[tile]
+terrain = rails
+icon = 298
+defend = -4
+move = 2
+color = 50,34,4
+
+# 295: crossing: road, n-s    +  river, nw-se
+[tile]
+terrain = road
+icon = 235
+attack = 3
+defend = -4
+move = 1
+color = 50,34,4
+
+# 296: crossing: road, n-s    +  river, ne-sw
+[tile]
+terrain = road
+icon = 237
+attack = 3
+defend = -4
+move = 1
+color = 50,34,4
+
+# 297: crossing: road, nw-se  +  river, n-s
+[tile]
+terrain = road
+icon = 233
+attack = 3
+defend = -4
+move = 1
+color = 50,34,4
+
+# 298: crossing: road, nw-se  +  river, ne-sw
+[tile]
+terrain = road
+icon = 238
+attack = 3
+defend = -4
+move = 1
+color = 50,34,4
+
+# 299: crossing: road, ne-sw  +  river, n-s
+[tile]
+terrain = road
+icon = 234
+attack = 3
+defend = -4
+move = 1
+color = 50,34,4
+
+# 300: crossing: road, ne-sw  +  river, nw-se
+[tile]
+terrain = road
+icon = 236
+attack = 3
+defend = -4
+move = 1
+color = 50,34,4
+
+# 301: crossing: path, n-s    +  river, nw-se
+[tile]
+terrain = road
+icon = 266
+attack = 3
+defend = -4
+move = 2
+color = 104,89,25
+
+# 302: crossing: path, n-s    +  river, ne-sw
+[tile]
+terrain = road
+icon = 268
+attack = 3
+defend = -4
+move = 2
+color = 104,89,25
+
+# 303: crossing: path, nw-se  +  river, n-s
+[tile]
+terrain = road
+icon = 264
+attack = 3
+defend = -4
+move = 2
+color = 104,89,25
+
+# 304: crossing: path, nw-se  +  river, ne-sw
+[tile]
+terrain = road
+icon = 269
+attack = 3
+defend = -4
+move = 2
+color = 104,89,25
+
+# 305: crossing: path, ne-sw  +  river, n-s
+[tile]
+terrain = road
+icon = 265
+attack = 3
+defend = -4
+move = 2
+color = 104,89,25
+
+# 306: crossing: path, ne-sw  +  river, nw-se
+[tile]
+terrain = road
+icon = 267
+attack = 3
+defend = -4
+move = 2
+color = 104,89,25
+
+# 307: swamp
+[tile]
+terrain = swamp
+icon = 33
+attack = -5
+defend = -5
+move = 4
+color = 50,70,36
+
+# 308: lake
+[tile]
+terrain = shallowwater
+icon = 288
+move = 2
+color = 86,150,188
+
+# 309: river [straight], n-s
+[tile]
+terrain = shallowwater
+icon = 312
+move = 2
+color = 86,150,188
+
+# 310: river [straight], nw-se
+[tile]
+terrain = shallowwater
+icon = 313
+move = 2
+color = 86,150,188
+
+# 311: river [straight], ne-sw
+[tile]
+terrain = shallowwater
+icon = 314
+move = 2
+color = 86,150,188
+
+# 312: river [curve], n-sw
+[tile]
+terrain = shallowwater
+icon = 317
+move = 2
+color = 86,150,188
+
+# 313: river [curve], n-se
+[tile]
+terrain = shallowwater
+icon = 318
+move = 2
+color = 86,150,188
+
+# 314: river [curve], s-nw
+[tile]
+terrain = shallowwater
+icon = 320
+move = 2
+color = 86,150,188
+
+# 315: river [curve], s-ne
+[tile]
+terrain = shallowwater
+icon = 319
+move = 2
+color = 86,150,188
+
+# 316: river [curve], nw-ne
+[tile]
+terrain = shallowwater
+icon = 316
+move = 2
+color = 86,150,188
+
+# 317: river [curve], sw-se
+[tile]
+terrain = shallowwater
+icon = 315
+move = 2
+color = 86,150,188
+
+# 318: river [junction], n-sw-se
+[tile]
+terrain = shallowwater
+icon = 327
+move = 2
+color = 86,150,188
+
+# 319: river [junction], s-nw-ne
+[tile]
+terrain = shallowwater
+icon = 328
+move = 2
+color = 86,150,188
+
+# 320: river [junction], sw-ne-n
+[tile]
+terrain = shallowwater
+icon = 329
+move = 2
+color = 86,150,188
+
+# 321: river [junction], n-sw-s
+[tile]
+terrain = shallowwater
+icon = 336
+move = 2
+color = 86,150,188
+
+# 322: river [junction], n-s-se
+[tile]
+terrain = shallowwater
+icon = 337
+move = 2
+color = 86,150,188
+
+# 323: river [junction], nw-n-s
+[tile]
+terrain = shallowwater
+icon = 338
+move = 2
+color = 86,150,188
+
+# 324: river [junction], n-ne-s
+[tile]
+terrain = shallowwater
+icon = 339
+move = 2
+color = 86,150,188
+
+# 325: river [junction], nw-s-se
+[tile]
+terrain = shallowwater
+icon = 340
+move = 2
+color = 86,150,188
+
+# 326: river [junction], ne-sw-s
+[tile]
+terrain = shallowwater
+icon = 341
+move = 2
+color = 86,150,188
+
+# 327: river [junction], nw-n-se
+[tile]
+terrain = shallowwater
+icon = 342
+move = 2
+color = 86,150,188
+
+# 328: river [junction], nw-ne-se
+[tile]
+terrain = shallowwater
+icon = 343
+move = 2
+color = 86,150,188
+
+# 329: river [junction], nw-ne-sw
+[tile]
+terrain = shallowwater
+icon = 344
+move = 2
+color = 86,150,188
+
+# 330: river [junction], ne-sw-se
+[tile]
+terrain = shallowwater
+icon = 345
+move = 2
+color = 86,150,188
+
+# 331: river [junction], nw-sw-se
+[tile]
+terrain = shallowwater
+icon = 346
+move = 2
+color = 86,150,188
+
+# 332: river [crossing], n-nw-s-se
+[tile]
+terrain = shallowwater
+icon = 347
+move = 2
+color = 86,150,188
+
+# 333: river [crossing], n-ne-s-sw
+[tile]
+terrain = shallowwater
+icon = 348
+move = 2
+color = 86,150,188
+
+# 334: river [crossing], nw-ne-sw-se
+[tile]
+terrain = shallowwater
+icon = 349
+move = 2
+color = 86,150,188
+
+# 335: river [end], n-s
+[tile]
+terrain = shallowwater
+icon = 322
+move = 2
+color = 86,150,188
+
+# 336: river [end], s-n
+[tile]
+terrain = shallowwater
+icon = 321
+move = 2
+color = 86,150,188
+
+# 337: river [end], nw-se
+[tile]
+terrain = shallowwater
+icon = 324
+move = 2
+color = 86,150,188
+
+# 338: river [end], ne-sw
+[tile]
+terrain = shallowwater
+icon = 326
+move = 2
+color = 86,150,188
+
+# 339: river [end], sw-ne
+[tile]
+terrain = shallowwater
+icon = 325
+move = 2
+color = 86,150,188
+
+# 340: river [end], se-nw
+[tile]
+terrain = shallowwater
+icon = 323
+move = 2
+color = 86,150,188
+
+# 341: river [footbridge], n-s
+[tile]
+terrain = restricted
+icon = 289
+attack = 3
+defend = -3
+move = 1
+color = 104,89,25
+
+# 342: river [footbridge], nw-se
+[tile]
+terrain = restricted
+icon = 290
+attack = 3
+defend = -3
+move = 1
+color = 104,89,25
+
+# 343: river [footbridge], ne-sw
+[tile]
+terrain = restricted
+icon = 291
+attack = 3
+defend = -3
+move = 1
+color = 104,89,25
+
+# 344: coast, n
+[tile]
+terrain = shallowwater
+icon = 360
+move = 2
+color = 86,150,188
+
+# 345: coast, nw
+[tile]
+terrain = shallowwater
+icon = 365
+move = 2
+color = 86,150,188
+
+# 346: coast, ne
+[tile]
+terrain = shallowwater
+icon = 361
+move = 2
+color = 86,150,188
+
+# 347: coast, sw
+[tile]
+terrain = shallowwater
+icon = 364
+move = 2
+color = 86,150,188
+
+# 348: coast, se
+[tile]
+terrain = shallowwater
+icon = 362
+move = 2
+color = 86,150,188
+
+# 349: coast, s
+[tile]
+terrain = shallowwater
+icon = 363
+move = 2
+color = 86,150,188
+
+# 350: coast, n-nw
+[tile]
+terrain = shallowwater
+icon = 366
+move = 2
+color = 86,150,188
+
+# 351: coast, n-ne
+[tile]
+terrain = shallowwater
+icon = 367
+move = 2
+color = 86,150,188
+
+# 352: coast, nw-sw
+[tile]
+terrain = shallowwater
+icon = 371
+move = 2
+color = 86,150,188
+
+# 353: coast, ne-se
+[tile]
+terrain = shallowwater
+icon = 368
+move = 2
+color = 86,150,188
+
+# 354: coast, s-sw
+[tile]
+terrain = shallowwater
+icon = 370
+move = 2
+color = 86,150,188
+
+# 355: coast, s-se
+[tile]
+terrain = shallowwater
+icon = 369
+move = 2
+color = 86,150,188
+
+# 356: coast, nw-n-ne
+[tile]
+terrain = shallowwater
+icon = 372
+move = 2
+color = 86,150,188
+
+# 357: coast, n-nw-sw-s
+[tile]
+terrain = shallowwater
+icon = 375
+move = 2
+color = 86,150,188
+
+# 358: coast, n-ne-se-s
+[tile]
+terrain = shallowwater
+icon = 373
+move = 2
+color = 86,150,188
+
+# 359: coast, sw-s-se
+[tile]
+terrain = shallowwater
+icon = 374
+move = 2
+color = 86,150,188
+
+# 360: water [shallow]
+[tile]
+terrain = shallowwater
+icon = 333
+move = 2
+color = 86,150,188
+
+# 361: water [medium]
+[tile]
+terrain = water
+icon = 334
+move = 2
+color = 50,118,148
+
+# 362: water [deep]
+[tile]
+terrain = deepwater
+icon = 335
+move = 2
+color = 44,98,119
+
+# 363: cliffs [one]
+[tile]
+terrain = rough
+icon = 330
+attack = -5
+defend = -5
+move = 3
+color = 150,154,132
+
+# 364: cliffs [two]
+[tile]
+terrain = rough
+icon = 331
+attack = -5
+defend = -5
+move = 3
+color = 150,154,132
+
+# 365: cliffs [three]
+[tile]
+terrain = rough
+icon = 332
+attack = -5
+defend = -5
+move = 3
+color = 150,154,132
+
+# 366: pier, west
+[tile]
+terrain = plains
+icon = 354
+move = 2
+color = 138,118,100
+
+# 367: pier, east
+[tile]
+terrain = plains
+icon = 355
+move = 2
+color = 138,118,100
+
+# 368: pier [crane], west
+[tile]
+terrain = plains
+icon = 352
+move = 2
+color = 138,118,100
+
+# 369: pier [crane], east
+[tile]
+terrain = plains
+icon = 353
+move = 2
+color = 138,118,100
+
+# 370: pier [jetty], n-s
+[tile]
+terrain = plains
+icon = 356
+move = 2
+color = 138,118,100
+
+# 371: pier [jetty], south
+[tile]
+terrain = plains
+icon = 357
+move = 2
+color = 138,118,100
+
+# 372: pier [jetty], north
+[tile]
+terrain = plains
+icon = 358
+move = 2
+color = 138,118,100
+
+# 373: pier [dock], south
+[tile]
+terrain = shallowwater
+terrain = water
+icon = 350
+move = 2
+color = 86,150,188
+
+# 374: pier [dock], north
+[tile]
+terrain = shallowwater
+terrain = water
+icon = 351
+move = 2
+color = 86,150,188

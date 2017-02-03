@@ -1,0 +1,420 @@
+<?xml version='1.0'?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+ "http://www.oasis-open.org/docbook/xml/4.2/docbookx.dtd">
+<refentry id="crimson.6">
+<refentryinfo>
+  <date>January 20 2007</date>
+  <author>
+    <firstname>Jens</firstname>
+    <surname>Granseuer</surname>
+    <address><email>jensgr@gmx.net</email></address>
+  </author>
+</refentryinfo>
+
+<refmeta>
+  <refentrytitle>crimson</refentrytitle>
+  <manvolnum>6</manvolnum>
+</refmeta>
+
+<refnamediv>
+  <refname>crimson</refname>
+  <refpurpose>a hex-based tactical combat game</refpurpose>
+</refnamediv>
+
+<refsynopsisdiv>
+  <cmdsynopsis>
+    <command>crimson</command>
+    <arg choice="opt">--level <replaceable>level</replaceable></arg>
+    <arg choice="opt">--width <replaceable>w</replaceable></arg>
+    <arg choice="opt">--height <replaceable>h</replaceable></arg>
+    <arg choice="opt">--fullscreen 1|0</arg>
+    <arg choice="opt">--sound 1|0</arg>
+  </cmdsynopsis>
+
+  <cmdsynopsis>
+    <command>crimson</command>
+    <group choice="req">
+      <arg choice="plain">--help</arg>
+      <arg choice="plain">--version</arg>
+    </group>
+  </cmdsynopsis>
+</refsynopsisdiv>
+
+<refsect1><title>Description</title>
+  <para><application>Crimson Fields</application> is a tactical war
+  game in the tradition of the popular
+  <application>Battle Isle</application>. Two players
+  command a number of units on a map of hexagons, trying to
+  accomplish mission objectives ranging from defending important
+  locations to simply destroying all enemy forces. Damaged units
+  may be repaired or replaced by new recruits, while victorious
+  squadrons will improve their abilities so they will be even
+  more difficult to beat next time.</para>
+
+  <para>The game can be played against a human adversary in
+  hot-seat mode, over a network, or via e-mail, or against a computer
+  player.</para>
+
+  <para>The level editor
+  <citerefentry><refentrytitle>cfed</refentrytitle><manvolnum>6</manvolnum></citerefentry>
+  can be used to create your own levels.</para>
+</refsect1>
+
+<refsect1><title>Options</title>
+  <para>If called without options <command>crimson</command> will
+  open its main window using the settings from the last session or
+  the defaults if no previous settings exist.</para>
+
+  <variablelist>
+    <varlistentry>
+      <term><option>--level</option> <replaceable>level</replaceable></term>
+      <listitem>
+        <para>Skip the level selection window and load the mission
+        file <replaceable>level</replaceable>. The file may be
+        either a standard level file or a saved game. When starting a
+        new game this way you will be playing a single map against the
+        computer without any handicaps.</para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term><option>--width</option> <replaceable>w</replaceable></term>
+      <listitem>
+        <para>Set screen width to <replaceable>w</replaceable>.
+        Minimum screen width is 320. Default is 800.</para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term><option>--height</option> <replaceable>h</replaceable></term>
+      <listitem>
+        <para>Set screen height to <replaceable>h</replaceable>.
+        Minimum screen height is 240. Default is 600.</para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term><option>--fullscreen</option> 1|0</term>
+      <listitem>
+        <para>Turn fullscreen mode on/off. The default is to start
+        in windowed mode.</para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term><option>--sound</option> 1|0</term>
+      <listitem>
+        <para>Turn sound on/off. The default is on.</para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term><option>--help</option></term>
+      <listitem>
+        <para>Print a usage message on standard output and exit.</para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term><option>--version</option></term>
+      <listitem>
+        <para>Print version information on standard output and
+        exit.</para>
+      </listitem>
+    </varlistentry>
+  </variablelist>
+
+  <para>The display and sound options given to <command>crimson</command>
+  on startup will be saved to file and restored on the next program
+  start.</para>
+</refsect1>
+
+<refsect1><title>Getting Started</title>
+<refsect2><title>Introduction</title>
+  <para>The once peaceful planet Nexus has been invaded by beings calling
+  themselves the Empire of Kand who are determined to conquer Nexus or
+  destroy it completely. The public unrest has become violent as the
+  people attempt revolution against the invasion, but the Empire of Kand
+  are quick to silence opposition. Nexus is on the verge of war and its
+  people have formed factions to battle the Empire. As a member of one
+  of the major rebel factions, the Free Nexus Army, your goals are
+  obvious: to drive the intruders back to whichever part of the galaxy
+  they came from and restore peace on planet Nexus...</para>
+  <para>(This is the background story for most of the included missions
+  and the default campaign. There may be maps with entirely different
+  settings.)</para>
+</refsect2>
+<refsect2><title>Main Menu</title>
+  <para>The main screen presents a number of widgets to configure the
+  game. The most important decision is whether you want to play a
+  skirmish match, a campaign, or load a saved game. Skirmishes are
+  stand-alone maps while campaigns consist of a number of maps which
+  must be played (and won) in sequence. Each map that you advance to
+  during a campaign will also be unlocked for skirmish matches. While
+  campaigns can only be played against the computer, skirmishes can
+  additionally be played as hot-seat matches (two players on one
+  computer taking turns), e-mail matches (see <xref linkend="pbem"/>),
+  or over a network, and when playing against the computer you
+  get to choose which side you want to play on. For both game types
+  you can optionally define a handicap, to make the game a bit easier
+  or harder. What this means exactly depends on the map being played
+  but in most cases a handicapped player will have fewer units or
+  resources at his disposal than his opponent.</para>
+  <para>The large box on the left lists all available skirmishes,
+  campaigns, or saved games, while the box on the right displays a small
+  image of the selected map or, for campaigns, the story. For
+  skirmishes, the number in brackets shows the recommended number of
+  players. Missions designed for one player are often rather unbalanced
+  if played against another human since the computer plays so different
+  from a human, although a handicap can sometimes fix this.</para>
+  <para>After you have selected a map hit <guibutton>Start</guibutton>
+  to enter the game.</para>
+</refsect2>
+<refsect2><title>First Steps</title>
+  <para>After starting the match you will be presented with the mission
+  briefing. Here you are given your orders and objectives to win the map.
+  As both players usually have different and conflicting goals, each
+  player gets his own briefing session at the beginning of his first
+  turn.</para>
+  <para>After the briefing you will be presented with the map. This
+  is your command center. From here you can issue most of the orders
+  that will determine the outcome of the mission. The first player
+  commands the yellow units while the second player or computer
+  takes control of the blue units.</para>
+  <para>The map consists of small regions of land (or water) each known
+  as a <emphasis>hex</emphasis> (sometimes also called
+  <emphasis>field</emphasis> or <emphasis>square</emphasis>).
+  Left-clicking on a hex selects that hex and moves the cursor to it. If
+  there is a unit on the selected hex then a small bar will appear in
+  the lower left of the screen showing the rank of the unit, its type,
+  and the squad size (see <xref linkend="experience"/> for more
+  information about ranks). If there is instead a building or shop on
+  the selected hex, the information bar displays the name of the shop
+  and possibly some icons representing special attributes (see
+  <xref linkend="crystals"/> for details). Shops may occupy several
+  fields, but they only have a single entrance, which is marked by the
+  colour of the respective owner. Buildings with a white entrance are
+  neutral and not controlled by any player.</para>
+  <para>A right-click on one of your units generally brings up a context
+  menu for that unit (this does not apply to enemy units). Here you can
+  view the unit stats, or inspect its contents (transporters
+  only). Other units like mine-sweepers may have special skills which
+  also show up here. If the unit is not a transporter and does not offer
+  any special skills, the menu is skipped and you are directly taken to
+  the stats display.</para>
+  <para>The stats window is basically divided in two parts. The top part
+  shows the unit name and its values for speed, armour, and effectiveness
+  against ground troops, aircraft, and ships in that order, from the top
+  left to the bottom right. Most units have a weapon range of 1, meaning
+  they can shoot at units one hex away (i.e. directly next to it). For
+  units with different settings, the actual range is given in brackets
+  after the weapon power. The second part of the window lists the most
+  important terrain types. Shaded terrain indicates that the unit cannot
+  cross that ground.</para>
+  <para>Right-clicking anywhere but on a unit or pressing
+  <keycap>F1</keycap> pops up the <guimenu>Game</guimenu> menu where you
+  can review your mission objectives, take a look at an overview map, or
+  save your game, for example.</para>
+  <para>You select one of your units by simply clicking on it. Large parts
+  of the map will now be shaded to indicate that the unit cannot move
+  there. Unshaded enemy units are potential targets. To move to an
+  accessible field or attack a foe, simply double-click the respective
+  hex. If you accidentally sent your unit to a hex you did not want it to
+  go to, right-clicking on the unit gives you the option of reverting the
+  last move, as long as it did not trigger any special events.</para>
+  <para>If you click twice on one of your shops or a neutral one, you
+  enter that building. Of course, you can also move units into shops,
+  although only some units (<emphasis>Infantry</emphasis> in the default set)
+  can move into shops not owned by you, and some buildings may not allow
+  all unit types. Quite often buildings are important mission objectives.
+  Taking the enemy headquarters, e.g., is a very common goal. But even if
+  you do not specifically need to control a certain shop for victory, it
+  can still be very helpful as it may be possible to repair or build
+  units (see <xref linkend="crystals"/>).</para>
+  <para>When you have issued all orders, select <guibutton>End Turn</guibutton>
+  from the <guimenu>Game</guimenu> menu. Your commands are then executed,
+  fights are resolved, and your opponent gets his chance to strike
+  back...</para>
+</refsect2>
+</refsect1>
+
+<refsect1><title>Movement</title>
+  <para>Each unit may only move once each turn, and only if it did not
+  initiate combat on the same turn. <emphasis>Artillery</emphasis> and
+  <emphasis>Anti-Aircraft Guns</emphasis> cannot attack if they have already
+  been moved on the same turn. To move around on the map, a unit needs
+  <firstterm>movement points</firstterm>. The number in the upper left
+  corner of the unit information dialog (which can be brought up for one
+  of your units by right-clicking it) indicates how many hexes the unit can
+  move under optimal circumstances. The actual range is determined by
+  several factors.</para>
+
+  <para>For ordinary ground units the terrain can greatly reduce
+  the range of action. The maximum can only ever be reached on
+  roads, everything else will slow the unit down, and mountains
+  more so than forest. For airborne units or ships, terrain is of
+  no importance.</para>
+
+  <para>Enemy units can be trapped in order to prevent them from
+  using superior speed or to deny them access to certain areas of
+  the map. A unit which attempts to cross a hex between two
+  hostile units or one hostile unit and inaccessible terrain will
+  be stopped immediately after passing through.</para>
+
+  <para>A unit cannot leave a transport or building and enter
+  another one on the same turn. Enemy buildings can only be
+  conquered by infantry units.</para>
+</refsect1>
+
+<refsect1><title>Combat</title>
+  <refsect2><title>Results</title>
+    <para>Basically the probability to hit an enemy unit in combat
+    is the same for all unit types, although the attacker always
+    gets a slight advantage. This hit probability is then modified
+    by effects such as experience, distance to the target, terrain,
+    or wedging (see below). Similarly, each unit gets assigned a
+    probability for evading an attack which is then modified by
+    experience, terrain effects and blocking. If a unit scores a
+    hit it will increase its attack pool by an amount equal to its
+    strength. A unit which successfully evades an attack will have
+    its defence pool grow by an amount equal to its defence or
+    armour value. Finally, each attack pool is compared to the
+    enemy's defence pool, and the resulting ratio determines the
+    casualties on both sides.</para>
+  </refsect2>
+
+  <refsect2><title>Terrain</title>
+    <para>Terrain is an important factor in combat as it can
+    heavily influence a unit's effectiveness. For example, fighting
+    on a road or open plains will greatly increase attacking
+    strength but offers relatively poor defensive capabilities,
+    whereas a unit in the mountains will profit from the higher
+    position in both attack and defence. Terrain modifiers do not
+    apply for aircraft.</para>
+  </refsect2>
+
+  <refsect2><title>Wedging</title>
+    <para>Friendly units can help increase the combat strength of
+    an attacking unit without attacking themselves. For each
+    friendly unit which is adjacent to and capable of shooting at
+    the defender, the attacker will get a 10 per cent bonus. If the
+    unit is adjacent to the defender, but cannot attack it the
+    bonus is reduced to 5 per cent. A friendly unit in the back of
+    the defender will earn another 5 per cent bonus, or 10 if it
+    could also attack. It does not matter whether a wedging unit
+    actually attacks the defender. Wedging does not work for
+    long-range attacks.</para>
+  </refsect2>
+
+  <refsect2><title>Blocking</title>
+    <para>In a manner similar to wedging, defending units may
+    improve their position in combat. For each friendly unit
+    adjacent to the attacker and the defender, the defending unit
+    will have its combat strength increased by 10 per cent. Just
+    like wedging, blocking does not help against long-range
+    attacks.</para>
+  </refsect2>
+
+  <refsect2 id="experience">
+    <title>Experience</title>
+    <para>Veteran units are usually much stronger than newly
+    assembled ones. If you manage to wipe out an enemy unit your
+    unit will receive three experience points. If the enemy is only
+    damaged you will still get one point. Every three experience
+    points a unit advances to a new rank which improves its combat
+    skills. Still, a seasoned infantry unit will have a very hard
+    time against a group of recently recruited heavy tanks.
+    Destroying mines does not earn any experience points.</para>
+  </refsect2>
+</refsect1>
+
+<refsect1 id="crystals"><title>Crystals</title>
+  <para>Crystals represent the resources required to maintain and
+  enlarge your army. You need them to repair damaged units or
+  build new ones.</para>
+
+  <refsect2><title>Repairs</title>
+    <para>Units which have been damaged in combat can be repaired
+    in any building equipped for this purpose (a
+    <firstterm>workshop</firstterm>). To check whether a building
+    is a workshop, click on it. For workshops a wrench icon will be
+    displayed in the small info bar that appears in the lower left
+    of the screen, and a repair button is available in the icon bar
+    inside. Repairing will restore a unit to its full strength and
+    requires an amount of 5 crystals, no matter what kind of unit
+    it is or how badly is was damaged. Apart from the crystal cost
+    the unit loses one experience point for each rookie that fills
+    up an empty slot.</para>
+    <para>The ability to repair damaged units is not necessarily
+    limited to shops. Some unit types may offer the same service
+    (from the standard unit set, for example, the
+    <emphasis>Aircraft Carriers</emphasis> can bring aircraft back
+    into shape). Repairs in units works exactly the same way as
+    in workshops, and you also need to supply the crystals to do
+    so.</para>
+  </refsect2>
+
+  <refsect2><title>Production</title>
+    <para>To build new units you need some crystals and a
+    <firstterm>factory</firstterm> (hammer icon). The amount of
+    crystals required depends on the type of unit you want to
+    build: A squad of light reconnaissance vehicles is cheaper
+    than a group of heavy attack choppers. Most factories can not
+    produce all unit types, even if you could afford it. If you
+    click on the production button inside a factory, you are shown
+    the list of units which can be built in this particular
+    factory. Next to each unit type is the amount of crystals that
+    will be consumed. Newly built units can only move on your next
+    turn.</para>
+  </refsect2>
+
+  <refsect2><title>Mines</title>
+    <para>To replenish your supply of crystals you need
+    <firstterm>mines</firstterm>. Mines are buildings which
+    'produce' a certain amount of crystals each turn.
+    They can not be identified from the outside. Many maps do not
+    have any mines at all, so it is always a good idea to consider
+    carefully what you spend your resources on. Crystals can be
+    transferred from one building to another (e.g. from a mine to
+    a factory) using any transporter unit.</para>
+  </refsect2>
+</refsect1>
+
+<refsect1 id="pbem"><title>Play-By-E-Mail</title>
+  <para>If <application>Crimson Fields</application> is played in
+  play-by-e-mail mode, the game will automatically be saved
+  whenever a player ends her turn. The resulting save file can
+  then be sent to your opponent using your favourite mail client
+  program.</para>
+
+  <para>On your first turn you will be asked for a password. You
+  will be prompted for this password at the beginning of each of
+  your turns to prevent your opponent from spying. Note, however,
+  that the password only offers very mild protection if you are
+  playing against deliberate cheaters. Choose your enemies
+  carefully!</para>
+</refsect1>
+
+<refsect1><title>Files</title>
+  <para>Unix
+  <simplelist>
+    <member><filename>~/.crimson/crimsonrc</filename></member>
+    <member><filename>~/.crimson/levels/</filename></member>
+  </simplelist></para>
+</refsect1>
+
+<refsect1><title>See Also</title>
+  <para>
+    <citerefentry><refentrytitle>cfed</refentrytitle><manvolnum>6</manvolnum></citerefentry>,
+    <citerefentry><refentrytitle>bi2cf</refentrytitle><manvolnum>6</manvolnum></citerefentry>
+  </para>
+</refsect1>
+
+<refsect1><title>Copyright</title>
+  <para>Copyright &copy; 2000-2007 Jens Granseuer</para>
+  <para>This software is distributed under the terms of the
+  <ulink url="http://www.gnu.org/copyleft/gpl.html">GNU General Public
+  License</ulink> (GPL).</para>
+</refsect1>
+</refentry>
+
