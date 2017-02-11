@@ -212,7 +212,7 @@ short Path::Find( const Unit *u, const Point &start, const Point &end,
 // RETURNS    : estimated cost to destination
 ////////////////////////////////////////////////////////////////////////
 
-inline unsigned short Path::ETA( const Point &p ) const {
+unsigned short Path::ETA( const Point &p ) const {
   return Distance( p, end ) * quality;
 }
 
